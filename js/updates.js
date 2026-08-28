@@ -1,8 +1,5 @@
-const OFFICIAL_PAGE_SIZE = 3;
-
 const state = {
   tab: "official",
-  officialPage: 1,
   officialItems: [],
   twitterItems: [],
   filter: "all",
@@ -10,10 +7,8 @@ const state = {
 
 async function loadBulletins() {
   state.filter = document.getElementById("region-filter")?.value || "all";
-  state.officialPage = 1;
-
   await Promise.all([loadOfficialBulletin(), loadTwitterBulletin()]);
-  renderOfficialPage();
+  renderOfficialList();
 }
 
 async function loadOfficialBulletin() {
@@ -34,7 +29,7 @@ async function loadOfficialBulletin() {
     state.officialItems = items;
 
     if (meta) {
-      meta.textContent = formatMeta(data);
+      meta.textContent = formatMeta(data, items.length);
     }
   } catch (e) {
     state.officialItems = [];
@@ -62,7 +57,7 @@ async function loadTwitterBulletin() {
     state.twitterItems = items;
 
     if (meta) {
-      meta.textContent = formatMeta(data);
+      meta.textContent = formatMeta(data, items.length);
     }
 
     if (!items.length) {
@@ -78,61 +73,18 @@ async function loadTwitterBulletin() {
   }
 }
 
-function renderOfficialPage() {
+function renderOfficialList() {
   const container = document.getElementById("official-list");
-  const pagination = document.getElementById("official-pagination");
   if (!container) return;
 
   const items = state.officialItems;
-  const totalPages = Math.max(1, Math.ceil(items.length / OFFICIAL_PAGE_SIZE));
-
-  if (state.officialPage > totalPages) {
-    state.officialPage = totalPages;
-  }
 
   if (!items.length) {
     container.innerHTML = `<div class="empty-state">${escapeHtml(t("officialEmpty"))}</div>`;
-    if (pagination) pagination.innerHTML = "";
     return;
   }
 
-  const start = (state.officialPage - 1) * OFFICIAL_PAGE_SIZE;
-  const pageItems = items.slice(start, start + OFFICIAL_PAGE_SIZE);
-  container.innerHTML = pageItems.map((u) => renderItem(u, false)).join("");
-  renderPagination(pagination, totalPages);
-}
-
-function renderPagination(el, totalPages) {
-  if (!el) return;
-  if (totalPages <= 1) {
-    el.innerHTML = "";
-    return;
-  }
-
-  const prevDisabled = state.officialPage <= 1;
-  const nextDisabled = state.officialPage >= totalPages;
-
-  el.innerHTML = `
-    <button type="button" class="btn btn-secondary btn-sm" data-page="prev" ${prevDisabled ? "disabled" : ""}>← Previous</button>
-    <span class="pagination-info">Page ${state.officialPage} of ${totalPages}</span>
-    <button type="button" class="btn btn-secondary btn-sm" data-page="next" ${nextDisabled ? "disabled" : ""}>Next →</button>
-  `;
-
-  el.querySelector('[data-page="prev"]')?.addEventListener("click", () => {
-    if (state.officialPage > 1) {
-      state.officialPage -= 1;
-      renderOfficialPage();
-      document.getElementById("official-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  });
-
-  el.querySelector('[data-page="next"]')?.addEventListener("click", () => {
-    if (state.officialPage < totalPages) {
-      state.officialPage += 1;
-      renderOfficialPage();
-      document.getElementById("official-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  });
+  container.innerHTML = items.map((u) => renderItem(u, false)).join("");
 }
 
 async function renderTwitterAccounts(el) {
@@ -162,9 +114,10 @@ async function renderTwitterAccounts(el) {
   }
 }
 
-function formatMeta(data) {
+function formatMeta(data, visibleCount) {
   const checked = data.generatedAt ? new Date(data.generatedAt).toLocaleString() : "—";
   const parts = [`Updated: ${checked}`];
+  if (visibleCount != null) parts.push(`${visibleCount} item${visibleCount === 1 ? "" : "s"}`);
   if (data.summarizer) parts.push(`Summarizer: ${data.summarizer}`);
   if (data.skippedUnchanged) parts.push("(unchanged since last run)");
   return parts.join(" · ");
