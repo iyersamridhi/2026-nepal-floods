@@ -29,6 +29,21 @@ const I18N = {
     updatesResourcesLink: "Helplines & social accounts →",
     footer:
       "Volunteer tool. We route you to official channels. We do not verify missing or deceased status. Confirmations come from Nepal Police, NDRRMA, or your embassy.",
+    feedbackLink: "Feedback",
+    feedbackTitle: "Feedback",
+    feedbackSubtitle: "Help improve this volunteer tool",
+    feedbackIntro: "This site is run by volunteers. If something is wrong, outdated, or could work better, let us know.",
+    feedbackItem1: "Broken links or wrong helpline numbers",
+    feedbackItem2: "Missing official sources we should link to",
+    feedbackItem3: "Translation or clarity improvements",
+    feedbackItem4: "Offers to help maintain or translate the site",
+    feedbackNotFor: "Not for reporting missing persons — use the",
+    feedbackReportLink: "report helper",
+    feedbackGithub: "Send feedback on GitHub",
+    volunteerTitle: "Want to help build this site?",
+    volunteerIntro: "If you have ideas for how this website could work better — design, translation, coding, sourcing official links — we’d love to hear from you. This is only about improving the site itself.",
+    volunteerNote: "All disaster information we have is already on this website. This channel is not for missing-person cases or new disaster reports.",
+    volunteerEmail: "Email to get in touch",
     officialLink: "View official record →",
     floodBadge: "Flood-affected area",
     noResults: "No records match your search.",
@@ -64,6 +79,21 @@ const I18N = {
     updatesResourcesLink: "हेल्पलाइन र सामाजिक खाता →",
     footer:
       "स्वयंसेवी उपकरण। हामी तपाईंलाई आधिकारिक च्यानलमा पुर्‍याउँछौं। हामी हराएको वा मृत्यु पुष्टि गर्दैनौं।",
+    feedbackLink: "प्रतिक्रिया",
+    feedbackTitle: "प्रतिक्रिया",
+    feedbackSubtitle: "यो स्वयंसेवी उपकरण सुधार्न मद्दत गर्नुहोस्",
+    feedbackIntro: "यो साइट स्वयंसेवीहरूले चलाउँछन्। केही गलत, पुरानो, वा राम्रो बनाउन सकिने भए जानकारी दिनुहोस्।",
+    feedbackItem1: "बिग्रिएका लिङ्क वा गलत हेल्पलाइन नम्बर",
+    feedbackItem2: "थप्नुपर्ने आधिकारिक स्रोत",
+    feedbackItem3: "अनुवाद वा स्पष्टताका सुझाव",
+    feedbackItem4: "साइट मर्मत वा अनुवादमा सहयोग",
+    feedbackNotFor: "हराएको व्यक्ति रिपोर्टका लागि होइन —",
+    feedbackReportLink: "रिपोर्ट सहायक",
+    feedbackGithub: "GitHub मा प्रतिक्रिया पठाउनुहोस्",
+    volunteerTitle: "यो साइट बनाउन सहयोग गर्न चाहनुहुन्छ?",
+    volunteerIntro: "वेबसाइट कसरी राम्रो बनाउन सकिन्छ — डिजाइन, अनुवाद, कोड, आधिकारिक लिङ्क — भन्ने विचार भए सम्पर्क गर्नुहोस्। यो केवल साइट सुधारका लागि हो।",
+    volunteerNote: "हामीसँग भएको सबै प्रकोप सम्बन्धी जानकारी यही साइटमा छ। हराएको व्यक्ति वा नयाँ रिपोर्टका लागि होइन।",
+    volunteerEmail: "इमेल गर्नुहोस्",
     officialLink: "आधिकारिक अभिलेख हेर्नुहोस् →",
     floodBadge: "बाढी प्रभावित क्षेत्र",
     noResults: "तपाईंको खोजसँग मिल्ने अभिलेख छैन।",
@@ -75,6 +105,12 @@ let currentLang = localStorage.getItem("lang") || "en";
 
 function t(key) {
   return I18N[currentLang][key] || I18N.en[key] || key;
+}
+
+function renderFooter() {
+  document.querySelectorAll(".site-footer").forEach((el) => {
+    el.innerHTML = `${t("footer")} <span class="footer-sep">·</span> <a href="/feedback.html" class="footer-link">${t("feedbackLink")}</a>`;
+  });
 }
 
 function setLang(lang) {
@@ -89,6 +125,7 @@ function setLang(lang) {
     btn.classList.toggle("active", btn.dataset.lang === lang);
   });
   markActiveNav();
+  renderFooter();
 }
 
 function initLang() {
@@ -133,6 +170,7 @@ function encodeMailto(email, subject, body) {
 
 document.addEventListener("DOMContentLoaded", () => {
   renderNav();
+  renderFooter();
   initLang();
   markActiveNav();
 });
