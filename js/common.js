@@ -2,13 +2,17 @@ const I18N = {
   en: {
     siteTitle: "2026 Nepal Floods",
     siteSubtitle: "Bhotekoshi · Rasuwa · Gyirong · Trishuli — find the right official channel",
-    banner: "This site does not confirm deaths or matches. It helps you find the correct official channel.",
+    siteDisclaimer:
+      "Volunteer-run information and link collection site. We gather publicly available official contacts and updates — not a government agency, and we cannot verify individual cases.",
+    banner:
+      "Volunteer site — we link to official sources only. We do not confirm deaths, matches, or missing status.",
     navHome: "Home",
     navWizard: "Who to contact",
     navSearch: "Check if found",
     navReport: "Report missing",
     navUpdates: "Updates",
     navResources: "Resources",
+    navFeedback: "Feedback",
     homeCard1Title: "Find the right contact",
     homeCard1Desc: "Answer a few questions — we tell you which authority to call or email.",
     homeCard2Title: "Check official found lists",
@@ -30,6 +34,7 @@ const I18N = {
     footer:
       "Volunteer tool. We route you to official channels. We do not verify missing or deceased status. Confirmations come from Nepal Police, NDRRMA, or your embassy.",
     feedbackLink: "Feedback",
+    feedbackVolunteerLink: "Feedback & volunteer",
     feedbackTitle: "Feedback",
     feedbackSubtitle: "Help improve this volunteer tool",
     feedbackIntro: "This site is run by volunteers. If something is wrong, outdated, or could work better, let us know.",
@@ -44,6 +49,8 @@ const I18N = {
     volunteerIntro: "If you have ideas for how this website could work better — design, translation, coding, sourcing official links — we’d love to hear from you. This is only about improving the site itself.",
     volunteerNote: "All disaster information we have is already on this website. This channel is not for missing-person cases or new disaster reports.",
     volunteerEmail: "Email to get in touch",
+    volunteerStrip: "Have ideas to improve this site, or want to work on it together?",
+    volunteerStripCta: "Feedback & volunteer →",
     officialLink: "View official record →",
     floodBadge: "Flood-affected area",
     noResults: "No records match your search.",
@@ -52,13 +59,17 @@ const I18N = {
   np: {
     siteTitle: "२०२६ नेपाल बाढी",
     siteSubtitle: "भोटेकोशी · रसुवा · ग्यिरोङ · त्रिशुली — सही आधिकारिक सम्पर्क",
-    banner: "यो साइटले मृत्यु वा मिलान पुष्टि गर्दैन। यसले तपाईंलाई सही आधिकारिक च्यानलमा पुर्‍याउँछ।",
+    siteDisclaimer:
+      "स्वयंसेवी सूचना र लिङ्क सङ्कलन साइट। हामी सार्वजनिक आधिकारिक सम्पर्क र अपडेट सङ्कलन गर्छौं — सरकारी निकाय होइनौं, व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
+    banner:
+      "स्वयंसेवी साइट — आधिकारिक स्रोतमा मात्र लिङ्क। मृत्यु, मिलान वा हराएको स्थिति पुष्टि गर्दैनौं।",
     navHome: "गृह",
     navWizard: "कसलाई सम्पर्क",
     navSearch: "फेला परेको जाँच",
     navReport: "हराएको रिपोर्ट",
     navUpdates: "अपडेट",
     navResources: "स्रोत",
+    navFeedback: "प्रतिक्रिया",
     homeCard1Title: "सही सम्पर्क खोज्नुहोस्",
     homeCard1Desc: "केही प्रश्नको जवाफ दिनुहोस् — हामी कुन निकायलाई सम्पर्क गर्ने भन्छौं।",
     homeCard2Title: "आधिकारिक फेला परेको सूची",
@@ -80,6 +91,7 @@ const I18N = {
     footer:
       "स्वयंसेवी उपकरण। हामी तपाईंलाई आधिकारिक च्यानलमा पुर्‍याउँछौं। हामी हराएको वा मृत्यु पुष्टि गर्दैनौं।",
     feedbackLink: "प्रतिक्रिया",
+    feedbackVolunteerLink: "प्रतिक्रिया र स्वयंसेवा",
     feedbackTitle: "प्रतिक्रिया",
     feedbackSubtitle: "यो स्वयंसेवी उपकरण सुधार्न मद्दत गर्नुहोस्",
     feedbackIntro: "यो साइट स्वयंसेवीहरूले चलाउँछन्। केही गलत, पुरानो, वा राम्रो बनाउन सकिने भए जानकारी दिनुहोस्।",
@@ -94,6 +106,8 @@ const I18N = {
     volunteerIntro: "वेबसाइट कसरी राम्रो बनाउन सकिन्छ — डिजाइन, अनुवाद, कोड, आधिकारिक लिङ्क — भन्ने विचार भए सम्पर्क गर्नुहोस्। यो केवल साइट सुधारका लागि हो।",
     volunteerNote: "हामीसँग भएको सबै प्रकोप सम्बन्धी जानकारी यही साइटमा छ। हराएको व्यक्ति वा नयाँ रिपोर्टका लागि होइन।",
     volunteerEmail: "इमेल गर्नुहोस्",
+    volunteerStrip: "साइट सुधारका विचार छ, वा सँगै काम गर्न चाहनुहुन्छ?",
+    volunteerStripCta: "प्रतिक्रिया र स्वयंसेवा →",
     officialLink: "आधिकारिक अभिलेख हेर्नुहोस् →",
     floodBadge: "बाढी प्रभावित क्षेत्र",
     noResults: "तपाईंको खोजसँग मिल्ने अभिलेख छैन।",
@@ -107,9 +121,33 @@ function t(key) {
   return I18N[currentLang][key] || I18N.en[key] || key;
 }
 
+function renderSiteDisclaimer() {
+  document.querySelectorAll("header.site-header").forEach((header) => {
+    let el = header.querySelector(".site-disclaimer");
+    if (!el) {
+      const sub = header.querySelector(".subtitle");
+      if (!sub) return;
+      el = document.createElement("p");
+      el.className = "site-disclaimer";
+      el.setAttribute("data-i18n", "siteDisclaimer");
+      sub.after(el);
+    }
+    el.textContent = t("siteDisclaimer");
+  });
+}
+
+function renderVolunteerStrip() {
+  document.querySelectorAll("#volunteer-strip").forEach((strip) => {
+    const text = strip.querySelector("[data-i18n='volunteerStrip']");
+    const cta = strip.querySelector("[data-i18n='volunteerStripCta']");
+    if (text) text.textContent = t("volunteerStrip");
+    if (cta) cta.textContent = t("volunteerStripCta");
+  });
+}
+
 function renderFooter() {
   document.querySelectorAll(".site-footer").forEach((el) => {
-    el.innerHTML = `${t("footer")} <span class="footer-sep">·</span> <a href="/feedback.html" class="footer-link">${t("feedbackLink")}</a>`;
+    el.innerHTML = `${t("footer")} <span class="footer-sep">·</span> <a href="/feedback.html" class="footer-link footer-link-prominent">${t("feedbackVolunteerLink")}</a>`;
   });
 }
 
@@ -117,6 +155,8 @@ function setLang(lang) {
   currentLang = lang;
   localStorage.setItem("lang", lang);
   renderNav();
+  renderSiteDisclaimer();
+  renderVolunteerStrip();
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (key) el.textContent = t(key);
@@ -145,6 +185,7 @@ function renderNav() {
     <a href="/report.html" data-page="report" data-i18n="navReport">${t("navReport")}</a>
     <a href="/updates.html" data-page="updates" data-i18n="navUpdates">${t("navUpdates")}</a>
     <a href="/resources.html" data-page="resources" data-i18n="navResources">${t("navResources")}</a>
+    <a href="/feedback.html" data-page="feedback" class="nav-feedback" data-i18n="navFeedback">${t("navFeedback")}</a>
   `;
 }
 
@@ -170,6 +211,8 @@ function encodeMailto(email, subject, body) {
 
 document.addEventListener("DOMContentLoaded", () => {
   renderNav();
+  renderSiteDisclaimer();
+  renderVolunteerStrip();
   renderFooter();
   initLang();
   markActiveNav();

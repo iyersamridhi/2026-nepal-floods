@@ -60,6 +60,17 @@ header.site-header .subtitle {
   margin: 0;
 }
 
+.site-disclaimer {
+  margin: 0.65rem 0 0;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #4a5568;
+  background: #f0f4fa;
+  border-left: 3px solid var(--nepal-blue);
+  border-radius: 0 6px 6px 0;
+}
+
 .nav-links {
   display: flex;
   flex-wrap: wrap;
@@ -76,6 +87,30 @@ header.site-header .subtitle {
 .nav-links a.active {
   color: var(--nepal-crimson);
   text-decoration: underline;
+}
+
+.nav-links a.nav-feedback {
+  color: var(--nepal-blue);
+  font-weight: 600;
+}
+
+.volunteer-strip {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  background: linear-gradient(135deg, #f8fafc, #eef4ff);
+  border-color: #c5d4f0;
+}
+
+.volunteer-strip p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text);
+  flex: 1;
+  min-width: 12rem;
 }
 
 .card-grid {
@@ -456,6 +491,11 @@ footer.site-footer .footer-link {
 footer.site-footer .footer-link:hover {
   color: var(--nepal-blue);
   text-decoration: underline;
+}
+
+footer.site-footer .footer-link-prominent {
+  font-weight: 600;
+  color: var(--nepal-blue);
 }
 
 .footer-sep {
