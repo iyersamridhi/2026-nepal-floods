@@ -1,0 +1,79 @@
+{
+  "mofa": {
+    "enabled": true,
+    "categoryUrl": "https://mofa.gov.np/category/flashflood/",
+    "baseUrl": "https://mofa.gov.np",
+    "region": ["nepal", "foreign"],
+    "note": "Primary source — scraper discovers all articles from category page"
+  },
+  "mea": {
+    "enabled": false,
+    "url": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
+    "seedFile": "data/seeds/mea_control_room.json",
+    "region": ["india", "nepal"],
+    "note": "NOT auto-scraped (JS site). Helplines live on Resources page. Update seed manually if MEA posts new communique."
+  },
+  "optionalSources": [
+    {
+      "id": "ndrrma-rescue",
+      "name": "NDRRMA Rescue Portal",
+      "url": "https://ndrrma.gov.np/np/rescue",
+      "enabled": false,
+      "reason": "Mostly JS — link only for now"
+    },
+    {
+      "id": "setu",
+      "name": "SETU Rescued/Missing",
+      "url": "https://setu.ndrrma.gov.np",
+      "enabled": false,
+      "reason": "App UI — link only"
+    },
+    {
+      "id": "udb-found",
+      "name": "Nepal Police Found List",
+      "url": "https://udb.nepalpolice.gov.np/found",
+      "enabled": false,
+      "reason": "Do not republish photos — redirect only"
+    }
+  ],
+  "grok": {
+    "provider": "xai",
+    "envKey": "XAI_API_KEY",
+    "model": "grok-3-latest",
+    "when": "Only on NEW or CHANGED official pages (content hash diff). Skips Grok call if unchanged.",
+    "promptRules": [
+      "2-3 factual sentences",
+      "Include aggregate numbers only if in source text",
+      "Never name individuals as found/deceased unless source does",
+      "Never speculate about matches between missing persons and bodies"
+    ]
+  },
+  "twitter": {
+    "enabled": false,
+    "note": "Requires TWITTER_BEARER_TOKEN. Grok summarizes new tweets only.",
+    "accounts": [
+      { "handle": "NDRRMA_Nepal", "name": "NDRRMA Nepal", "region": ["nepal"] },
+      { "handle": "NepalPoliceHQ", "name": "Nepal Police HQ", "region": ["nepal"] },
+      { "handle": "MoFANepal", "name": "MoFA Nepal", "region": ["nepal", "foreign"] },
+      { "handle": "MEAIndia", "name": "MEA India", "region": ["india"] },
+      { "handle": "IndiainNepal", "name": "Embassy of India Kathmandu", "region": ["india", "nepal"] },
+      { "handle": "NepalArmyHQ", "name": "Nepal Army", "region": ["nepal"] },
+      { "handle": "USEmbassyNepal", "name": "US Embassy Nepal", "region": ["foreign"] },
+      { "handle": "NepalTourismBoard", "name": "Nepal Tourism Board", "region": ["nepal", "foreign"] }
+    ],
+    "keywords": [
+      "bhotekoshi",
+      "bhote koshi",
+      "rasuwa",
+      "gyirong",
+      "trishuli",
+      "flash flood",
+      "missing",
+      "rescued",
+      "found",
+      "foreign national",
+      "kailash",
+      "mansarovar"
+    ]
+  }
+}

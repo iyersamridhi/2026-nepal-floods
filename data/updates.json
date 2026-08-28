@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1",
+    "source": "NDRRMA",
+    "sourceUrl": "https://ndrrma.gov.np/np/rescue",
+    "date": "2026-08-28",
+    "summary": "Rescue operations ongoing after Bhotekoshi glacier collapse. Official missing/rescued lists updated on NDRRMA portal.",
+    "summaryNp": "भोटेकोशी ग्लेसियर पतन पछि उद्धार कार्य जारी। आधिकारिक सूची NDRRMA पोर्टलमा।"
+  },
+  {
+    "id": "2",
+    "source": "Nepal MoFA",
+    "sourceUrl": "https://mofa.gov.np",
+    "date": "2026-08-27",
+    "summary": "Emergency Control Room opened for foreign nationals affected by Rasuwa/Bhotekoshi floods. Hotline +977-9744441227 (WhatsApp).",
+    "summaryNp": "रसुवा बाढी प्रभावित विदेशी नागरिकका लागि आपतकालीन नियन्त्रण कक्ष खोलिएको।"
+  },
+  {
+    "id": "3",
+    "source": "Nepal Police",
+    "sourceUrl": "https://udb.nepalpolice.gov.np/missing",
+    "date": "2026-08-27",
+    "summary": "Online portal live for missing persons and unidentified remains. Search at udb.nepalpolice.gov.np.",
+    "summaryNp": "हराएका व्यक्ति र बेवारिसे शवका लागि अनलाइन पोर्टल सञ्चालनमा।"
+  },
+  {
+    "id": "4",
+    "source": "SETU / NDRRMA",
+    "sourceUrl": "https://setu.ndrrma.gov.np",
+    "date": "2026-08-28",
+    "summary": "SETU platform lists rescued and missing persons reported through official channels.",
+    "summaryNp": "सेतु प्लेटफर्ममा उद्धार र हराएका व्यक्तिको आधिकारिक सूची।"
+  },
+  {
+    "source": "NDRRMA",
+    "sourceUrl": "https://ndrrma.gov.np/np/rescue",
+    "date": "2026-08-28",
+    "summary": "NDRRMA portal is online. Check official site for latest bulletins.",
+    "summaryNp": "NDRRMA पोर्टल सञ्चालनमा।",
+    "checkedAt": "2026-08-28T14:25:21.577163+00:00",
+    "httpStatus": "200"
+  },
+  {
+    "source": "Nepal Police UDB",
+    "sourceUrl": "https://udb.nepalpolice.gov.np/missing",
+    "date": "2026-08-28",
+    "summary": "Nepal Police UDB portal is online. Check official site for latest bulletins.",
+    "summaryNp": "Nepal Police UDB पोर्टल सञ्चालनमा।",
+    "checkedAt": "2026-08-28T14:25:22.014144+00:00",
+    "httpStatus": "200"
+  },
+  {
+    "source": "Nepal MoFA",
+    "sourceUrl": "https://mofa.gov.np",
+    "date": "2026-08-28",
+    "summary": "Nepal MoFA portal is online. Check official site for latest bulletins.",
+    "summaryNp": "Nepal MoFA पोर्टल सञ्चालनमा।",
+    "checkedAt": "2026-08-28T14:25:25.993520+00:00",
+    "httpStatus": "200"
+  },
+  {
+    "source": "SETU",
+    "sourceUrl": "https://setu.ndrrma.gov.np",
+    "date": "2026-08-28",
+    "summary": "SETU portal is online. Check official site for latest bulletins.",
+    "summaryNp": "SETU पोर्टल सञ्चालनमा।",
+    "checkedAt": "2026-08-28T14:25:26.808893+00:00",
+    "httpStatus": "200"
+  }
+]

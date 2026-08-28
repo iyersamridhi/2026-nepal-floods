@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Report missing person — 2026 Nepal Floods</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-page="report">
+  <div class="banner" data-i18n="banner">This site does not confirm deaths or matches. It helps you find the correct official channel.</div>
+  <div class="container">
+    <header class="site-header">
+      <div class="lang-toggle">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="np">ने</button>
+      </div>
+      <h1 data-i18n="navReport">Report someone missing</h1>
+      <p class="subtitle">We help you send your report to the right authorities — nothing is posted publicly</p>
+      <nav class="nav-links" id="site-nav"></nav>
+    </header>
+
+    <div class="alert alert-warning">
+      <strong>This does not replace official filing.</strong>
+      After sending via WhatsApp or email, also file on the
+      <a href="https://udb.nepalpolice.gov.np/missing" target="_blank">Nepal Police portal</a>.
+    </div>
+
+    <div id="report-result" style="display:none"></div>
+
+    <div class="panel" id="report-form-panel">
+      <h2>Missing person details</h2>
+      <p class="form-hint">After submitting, you'll get WhatsApp and email buttons. WhatsApp opens with a short intro — full report is copied for you to paste.</p>
+      <form id="report-form"></form>
+      <button type="submit" form="report-form" class="btn btn-primary" style="margin-top:0.5rem">Prepare report to send</button>
+    </div>
+
+    <div class="panel" style="margin-top:1rem">
+      <h2>All helplines & embassies</h2>
+      <p class="form-hint">MEA control room, Nepal district phones, Tibet contacts, and embassy numbers.</p>
+      <a class="btn btn-secondary" href="/resources.html">Open Resources page →</a>
+    </div>
+
+    <footer class="site-footer" data-i18n="footer">Volunteer tool. We route you to official channels.</footer>
+  </div>
+  <script src="/js/common.js"></script>
+  <script src="/js/report.js"></script>
+</body>
+</html>

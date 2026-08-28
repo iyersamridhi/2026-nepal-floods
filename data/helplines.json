@@ -1,0 +1,71 @@
+{
+  "disclaimer": "Volunteer tool. Numbers compiled from official MEA, MoFA, embassy, and district notices. Confirm on the cited source before relying on them.",
+  "indiaMea": {
+    "name": "India MEA Special Control Room (24×7) — Nepal floods",
+    "sourceUrl": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
+    "phones": ["+911123088718", "+911123088719", "+911123012113"],
+    "whatsapp": ["+919968291988"],
+    "email": "situationroom@mea.gov.in"
+  },
+  "indiaEmbassyKathmandu": {
+    "name": "Embassy of India, Kathmandu (WhatsApp)",
+    "phones": ["+9779851316807", "+9779709107500", "+9779810326117"],
+    "whatsapp": ["+9779851316807", "+9779709107500", "+9779810326117"],
+    "url": "https://www.indembkathmandu.gov.in"
+  },
+  "indiaEmbassyBeijing": {
+    "name": "Embassy of India, Beijing (Tibet / China side)",
+    "phones": ["+8618514284905"],
+    "whatsapp": ["+8618514284905"],
+    "note": "MEA said this line is also on WhatsApp for persons last seen in Tibet/China."
+  },
+  "nepalMofa": {
+    "name": "Nepal MoFA Emergency Control Room",
+    "phones": ["+9779744441227", "+9779744441228"],
+    "whatsapp": ["+9779744441227", "+9779744441228"],
+    "email": "emergency@mofa.gov.np",
+    "hours": "7:00 AM – 10:00 PM Nepal time"
+  },
+  "nepalDistricts": [
+    { "name": "Tourist Police", "phone": "+9779851289445" },
+    { "name": "Nepal Army (foreign liaison)", "phone": "+9779851072914", "email": "dgmi-foreign@nepalarmy.mil.np" },
+    { "name": "NDRRMA", "phones": ["+9779851320269", "+9779849281097"] },
+    { "name": "Rasuwa Police", "phone": "+9779851254960" },
+    { "name": "Assistant CDO, Rasuwa", "phone": "+9779851164422" },
+    { "name": "Nuwakot Police", "phone": "+9779851282380" },
+    { "name": "Assistant CDO, Nuwakot", "phone": "+9779851248777" },
+    { "name": "Dhading Police", "phone": "+9779851229860" },
+    { "name": "CDO, Dhading", "phone": "+9779851247777" },
+    { "name": "Chitwan Police", "phone": "+9779855013999" },
+    { "name": "Assistant CDO, Chitwan", "phone": "+9779855088891" }
+  ],
+  "tibetChina": [
+    {
+      "name": "Nepal Consulate General, Lhasa",
+      "phone": "+8613549067481",
+      "email": "cgnlhasa@mofa.gov.np",
+      "note": "For Nepalis stranded on the China/Tibet side."
+    },
+    {
+      "name": "Nepali Embassy, Beijing",
+      "phones": ["+8618618129217", "+8618610394687"],
+      "email": "beijing@nepalembassy.org.cn"
+    },
+    {
+      "name": "Chinese Embassy in Nepal — 24h consular protection",
+      "phone": "+97714531511",
+      "url": "https://np.china-embassy.gov.cn/eng/lxwm/",
+      "global": ["+861012308", "+861065612308"]
+    }
+  ],
+  "embassies": [
+    { "country": "India", "phones": ["+9779851316807", "+9779709107500", "+9779810326117"], "whatsapp": true, "url": "https://www.indembkathmandu.gov.in" },
+    { "country": "United States", "phones": ["+97714234000"], "email": "KathmanduACS@state.gov", "url": "https://np.usembassy.gov", "note": "Global: +1-202-501-4444" },
+    { "country": "Australia", "phones": ["+97714371678"], "email": "austembassy.kathmandu@dfat.gov.au", "url": "https://nepal.embassy.gov.au", "note": "24h Canberra: +61 2 6261 3305" },
+    { "country": "United Kingdom", "phones": [], "url": "https://www.gov.uk/world/organisations/british-embassy-kathmandu", "note": "Use FCDO emergency contact form" },
+    { "country": "China", "phones": ["+97714531511", "+97714540286"], "url": "https://np.china-embassy.gov.cn/eng/lxwm/" },
+    { "country": "South Korea", "phones": ["+97714272004"], "url": "https://overseas.mofa.go.kr/np-en/index.do" },
+    { "country": "Bangladesh", "phones": ["+97714712520"], "url": "https://kathmandu.mofa.gov.bd" },
+    { "country": "Pakistan", "phones": ["+97714374024"], "url": "https://mofa.gov.pk/nepal" }
+  ]
+}

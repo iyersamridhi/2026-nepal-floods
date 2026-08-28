@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Updates — 2026 Nepal Floods</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-page="updates">
+  <div class="banner" data-i18n="banner">This site does not confirm deaths or matches. It helps you find the correct official channel.</div>
+  <div class="container">
+    <header class="site-header">
+      <div class="lang-toggle">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="np">ने</button>
+      </div>
+      <h1 data-i18n="navUpdates">Updates</h1>
+      <p class="subtitle" data-i18n="updatesSubtitle">News from official channels and authority social media</p>
+      <nav class="nav-links" id="site-nav"></nav>
+    </header>
+
+    <div class="search-bar">
+      <label for="region-filter" class="form-hint" data-i18n="updatesFilterLabel">Filter by region</label>
+      <select id="region-filter">
+        <option value="all">All regions</option>
+        <option value="nepal">Nepal</option>
+        <option value="india">India</option>
+        <option value="tibet">Tibet / China</option>
+        <option value="foreign">Foreign nationals</option>
+      </select>
+    </div>
+
+    <div class="tab-bar" role="tablist">
+      <button type="button" class="tab active" role="tab" aria-selected="true" data-tab="official" id="tab-official" data-i18n="tabOfficial">News from official channels</button>
+      <button type="button" class="tab" role="tab" aria-selected="false" data-tab="twitter" id="tab-twitter" data-i18n="tabTwitter">Twitter / X</button>
+    </div>
+
+    <div class="tab-panel active" id="panel-official" role="tabpanel" aria-labelledby="tab-official">
+      <div class="panel">
+        <p class="form-hint" data-i18n="officialHint">Summaries from government websites (e.g. <a href="https://mofa.gov.np/category/flashflood/" target="_blank" rel="noopener">MoFA flash flood updates</a>). Always read the original source.</p>
+        <p class="form-hint" id="official-meta">Loading…</p>
+        <div id="official-list"></div>
+        <nav class="pagination" id="official-pagination" aria-label="Official news pages"></nav>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="panel-twitter" role="tabpanel" aria-labelledby="tab-twitter" hidden>
+      <div class="panel">
+        <p class="form-hint" id="twitter-hint" data-i18n="twitterHint">Posts from NDRRMA, Nepal Police, MoFA, MEA, embassies. Not official confirmation — always check the original post.</p>
+        <p class="form-hint" id="twitter-meta">Loading…</p>
+        <div id="twitter-list"></div>
+        <div id="twitter-accounts" class="account-grid" hidden></div>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:1rem">
+      <a class="btn btn-secondary" href="/resources.html" data-i18n="updatesResourcesLink">Helplines &amp; social accounts →</a>
+    </div>
+
+    <footer class="site-footer" data-i18n="footer">Volunteer tool. We route you to official channels.</footer>
+  </div>
+  <script src="/js/common.js"></script>
+  <script src="/js/updates.js"></script>
+</body>
+</html>

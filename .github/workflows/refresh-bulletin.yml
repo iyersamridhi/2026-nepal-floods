@@ -1,0 +1,35 @@
+name: Refresh bulletins
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh MoFA + Twitter bulletins
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+        run: |
+          chmod +x scripts/refresh.sh
+          ./scripts/refresh.sh
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/bulletin.json data/twitter_bulletin.json data/scraped/
+          git diff --staged --quiet || git commit -m "chore: refresh official and Twitter bulletins"
+          git push

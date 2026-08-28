@@ -1,0 +1,25 @@
+{
+  "portals": [
+    { "name": "Nepal Police — Found persons", "url": "https://udb.nepalpolice.gov.np/found", "region": "nepal" },
+    { "name": "Nepal Police — Missing persons", "url": "https://udb.nepalpolice.gov.np/missing", "region": "nepal" },
+    { "name": "Nepal Police — Unidentified remains", "url": "https://udb.nepalpolice.gov.np/dead-bodies", "region": "nepal" },
+    { "name": "NDRRMA rescue updates", "url": "https://ndrrma.gov.np/np/rescue", "region": "nepal" },
+    { "name": "SETU rescued & missing list", "url": "https://setu.ndrrma.gov.np", "region": "nepal" },
+    { "name": "MoFA — Flash flood updates (daily)", "url": "https://mofa.gov.np/category/flashflood/", "region": "nepal" },
+    { "name": "MoFA — ECR notice (foreign nationals)", "url": "https://mofa.gov.np/content/1862/notice--emergency-response-team-for-assistance-regarding/", "region": "nepal" },
+    { "name": "MoFA — Latest update 28 Aug", "url": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/", "region": "nepal" },
+    { "name": "India MEA — Special Control Room (Nepal floods)", "url": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation", "region": "india" },
+    { "name": "Embassy of India, Kathmandu", "url": "https://www.indembkathmandu.gov.in", "region": "india" },
+    { "name": "Xinhua — Gyirong rescue coverage", "url": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html", "region": "tibet" },
+    { "name": "Chinese Embassy in Nepal", "url": "https://np.china-embassy.gov.cn/eng/lxwm/", "region": "tibet" }
+  ],
+  "twitter": [
+    { "name": "NDRRMA Nepal", "url": "https://x.com/NDRRMA_Nepal" },
+    { "name": "Nepal Police", "url": "https://x.com/NepalPoliceHQ" },
+    { "name": "MoFA Nepal", "url": "https://x.com/MoFANepal" },
+    { "name": "MEA India", "url": "https://x.com/MEAIndia" },
+    { "name": "Embassy of India Kathmandu", "url": "https://x.com/IndiainNepal" },
+    { "name": "Nepal Army", "url": "https://x.com/NepalArmyHQ" },
+    { "name": "US Embassy Nepal", "url": "https://x.com/USEmbassyNepal" }
+  ]
+}

@@ -1,0 +1,8 @@
+.env
+.env.local
+.DS_Store
+__pycache__/
+*.pyc
+data/scraped/content_cache.json
+data/scraped/twitter_cache.json
+.vercel
