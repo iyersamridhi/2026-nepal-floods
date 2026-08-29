@@ -428,8 +428,9 @@ function showResults(data) {
             ${a.whatsapp ? `<a class="btn btn-whatsapp js-wa" data-phone="${a.whatsapp}" href="#">WhatsApp</a>` : ""}
             ${
               a.email
-                ? `<button type="button" class="btn btn-email js-email" data-email="${a.email}">Open Email</button>
-                   <button type="button" class="btn btn-secondary btn-sm js-copy-email" data-email="${a.email}">Copy email</button>`
+                ? `<button type="button" class="btn btn-email js-email" data-email="${a.email}">Open Mail app</button>
+                   <button type="button" class="btn btn-secondary btn-sm js-email-gmail" data-email="${a.email}">Gmail (web)</button>
+                   <button type="button" class="btn btn-secondary btn-sm js-copy-email" data-email="${a.email}">Copy address</button>`
                 : ""
             }
           </div>
@@ -437,6 +438,8 @@ function showResults(data) {
         )
         .join("")}
     </div>
+
+    <p class="form-hint" id="email-open-status" hidden></p>
 
     <div class="form-group" style="margin-top:1.25rem">
       <label for="report-text-copy">Message</label>
@@ -447,6 +450,13 @@ function showResults(data) {
 
   document.getElementById("report-text-copy").value = text;
   resultPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+
+  const statusEl = document.getElementById("email-open-status");
+  const setEmailStatus = (msg) => {
+    if (!statusEl) return;
+    statusEl.hidden = !msg;
+    statusEl.textContent = msg || "";
+  };
 
   document.getElementById("btn-copy").addEventListener("click", async () => {
     const ok = await copyText(text);
@@ -469,23 +479,43 @@ function showResults(data) {
     btn.addEventListener("click", async (e) => {
       e.preventDefault();
       await copyText(text);
-      window.open(encodeWhatsApp(btn.dataset.phone, waPreview), "_blank", "noopener");
+      window.location.href = encodeWhatsApp(btn.dataset.phone, waPreview);
     });
   });
 
-  resultPanel.querySelectorAll(".js-email").forEach((btn) => {
-    btn.addEventListener("click", async (e) => {
+  const wireEmail = (btn, prefer) => {
+    btn.addEventListener("click", (e) => {
       e.preventDefault();
-      await openEmailClient(btn.dataset.email, subject, text);
+      const result = openEmailClient(btn.dataset.email, subject, text, { prefer });
+      result.copyPromise.then((copied) => {
+        if (result.bodyOmitted || prefer === "mailto") {
+          setEmailStatus(
+            copied
+              ? "Opening Mail — full message copied. If the draft body is empty, paste it."
+              : "Opening Mail — copy the message below and paste it into the draft if needed."
+          );
+        } else if (prefer === "gmail") {
+          setEmailStatus(
+            copied
+              ? "Opening Gmail with your draft. Message also copied as backup."
+              : "Opening Gmail. If the body is blank, copy the message below and paste it."
+          );
+        } else {
+          setEmailStatus(copied ? "Message copied. Check your mail draft." : "");
+        }
+      });
     });
-  });
+  };
+
+  resultPanel.querySelectorAll(".js-email").forEach((btn) => wireEmail(btn, "mailto"));
+  resultPanel.querySelectorAll(".js-email-gmail").forEach((btn) => wireEmail(btn, "gmail"));
 
   resultPanel.querySelectorAll(".js-copy-email").forEach((btn) => {
     btn.addEventListener("click", async () => {
       const ok = await copyText(btn.dataset.email);
       btn.textContent = ok ? "Copied!" : "Failed";
       setTimeout(() => {
-        btn.textContent = "Copy email";
+        btn.textContent = "Copy address";
       }, 2000);
     });
   });

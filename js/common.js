@@ -323,7 +323,7 @@ function encodeWhatsApp(phone, text) {
 }
 
 function encodeMailto(email, subject, body) {
-  let href = `mailto:${email}`;
+  let href = `mailto:${email || ""}`;
   const q = [];
   if (subject) q.push(`subject=${encodeURIComponent(subject)}`);
   if (body) q.push(`body=${encodeURIComponent(body)}`);
@@ -342,34 +342,76 @@ function gmailComposeUrl(email, subject, body) {
   return `https://mail.google.com/mail/?${params.toString()}`;
 }
 
+function isMobileLike() {
+  if (typeof navigator === "undefined") return false;
+  const ua = navigator.userAgent || "";
+  if (/Android|iPhone|iPad|iPod|Mobile|webOS|BlackBerry|IEMobile|Opera Mini/i.test(ua)) {
+    return true;
+  }
+  // iPadOS 13+ can report as Macintosh with touch
+  if (navigator.maxTouchPoints > 1 && /Macintosh/i.test(ua)) return true;
+  return window.matchMedia && window.matchMedia("(max-width: 900px) and (pointer: coarse)").matches;
+}
+
 /**
- * Redirect to compose with the full message.
- * Prefer Gmail (reliable in browser with body). Fall back to mailto.
- * Also copies message silently as backup.
+ * Open a compose draft. Must start navigation synchronously inside the click
+ * handler — awaiting clipboard first breaks mail apps on iOS/Android.
+ *
+ * Mobile/tablet: native mailto (same tab). Long bodies are omitted from the
+ * URL (OS limits) and the full text is copied for paste.
+ * Desktop: Gmail compose in a new tab, mailto fallback if popups blocked.
  */
-async function openEmailClient(email, subject, body) {
+function openEmailClient(email, subject, body, opts) {
   const full = body || "";
-  try {
-    await navigator.clipboard.writeText(full);
-  } catch (e) {
-    /* ignore */
+  const mobile = isMobileLike();
+  const prefer = (opts && opts.prefer) || (mobile ? "mailto" : "gmail");
+
+  const mailtoWithBody = encodeMailto(email, subject, full);
+  // iOS / many Android mail handlers choke past ~1.5–2k encoded chars
+  const mailtoSafe =
+    mailtoWithBody.length <= 1600 ? mailtoWithBody : encodeMailto(email, subject, "");
+  const bodyOmitted = mailtoSafe !== mailtoWithBody && !full ? false : mailtoSafe !== mailtoWithBody;
+
+  let method = "mailto";
+
+  if (prefer === "gmail" && !mobile) {
+    const gmailUrl = gmailComposeUrl(email, subject, full);
+    if (gmailUrl.length < 7500) {
+      const win = window.open(gmailUrl, "_blank", "noopener");
+      if (win) {
+        method = "gmail";
+      } else {
+        // Popup blocked — same-tab mailto still works from the tap
+        window.location.href = mailtoSafe;
+        method = "mailto-fallback";
+      }
+    } else {
+      window.location.href = mailtoSafe;
+      method = "mailto";
+    }
+  } else {
+    // Native mail app — location.href keeps the user gesture on phones/tablets
+    window.location.href = mailtoSafe;
+    method = "mailto";
   }
 
-  const gmailUrl = gmailComposeUrl(email, subject, full);
-  // Redirect to Gmail compose with To, Subject, and full body
-  if (gmailUrl.length < 8000) {
-    window.open(gmailUrl, "_blank", "noopener");
-    return { method: "gmail" };
-  }
+  // Copy after kickoff so we don't break the gesture; fire-and-forget
+  const copyPromise = (async () => {
+    try {
+      await navigator.clipboard.writeText(full);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  })();
 
-  const mailtoHref = encodeMailto(email, subject, full);
-  if (mailtoHref.length <= 2000) {
-    window.location.href = mailtoHref;
-    return { method: "mailto" };
-  }
+  return { method, mobile, bodyOmitted, copyPromise, email, subject };
+}
 
-  window.open(gmailComposeUrl(email, subject, full.slice(0, 4000)), "_blank", "noopener");
-  return { method: "gmail-truncated" };
+async function openEmailClientAsync(email, subject, body, opts) {
+  const result = openEmailClient(email, subject, body, opts);
+  result.copied = await result.copyPromise;
+  return result;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
