@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Report someone missing — 2026 Nepal Floods</title>
+  <title>Report someone missing — Nepal Floods 2026</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body data-page="report">
-  <div class="banner" data-i18n="banner">This site does not confirm deaths or matches. It helps you find the correct official channel.</div>
+  <div class="banner" data-i18n="banner">Volunteer site with links to government contacts and updates. We do not confirm missing or found status.</div>
   <div class="container">
     <header class="site-header">
       <div class="lang-toggle">
@@ -15,49 +15,47 @@
         <button type="button" data-lang="np">ने</button>
       </div>
       <h1 data-i18n="navReport">Report someone missing</h1>
-      <p class="subtitle">Start with the official SETU form — then use WhatsApp / email if you also need embassy or MoFA help</p>
+      <p class="subtitle">SETU form first — then WhatsApp / email contacts for MoFA or embassies if needed</p>
       <nav class="nav-links" id="site-nav"></nav>
     </header>
 
-    <div class="panel setu-hero" style="border:2px solid var(--nepal-blue);padding:1.25rem">
-      <div class="orchestration-step-label">Official — NDRRMA</div>
-      <h2 style="margin:0.25rem 0 0.5rem">SETU — Request help (missing / rescue)</h2>
-      <p class="form-hint" style="margin-bottom:0.75rem">
-        This is the government form for the Rasuwa flood. Select <strong>Missing / हराएको</strong>, add name and phone, and submit there.
-        We cannot submit for you.
-      </p>
+    <section class="section-block">
+      <p class="section-kicker">1 · Official filing</p>
+      <h2 class="section-title">SETU (NDRRMA)</h2>
+      <p class="form-hint">Government form for the Rasuwa flood. Open it, select <strong>Missing / हराएको</strong>, and fill it there — we cannot submit for you.</p>
       <div class="btn-group">
         <a class="btn btn-primary" href="https://setu.ndrrma.gov.np/admin/help.php" target="_blank" rel="noopener">Open SETU missing form →</a>
         <a class="btn btn-secondary" href="https://udb.nepalpolice.gov.np/missing" target="_blank" rel="noopener">Nepal Police portal</a>
       </div>
-    </div>
+    </section>
 
-    <div class="alert alert-info" style="margin-top:1rem" data-i18n="privacyReportNote">
-      Privacy: nothing you type on this page is sent to or stored by this website. Your details stay on your device until you open SETU, WhatsApp, or email yourself.
-    </div>
+    <section class="section-block" id="report-form-panel">
+      <p class="section-kicker">2 · Also notify contacts</p>
+      <h2 class="section-title">WhatsApp / email helper</h2>
+      <p class="form-hint">Optional. Prepare a message for MoFA, MEA, or embassies. Nothing is uploaded here — photos go on those apps.</p>
+      <p class="quiet-note" data-i18n="privacyReportNote">Privacy: nothing you type here is sent to or stored by this website.</p>
 
-    <div id="report-result" style="display:none"></div>
-
-    <div class="panel" id="report-form-panel" style="margin-top:1rem">
-      <h2>Also notify WhatsApp / email contacts</h2>
-      <p class="form-hint">Optional helper — after SETU, prepare a message for MoFA, MEA, or embassies. Photos are not uploaded here.</p>
       <div class="mode-tabs" role="tablist">
         <button type="button" class="mode-tab active" data-mode="form">Fill the form</button>
         <button type="button" class="mode-tab" data-mode="paste">I already have text — paste it</button>
       </div>
       <form id="report-form"></form>
-      <button type="submit" form="report-form" class="btn btn-secondary" style="margin-top:0.5rem">Continue to WhatsApp / email</button>
-    </div>
+      <button type="submit" form="report-form" class="btn btn-primary" style="margin-top:0.75rem" id="btn-prepare">Prepare message</button>
+      <p id="form-errors" class="form-errors" hidden></p>
+    </section>
 
-    <div class="panel" style="margin-top:1rem">
-      <h2>All helplines & embassies</h2>
+    <section class="section-block" id="report-result" hidden></section>
+
+    <section class="section-block">
+      <p class="section-kicker">4 · More contacts</p>
+      <h2 class="section-title">All helplines &amp; embassies</h2>
       <p class="form-hint">MEA control room, Nepal district phones, Tibet contacts, and embassy numbers.</p>
-      <a class="btn btn-secondary" href="/resources.html">Open Resources page →</a>
-    </div>
+      <a class="btn btn-secondary" href="/resources.html">Open Resources →</a>
+    </section>
 
-    <footer class="site-footer" data-i18n="footer">Volunteer tool. We route you to official channels.</footer>
+    <footer class="site-footer" data-i18n="footer">Volunteer site — contacts, links & updates only.</footer>
   </div>
-  <script src="/js/common.js"></script>
-  <script src="/js/report.js?v=handoff1"></script>
+  <script src="/js/common.js?v=name1"></script>
+  <script src="/js/report.js?v=name1"></script>
 </body>
 </html>

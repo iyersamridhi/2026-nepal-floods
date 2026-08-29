@@ -1,8 +1,8 @@
-# 2026 Nepal Floods
+# Nepal Floods 2026
 
-Volunteer routing tool for the **August 2026 Bhotekoshi / Rasuwa / Gyirong / Trishuli** flash floods.
+Volunteer site with **contacts, links & updates** for the August 2026 Bhotekoshi / Rasuwa / Gyirong / Trishuli floods (SETU, Nepal Police, MoFA, embassies).
 
-**Independent & unofficial.** Not affiliated with any government or official organisation. See [`legal.html`](legal.html) for the disclaimer, privacy notice (we do not collect or store personal case data), and terms of use.
+**Independent & unofficial.** Not affiliated with any government. See [`legal.html`](legal.html) for disclaimer and privacy (we do not collect or store personal case data).
 
 ## Deploy on Vercel
 

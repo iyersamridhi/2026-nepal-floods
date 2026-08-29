@@ -1,19 +1,19 @@
 const I18N = {
   en: {
-    siteTitle: "2026 Nepal Floods",
-    siteSubtitle: "Bhotekoshi · Rasuwa · Gyirong · Trishuli — find the right official channel",
+    siteTitle: "Nepal Floods 2026",
+    siteSubtitle: "Contacts, links & updates — Bhotekoshi / Rasuwa",
     siteDisclaimer:
-      "Independent humanitarian volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We only point you to public official contacts; we cannot verify individual cases.",
+      "Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.",
     banner:
-      "Independent volunteer site — not an official organisation. We do not collect or store your data. We do not confirm deaths, matches, or missing status.",
+      "Volunteer site with links to government contacts and updates. We do not confirm missing or found status.",
     legalTitle: "Disclaimer, Privacy & Terms",
-    legalSubtitle: "Independent humanitarian information site — not an official organisation",
+    legalSubtitle: "Independent volunteer site — not an official organisation",
     legalIndepBannerTitle: "Independent & unofficial.",
     legalIndepBannerBody:
       " This website is not affiliated with, endorsed by, or operated by the Government of Nepal, Nepal Police, NDRRMA, MoFA, MEA, any embassy, UN agency, Red Cross/Red Crescent, or any other official body.",
     legalLink: "Disclaimer & terms",
     privacyReportNote:
-      "Privacy: nothing you type here is sent to or stored by this website. Your details stay on your device until you open WhatsApp or email yourself.",
+      "Privacy: nothing you type here is sent to or stored by this website.",
     navHome: "Home",
     navWizard: "Who to contact",
     navSearch: "Check if found",
@@ -21,14 +21,14 @@ const I18N = {
     navUpdates: "Updates",
     navResources: "Resources",
     navFeedback: "Feedback",
-    homeCard1Title: "Find the right contact",
-    homeCard1Desc: "Answer a few questions — we tell you which authority to call or email.",
-    homeCard2Title: "Check official found lists",
-    homeCard2Desc: "Go to Nepal Police / SETU found and rescued pages — we do not copy photos here.",
+    homeCard1Title: "Who should I contact?",
+    homeCard1Desc: "Not sure who to call? Answer a few questions for the right numbers.",
+    homeCard2Title: "Check if found",
+    homeCard2Desc: "Search Nepal Police and SETU pages — we don’t copy names or photos here.",
     homeCard3Title: "Report someone missing",
-    homeCard3Desc: "Open the official SETU form, then WhatsApp / email contacts if needed.",
+    homeCard3Desc: "Open the SETU form, then WhatsApp / email contacts for MoFA or embassies if needed.",
     homeCard4Title: "News & updates",
-    homeCard4Desc: "News from official channels and authority Twitter — with citations.",
+    homeCard4Desc: "Short updates from government sources, with links to the originals.",
     updatesSubtitle: "Short summaries from official sources — always verify on the original page",
     updatesFilterLabel: "Filter by region",
     tabOfficial: "Official updates",
@@ -45,7 +45,7 @@ const I18N = {
     openPortal: "Open portal",
     updatesResourcesLink: "All helplines & contacts →",
     footer:
-      "Independent volunteer tool — not affiliated with any official organisation. We route you to official channels and do not collect or store personal case data.",
+      "Volunteer site — contacts, links & updates only. Not affiliated with any government. We do not collect personal case data.",
     feedbackLink: "Feedback",
     feedbackVolunteerLink: "Feedback & volunteer",
     feedbackTitle: "Feedback",
@@ -71,20 +71,20 @@ const I18N = {
     loading: "Loading records…",
   },
   np: {
-    siteTitle: "२०२६ नेपाल बाढी",
-    siteSubtitle: "भोटेकोशी · रसुवा · ग्यिरोङ · त्रिशुली — सही आधिकारिक सम्पर्क",
+    siteTitle: "नेपाल बाढी २०२६",
+    siteSubtitle: "सम्पर्क, लिङ्क र अपडेट — भोटेकोशी / रसुवा",
     siteDisclaimer:
-      "स्वतन्त्र मानवीय स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक आधिकारिक सम्पर्कमा मात्र मार्गदर्शन; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
+      "स्वतन्त्र स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक सम्पर्कमा मात्र लिङ्क; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
     banner:
-      "स्वतन्त्र स्वयंसेवी साइट — आधिकारिक संस्था होइन। हामी तपाईंको डाटा सङ्कलन/भण्डारण गर्दैनौं। मृत्यु, मिलान वा हराएको स्थिति पुष्टि गर्दैनौं।",
+      "स्वयंसेवी साइट — सरकारी सम्पर्क र अपडेटका लिङ्क। हराएको/फेला परेको स्थिति पुष्टि गर्दैनौं।",
     legalTitle: "अस्वीकरण, गोपनीयता र सर्तहरू",
-    legalSubtitle: "स्वतन्त्र मानवीय सूचना साइट — आधिकारिक संस्था होइन",
+    legalSubtitle: "स्वतन्त्र स्वयंसेवी साइट — आधिकारिक संस्था होइन",
     legalIndepBannerTitle: "स्वतन्त्र र अनौपचारिक।",
     legalIndepBannerBody:
       " यो वेबसाइट नेपाल सरकार, नेपाल प्रहरी, NDRRMA, MoFA, MEA, कुनै दूतावास, संयुक्त राष्ट्र, रेडक्रस/रेडक्रेसेन्ट वा अन्य कुनै आधिकारिक निकायसँग आबद्ध, समर्थित वा सञ्चालित छैन।",
     legalLink: "अस्वीकरण र सर्तहरू",
     privacyReportNote:
-      "गोपनीयता: यहाँ लेखेको कुनै पनि विवरण यस वेबसाइटमा पठाइँदैन वा भण्डारण हुँदैन। WhatsApp वा इमेल आफैं खोल्दासम्म विवरण तपाईंको उपकरणमै रहन्छ।",
+      "गोपनीयता: यहाँ लेखेको विवरण यस वेबसाइटमा पठाइँदैन वा भण्डारण हुँदैन।",
     navHome: "गृह",
     navWizard: "कसलाई सम्पर्क",
     navSearch: "फेला परेको जाँच",
@@ -92,14 +92,14 @@ const I18N = {
     navUpdates: "अपडेट",
     navResources: "स्रोत",
     navFeedback: "प्रतिक्रिया",
-    homeCard1Title: "सही सम्पर्क खोज्नुहोस्",
-    homeCard1Desc: "केही प्रश्नको जवाफ दिनुहोस् — हामी कुन निकायलाई सम्पर्क गर्ने भन्छौं।",
-    homeCard2Title: "आधिकारिक फेला परेको सूची",
-    homeCard2Desc: "नेपाल प्रहरी / सेतुको आधिकारिक पृष्ठमा जानुहोस् — यहाँ फोटो कपी गर्दैनौं।",
+    homeCard1Title: "कसलाई सम्पर्क गर्ने?",
+    homeCard1Desc: "कसलाई फोन गर्ने थाहा छैन? केही प्रश्नपछि सही नम्बर।",
+    homeCard2Title: "फेला परेको जाँच",
+    homeCard2Desc: "नेपाल प्रहरी र सेतुको पृष्ठमा खोज्नुहोस् — यहाँ नाम/फोटो कपी गर्दैनौं।",
     homeCard3Title: "हराएको व्यक्ति रिपोर्ट",
-    homeCard3Desc: "आधिकारिक SETU फारम खोल्नुहोस् — त्यसपछि व्हाट्सएप / इमेल सम्पर्क।",
+    homeCard3Desc: "SETU फारम खोल्नुहोस् — त्यसपछि MoFA / दूतावासका लागि व्हाट्सएप / इमेल।",
     homeCard4Title: "समाचार र अपडेट",
-    homeCard4Desc: "आधिकारिक च्यानल र प्राधिकरण ट्विटरबाट — स्रोत सहित।",
+    homeCard4Desc: "सरकारी स्रोतबाट छोटो अपडेट, मूल लिङ्कसहित।",
     updatesSubtitle: "आधिकारिक स्रोतबाट छोटो सारांश — सधैं मूल पृष्ठमा पुष्टि गर्नुहोस्",
     updatesFilterLabel: "क्षेत्र अनुसार फिल्टर",
     tabOfficial: "आधिकारिक अपडेट",
@@ -116,7 +116,7 @@ const I18N = {
     openPortal: "पोर्टल खोल्नुहोस्",
     updatesResourcesLink: "सबै हेल्पलाइन र सम्पर्क →",
     footer:
-      "स्वतन्त्र स्वयंसेवी उपकरण — कुनै आधिकारिक संस्थासँग आबद्ध छैन। हामी आधिकारिक च्यानलमा पुर्‍याउँछौं र व्यक्तिगत केस डाटा सङ्कलन/भण्डारण गर्दैनौं।",
+      "स्वयंसेवी साइट — सम्पर्क, लिङ्क र अपडेट मात्र। कुनै सरकारसँग आबद्ध छैन।",
     feedbackLink: "प्रतिक्रिया",
     feedbackVolunteerLink: "प्रतिक्रिया र स्वयंसेवा",
     feedbackTitle: "प्रतिक्रिया",
@@ -248,39 +248,45 @@ function encodeMailto(email, subject, body) {
   return href;
 }
 
-/** Open email: always copy body; mailto with short body so browsers actually open. */
+function gmailComposeUrl(email, subject, body) {
+  const params = new URLSearchParams({
+    view: "cm",
+    fs: "1",
+    to: email || "",
+    su: subject || "",
+    body: body || "",
+  });
+  return `https://mail.google.com/mail/?${params.toString()}`;
+}
+
+/**
+ * Redirect to compose with the full message.
+ * Prefer Gmail (reliable in browser with body). Fall back to mailto.
+ * Also copies message silently as backup.
+ */
 async function openEmailClient(email, subject, body) {
   const full = body || "";
   try {
     await navigator.clipboard.writeText(full);
   } catch (e) {
-    /* user can still copy from the page textarea */
+    /* ignore */
   }
 
-  const pasteHint =
-    "Please paste the full message from your clipboard (we copied it for you).";
-  const href = encodeMailto(email, subject, pasteHint);
+  const gmailUrl = gmailComposeUrl(email, subject, full);
+  // Redirect to Gmail compose with To, Subject, and full body
+  if (gmailUrl.length < 8000) {
+    window.open(gmailUrl, "_blank", "noopener");
+    return { method: "gmail" };
+  }
 
-  const a = document.createElement("a");
-  a.href = href;
-  a.style.display = "none";
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
+  const mailtoHref = encodeMailto(email, subject, full);
+  if (mailtoHref.length <= 2000) {
+    window.location.href = mailtoHref;
+    return { method: "mailto" };
+  }
 
-  return { copied: true };
-}
-
-function gmailComposeUrl(email, subject, body) {
-  const params = new URLSearchParams({
-    view: "cm",
-    fs: "1",
-    to: email,
-    su: subject || "",
-  });
-  // Gmail URL body also has limits — rely on clipboard for the full text
-  params.set("body", "Please paste the full message from your clipboard.");
-  return `https://mail.google.com/mail/?${params.toString()}`;
+  window.open(gmailComposeUrl(email, subject, full.slice(0, 4000)), "_blank", "noopener");
+  return { method: "gmail-truncated" };
 }
 
 document.addEventListener("DOMContentLoaded", () => {

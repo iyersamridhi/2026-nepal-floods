@@ -62,13 +62,13 @@ header.site-header .subtitle {
 
 .site-disclaimer {
   margin: 0.65rem 0 0;
-  padding: 0.65rem 0.85rem;
+  padding: 0;
   font-size: 0.85rem;
   line-height: 1.5;
-  color: #4a5568;
-  background: #f0f4fa;
-  border-left: 3px solid var(--nepal-blue);
-  border-radius: 0 6px 6px 0;
+  color: var(--muted);
+  background: none;
+  border: none;
+  border-radius: 0;
 }
 
 .nav-links {
@@ -356,6 +356,136 @@ header.site-header .subtitle {
   background: #fdecea;
   border: 1px solid #f5c4be;
   color: #8b1a0f;
+}
+
+/* Quieter page sections (report flow) */
+.section-block {
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.section-block:first-of-type {
+  border-top: none;
+  padding-top: 0.5rem;
+}
+
+.section-kicker {
+  margin: 0 0 0.2rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.section-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.15rem;
+  color: var(--nepal-blue);
+}
+
+.subsection-title {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.quiet-note {
+  margin: 0.5rem 0 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.form-errors {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #8b1a0f;
+}
+
+.form-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.25rem 0;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+@media (max-width: 560px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-group-sm {
+  max-width: 8rem;
+}
+
+.person-block {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.5rem;
+}
+
+.person-block:last-child {
+  border-bottom: none;
+}
+
+.person-block-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.btn-text {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.btn-text:hover {
+  color: var(--nepal-crimson);
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.contact-row:last-child {
+  border-bottom: none;
+}
+
+.send-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.panel.setu-hero {
+  border: 1px solid var(--border);
+  box-shadow: none;
 }
 
 .step-list {

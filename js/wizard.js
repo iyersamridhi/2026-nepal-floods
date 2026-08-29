@@ -312,7 +312,7 @@ function renderResults(container) {
       <div class="orchestration-step-label">Recommended next</div>
       <h3 style="margin:0.25rem 0 0.5rem">Fill details, then send WhatsApp / email</h3>
       <p class="form-hint" style="margin-bottom:0.75rem">
-        Your wizard answers will be carried over. Add the missing person's details, then open SETU and message authorities with a complete text — not a blank chat.
+        We’ll carry over nationality and last-seen side. Add the missing person’s details, then message authorities with a complete text — not a blank chat. SETU is a separate government form you fill on their site.
       </p>
       <a class="btn btn-primary" href="${formUrl}">Continue to form →</a>
     </div>`
