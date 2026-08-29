@@ -20,7 +20,7 @@ async function loadOfficialBulletin() {
   container.innerHTML = `<div class="empty-state">Loading…</div>`;
 
   try {
-    const res = await fetch("/data/bulletin.json");
+    const res = await fetch(`/data/bulletin.json?_=${Date.now()}`);
     const data = await res.json();
     let items = data.items || [];
     if (state.filter !== "all") {
@@ -32,6 +32,18 @@ async function loadOfficialBulletin() {
     if (meta) {
       meta.textContent = formatMeta(data, items.length);
     }
+    const latestEl = document.getElementById("official-latest");
+    if (latestEl) {
+      const newest = items.find((i) => i.kind !== "pointer") || items[0];
+      if (newest) {
+        const when = newest.publishedLabel || formatStamp(newest.timestamp);
+        latestEl.innerHTML = `Newest official update in this feed: <strong>${escapeHtml(when)}</strong> — ${escapeHtml(
+          newest.title || newest.source || ""
+        )}`;
+      } else {
+        latestEl.textContent = "";
+      }
+    }
   } catch (e) {
     state.officialItems = [];
     container.innerHTML = `<div class="alert alert-error">Could not load updates.</div>`;
@@ -41,7 +53,7 @@ async function loadOfficialBulletin() {
 async function loadTwitterBulletin() {
   const meta = document.getElementById("twitter-meta");
   try {
-    const res = await fetch("/data/twitter_bulletin.json");
+    const res = await fetch(`/data/twitter_bulletin.json?_=${Date.now()}`);
     const data = await res.json();
     let items = data.items || [];
     if (state.filter !== "all") {
