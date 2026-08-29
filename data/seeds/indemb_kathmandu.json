@@ -3,8 +3,12 @@
   "source": "Embassy of India, Kathmandu",
   "sourceUrl": "https://www.indembkathmandu.gov.in",
   "timestamp": "2026-08-26T18:00:00+05:45",
-  "region": ["india", "nepal"],
+  "region": [
+    "india",
+    "nepal"
+  ],
   "title": "Embassy of India, Kathmandu — assistance for Indian nationals",
   "citation": "Embassy of India, Kathmandu",
-  "body": "The Embassy of India in Kathmandu is coordinating with Nepalese authorities on search and rescue for Indian nationals affected by flash floods in the Rasuwa / Bhotekoshi area. Indian nationals and families may also contact the MEA Special Control Room in Delhi: +91-11-23088718, +91-11-23088719, WhatsApp +91-9968291988, email situationroom@mea.gov.in. Embassy WhatsApp: +977-9851316807."
+  "body": "The Embassy of India in Kathmandu is coordinating with Nepalese authorities on search and rescue for Indian nationals affected by flash floods in the Rasuwa / Bhotekoshi area. Indian nationals and families may also contact the MEA Special Control Room in Delhi: +91-11-23088718, +91-11-23088719, WhatsApp +91-9968291988, email situationroom@mea.gov.in. Embassy WhatsApp: +977-9851316807.",
+  "kind": "pointer"
 }

@@ -15,6 +15,8 @@ const NEED_OPTIONS = [
   { value: "embassy", label: "Embassy / consular help" },
 ];
 
+const SETU_FORM_URL = "https://setu.ndrrma.gov.np/admin/help.php";
+
 const REPORT_FIELDS = [
   { id: "missingName", label: "Missing person's full name", required: true },
   { id: "missingAge", label: "Age", required: false },
@@ -71,13 +73,10 @@ function validateReport(data) {
 
   if (reportMode === "paste") {
     if (!data.pastedText?.trim() || data.pastedText.trim().length < 40) {
-      issues.push("Please paste your full report text (at least a few sentences).");
+      issues.push("Please paste the text you already prepared (at least a few sentences).");
     }
     if (!data.reporterPhone?.trim() || data.reporterPhone.replace(/\D/g, "").length < 8) {
       issues.push("Please add your phone with country code so authorities can reach you.");
-    }
-    if (!data.missingName?.trim()) {
-      issues.push("Please add the missing person's name (used in email subject / WhatsApp intro).");
     }
     return issues;
   }
@@ -104,15 +103,15 @@ function validateReport(data) {
   return issues;
 }
 
-function buildReportText(data) {
+function buildMessageText(data) {
   if (reportMode === "paste" && data.pastedText?.trim()) {
     return [
       data.pastedText.trim(),
       "",
       "—",
-      "Forwarded via 2026 Nepal Floods (volunteer routing — not an official filing)",
-      data.reporterPhone ? `Reporter phone: ${data.reporterPhone}` : null,
-      data.reporterEmail ? `Reporter email: ${data.reporterEmail}` : null,
+      "Sent via 2026 Nepal Floods (volunteer routing — not an official filing)",
+      data.reporterPhone ? `Contact phone: ${data.reporterPhone}` : null,
+      data.reporterEmail ? `Contact email: ${data.reporterEmail}` : null,
     ]
       .filter(Boolean)
       .join("\n");
@@ -124,7 +123,7 @@ function buildReportText(data) {
       : data.idType;
 
   const lines = [
-    "MISSING PERSON REPORT — Bhotekoshi / Rasuwa Flood (Aug 26, 2026)",
+    "MISSING PERSON — Bhotekoshi / Rasuwa Flood (Aug 26, 2026)",
     "Prepared via 2026 Nepal Floods (volunteer routing — not an official filing)",
     "",
     `Missing person: ${data.missingName}`,
@@ -140,23 +139,23 @@ function buildReportText(data) {
     data.clothing ? `Description: ${data.clothing}` : null,
     data.needs?.length ? `What I need help with: ${data.needs.join("; ")}` : null,
     "",
-    `Reporter: ${data.reporterName} (${data.reporterRelation})`,
+    `Contact: ${data.reporterName} (${data.reporterRelation})`,
     `Phone: ${data.reporterPhone}`,
     data.reporterEmail ? `Email: ${data.reporterEmail}` : null,
     data.additional ? `\nAdditional info:\n${data.additional}` : null,
     "",
-    "Please confirm receipt of this report.",
+    "Please confirm you received this.",
   ];
   return lines.filter(Boolean).join("\n");
 }
 
 function buildWhatsAppPreview(data) {
+  const name = data.missingName?.trim() || "a missing person";
   return [
-    `Hello, missing person report — Bhotekoshi flood Aug 26.`,
-    `Name: ${data.missingName}`,
+    `Hello — looking for help regarding ${name} (Bhotekoshi flood Aug 26).`,
     data.nationality ? `Nationality: ${data.nationality}` : null,
     data.lastSeenSide ? `Last seen: ${data.lastSeenSide}${data.lastSeen ? ` — ${data.lastSeen}` : ""}` : null,
-    `Reporter phone: ${data.reporterPhone}`,
+    `My phone: ${data.reporterPhone}`,
     `I will paste the full details in the next message.`,
   ]
     .filter(Boolean)
@@ -251,18 +250,14 @@ function renderForm() {
   if (reportMode === "paste") {
     form.innerHTML = `
       <div class="alert alert-info">
-        Paste a report you already wrote. We will help you send it via WhatsApp or email — nothing is uploaded to this website.
+        Paste the message you already wrote. We will help you send it to SETU, WhatsApp, and email — nothing is uploaded to this website.
       </div>
       <div class="form-group">
-        <label for="pastedText">Your existing report text *</label>
+        <label for="pastedText">Your message *</label>
         <textarea id="pastedText" name="pastedText" rows="12" placeholder="Paste the full message you already prepared…"></textarea>
       </div>
       <div class="form-group">
-        <label for="missingName">Missing person's name * <span class="form-hint">(for WhatsApp / email subject)</span></label>
-        <input type="text" id="missingName" name="missingName">
-      </div>
-      <div class="form-group">
-        <label for="nationality">Nationality (helps route to the right authority)</label>
+        <label for="nationality">Nationality <span class="form-hint">(optional — helps pick the right contacts)</span></label>
         <select id="nationality" name="nationality">
           ${["", "Nepali", "Indian", "Chinese", "American", "Australian", "British", "South Korean", "Bangladeshi", "Pakistani", "Other"]
             .map((o) => `<option value="${o}">${o || "—"}</option>`)
@@ -270,7 +265,7 @@ function renderForm() {
         </select>
       </div>
       <div class="form-group">
-        <label for="lastSeenSide">Which side of the border? (optional)</label>
+        <label for="lastSeenSide">Which side of the border? <span class="form-hint">(optional)</span></label>
         <select id="lastSeenSide" name="lastSeenSide">
           ${["", "Nepal (Rasuwa / Nuwakot / Trishuli)", "Tibet / China (Gyirong / Kailash)", "Don't know"]
             .map((o) => `<option value="${o}">${o || "—"}</option>`)
@@ -282,10 +277,9 @@ function renderForm() {
         <input type="text" id="reporterPhone" name="reporterPhone">
       </div>
       <div class="form-group">
-        <label for="reporterEmail">Your email</label>
+        <label for="reporterEmail">Your email <span class="form-hint">(optional)</span></label>
         <input type="text" id="reporterEmail" name="reporterEmail">
       </div>
-      ${renderNeedsBlock()}
       ${renderPhotosNote()}
     `;
     return;
@@ -386,37 +380,199 @@ async function copyText(text) {
   }
 }
 
+function buildSetuDetails(data) {
+  if (reportMode === "paste" && data.pastedText?.trim()) {
+    return data.pastedText.trim();
+  }
+
+  const idLabel =
+    data.idType === "Other government ID"
+      ? `Other: ${data.idTypeOther || "not specified"}`
+      : data.idType;
+
+  const lines = [
+    "Missing person — Bhotekoshi / Rasuwa flood (Aug 26, 2026)",
+    data.nationality ? `Nationality: ${data.nationality}` : null,
+    data.lastSeenSide ? `Border side: ${data.lastSeenSide}` : null,
+    data.lastContact ? `Last contact: ${data.lastContact}` : null,
+    data.tourGroup ? `Tour/group/employer: ${data.tourGroup}` : null,
+    data.clothing ? `Description: ${data.clothing}` : null,
+    idLabel ? `ID type: ${idLabel}` : null,
+    data.idNumber ? `ID / passport: ${data.idNumber}` : null,
+    data.reporterRelation ? `Relationship: ${data.reporterRelation}` : null,
+    data.reporterEmail ? `Email: ${data.reporterEmail}` : null,
+    data.additional ? `Additional: ${data.additional}` : null,
+  ];
+  return lines.filter(Boolean).join("\n");
+}
+
+function buildSetuFieldGuide(data) {
+  // Paste mode: don't re-ask for structured fields — just phone + paste into Details
+  if (reportMode === "paste") {
+    return [
+      {
+        setu: "Contact mobile / सम्पर्क फोन",
+        value: data.reporterPhone || "",
+        required: true,
+      },
+      {
+        setu: "Situation / अवस्था",
+        value: "Missing / हराएको",
+        required: true,
+        hint: "On SETU, tap the Missing chip before submitting.",
+      },
+      {
+        setu: "Details / विवरण",
+        value: buildSetuDetails(data),
+        required: true,
+        multiline: true,
+        hint: "Paste your message into this field on SETU.",
+      },
+    ];
+  }
+
+  const fields = [
+    { setu: "Your name / नाम", value: data.reporterName || "", required: true },
+    { setu: "Contact mobile / सम्पर्क फोन", value: data.reporterPhone || "", required: true },
+    { setu: "Person — Name", value: data.missingName || "", required: true },
+  ];
+  if (data.missingGender) {
+    fields.push({ setu: "Person — Gender", value: data.missingGender, required: false });
+  }
+  if (data.missingAge) {
+    fields.push({ setu: "Person — Age", value: data.missingAge, required: false });
+  }
+  fields.push(
+    { setu: "Address / ठेगाना", value: data.lastSeen || "", required: true },
+    {
+      setu: "Situation / अवस्था",
+      value: "Missing / हराएको",
+      required: true,
+      hint: "On SETU, tap the Missing chip before submitting.",
+    },
+    { setu: "Details / विवरण", value: buildSetuDetails(data), required: false, multiline: true }
+  );
+  return fields;
+}
+
+function renderSetuOrchestration(data) {
+  const fields = buildSetuFieldGuide(data);
+  const tibet = (data.lastSeenSide || "").toLowerCase().includes("tibet");
+
+  const pasteHint =
+    reportMode === "paste"
+      ? "You already have a message — open SETU, tap <strong>Missing</strong>, paste your text into <strong>Details</strong>, and add your phone."
+      : "Open SETU and copy each value below into the matching field. We cannot submit for you.";
+
+  return `
+    <div class="panel setu-orchestration" style="margin-top:1rem;padding:1rem;border:2px solid var(--nepal-blue)">
+      <div class="orchestration-step-label">Step 1 — Official (NDRRMA)</div>
+      <h3 style="margin:0.25rem 0 0.5rem">SETU — if you have not filed yet</h3>
+      <p class="form-hint">
+        ${pasteHint}
+        ${tibet ? " Also contact MoFA / your embassy in Step 2 if they were last seen in Tibet/China." : ""}
+      </p>
+      <div class="btn-group" style="margin:0.75rem 0">
+        <a class="btn btn-primary js-setu-open" href="${SETU_FORM_URL}" target="_blank" rel="noopener">Open SETU form →</a>
+        <button type="button" class="btn btn-secondary js-setu-copy-all">Copy SETU details</button>
+      </div>
+      <ol class="setu-field-guide">
+        ${fields
+          .map(
+            (f, i) => `
+          <li class="setu-field-row">
+            <div class="setu-field-meta">
+              <strong>${i + 1}. ${f.setu}</strong>
+              ${f.required ? '<span class="setu-required">needed</span>' : ""}
+              ${f.hint ? `<p class="form-hint">${f.hint}</p>` : ""}
+            </div>
+            <pre class="setu-field-value${f.multiline ? " multiline" : ""}">${escapeHtml(f.value)}</pre>
+            <button type="button" class="btn btn-secondary btn-sm js-setu-copy" data-field-index="${i}">Copy</button>
+          </li>`
+          )
+          .join("")}
+      </ol>
+      <p class="form-hint">
+        Optional on SETU: <strong>Point on Map</strong>. Photos are not part of SETU — attach them in WhatsApp/email or Nepal Police.
+      </p>
+    </div>`;
+}
+
+function escapeHtml(text) {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function buildSetuCopyAllText(data) {
+  const fields = buildSetuFieldGuide(data);
+  return fields.map((f) => `${f.setu}\n${f.value}`).join("\n\n");
+}
+
+function wireSetuOrchestration(resultPanel, data) {
+  const fields = buildSetuFieldGuide(data);
+
+  resultPanel.querySelectorAll(".js-setu-copy").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const field = fields[Number(btn.dataset.fieldIndex)];
+      const ok = await copyText(field ? field.value : "");
+      btn.textContent = ok ? "Copied!" : "Copy failed";
+      setTimeout(() => {
+        btn.textContent = "Copy";
+      }, 2000);
+    });
+  });
+
+  const copyAllBtn = resultPanel.querySelector(".js-setu-copy-all");
+  if (copyAllBtn) {
+    copyAllBtn.addEventListener("click", async () => {
+      const ok = await copyText(buildSetuCopyAllText(data));
+      copyAllBtn.textContent = ok ? "Copied!" : "Select and copy manually";
+      setTimeout(() => {
+        copyAllBtn.textContent = "Copy SETU details";
+      }, 2500);
+    });
+  }
+
+  const openBtn = resultPanel.querySelector(".js-setu-open");
+  if (openBtn) {
+    openBtn.addEventListener("click", () => {
+      // Prefer pasting the Details value for paste mode; otherwise full SETU map
+      const details = fields.find((f) => f.setu.startsWith("Details"));
+      copyText(details ? details.value : buildSetuCopyAllText(data));
+    });
+  }
+}
+
 function showResults(data) {
   const issues = validateReport(data);
   const resultPanel = document.getElementById("report-result");
   const formPanel = document.getElementById("report-form-panel");
 
   if (issues.length > 0) {
-    resultPanel.innerHTML = `<div class="alert alert-error"><strong>Please complete your report:</strong><ul>${issues.map((i) => `<li>${i}</li>`).join("")}</ul></div>`;
+    resultPanel.innerHTML = `<div class="alert alert-error"><strong>Please complete:</strong><ul>${issues.map((i) => `<li>${i}</li>`).join("")}</ul></div>`;
     resultPanel.style.display = "block";
     return;
   }
 
-  const text = buildReportText(data);
+  const text = buildMessageText(data);
   const waPreview = buildWhatsAppPreview(data);
-  const subject = `Missing person report — ${data.missingName} — Bhotekoshi flood`;
+  const nameHint = data.missingName?.trim() || "missing person";
+  const subject = `Missing person — ${nameHint} — Bhotekoshi flood`;
   const authorities = getAuthoritiesForReport(data);
-  const ref = "NFH-" + Date.now().toString(36).toUpperCase();
 
   resultPanel.innerHTML = `
-    <div class="alert alert-success">
-      <strong>Report ready (ref: ${ref})</strong><br>
-      WhatsApp cannot send automatically. We copy the full report, then open WhatsApp with a short intro — you tap Send, then paste the full text.
-    </div>
-    <div class="alert alert-warning">
-      <strong>Attach photos yourself after redirect:</strong>
-      This website never uploads images or documents. When WhatsApp, email, or the Nepal Police portal opens, add photos and ID scans there.
-    </div>
     <div class="alert alert-info">
-      <strong>Also file on the official Nepal Police portal</strong> (this form is only a helper):
-      <a href="https://udb.nepalpolice.gov.np/missing" target="_blank" rel="noopener">udb.nepalpolice.gov.np/missing →</a>
+      <strong>Next steps</strong> — nothing is sent automatically. Prefer SETU first (top of this page), then WhatsApp/email, then Nepal Police if needed.
     </div>
-    <h3>Send your report</h3>
+    ${renderSetuOrchestration(data)}
+    <div class="panel" style="margin-top:1rem;padding:1rem">
+      <div class="orchestration-step-label">Step 2 — Notify contacts</div>
+      <h3 style="margin:0.25rem 0 0.5rem">WhatsApp or email</h3>
+      <p class="form-hint">We copy your message, then open WhatsApp with a short intro — you tap Send, then paste the full text. Attach photos yourself after it opens.</p>
+    </div>
     ${authorities
       .map(
         (a) => `
@@ -430,12 +586,18 @@ function showResults(data) {
       </div>`
       )
       .join("")}
+    <div class="panel" style="margin-top:1rem;padding:1rem">
+      <div class="orchestration-step-label">Step 3 — Nepal Police</div>
+      <h3 style="margin:0.25rem 0 0.5rem">File on the UDB portal</h3>
+      <p class="form-hint">Official missing-person database. Attach photos and ID there — this site does not upload files.</p>
+      <a class="btn btn-secondary" href="https://udb.nepalpolice.gov.np/missing" target="_blank" rel="noopener">Open Nepal Police portal →</a>
+    </div>
     <div class="form-group" style="margin-top:1rem">
-      <label>Full report (copy this, then paste in WhatsApp)</label>
+      <label>Your message (for WhatsApp / email)</label>
       <textarea readonly rows="12" id="report-text-copy"></textarea>
     </div>
-    <button type="button" class="btn btn-secondary" id="btn-copy">Copy full report</button>
-    <button type="button" class="btn btn-secondary" id="btn-edit" style="margin-left:0.5rem">Edit report</button>
+    <button type="button" class="btn btn-secondary" id="btn-copy">Copy message</button>
+    <button type="button" class="btn btn-secondary" id="btn-edit" style="margin-left:0.5rem">Go back and edit</button>
   `;
 
   resultPanel.style.display = "block";
@@ -459,6 +621,8 @@ function showResults(data) {
       window.open(encodeWhatsApp(btn.dataset.phone, waPreview), "_blank", "noopener");
     });
   });
+
+  wireSetuOrchestration(resultPanel, data);
 }
 
 function setMode(mode) {
@@ -477,6 +641,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   renderForm();
+  applyWizardHandoff();
 
   document.getElementById("report-form").addEventListener("submit", (e) => {
     e.preventDefault();
@@ -484,3 +649,56 @@ document.addEventListener("DOMContentLoaded", () => {
     window.scrollTo(0, 0);
   });
 });
+
+function applyWizardHandoff() {
+  const params = new URLSearchParams(location.search);
+  if (params.get("from") !== "wizard") return;
+
+  let handoff = null;
+  try {
+    handoff = JSON.parse(sessionStorage.getItem("nfh_wizard") || "null");
+  } catch (e) {
+    return;
+  }
+  if (!handoff) return;
+
+  const natMap = {
+    nepali: "Nepali",
+    indian: "Indian",
+    foreign: "Other",
+    unknown: "",
+  };
+  const sideMap = {
+    nepal: "Nepal (Rasuwa / Nuwakot / Trishuli)",
+    tibet: "Tibet / China (Gyirong / Kailash)",
+    unknown: "Don't know",
+  };
+
+  const setVal = (id, value) => {
+    const el = document.getElementById(id);
+    if (el && value) el.value = value;
+  };
+
+  setVal("nationality", natMap[handoff.citizenship] || "");
+  setVal("lastSeenSide", sideMap[handoff.location] || "");
+  if (handoff.tourGroupName) setVal("tourGroup", handoff.tourGroupName);
+
+  if (Array.isArray(handoff.needs)) {
+    handoff.needs.forEach((need) => {
+      const cb = document.querySelector(`input[name="needs"][value="${need}"]`);
+      if (cb) cb.checked = true;
+    });
+  }
+
+  // Scroll to WhatsApp helper if SETU hero is already visible
+  const formPanel = document.getElementById("report-form-panel");
+  if (formPanel) {
+    const note = document.createElement("div");
+    note.className = "alert alert-success";
+    note.style.marginBottom = "1rem";
+    note.innerHTML =
+      "<strong>From Who to contact:</strong> Your answers are pre-filled below. Add the missing person's details, then continue to WhatsApp / email.";
+    formPanel.insertBefore(note, formPanel.firstChild);
+    formPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}

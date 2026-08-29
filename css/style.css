@@ -402,6 +402,70 @@ header.site-header .subtitle {
   margin-bottom: 1rem;
 }
 
+.orchestration-step-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--nepal-blue);
+  margin-bottom: 0.25rem;
+}
+
+.setu-field-guide {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+}
+
+.setu-field-row {
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--border);
+  display: grid;
+  gap: 0.5rem;
+}
+
+.setu-field-row:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.setu-field-meta strong {
+  color: var(--text);
+}
+
+.setu-required {
+  display: inline-block;
+  margin-left: 0.35rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--nepal-crimson);
+}
+
+.setu-field-value {
+  margin: 0;
+  padding: 0.6rem 0.75rem;
+  background: #f4f6fa;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.setu-field-value.multiline {
+  max-height: 10rem;
+  overflow: auto;
+}
+
+.btn-sm {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  width: fit-content;
+}
+
 .search-bar input {
   flex: 1;
   min-width: 200px;
@@ -479,32 +543,120 @@ header.site-header .subtitle {
 }
 
 .update-item {
-  padding: 1rem 0;
+  padding: 1.15rem 0;
   border-bottom: 1px solid var(--border);
 }
 
-.update-item time {
-  display: block;
-  font-size: 0.85rem;
+.update-item:last-child {
+  border-bottom: none;
+}
+
+.update-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.65rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.update-meta time {
+  margin-left: auto;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.update-source {
   font-weight: 600;
+  color: var(--nepal-blue);
+}
+
+.update-summary {
+  margin: 0.35rem 0 0.65rem;
+  font-size: 0.98rem;
+  line-height: 1.55;
   color: var(--text);
-  margin-bottom: 0.25rem;
+}
+
+.update-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.update-link:hover {
+  text-decoration: underline;
+}
+
+.update-item-portal {
+  opacity: 0.95;
+}
+
+.update-item-portal .bulletin-title {
+  font-size: 0.95rem;
+}
+
+.badge-official {
+  background: #e8f0fa;
+  color: var(--nepal-blue);
+}
+
+.badge-twitter {
+  background: #e8f4fd;
+  color: #1565c0;
+}
+
+.badge-portal {
+  background: #f3f4f6;
+  color: #4b5563;
+}
+
+.updates-meta {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.35rem 0 1rem;
+}
+
+.updates-section-title {
+  margin: 1.75rem 0 0.35rem;
+  font-size: 1rem;
+  color: var(--nepal-blue);
+}
+
+.updates-section-hint {
+  margin: 0 0 0.75rem;
+}
+
+.updates-toolbar {
+  margin-top: 0.5rem;
+}
+
+.updates-panel {
+  padding-top: 1rem;
+}
+
+.bulletin-title {
+  margin: 0.15rem 0 0.25rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  color: var(--text);
+  font-weight: 650;
+}
+
+.update-item time {
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  margin-bottom: 0;
 }
 
 .update-item .citation {
   font-size: 0.8rem;
   color: var(--muted);
   margin: 0.35rem 0 0;
-}
-
-.bulletin-title {
-  margin: 0.35rem 0 0.25rem;
-  font-size: 1rem;
-  color: var(--nepal-blue);
-}
-
-.update-item:last-child {
-  border-bottom: none;
 }
 
 .update-item .date {

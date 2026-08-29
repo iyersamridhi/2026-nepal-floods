@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Report missing person — 2026 Nepal Floods</title>
+  <title>Report someone missing — 2026 Nepal Floods</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body data-page="report">
@@ -15,32 +15,38 @@
         <button type="button" data-lang="np">ने</button>
       </div>
       <h1 data-i18n="navReport">Report someone missing</h1>
-      <p class="subtitle">We help you send your report to the right authorities — nothing is posted publicly</p>
+      <p class="subtitle">Start with the official SETU form — then use WhatsApp / email if you also need embassy or MoFA help</p>
       <nav class="nav-links" id="site-nav"></nav>
     </header>
 
-    <div class="alert alert-warning">
-      <strong>This does not replace official filing.</strong>
-      After sending via WhatsApp or email, also file on the
-      <a href="https://udb.nepalpolice.gov.np/missing" target="_blank" rel="noopener">Nepal Police portal</a>.
-      See also our <a href="/legal.html">disclaimer &amp; privacy terms</a>.
+    <div class="panel setu-hero" style="border:2px solid var(--nepal-blue);padding:1.25rem">
+      <div class="orchestration-step-label">Official — NDRRMA</div>
+      <h2 style="margin:0.25rem 0 0.5rem">SETU — Request help (missing / rescue)</h2>
+      <p class="form-hint" style="margin-bottom:0.75rem">
+        This is the government form for the Rasuwa flood. Select <strong>Missing / हराएको</strong>, add name and phone, and submit there.
+        We cannot submit for you.
+      </p>
+      <div class="btn-group">
+        <a class="btn btn-primary" href="https://setu.ndrrma.gov.np/admin/help.php" target="_blank" rel="noopener">Open SETU missing form →</a>
+        <a class="btn btn-secondary" href="https://udb.nepalpolice.gov.np/missing" target="_blank" rel="noopener">Nepal Police portal</a>
+      </div>
     </div>
 
-    <div class="alert alert-info" data-i18n="privacyReportNote">
-      Privacy: nothing you type here is sent to or stored by this website. Your details stay on your device until you open WhatsApp or email yourself.
+    <div class="alert alert-info" style="margin-top:1rem" data-i18n="privacyReportNote">
+      Privacy: nothing you type on this page is sent to or stored by this website. Your details stay on your device until you open SETU, WhatsApp, or email yourself.
     </div>
 
     <div id="report-result" style="display:none"></div>
 
-    <div class="panel" id="report-form-panel">
-      <h2>Missing person details</h2>
+    <div class="panel" id="report-form-panel" style="margin-top:1rem">
+      <h2>Also notify WhatsApp / email contacts</h2>
+      <p class="form-hint">Optional helper — after SETU, prepare a message for MoFA, MEA, or embassies. Photos are not uploaded here.</p>
       <div class="mode-tabs" role="tablist">
         <button type="button" class="mode-tab active" data-mode="form">Fill the form</button>
         <button type="button" class="mode-tab" data-mode="paste">I already have text — paste it</button>
       </div>
-      <p class="form-hint">After preparing, you'll get WhatsApp and email buttons. Photos are not uploaded here — attach them yourself after WhatsApp / email / Nepal Police opens.</p>
       <form id="report-form"></form>
-      <button type="submit" form="report-form" class="btn btn-primary" style="margin-top:0.5rem">Prepare report to send</button>
+      <button type="submit" form="report-form" class="btn btn-secondary" style="margin-top:0.5rem">Continue to WhatsApp / email</button>
     </div>
 
     <div class="panel" style="margin-top:1rem">
@@ -52,6 +58,6 @@
     <footer class="site-footer" data-i18n="footer">Volunteer tool. We route you to official channels.</footer>
   </div>
   <script src="/js/common.js"></script>
-  <script src="/js/report.js"></script>
+  <script src="/js/report.js?v=handoff1"></script>
 </body>
 </html>

@@ -26,9 +26,15 @@ def load_dotenv():
 
 def grok_summarize(prompt: str, max_tokens: int = 300) -> str | None:
     load_dotenv()
-    api_key = os.environ.get("XAI_API_KEY") or os.environ.get("GROK_API_KEY")
+    api_key = (
+        os.environ.get("XAI_API_KEY")
+        or os.environ.get("X_AI")
+        or os.environ.get("GROK_API_KEY")
+    )
     if not api_key:
         return None
+    # Normalize so downstream checks see one name
+    os.environ.setdefault("XAI_API_KEY", api_key)
 
     model = os.environ.get("GROK_MODEL", "grok-3-latest")
     payload = json.dumps(

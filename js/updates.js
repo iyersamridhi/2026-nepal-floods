@@ -9,6 +9,7 @@ async function loadBulletins() {
   state.filter = document.getElementById("region-filter")?.value || "all";
   await Promise.all([loadOfficialBulletin(), loadTwitterBulletin()]);
   renderOfficialList();
+  if (state.tab === "twitter") renderTwitterList();
 }
 
 async function loadOfficialBulletin() {
@@ -25,7 +26,7 @@ async function loadOfficialBulletin() {
     if (state.filter !== "all") {
       items = items.filter((u) => (u.region || []).includes(state.filter));
     }
-    items.sort((a, b) => (b.timestamp || "").localeCompare(a.timestamp || ""));
+    items = sortBulletinItems(items);
     state.officialItems = items;
 
     if (meta) {
@@ -38,14 +39,7 @@ async function loadOfficialBulletin() {
 }
 
 async function loadTwitterBulletin() {
-  const container = document.getElementById("twitter-list");
-  const accountsEl = document.getElementById("twitter-accounts");
   const meta = document.getElementById("twitter-meta");
-  if (!container) return;
-
-  container.innerHTML = `<div class="empty-state">Loading…</div>`;
-  if (accountsEl) accountsEl.hidden = true;
-
   try {
     const res = await fetch("/data/twitter_bulletin.json");
     const data = await res.json();
@@ -53,24 +47,23 @@ async function loadTwitterBulletin() {
     if (state.filter !== "all") {
       items = items.filter((u) => (u.region || []).includes(state.filter));
     }
-    items.sort((a, b) => (b.timestamp || "").localeCompare(a.timestamp || ""));
+    items = sortBulletinItems(items);
     state.twitterItems = items;
-
-    if (meta) {
-      meta.textContent = formatMeta(data, items.length);
-    }
-
-    if (!items.length) {
-      container.innerHTML = `<div class="empty-state">${escapeHtml(t("twitterEmpty"))}</div>`;
-      await renderTwitterAccounts(accountsEl);
-    } else {
-      container.innerHTML = items.map((u) => renderItem(u, true)).join("");
-    }
+    if (meta) meta.textContent = formatMeta(data, items.length);
   } catch (e) {
     state.twitterItems = [];
-    container.innerHTML = `<div class="alert alert-error">Could not load Twitter updates.</div>`;
-    await renderTwitterAccounts(accountsEl);
+    if (meta) meta.textContent = "";
   }
+}
+
+function sortBulletinItems(items) {
+  const updates = items
+    .filter((i) => i.kind !== "pointer")
+    .sort((a, b) => (b.timestamp || "").localeCompare(a.timestamp || ""));
+  const pointers = items
+    .filter((i) => i.kind === "pointer")
+    .sort((a, b) => (b.timestamp || "").localeCompare(a.timestamp || ""));
+  return [...updates, ...pointers];
 }
 
 function renderOfficialList() {
@@ -78,13 +71,38 @@ function renderOfficialList() {
   if (!container) return;
 
   const items = state.officialItems;
-
   if (!items.length) {
     container.innerHTML = `<div class="empty-state">${escapeHtml(t("officialEmpty"))}</div>`;
     return;
   }
 
-  container.innerHTML = items.map((u) => renderItem(u, false)).join("");
+  const news = items.filter((i) => i.kind !== "pointer");
+  const portals = items.filter((i) => i.kind === "pointer");
+
+  let html = "";
+  if (news.length) {
+    html += news.map((u) => renderItem(u, false)).join("");
+  }
+  if (portals.length) {
+    html += `<h3 class="updates-section-title">${escapeHtml(t("officialPortalsTitle"))}</h3>`;
+    html += `<p class="form-hint updates-section-hint">${escapeHtml(t("officialPortalsHint"))}</p>`;
+    html += portals.map((u) => renderItem(u, false)).join("");
+  }
+  container.innerHTML = html;
+}
+
+async function renderTwitterList() {
+  const container = document.getElementById("twitter-list");
+  const accountsEl = document.getElementById("twitter-accounts");
+  if (!container) return;
+
+  const items = state.twitterItems;
+  if (!items.length) {
+    container.innerHTML = `<div class="empty-state">${escapeHtml(t("twitterEmpty"))}</div>`;
+  } else {
+    container.innerHTML = items.map((u) => renderItem(u, true)).join("");
+  }
+  await renderTwitterAccounts(accountsEl);
 }
 
 async function renderTwitterAccounts(el) {
@@ -93,11 +111,15 @@ async function renderTwitterAccounts(el) {
     const res = await fetch("/data/resources.json");
     const data = await res.json();
     const accounts = data.twitter || [];
-    if (!accounts.length) return;
+    if (!accounts.length) {
+      el.hidden = true;
+      return;
+    }
 
     el.hidden = false;
     el.innerHTML = `
       <h3 class="account-grid-title">${escapeHtml(t("twitterFollow"))}</h3>
+      <p class="form-hint">${escapeHtml(t("twitterFollowHint"))}</p>
       <div class="account-grid-inner">
         ${accounts
           .map(
@@ -116,33 +138,59 @@ async function renderTwitterAccounts(el) {
 
 function formatMeta(data, visibleCount) {
   const checked = data.generatedAt ? new Date(data.generatedAt).toLocaleString() : "—";
-  const parts = [`Updated: ${checked}`];
-  if (visibleCount != null) parts.push(`${visibleCount} item${visibleCount === 1 ? "" : "s"}`);
-  if (data.summarizer) parts.push(`Summarizer: ${data.summarizer}`);
-  if (data.skippedUnchanged) parts.push("(unchanged since last run)");
+  const parts = [`Checked ${checked}`];
+  if (visibleCount != null) parts.push(`${visibleCount} update${visibleCount === 1 ? "" : "s"}`);
   return parts.join(" · ");
+}
+
+function shortSource(name) {
+  const map = [
+    [/ministry of foreign affairs/i, "MoFA Nepal"],
+    [/ministry of external affairs/i, "MEA India"],
+    [/xinhua/i, "Xinhua"],
+    [/ndrrma/i, "NDRRMA"],
+    [/nepal police/i, "Nepal Police"],
+    [/embassy of india/i, "India Embassy"],
+    [/twitter @/i, (s) => s.replace(/^Twitter\s+/i, "")],
+  ];
+  for (const [re, label] of map) {
+    if (re.test(name || "")) return typeof label === "function" ? label(name) : label;
+  }
+  return name || "Official source";
 }
 
 function renderItem(u, isTwitter) {
   const when = formatStamp(u.timestamp, u.publishedLabel);
-  const title = u.title ? `<h3 class="bulletin-title">${escapeHtml(u.title)}</h3>` : "";
+  const source = shortSource(u.source);
+  const isPointer = u.kind === "pointer";
   const badge = isTwitter
-    ? `<span class="badge" style="background:#e8f4fd;color:#1565c0">Twitter / X</span>`
-    : `<span class="badge">Official channel</span>`;
+    ? `<span class="badge badge-twitter">X / Twitter</span>`
+    : isPointer
+      ? `<span class="badge badge-portal">Official portal</span>`
+      : `<span class="badge badge-official">Official update</span>`;
+
   return `
-    <article class="update-item">
-      <time datetime="${escapeHtml(u.timestamp || "")}">${escapeHtml(when)}</time>
-      <div class="source">${badge} ${escapeHtml(u.source)}${u.scrapeMethod ? ` · ${escapeHtml(u.scrapeMethod)}` : ""}</div>
-      ${title}
-      <p>${escapeHtml(u.summary)}</p>
-      <p class="citation">Citation: ${escapeHtml(u.citation || u.source)} —
-        <a href="${u.sourceUrl}" target="_blank" rel="noopener">read original →</a>
-      </p>
+    <article class="update-item${isPointer ? " update-item-portal" : ""}">
+      <div class="update-meta">
+        ${badge}
+        <span class="update-source">${escapeHtml(source)}</span>
+        <time datetime="${escapeHtml(u.timestamp || "")}">${escapeHtml(when)}</time>
+      </div>
+      ${u.title ? `<h3 class="bulletin-title">${escapeHtml(u.title)}</h3>` : ""}
+      <p class="update-summary">${escapeHtml(u.summary)}</p>
+      <a class="update-link" href="${escapeHtml(u.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(
+        isPointer ? t("openPortal") : t("readOriginal")
+      )} →</a>
     </article>`;
 }
 
 function formatStamp(iso, label) {
-  if (label) return label;
+  if (label) {
+    // Prefer a short readable date if label is long
+    const m = label.match(/(August \d+,?\s*2026[^,]*)/i) || label.match(/(\d{4}-\d{2}-\d{2})/);
+    if (m) return m[1].replace(",", "");
+    return label;
+  }
   if (!iso) return "";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return iso;
@@ -167,9 +215,8 @@ function switchTab(tab) {
     panel.classList.toggle("active", show);
     panel.hidden = !show;
   });
-  if (tab === "twitter" && !state.twitterItems.length) {
-    renderTwitterAccounts(document.getElementById("twitter-accounts"));
-  }
+  if (tab === "twitter") renderTwitterList();
+  else renderOfficialList();
 }
 
 document.addEventListener("DOMContentLoaded", () => {

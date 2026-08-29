@@ -1,3 +1,6 @@
+const SETU_FORM_URL = "https://setu.ndrrma.gov.np/admin/help.php";
+const WIZARD_HANDOFF_KEY = "nfh_wizard";
+
 const wizardState = {
   citizenship: null,
   location: null,
@@ -63,9 +66,32 @@ function hasNeed(...values) {
   return values.some((v) => wizardState.needs.includes(v));
 }
 
+function saveWizardHandoff() {
+  try {
+    sessionStorage.setItem(
+      WIZARD_HANDOFF_KEY,
+      JSON.stringify({
+        citizenship: wizardState.citizenship,
+        location: wizardState.location,
+        tourGroup: wizardState.tourGroup,
+        tourGroupName: wizardState.tourGroupName,
+        needs: wizardState.needs,
+      })
+    );
+  } catch (e) {
+    /* ignore */
+  }
+}
+
+function reportFormUrl() {
+  saveWizardHandoff();
+  return "/report.html?from=wizard";
+}
+
 function getResults() {
   const steps = [];
   const { citizenship, location } = wizardState;
+  const formUrl = reportFormUrl();
 
   if (hasNeed("search", "remains")) {
     steps.push({
@@ -74,7 +100,7 @@ function getResults() {
       links: [
         { label: "Go to official found lists", href: "/search.html", primary: true },
         { label: "Nepal Police — Found", href: "https://udb.nepalpolice.gov.np/found" },
-        { label: "SETU rescued & missing", href: "https://setu.ndrrma.gov.np" },
+        { label: "SETU — request help form", href: SETU_FORM_URL },
       ],
     });
   }
@@ -93,10 +119,9 @@ function getResults() {
     if (citizenship !== "nepali" || location === "tibet") {
       steps.push({
         title: "Nepal Ministry of Foreign Affairs — Emergency Control Room",
-        desc: "Central coordination for foreign nationals. Available 7am–10pm Nepal time.",
+        desc: "Central coordination for foreign nationals. Call now, or prepare a full message with details first.",
         phones: ["+9779744441227", "+9779744441228"],
-        whatsapp: true,
-        email: "emergency@mofa.gov.np",
+        formFirst: true,
       });
     }
   }
@@ -104,15 +129,10 @@ function getResults() {
   if (citizenship === "indian") {
     steps.push({
       title: "India MEA Special Control Room (Delhi, 24×7)",
-      desc: "For Indian families. WhatsApp +91 9968291988. Phones listed on Resources.",
+      desc: "For Indian families. Call now, or prepare WhatsApp/email with full details via our form.",
       phones: ["+911123088718", "+911123088719"],
-      whatsapp: false,
-      email: "situationroom@mea.gov.in",
+      formFirst: true,
       links: [
-        {
-          label: "WhatsApp MEA +91 9968291988",
-          href: "https://wa.me/919968291988",
-        },
         {
           label: "MEA press release",
           href: "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
@@ -120,10 +140,10 @@ function getResults() {
       ],
     });
     steps.push({
-      title: "Embassy of India, Kathmandu (WhatsApp)",
-      desc: "+977 9851316807, 9709107500, 9810326117",
+      title: "Embassy of India, Kathmandu",
+      desc: "+977 9851316807, 9709107500, 9810326117 — call now, or send a prepared message via our form.",
       phones: ["+9779851316807", "+9779709107500", "+9779810326117"],
-      whatsapp: true,
+      formFirst: true,
       links: [{ label: "Indian Embassy website", href: "https://www.indembkathmandu.gov.in" }],
     });
   }
@@ -131,50 +151,48 @@ function getResults() {
   if (citizenship === "foreign" && hasNeed("embassy")) {
     steps.push({
       title: "Your country's embassy in Kathmandu",
-      desc: "Contact your embassy in addition to Nepal MoFA. Common contacts listed on our report page.",
-      links: [{ label: "Go to report helper (includes embassy list)", href: "/report.html", primary: true }],
+      desc: "Contact your embassy in addition to Nepal MoFA. Fill details first so your message is not blank.",
+      links: [{ label: "Prepare message & contacts", href: formUrl, primary: true }],
     });
   }
 
   if (location === "tibet") {
     steps.push({
       title: "Tibet / Gyirong side",
-      desc: "Chinese authorities lead rescue at Gyirong. Families should still notify Nepal MoFA and their own embassy. Nepalis stranded in Tibet: Consulate Lhasa and Embassy Beijing.",
+      desc: "Chinese authorities lead rescue at Gyirong. Families should still notify Nepal MoFA and their own embassy.",
       phones: ["+8613549067481", "+8618618129217", "+8618514284905"],
-      whatsapp: true,
+      formFirst: true,
       links: [
-        { label: "Nepal MoFA email", href: "mailto:emergency@mofa.gov.np" },
         { label: "Chinese Embassy Nepal (consular)", href: "https://np.china-embassy.gov.cn/eng/lxwm/" },
         { label: "Resources — Tibet contacts", href: "/resources.html" },
       ],
     });
-    if (citizenship === "indian") {
-      steps.push({
-        title: "Indian Embassy Beijing",
-        desc: "MEA listed this WhatsApp for the China/Tibet side: +86 18514284905",
-        phones: ["+8618514284905"],
-        whatsapp: true,
-      });
-    }
   }
 
   if (hasNeed("report") || wizardState.needs.length === 0) {
     steps.push({
+      title: "SETU — Official missing/rescue request",
+      desc: "NDRRMA's official form for the Rasuwa flood. Open SETU directly, or prepare details here first.",
+      links: [
+        { label: "Open SETU missing form", href: SETU_FORM_URL, primary: true },
+        { label: "Prepare details first", href: formUrl },
+      ],
+    });
+    steps.push({
       title: "Nepal Police",
-      desc: "Emergency: 100. File missing person reports on the official portal. Attach photos there — we do not upload files on this site.",
+      desc: "Emergency: 100. Also file on the UDB missing-person portal.",
       phones: ["100"],
       links: [
-        { label: "File report — use our guided form", href: "/report.html", primary: true },
         { label: "Nepal Police UDB portal", href: "https://udb.nepalpolice.gov.np/missing" },
       ],
     });
   }
 
-  if (citizenship === "nepali" || citizenship === "unknown") {
+  if ((citizenship === "nepali" || citizenship === "unknown") && !hasNeed("report") && wizardState.needs.length > 0) {
     steps.push({
-      title: "SETU Rescue Coordination",
-      desc: "Official rescue and missing persons coordination platform.",
-      links: [{ label: "SETU Portal", href: "https://setu.ndrrma.gov.np" }],
+      title: "SETU — Request help",
+      desc: "Official NDRRMA form for missing / rescue requests.",
+      links: [{ label: "Open SETU missing form", href: SETU_FORM_URL, primary: true }],
     });
   }
 
@@ -275,11 +293,31 @@ function renderStep() {
 
 function renderResults(container) {
   const steps = getResults();
+  const formUrl = reportFormUrl();
+  const wantsContact =
+    hasNeed("report", "embassy") ||
+    wizardState.citizenship === "indian" ||
+    wizardState.citizenship === "foreign" ||
+    wizardState.needs.length === 0;
+
   container.innerHTML = `
     <div class="alert alert-warning">
       <strong>Important:</strong> We cannot confirm if your loved one has been found or is safe.
       Only official authorities can provide verified information.
     </div>
+    ${
+      wantsContact
+        ? `
+    <div class="panel" style="border:2px solid var(--nepal-blue);padding:1rem;margin-bottom:1rem">
+      <div class="orchestration-step-label">Recommended next</div>
+      <h3 style="margin:0.25rem 0 0.5rem">Fill details, then send WhatsApp / email</h3>
+      <p class="form-hint" style="margin-bottom:0.75rem">
+        Your wizard answers will be carried over. Add the missing person's details, then open SETU and message authorities with a complete text — not a blank chat.
+      </p>
+      <a class="btn btn-primary" href="${formUrl}">Continue to form →</a>
+    </div>`
+        : ""
+    }
     <h2>Your next steps</h2>
     <ol class="step-list">
       ${steps
@@ -289,15 +327,36 @@ function renderResults(container) {
           <span class="step-num">${i + 1}</span>
           <strong>${s.title}</strong>
           <p style="margin:0.35rem 0;color:var(--muted);font-size:0.9rem">${s.desc}</p>
-          ${s.phones ? s.phones.map((p) => `<div class="contact-block">📞 <a href="tel:${p}">${p}</a>${s.whatsapp ? ` · <a href="${encodeWhatsApp(p, "Hello, I need help regarding a missing person from the Bhotekoshi flood.")}">WhatsApp</a>` : ""}</div>`).join("") : ""}
-          ${s.email ? `<div class="contact-block">✉️ <a href="mailto:${s.email}">${s.email}</a></div>` : ""}
-          ${s.links ? `<div class="btn-group">${s.links.map((l) => `<a class="btn ${l.primary ? "btn-primary" : "btn-secondary"}" href="${l.href}" ${l.href.startsWith("http") ? 'target="_blank" rel="noopener"' : ""}>${l.label}</a>`).join("")}</div>` : ""}
+          ${
+            s.phones
+              ? s.phones
+                  .map(
+                    (p) =>
+                      `<div class="contact-block">📞 <a href="tel:${p}">${p}</a>${
+                        s.formFirst ? ` · <a href="${formUrl}">Prepare WhatsApp / email →</a>` : ""
+                      }</div>`
+                  )
+                  .join("")
+              : ""
+          }
+          ${
+            s.links
+              ? `<div class="btn-group">${s.links
+                  .map(
+                    (l) =>
+                      `<a class="btn ${l.primary ? "btn-primary" : "btn-secondary"}" href="${l.href}" ${
+                        l.href.startsWith("http") ? 'target="_blank" rel="noopener"' : ""
+                      }>${l.label}</a>`
+                  )
+                  .join("")}</div>`
+              : ""
+          }
         </li>`
         )
         .join("")}
     </ol>
     <div class="btn-group" style="margin-top:1.5rem">
-      <a class="btn btn-primary" href="/report.html">Report missing person (guided form)</a>
+      <a class="btn btn-primary" href="${formUrl}">Fill details &amp; contact authorities</a>
       <a class="btn btn-secondary" href="/search.html">Check official found lists</a>
     </div>
   `;

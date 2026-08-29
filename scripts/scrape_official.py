@@ -109,19 +109,53 @@ def summarize_rule_based(title: str, paragraphs: list[str]) -> str:
 
 
 def infer_timestamp(date_str: str, title: str, fallback: str = "") -> str:
-    if fallback:
-        return fallback
+    blob = f"{date_str} {title}"
     for day, ts in [
+        ("29", "2026-08-29T15:00:00+05:45"),
         ("28", "2026-08-28T17:00:00+05:45"),
         ("27", "2026-08-27T17:00:00+05:45"),
         ("26", "2026-08-26T17:00:00+05:45"),
     ]:
-        if f"August {day}, 2026" in date_str or f"August {day}" in title or f"Aug. {day}" in date_str:
+        if (
+            f"August {day}, 2026" in blob
+            or f"August {day}" in blob
+            or f"Aug. {day}" in blob
+            or f"{day} August 2026" in blob
+            or f"{day} August" in blob
+        ):
             return ts
+    if fallback:
+        return fallback
     iso = re.search(r"(\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2})", date_str)
     if iso:
         return iso.group(1).replace(" ", "T") + "+05:45"
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+def dedupe_items(items: list[dict]) -> list[dict]:
+    seen_urls, seen_titles, deduped = set(), set(), []
+    for it in items:
+        u = it.get("sourceUrl", "")
+        tk = re.sub(r"\s+", " ", it.get("title", "").lower())[:80]
+        if u in seen_urls or (tk and tk in seen_titles):
+            continue
+        if u:
+            seen_urls.add(u)
+        if tk:
+            seen_titles.add(tk)
+        deduped.append(it)
+    # News updates first (newest), then portal pointers
+    updates = sorted(
+        [i for i in deduped if i.get("kind") != "pointer"],
+        key=lambda x: x.get("timestamp", ""),
+        reverse=True,
+    )
+    pointers = sorted(
+        [i for i in deduped if i.get("kind") == "pointer"],
+        key=lambda x: x.get("timestamp", ""),
+        reverse=True,
+    )
+    return updates + pointers
 
 
 def parse_title(html: str) -> str:
@@ -169,14 +203,24 @@ def extract_body_paragraphs(html: str) -> list[str]:
     chunk = html[start:end]
     parts: list[str] = []
     seen = set()
-    for tag in ("p", "li", "td", "h2", "h3", "strong"):
+    # Prefer list items (MoFA briefings put key facts in <li>/<span>), then paragraphs
+    for tag in ("li", "p", "td", "h2", "h3", "strong", "span"):
         for m in re.finditer(rf"<{tag}[^>]*>(.*?)</{tag}>", chunk, re.DOTALL | re.I):
-            t = clean_text(m.group(1))
-            if len(t) < 25:
+            inner = m.group(1)
+            # Skip containers that still nest block tags (avoid huge duplicate blobs)
+            if tag == "span" and re.search(r"<(?:p|li|div|ul)\b", inner, re.I):
+                continue
+            t = clean_text(inner)
+            if len(t) < 40:
                 continue
             if any(x in t for x in ("var(--", "display:", "function ", "@media", "Comments (0)")):
                 continue
+            if len(t) > 1200:
+                t = t[:1197].rsplit(" ", 1)[0] + "…"
             if t in seen:
+                continue
+            # Skip near-duplicates (span often mirrors li)
+            if any(t in s or s in t for s in seen if abs(len(s) - len(t)) < 40):
                 continue
             seen.add(t)
             parts.append(t)
@@ -196,6 +240,7 @@ def build_item(
     date_str: str = "",
     timestamp: str = "",
     citation: str = "",
+    kind: str = "update",
 ) -> dict:
     return {
         "id": item_id,
@@ -207,6 +252,7 @@ def build_item(
         "title": title,
         "summary": summary,
         "citation": citation or f"{source_name} — {title}",
+        "kind": kind,
         "scrapeMethod": summary_method,
         "contentHash": ch,
     }
@@ -237,6 +283,7 @@ def scrape_from_body(
     date_str: str = "",
     timestamp: str = "",
     citation: str = "",
+    kind: str = "update",
 ) -> tuple[dict | None, bool]:
     ch = content_hash(body)
     cached = cache.get(cache_key, {})
@@ -246,6 +293,7 @@ def scrape_from_body(
         print(f"  unchanged — skip Grok ({cache_key})", file=sys.stderr)
         item = dict(cached["item"])
         item["scrapeMethod"] = "cached"
+        item.setdefault("kind", kind)
         return item, False
 
     print(f"  NEW or CHANGED — summarizing ({cache_key})", file=sys.stderr)
@@ -262,6 +310,7 @@ def scrape_from_body(
         date_str=date_str,
         timestamp=timestamp,
         citation=citation,
+        kind=kind,
     )
     cache[cache_key] = {
         "contentHash": ch,
@@ -278,6 +327,7 @@ def scrape_html_page(
     prefix: str,
     cache: dict,
     force: bool,
+    timestamp_fallback: str = "",
 ) -> tuple[dict | None, bool]:
     print(f"Fetching: {url}", file=sys.stderr)
     html = fetch_url(url)
@@ -305,6 +355,7 @@ def scrape_html_page(
         cache=cache,
         force=force,
         date_str=date_str,
+        timestamp=timestamp_fallback,
     )
 
 
@@ -345,25 +396,70 @@ def scrape_seed(source_cfg: dict, cache: dict, force: bool) -> tuple[dict | None
         force=force,
         timestamp=seed.get("timestamp", ""),
         citation=seed.get("citation", ""),
+        kind=seed.get("kind") or "pointer",
     )
 
 
 def discover_mofa_urls(category_html: str, base_url: str) -> list[str]:
+    """Discover flood articles from MoFA flashflood category.
+
+    Match by content id, URL slug, or visible link text (so press briefings
+    like /content/1866/press-briefing-note-… are not missed).
+    """
     base = base_url.rstrip("/")
-    flood_ids = {"1862", "1863", "1864", "1865"}
-    urls = []
-    for path in re.findall(r'href="(/content/\d+/[^"]+)"', category_html):
+    known_ids = {"1862", "1863", "1864", "1865", "1866"}
+    slug_keys = (
+        "flash-flood",
+        "flash-floods",
+        "flashflood",
+        "bhotekoshi",
+        "bhote-koshi",
+        "emergency-control",
+        "emergency-response",
+        "ecr--",
+        "press-briefing",
+    )
+    text_keys = (
+        "flash flood",
+        "bhote koshi",
+        "bhotekoshi",
+        "rasuwa",
+        "press briefing",
+        "emergency control",
+        "missing",
+        "rescued",
+    )
+    urls: list[str] = []
+
+    for m in re.finditer(
+        r'<a[^>]+href="(/content/\d+/[^"]+)"[^>]*>(.*?)</a>',
+        category_html,
+        re.I | re.S,
+    ):
+        path, inner = m.group(1), m.group(2)
         pl = path.lower()
+        text = clean_text(inner).lower()
         cid = re.search(r"/content/(\d+)/", path)
         content_id = cid.group(1) if cid else ""
-        if content_id in flood_ids:
+
+        if content_id in known_ids:
             urls.append(base + path)
             continue
-        if any(k in pl for k in ("flash-flood", "flash-floods", "flashflood", "bhotekoshi", "bhote-koshi")):
+        if any(k in pl for k in slug_keys):
             urls.append(base + path)
             continue
-        if "emergency-control" in pl or "emergency-response" in pl or "ecr--" in pl:
+        if any(k in text for k in text_keys):
             urls.append(base + path)
+
+    # Fallback: bare href scan if anchor regex missed lazy markup
+    if not urls:
+        for path in re.findall(r'href="(/content/\d+/[^"]+)"', category_html):
+            pl = path.lower()
+            cid = re.search(r"/content/(\d+)/", path)
+            content_id = cid.group(1) if cid else ""
+            if content_id in known_ids or any(k in pl for k in slug_keys):
+                urls.append(base + path)
+
     return list(dict.fromkeys(urls))
 
 
@@ -396,9 +492,16 @@ def scrape_url_source(source_cfg: dict, cache: dict, force: bool) -> tuple[list[
     source_name = source_cfg.get("name", "Official source")
     regions = source_cfg.get("region", ["nepal"])
     prefix = source_cfg.get("id", "official")
+    ts_fallback = ""
+    if source_cfg.get("seedFile"):
+        seed = load_seed(ROOT / source_cfg["seedFile"])
+        if seed:
+            ts_fallback = seed.get("timestamp", "")
 
     try:
-        item, changed = scrape_html_page(url, source_name, regions, prefix, cache, force)
+        item, changed = scrape_html_page(
+            url, source_name, regions, prefix, cache, force, timestamp_fallback=ts_fallback
+        )
     except Exception as e:
         print(f"Failed {url}: {e}", file=sys.stderr)
         item, changed = None, False
@@ -412,22 +515,6 @@ def scrape_url_source(source_cfg: dict, cache: dict, force: bool) -> tuple[list[
         if seed_item:
             return [seed_item], seed_changed
     return [], False
-
-
-def dedupe_items(items: list[dict]) -> list[dict]:
-    seen_urls, seen_titles, deduped = set(), set(), []
-    for it in items:
-        u = it.get("sourceUrl", "")
-        tk = re.sub(r"\s+", " ", it.get("title", "").lower())[:80]
-        if u in seen_urls or (tk and tk in seen_titles):
-            continue
-        if u:
-            seen_urls.add(u)
-        if tk:
-            seen_titles.add(tk)
-        deduped.append(it)
-    deduped.sort(key=lambda x: x.get("timestamp", ""), reverse=True)
-    return deduped
 
 
 def scrape_all() -> tuple[dict, bool]:

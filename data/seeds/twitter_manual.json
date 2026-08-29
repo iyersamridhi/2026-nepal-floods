@@ -3,6 +3,15 @@
     "handle": "MoFANepal",
     "name": "MoFA Nepal",
     "region": ["nepal", "foreign"],
+    "timestamp": "2026-08-29T15:00:00+05:45",
+    "tweetId": "manual-mofa-29aug",
+    "sourceUrl": "https://mofa.gov.np/content/1866/press-briefing-note-by-hon--minister-for/",
+    "text": "Press Briefing Note by Hon. Minister for Foreign Affairs on Bhote Koshi Flood (29 August 2026). So far, 626 bodies recovered; about 2400 people still unaccounted for; over 4450 people rescued including over 187 foreign nationals. Search and verification continue — figures may change. Full briefing: mofa.gov.np"
+  },
+  {
+    "handle": "MoFANepal",
+    "name": "MoFA Nepal",
+    "region": ["nepal", "foreign"],
     "timestamp": "2026-08-28T17:00:00+05:45",
     "tweetId": "manual-mofa-28aug",
     "sourceUrl": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/",
