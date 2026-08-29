@@ -324,6 +324,16 @@ header.site-header .subtitle {
   border-radius: 8px;
   font-size: 1rem;
   font-family: inherit;
+  background: #fff;
+  color: var(--text);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: 2px solid rgba(0, 56, 147, 0.25);
+  outline-offset: 1px;
+  border-color: #9bb4d9;
 }
 
 .form-group textarea {
@@ -613,6 +623,8 @@ header.site-header .subtitle {
   border: 1px solid var(--border);
   border-radius: 8px;
   font-size: 1rem;
+  background: #fff;
+  color: var(--text);
 }
 
 .filter-chips {
