@@ -12,6 +12,7 @@
     { "name": "India MEA — Special Control Room (Nepal floods)", "url": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation", "region": "india" },
     { "name": "Embassy of India, Kathmandu", "url": "https://www.indembkathmandu.gov.in", "region": "india" },
     { "name": "Xinhua — Gyirong rescue coverage", "url": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html", "region": "tibet" },
+    { "name": "Sodhera — community missing / found board", "url": "https://flood.sodhera.com/", "region": "community" },
     { "name": "Chinese Embassy in Nepal", "url": "https://np.china-embassy.gov.cn/eng/lxwm/", "region": "tibet" }
   ],
   "twitter": [
