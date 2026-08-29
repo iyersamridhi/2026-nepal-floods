@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T19:11:09.958495Z",
+  "generatedAt": "2026-08-29T19:33:18.948476Z",
   "note": "Authority Twitter/X posts — summarized with link. Verify on original tweet; not official confirmation.",
   "summarizer": "grok",
   "skippedUnchanged": false,
@@ -14,9 +14,9 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal posted an update on flash floods in the Bhote Koshi River area on 26 August, reporting 538 bodies recovered so far along with 632 people from 33 countries (121 found, 511 missing) and ongoing search-and-rescue efforts. This is not official confirmation.",
+      "summary": "Latest Updates on Flash Floods — 28 August 2026. Flash floods struck the Bhote Koshi River area on 26 August. So far, 538 bodies recovered; 632 people from 33 countries — 121 found, 511 missing. Search and rescue continues. MoFA Emergency Control Room: +977-9744441227 / +977-9744441228, emergency@mofa.gov.np",
       "citation": "Tweet by @MoFANepal",
-      "scrapeMethod": "grok",
+      "scrapeMethod": "raw",
       "contentHash": "f0da26cd752e2c7b"
     },
     {
@@ -29,9 +29,9 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://mofa.gov.np/content/1862/notice--emergency-control-room--ecr--for-assistance/",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal posted a notice establishing an Emergency Control Room (ECR) for foreign nationals affected by the Bhote Koshi flash flood in Rasuwa, with hotlines/WhatsApp +977-9744441227 and +977-9744441228 (7am–10pm), email emergency@mofa.gov.np, and updates at mofa.gov.np/category/flashflood/. This announcement does not constitute independent confirmation of events.",
+      "summary": "NOTICE: Emergency Control Room (ECR) for foreign nationals affected by the Bhote Koshi flash flood in Rasuwa. Hotline/WhatsApp +977-9744441227 and +977-9744441228 (7am–10pm). Email: emergency@mofa.gov.np. Updates: mofa.gov.np/category/flashflood/",
       "citation": "Tweet by @MoFANepal",
-      "scrapeMethod": "grok",
+      "scrapeMethod": "raw",
       "contentHash": "d34803ef7640b0fd"
     },
     {
@@ -44,9 +44,9 @@
       "source": "Twitter @MEAIndia",
       "sourceUrl": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
       "title": "MEA India",
-      "summary": "@MEAIndia announced a Special Control Room in MEA for Nepal Floods Situation and listed contact options for families of Indian nationals (+91-11-23088718, +91-11-23088719, WhatsApp +91-9968291988, situationroom@mea.gov.in). This tweet does not constitute official confirmation of events.",
+      "summary": "Special Control Room in MEA for Nepal Floods Situation. Families of Indian nationals may contact: +91-11-23088718, +91-11-23088719, WhatsApp +91-9968291988, email situationroom@mea.gov.in",
       "citation": "Tweet by @MEAIndia",
-      "scrapeMethod": "grok",
+      "scrapeMethod": "raw",
       "contentHash": "6d792f27abea4f78"
     },
     {
@@ -58,9 +58,9 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://ndrrma.gov.np/np/rescue",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted that rescue and coordination updates for the Bhotekoshi / Rasuwa flash flood are published on the NDRRMA rescue portal and SETU platform. It directs families to official channels at ndrrma.gov.np/np/rescue and setu.ndrrma.gov.np.",
+      "summary": "Rescue and coordination updates for the Bhotekoshi / Rasuwa flash flood are published on the NDRRMA rescue portal and SETU platform. Families should use official channels — ndrrma.gov.np/np/rescue and setu.ndrrma.gov.np",
       "citation": "Tweet by @NDRRMA_Nepal",
-      "scrapeMethod": "grok",
+      "scrapeMethod": "raw",
       "contentHash": "183cc9fc868ee359"
     },
     {
@@ -72,9 +72,9 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://udb.nepalpolice.gov.np/found",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ states that Nepal Police Unified Database (UDB) publishes official found, missing, and unidentified remains lists for flood-affected areas at udb.nepalpolice.gov.np and advises against relying on unofficial social media posts.",
+      "summary": "Nepal Police Unified Database (UDB) publishes official found, missing, and unidentified remains lists for the flood-affected areas. Search at udb.nepalpolice.gov.np — do not rely on unofficial social media posts.",
       "citation": "Tweet by @NepalPoliceHQ",
-      "scrapeMethod": "grok",
+      "scrapeMethod": "raw",
       "contentHash": "0e6bf40da6bea14b"
     },
     {
@@ -87,9 +87,9 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://www.indembkathmandu.gov.in",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal states that the Embassy of India, Kathmandu is coordinating with Nepalese authorities on search and rescue for Indian nationals affected by flash floods in the Rasuwa/Bhotekoshi area and directs people to contact the MEA control room or the Embassy for assistance.",
+      "summary": "Embassy of India, Kathmandu is coordinating with Nepalese authorities on search and rescue for Indian nationals affected by flash floods in Rasuwa / Bhotekoshi area. Contact MEA control room or Embassy for assistance.",
       "citation": "Tweet by @IndiainNepal",
-      "scrapeMethod": "grok",
+      "scrapeMethod": "raw",
       "contentHash": "0731d0b9dd0613bc"
     }
   ]
