@@ -13,6 +13,8 @@
     { "name": "Embassy of India, Kathmandu", "url": "https://www.indembkathmandu.gov.in", "region": "india" },
     { "name": "Xinhua — Gyirong rescue coverage", "url": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html", "region": "tibet" },
     { "name": "Sodhera — community missing / found board", "url": "https://flood.sodhera.com/", "region": "community" },
+    { "name": "Hemkunt Foundation — report / public list", "url": "https://web-production-5f11e.up.railway.app/", "region": "community" },
+    { "name": "Hemkunt Foundation — update a case", "url": "https://web-production-5f11e.up.railway.app/update", "region": "community" },
     { "name": "Chinese Embassy in Nepal", "url": "https://np.china-embassy.gov.cn/eng/lxwm/", "region": "tibet" }
   ],
   "twitter": [

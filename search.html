@@ -25,11 +25,25 @@
 
     <div class="card-grid" id="found-links"></div>
 
-    <section class="section-block sodhera-block" data-sodhera-block>
-      <p class="section-kicker" data-i18n="sodheraKicker">Community board</p>
-      <h2 class="section-title" data-i18n="sodheraTitle">Report or browse missing / found on Sodhera</h2>
-      <p class="form-hint" data-i18n="sodheraDesc">A separate community site run by Sodhera Intelligence Pvt. Ltd. where people can report missing or found persons and search public records. Not a government database — use official SETU / Nepal Police channels as well.</p>
-      <a class="btn btn-secondary" href="https://flood.sodhera.com/" target="_blank" rel="noopener" data-i18n="sodheraCta">Open flood.sodhera.com →</a>
+    <section class="section-block" data-sodhera-block>
+      <p class="section-kicker" data-i18n="sodheraKicker">Community-run missing boards</p>
+      <h2 class="section-title" data-i18n="sodheraTitle">Report or browse on community sites</h2>
+      <p class="form-hint" data-i18n="sodheraDesc">Separate tools run by others — not government databases. Still file on SETU / Nepal Police as well.</p>
+      <div class="card-grid community-cards">
+        <a class="action-card" href="https://flood.sodhera.com/" target="_blank" rel="noopener">
+          <h2 data-i18n="sodheraCardTitle">Sodhera Intelligence</h2>
+          <p data-i18n="sodheraCardDesc">Report missing or found persons and search their public board (flood.sodhera.com).</p>
+          <p class="form-hint community-card-cta" data-i18n="sodheraCta">Open Sodhera →</p>
+        </a>
+        <div class="action-card action-card-static">
+          <h2 data-i18n="hemkuntCardTitle">Hemkunt Foundation</h2>
+          <p data-i18n="hemkuntCardDesc">Missing-person tracing: report a case, view the public list, or send an update if something changed.</p>
+          <div class="btn-group" style="margin-top:0.75rem">
+            <a class="btn btn-secondary btn-sm" href="https://web-production-5f11e.up.railway.app/" target="_blank" rel="noopener" data-i18n="hemkuntCta">Report / public list →</a>
+            <a class="btn btn-secondary btn-sm" href="https://web-production-5f11e.up.railway.app/update" target="_blank" rel="noopener" data-i18n="hemkuntUpdateCta">Update a case →</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <div class="section-block">
@@ -45,7 +59,7 @@
 
     <footer class="site-footer" data-i18n="footer">Volunteer site — contacts, links & updates only.</footer>
   </div>
-  <script src="/js/common.js?v=sodhera1"></script>
-  <script src="/js/search.js?v=sodhera1"></script>
+  <script src="/js/common.js?v=comm2"></script>
+  <script src="/js/search.js?v=comm2"></script>
 </body>
 </html>

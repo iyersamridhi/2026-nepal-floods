@@ -39,11 +39,20 @@ const I18N = {
     chipPortal: "Portals",
     chipTwitter: "X / Twitter",
     homeContactsDesc: "Control rooms, district phones, Tibet contacts, embassies, and portals — searchable.",
-    sodheraKicker: "Community board",
-    sodheraTitle: "Report or browse missing / found on Sodhera",
+    sodheraKicker: "Community-run missing boards",
+    sodheraTitle: "Report or browse on community sites",
     sodheraDesc:
-      "A separate community site run by Sodhera Intelligence Pvt. Ltd. where people can report missing or found persons and search public records. Not a government database — use official SETU / Nepal Police channels as well.",
-    sodheraCta: "Open flood.sodhera.com →",
+      "Separate tools run by others — not government databases. Still file on SETU / Nepal Police as well.",
+    sodheraCardTitle: "Sodhera Intelligence",
+    sodheraCardDesc:
+      "Report missing or found persons and search their public board (flood.sodhera.com).",
+    sodheraCta: "Open Sodhera →",
+    hemkuntCardTitle: "Hemkunt Foundation",
+    hemkuntCardDesc:
+      "Missing-person tracing: report a case, view the public list, or send an update if something changed.",
+    hemkuntCta: "Report / public list →",
+    hemkuntUpdateCta: "Update a case →",
+    chipCommunity: "Community boards",
     navFeedback: "Feedback",
     homeCard1Title: "Who should I contact?",
     homeCard1Desc: "Not sure who to call? Answer a few questions for the right numbers.",
@@ -134,11 +143,20 @@ const I18N = {
     chipPortal: "पोर्टल",
     chipTwitter: "X / ट्विटर",
     homeContactsDesc: "कन्ट्रोल रुम, जिल्ला फोन, तिब्बत सम्पर्क, दूतावास र पोर्टल — खोज्न मिल्ने।",
-    sodheraKicker: "सामुदायिक बोर्ड",
-    sodheraTitle: "Sodhera मा हराएको / फेला परेको रिपोर्ट वा खोज",
+    sodheraKicker: "सामुदायिक हराएको बोर्ड",
+    sodheraTitle: "सामुदायिक साइटमा रिपोर्ट वा खोज",
     sodheraDesc:
-      "Sodhera Intelligence Pvt. Ltd. द्वारा सञ्चालित छुट्टै सामुदायिक साइट — हराएको वा फेला परेको रिपोर्ट र सार्वजनिक अभिलेख खोज। सरकारी अभिलेख होइन — SETU / नेपाल प्रहरी पनि प्रयोग गर्नुहोस्।",
-    sodheraCta: "flood.sodhera.com खोल्नुहोस् →",
+      "अरूले सञ्चालन गरेका छुट्टै उपकरण — सरकारी अभिलेख होइनन्। SETU / नेपाल प्रहरीमा पनि फाइल गर्नुहोस्।",
+    sodheraCardTitle: "Sodhera Intelligence",
+    sodheraCardDesc:
+      "हराएको वा फेला परेको रिपोर्ट र सार्वजनिक बोर्ड खोज (flood.sodhera.com)।",
+    sodheraCta: "Sodhera खोल्नुहोस् →",
+    hemkuntCardTitle: "Hemkunt Foundation",
+    hemkuntCardDesc:
+      "हराएको व्यक्ति ट्रेसिङ: केस रिपोर्ट, सार्वजनिक सूची, वा अपडेट।",
+    hemkuntCta: "रिपोर्ट / सूची →",
+    hemkuntUpdateCta: "केस अपडेट →",
+    chipCommunity: "सामुदायिक बोर्ड",
     navFeedback: "प्रतिक्रिया",
     homeCard1Title: "कसलाई सम्पर्क गर्ने?",
     homeCard1Desc: "कसलाई फोन गर्ने थाहा छैन? केही प्रश्नपछि सही नम्बर।",
@@ -223,14 +241,10 @@ function renderVolunteerStrip() {
 
 function renderSodheraBlocks() {
   document.querySelectorAll("[data-sodhera-block]").forEach((el) => {
-    const kicker = el.querySelector("[data-i18n='sodheraKicker']");
-    const title = el.querySelector("[data-i18n='sodheraTitle']");
-    const desc = el.querySelector("[data-i18n='sodheraDesc']");
-    const cta = el.querySelector("[data-i18n='sodheraCta']");
-    if (kicker) kicker.textContent = t("sodheraKicker");
-    if (title) title.textContent = t("sodheraTitle");
-    if (desc) desc.textContent = t("sodheraDesc");
-    if (cta) cta.textContent = t("sodheraCta");
+    el.querySelectorAll("[data-i18n]").forEach((node) => {
+      const key = node.getAttribute("data-i18n");
+      if (key) node.textContent = t(key);
+    });
   });
 }
 
