@@ -288,18 +288,25 @@ function initLang() {
   setLang(currentLang);
 }
 
+const NAV_LINKS_HTML = `
+    <a href="/" data-page="home" data-i18n="navHome">Home</a>
+    <a href="/wizard.html" data-page="wizard" data-i18n="navWizard">Who to contact</a>
+    <a href="/search.html" data-page="search" data-i18n="navSearch">Check if found</a>
+    <a href="/report.html" data-page="report" data-i18n="navReport">Report missing</a>
+    <a href="/updates.html" data-page="updates" data-i18n="navUpdates">Updates</a>
+    <a href="/resources.html" data-page="resources" data-i18n="navResources">Contacts</a>
+    <a href="/feedback.html" data-page="feedback" class="nav-feedback" data-i18n="navFeedback">Feedback</a>
+  `;
+
 function renderNav() {
   const el = document.getElementById("site-nav");
   if (!el) return;
-  el.innerHTML = `
-    <a href="/" data-page="home" data-i18n="navHome">${t("navHome")}</a>
-    <a href="/wizard.html" data-page="wizard" data-i18n="navWizard">${t("navWizard")}</a>
-    <a href="/search.html" data-page="search" data-i18n="navSearch">${t("navSearch")}</a>
-    <a href="/report.html" data-page="report" data-i18n="navReport">${t("navReport")}</a>
-    <a href="/updates.html" data-page="updates" data-i18n="navUpdates">${t("navUpdates")}</a>
-    <a href="/resources.html" data-page="resources" data-i18n="navResources">${t("navResources")}</a>
-    <a href="/feedback.html" data-page="feedback" class="nav-feedback" data-i18n="navFeedback">${t("navFeedback")}</a>
-  `;
+  // Keep existing markup when present so first paint stays stable (no wipe/rebuild flash).
+  if (!el.querySelector("a")) {
+    el.innerHTML = NAV_LINKS_HTML;
+  }
+  el.removeAttribute("aria-busy");
+  el.classList.add("is-ready");
 }
 
 function markActiveNav() {
