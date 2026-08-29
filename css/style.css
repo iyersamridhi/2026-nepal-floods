@@ -84,24 +84,73 @@ header.site-header .subtitle {
 .nav-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-  margin: 1rem 0;
-  font-size: 0.9rem;
+  gap: 0.4rem;
+  margin: 1rem 0 0.75rem;
+  padding: 0.55rem;
+  font-size: 0.88rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
 }
 
 .nav-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 550;
+  color: var(--nepal-blue);
+  background: #f3f6fb;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0.55rem 0.75rem;
+  min-height: 2.5rem;
+  line-height: 1.2;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav-links a:hover {
+  background: #e8eef8;
+  border-color: #c5d4f0;
 }
 
 .nav-links a.active {
-  color: var(--nepal-crimson);
-  text-decoration: underline;
+  color: #fff;
+  background: var(--nepal-crimson);
+  border-color: var(--nepal-crimson);
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .nav-links a.nav-feedback {
   color: var(--nepal-blue);
   font-weight: 600;
+  background: #eef3fb;
+}
+
+.nav-links a.nav-feedback.active {
+  color: #fff;
+  background: var(--nepal-crimson);
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    gap: 0.35rem;
+    margin-left: -0.15rem;
+    margin-right: -0.15rem;
+    padding: 0.5rem;
+  }
+
+  .nav-links a {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    font-size: 0.85rem;
+    padding: 0.6rem 0.8rem;
+  }
 }
 
 .volunteer-strip {
