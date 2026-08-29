@@ -15,7 +15,7 @@
     {
       "id": "mofa-0f39aa2364bf",
       "timestamp": "2026-08-29T15:00:00+05:45",
-      "publishedLabel": "August 29, 2026, 03:00 PM",
+      "publishedLabel": "29 Aug 2026 · 3:00 pm",
       "region": [
         "nepal",
         "foreign"
@@ -32,7 +32,7 @@
     {
       "id": "mofa-834bd7368b7e",
       "timestamp": "2026-08-28T17:00:00+05:45",
-      "publishedLabel": "August 28, 2026, 05:00 PM",
+      "publishedLabel": "28 Aug 2026 · 5:00 pm",
       "region": [
         "nepal",
         "foreign"
@@ -49,7 +49,7 @@
     {
       "id": "xinhua-gyirong-cd16e8678ae4",
       "timestamp": "2026-08-27T22:27:30+05:45",
-      "publishedLabel": "2026-08-27 22:27:30",
+      "publishedLabel": "27 Aug 2026 · 10:27 pm",
       "region": [
         "tibet",
         "nepal",
@@ -67,7 +67,7 @@
     {
       "id": "mofa-5885b08683cf",
       "timestamp": "2026-08-27T17:00:00+05:45",
-      "publishedLabel": "August 27, 2026, 08:46 PM",
+      "publishedLabel": "27 Aug 2026 · 5:00 pm",
       "region": [
         "nepal",
         "foreign"
@@ -84,7 +84,7 @@
     {
       "id": "mofa-2ff878c5d69f",
       "timestamp": "2026-08-27T17:00:00+05:45",
-      "publishedLabel": "August 27, 2026, 04:16 PM",
+      "publishedLabel": "27 Aug 2026 · 5:00 pm",
       "region": [
         "nepal",
         "foreign"
@@ -101,7 +101,7 @@
     {
       "id": "mea-control-room-seed",
       "timestamp": "2026-08-27T12:00:00+05:30",
-      "publishedLabel": "",
+      "publishedLabel": "27 Aug 2026 · 12:00 pm",
       "region": [
         "india",
         "nepal"
@@ -118,7 +118,7 @@
     {
       "id": "mofa-c0d1aa509022",
       "timestamp": "2026-08-26T17:00:00+05:45",
-      "publishedLabel": "August 26, 2026, 05:00 PM",
+      "publishedLabel": "26 Aug 2026 · 5:00 pm",
       "region": [
         "nepal",
         "foreign"
@@ -135,7 +135,7 @@
     {
       "id": "ndrrma-rescue-portal",
       "timestamp": "2026-08-27T10:00:00+05:45",
-      "publishedLabel": "",
+      "publishedLabel": "27 Aug 2026 · 10:00 am",
       "region": [
         "nepal"
       ],
@@ -151,7 +151,7 @@
     {
       "id": "nepal-police-udb",
       "timestamp": "2026-08-27T09:00:00+05:45",
-      "publishedLabel": "",
+      "publishedLabel": "27 Aug 2026 · 9:00 am",
       "region": [
         "nepal"
       ],
@@ -167,7 +167,7 @@
     {
       "id": "indemb-kathmandu",
       "timestamp": "2026-08-26T18:00:00+05:45",
-      "publishedLabel": "",
+      "publishedLabel": "26 Aug 2026 · 6:00 pm",
       "region": [
         "india",
         "nepal"

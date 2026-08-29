@@ -149,9 +149,12 @@ async function renderTwitterAccounts(el) {
 }
 
 function formatMeta(data, visibleCount) {
-  const checked = data.generatedAt ? new Date(data.generatedAt).toLocaleString() : "—";
+  const checked = data.generatedAt ? formatStamp(data.generatedAt) : "—";
   const parts = [`Checked ${checked}`];
   if (visibleCount != null) parts.push(`${visibleCount} update${visibleCount === 1 ? "" : "s"}`);
+  if (data.liveFetch === false && state.tab === "twitter") {
+    /* keep quiet — hint already explains */
+  }
   return parts.join(" · ");
 }
 
@@ -196,17 +199,69 @@ function renderItem(u, isTwitter) {
     </article>`;
 }
 
+/** Always show one format in Nepal time: "29 Aug 2026 · 3:00 pm" */
 function formatStamp(iso, label) {
-  if (label) {
-    // Prefer a short readable date if label is long
-    const m = label.match(/(August \d+,?\s*2026[^,]*)/i) || label.match(/(\d{4}-\d{2}-\d{2})/);
-    if (m) return m[1].replace(",", "");
-    return label;
+  const d = parseBulletinDate(iso, label);
+  if (!d) return label || iso || "";
+  try {
+    const parts = new Intl.DateTimeFormat("en-GB", {
+      timeZone: "Asia/Kathmandu",
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+    }).formatToParts(d);
+    const get = (type) => parts.find((p) => p.type === type)?.value || "";
+    const day = get("day");
+    const month = get("month");
+    const year = get("year");
+    const hour = get("hour");
+    const minute = get("minute");
+    const dayPeriod = (get("dayPeriod") || "").toLowerCase();
+    return `${day} ${month} ${year} · ${hour}:${minute} ${dayPeriod}`;
+  } catch (e) {
+    return d.toISOString().slice(0, 16).replace("T", " ");
   }
-  if (!iso) return "";
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return iso;
-  return d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+}
+
+function parseBulletinDate(iso, label) {
+  if (iso) {
+    let s = String(iso).trim();
+    // "2026-08-27 22:27:30" → treat as Nepal local if no zone
+    if (/^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}/.test(s) && !/[zZ]|[+-]\d{2}:?\d{2}$/.test(s)) {
+      s = s.replace(" ", "T") + "+05:45";
+    }
+    const d = new Date(s);
+    if (!Number.isNaN(d.getTime())) return d;
+  }
+  if (label) {
+    const m = String(label).match(
+      /(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(\d{4})(?:,?\s+(\d{1,2}):(\d{2})\s*(AM|PM))?/i
+    );
+    if (m) {
+      const months = {
+        january: 0, february: 1, march: 2, april: 3, may: 4, june: 5,
+        july: 6, august: 7, september: 8, october: 9, november: 10, december: 11,
+      };
+      let hour = m[4] ? parseInt(m[4], 10) : 12;
+      const minute = m[5] ? parseInt(m[5], 10) : 0;
+      const ap = (m[6] || "PM").toUpperCase();
+      if (ap === "PM" && hour < 12) hour += 12;
+      if (ap === "AM" && hour === 12) hour = 0;
+      // Build as Nepal offset via ISO string
+      const mon = months[m[1].toLowerCase()];
+      const day = parseInt(m[2], 10);
+      const year = parseInt(m[3], 10);
+      const isoLocal = `${year}-${String(mon + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}T${String(hour).padStart(2, "0")}:${String(minute).padStart(2, "0")}:00+05:45`;
+      const d = new Date(isoLocal);
+      if (!Number.isNaN(d.getTime())) return d;
+    }
+    const bare = new Date(label);
+    if (!Number.isNaN(bare.getTime())) return bare;
+  }
+  return null;
 }
 
 function escapeHtml(s) {

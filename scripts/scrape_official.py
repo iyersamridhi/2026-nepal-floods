@@ -109,27 +109,85 @@ def summarize_rule_based(title: str, paragraphs: list[str]) -> str:
 
 
 def infer_timestamp(date_str: str, title: str, fallback: str = "") -> str:
+    """Return ISO-8601 with Nepal offset (+05:45) when possible."""
     blob = f"{date_str} {title}"
-    for day, ts in [
-        ("29", "2026-08-29T15:00:00+05:45"),
-        ("28", "2026-08-28T17:00:00+05:45"),
-        ("27", "2026-08-27T17:00:00+05:45"),
-        ("26", "2026-08-26T17:00:00+05:45"),
-    ]:
-        if (
-            f"August {day}, 2026" in blob
-            or f"August {day}" in blob
-            or f"Aug. {day}" in blob
-            or f"{day} August 2026" in blob
-            or f"{day} August" in blob
-        ):
-            return ts
-    if fallback:
-        return fallback
-    iso = re.search(r"(\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2})", date_str)
+
+    m = re.search(
+        r"(January|February|March|April|May|June|July|August|September|October|November|December)"
+        r"\s+(\d{1,2}),?\s+(\d{4})(?:,?\s+(\d{1,2}):(\d{2})\s*(AM|PM))?",
+        blob,
+        re.I,
+    )
+    if m:
+        months = {
+            "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+            "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
+        }
+        month = months[m.group(1).lower()]
+        day = int(m.group(2))
+        year = int(m.group(3))
+        if m.group(4):
+            hour = int(m.group(4))
+            minute = int(m.group(5))
+            ap = m.group(6).upper()
+            if ap == "PM" and hour < 12:
+                hour += 12
+            if ap == "AM" and hour == 12:
+                hour = 0
+        else:
+            hour, minute = 12, 0
+        return f"{year:04d}-{month:02d}-{day:02d}T{hour:02d}:{minute:02d}:00+05:45"
+
+    iso = re.search(r"(\d{4}-\d{2}-\d{2})[ T](\d{2}:\d{2}:\d{2})", date_str or "")
     if iso:
-        return iso.group(1).replace(" ", "T") + "+05:45"
+        return f"{iso.group(1)}T{iso.group(2)}+05:45"
+
+    if fallback:
+        return normalize_iso(fallback)
+
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+def normalize_iso(ts: str) -> str:
+    if not ts:
+        return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    s = ts.strip().replace(" ", "T")
+    if re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$", s):
+        s += ":00"
+    if re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$", s):
+        s += "+05:45"
+    return s
+
+
+def published_label(iso: str) -> str:
+    """Consistent display: 29 Aug 2026 · 3:00 pm (Nepal time)."""
+    try:
+        s = normalize_iso(iso)
+        m = re.match(
+            r"(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?(?:\.\d+)?(Z|[+-]\d{2}:\d{2})?",
+            s,
+        )
+        if not m:
+            return iso
+        year, month, day = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        hour, minute = int(m.group(4)), int(m.group(5))
+        offset = m.group(7) or ""
+        # Convert UTC → Nepal (+05:45)
+        if offset in ("Z", "+00:00"):
+            total = hour * 60 + minute + 5 * 60 + 45
+            extra_days, total = divmod(total, 24 * 60)
+            day += extra_days
+            hour, minute = divmod(total, 60)
+        months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        # naive month overflow for end-of-month UTC conversion
+        while month <= 12 and day > 31:
+            day -= 31
+            month += 1
+        ap = "am" if hour < 12 else "pm"
+        h12 = hour % 12 or 12
+        return f"{day} {months[month - 1]} {year} · {h12}:{minute:02d} {ap}"
+    except Exception:
+        return iso
 
 
 def dedupe_items(items: list[dict]) -> list[dict]:
@@ -143,8 +201,10 @@ def dedupe_items(items: list[dict]) -> list[dict]:
             seen_urls.add(u)
         if tk:
             seen_titles.add(tk)
+        ts = normalize_iso(it.get("timestamp", ""))
+        it["timestamp"] = ts
+        it["publishedLabel"] = published_label(ts)
         deduped.append(it)
-    # News updates first (newest), then portal pointers
     updates = sorted(
         [i for i in deduped if i.get("kind") != "pointer"],
         key=lambda x: x.get("timestamp", ""),
@@ -242,10 +302,11 @@ def build_item(
     citation: str = "",
     kind: str = "update",
 ) -> dict:
+    ts = infer_timestamp(date_str, title, timestamp)
     return {
         "id": item_id,
-        "timestamp": infer_timestamp(date_str, title, timestamp),
-        "publishedLabel": date_str,
+        "timestamp": ts,
+        "publishedLabel": published_label(ts),
         "region": regions,
         "source": source_name,
         "sourceUrl": url,

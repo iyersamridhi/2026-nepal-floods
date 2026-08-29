@@ -13,6 +13,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import sys
 import urllib.request
 from datetime import datetime, timezone
@@ -83,9 +84,17 @@ def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text:
         summary = ai
         method = "grok"
 
+    # Normalize tweet times (API returns UTC) to ISO string; UI formats Nepal time
+    ts = created_at or datetime.now(timezone.utc).isoformat()
+    if ts.endswith("Z"):
+        pass
+    elif re.match(r"^\d{4}-\d{2}-\d{2}T", ts) and "+" not in ts and not ts.endswith("Z"):
+        ts = ts + "Z"
+
     item = {
         "id": tid,
-        "timestamp": created_at or datetime.now(timezone.utc).isoformat(),
+        "timestamp": ts,
+        "publishedLabel": "",
         "region": regions,
         "source": f"Twitter @{handle}",
         "sourceUrl": url,
