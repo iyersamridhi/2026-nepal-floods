@@ -130,8 +130,9 @@ def main():
 
     bearer = os.environ.get("TWITTER_BEARER_TOKEN")
     keywords = twitter_cfg.get("keywords", ["flood", "rasuwa", "missing"])
+    twitter_enabled = twitter_cfg.get("enabled", False) or bool(bearer)
 
-    if bearer and twitter_cfg.get("enabled", False):
+    if bearer and twitter_enabled:
         for acct in twitter_cfg.get("accounts", []):
             handle = acct["handle"]
             try:

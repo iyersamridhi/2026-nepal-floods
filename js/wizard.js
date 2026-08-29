@@ -2,7 +2,7 @@ const wizardState = {
   citizenship: null,
   location: null,
   tourGroup: null,
-  need: null,
+  needs: [],
   tourGroupName: "",
 };
 
@@ -39,6 +39,9 @@ const QUESTIONS = {
   need: {
     title: "What do you need right now?",
     titleNp: "अहिले तपाईंलाई के चाहिन्छ?",
+    multi: true,
+    hint: "Select all that apply",
+    hintNp: "लागू हुने सबै छान्नुहोस्",
     options: [
       { value: "report", label: "Report them missing officially", labelNp: "आधिकारिक रूपमा हराएको रिपोर्ट" },
       { value: "search", label: "Check if they've been found / search records", labelNp: "फेला परेको जाँच / अभिलेख खोज" },
@@ -56,11 +59,15 @@ async function loadHelplines() {
   helplinesData = await res.json();
 }
 
+function hasNeed(...values) {
+  return values.some((v) => wizardState.needs.includes(v));
+}
+
 function getResults() {
   const steps = [];
-  const { citizenship, location, need } = wizardState;
+  const { citizenship, location } = wizardState;
 
-  if (need === "search" || need === "remains") {
+  if (hasNeed("search", "remains")) {
     steps.push({
       title: "Check official found / rescued lists",
       desc: "We do not copy names or photos. Open the government pages and search there.",
@@ -70,18 +77,19 @@ function getResults() {
         { label: "SETU rescued & missing", href: "https://setu.ndrrma.gov.np" },
       ],
     });
-    if (need === "remains") {
-      steps.push({
-        title: "Unidentified remains (official)",
-        desc: "Only Nepal Police can confirm identification.",
-        links: [
-          { label: "Unidentified remains — Nepal Police", href: "https://udb.nepalpolice.gov.np/dead-bodies", primary: true },
-        ],
-      });
-    }
   }
 
-  if (need === "report" || need === "embassy" || citizenship === "foreign" || citizenship === "indian") {
+  if (hasNeed("remains")) {
+    steps.push({
+      title: "Unidentified remains (official)",
+      desc: "Only Nepal Police can confirm identification.",
+      links: [
+        { label: "Unidentified remains — Nepal Police", href: "https://udb.nepalpolice.gov.np/dead-bodies", primary: true },
+      ],
+    });
+  }
+
+  if (hasNeed("report", "embassy") || citizenship === "foreign" || citizenship === "indian") {
     if (citizenship !== "nepali" || location === "tibet") {
       steps.push({
         title: "Nepal Ministry of Foreign Affairs — Emergency Control Room",
@@ -120,7 +128,7 @@ function getResults() {
     });
   }
 
-  if (citizenship === "foreign" && need === "embassy") {
+  if (citizenship === "foreign" && hasNeed("embassy")) {
     steps.push({
       title: "Your country's embassy in Kathmandu",
       desc: "Contact your embassy in addition to Nepal MoFA. Common contacts listed on our report page.",
@@ -150,15 +158,17 @@ function getResults() {
     }
   }
 
-  steps.push({
-    title: "Nepal Police",
-    desc: "Emergency: 100. File missing person reports on the official portal.",
-    phones: ["100"],
-    links: [
-      { label: "File report — use our guided form", href: "/report.html", primary: true },
-      { label: "Nepal Police UDB portal", href: "https://udb.nepalpolice.gov.np/missing" },
-    ],
-  });
+  if (hasNeed("report") || wizardState.needs.length === 0) {
+    steps.push({
+      title: "Nepal Police",
+      desc: "Emergency: 100. File missing person reports on the official portal. Attach photos there — we do not upload files on this site.",
+      phones: ["100"],
+      links: [
+        { label: "File report — use our guided form", href: "/report.html", primary: true },
+        { label: "Nepal Police UDB portal", href: "https://udb.nepalpolice.gov.np/missing" },
+      ],
+    });
+  }
 
   if (citizenship === "nepali" || citizenship === "unknown") {
     steps.push({
@@ -169,6 +179,11 @@ function getResults() {
   }
 
   return steps;
+}
+
+function isOptionSelected(stepKey, value) {
+  if (stepKey === "need") return wizardState.needs.includes(value);
+  return wizardState[stepKey] === value;
 }
 
 function renderStep() {
@@ -197,28 +212,46 @@ function renderStep() {
   const q = QUESTIONS[stepKey];
   const lang = currentLang;
   const title = lang === "np" ? q.titleNp : q.title;
+  const hint = q.multi ? (lang === "np" ? q.hintNp : q.hint) : "";
 
   container.innerHTML = `
     <h2>${title}</h2>
+    ${hint ? `<p class="form-hint">${hint}</p>` : ""}
     <div class="wizard-options" id="options">
       ${q.options
         .map(
           (o) => `
-        <button type="button" class="wizard-option ${wizardState[stepKey] === o.value ? "selected" : ""}" data-value="${o.value}">
+        <button type="button" class="wizard-option ${isOptionSelected(stepKey, o.value) ? "selected" : ""}" data-value="${o.value}">
           ${lang === "np" ? o.labelNp : o.label}
         </button>`
         )
         .join("")}
     </div>
-    ${stepKey === "tourGroup" && wizardState.tourGroup === "yes" ? `
+    ${
+      stepKey === "tourGroup" && wizardState.tourGroup === "yes"
+        ? `
       <div class="form-group">
         <label>Tour / group name (if known)</label>
         <input type="text" id="tour-name" placeholder="e.g. Kailash yatra group, Isha S3" value="${wizardState.tourGroupName}">
-      </div>` : ""}
+      </div>`
+        : ""
+    }
   `;
 
   container.querySelectorAll(".wizard-option").forEach((btn) => {
     btn.addEventListener("click", () => {
+      if (q.multi) {
+        const val = btn.dataset.value;
+        if (wizardState.needs.includes(val)) {
+          wizardState.needs = wizardState.needs.filter((v) => v !== val);
+          btn.classList.remove("selected");
+        } else {
+          wizardState.needs.push(val);
+          btn.classList.add("selected");
+        }
+        return;
+      }
+
       container.querySelectorAll(".wizard-option").forEach((b) => b.classList.remove("selected"));
       btn.classList.add("selected");
       wizardState[stepKey] = btn.dataset.value;
@@ -276,7 +309,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   document.getElementById("btn-next").addEventListener("click", () => {
     const stepKey = STEPS[currentStep];
-    if (!wizardState[stepKey] && stepKey !== "result") {
+    if (stepKey === "need") {
+      if (!wizardState.needs.length) {
+        alert("Please select at least one option.");
+        return;
+      }
+    } else if (!wizardState[stepKey] && stepKey !== "result") {
       alert("Please select an option.");
       return;
     }

@@ -243,6 +243,57 @@ header.site-header .subtitle {
   background: #eef3fa;
 }
 
+.mode-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.75rem 0 1rem;
+  flex-wrap: wrap;
+}
+
+.mode-tab {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.mode-tab.active {
+  color: var(--nepal-blue);
+  border-color: var(--nepal-blue);
+  background: #eef4ff;
+}
+
+.checkbox-grid {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.checkbox-option {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.checkbox-option:has(input:checked) {
+  border-color: var(--nepal-blue);
+  background: #eef4ff;
+}
+
+.checkbox-option input {
+  margin-top: 0.2rem;
+}
+
 .form-group {
   margin-bottom: 1rem;
 }
@@ -501,6 +552,43 @@ footer.site-footer .footer-link-prominent {
 .footer-sep {
   margin: 0 0.35rem;
   opacity: 0.6;
+}
+
+.legal-alert {
+  margin-top: 1rem;
+}
+
+.legal-doc h2 {
+  font-size: 1.1rem;
+  color: var(--nepal-blue);
+  margin: 1.5rem 0 0.65rem;
+}
+
+.legal-doc h2:first-child {
+  margin-top: 0.25rem;
+}
+
+.legal-doc p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.legal-list {
+  margin: 0.5rem 0 1rem;
+  padding-left: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.legal-list li {
+  margin: 0.4rem 0;
+}
+
+.legal-ol {
+  padding-left: 1.35rem;
+}
+
+.legal-updated {
+  margin-top: 1.25rem !important;
 }
 
 .feedback-panel {

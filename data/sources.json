@@ -1,39 +1,75 @@
 {
-  "mofa": {
-    "enabled": true,
-    "categoryUrl": "https://mofa.gov.np/category/flashflood/",
-    "baseUrl": "https://mofa.gov.np",
-    "region": ["nepal", "foreign"],
-    "note": "Primary source — scraper discovers all articles from category page"
-  },
-  "mea": {
-    "enabled": false,
-    "url": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
-    "seedFile": "data/seeds/mea_control_room.json",
-    "region": ["india", "nepal"],
-    "note": "NOT auto-scraped (JS site). Helplines live on Resources page. Update seed manually if MEA posts new communique."
-  },
-  "optionalSources": [
+  "officialSources": [
     {
-      "id": "ndrrma-rescue",
-      "name": "NDRRMA Rescue Portal",
-      "url": "https://ndrrma.gov.np/np/rescue",
-      "enabled": false,
-      "reason": "Mostly JS — link only for now"
+      "id": "mofa",
+      "enabled": true,
+      "type": "category",
+      "name": "Nepal Ministry of Foreign Affairs",
+      "categoryUrl": "https://mofa.gov.np/category/flashflood/",
+      "baseUrl": "https://mofa.gov.np",
+      "region": ["nepal", "foreign"],
+      "note": "Primary source — discovers all flash-flood articles from category page"
     },
+    {
+      "id": "mea",
+      "enabled": true,
+      "type": "url",
+      "name": "India Ministry of External Affairs",
+      "url": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
+      "region": ["india", "nepal"],
+      "seedFile": "data/seeds/mea_control_room.json",
+      "seedFallback": true,
+      "note": "MEA control room press release; seed used if page fetch fails"
+    },
+    {
+      "id": "xinhua-gyirong",
+      "enabled": true,
+      "type": "url",
+      "name": "Xinhua (Gyirong / Tibet side)",
+      "url": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html",
+      "region": ["tibet", "nepal", "foreign"],
+      "note": "China-side rescue coverage at Gyirong border port"
+    },
+    {
+      "id": "ndrrma-portal",
+      "enabled": true,
+      "type": "seed",
+      "name": "NDRRMA Nepal",
+      "seedFile": "data/seeds/ndrrma_portal.json",
+      "region": ["nepal"],
+      "note": "Portal pointer — NDRRMA site is mostly JS"
+    },
+    {
+      "id": "nepal-police-udb",
+      "enabled": true,
+      "type": "seed",
+      "name": "Nepal Police UDB",
+      "seedFile": "data/seeds/nepal_police_udb.json",
+      "region": ["nepal"],
+      "note": "Official found/missing lists — we link, do not republish photos"
+    },
+    {
+      "id": "indemb-kathmandu",
+      "enabled": true,
+      "type": "seed",
+      "name": "Embassy of India, Kathmandu",
+      "seedFile": "data/seeds/indemb_kathmandu.json",
+      "region": ["india", "nepal"],
+      "note": "Curated embassy contact pointer for Indian nationals"
+    }
+  ],
+  "linkOnlySources": [
     {
       "id": "setu",
       "name": "SETU Rescued/Missing",
       "url": "https://setu.ndrrma.gov.np",
-      "enabled": false,
-      "reason": "App UI — link only"
+      "reason": "App UI — link only on Resources page"
     },
     {
-      "id": "udb-found",
-      "name": "Nepal Police Found List",
-      "url": "https://udb.nepalpolice.gov.np/found",
-      "enabled": false,
-      "reason": "Do not republish photos — redirect only"
+      "id": "chinese-embassy-nepal",
+      "name": "Chinese Embassy Nepal",
+      "url": "https://np.china-embassy.gov.cn/eng/lxwm/",
+      "reason": "Consular contacts on Resources page"
     }
   ],
   "grok": {
@@ -49,8 +85,8 @@
     ]
   },
   "twitter": {
-    "enabled": false,
-    "note": "Requires TWITTER_BEARER_TOKEN. Grok summarizes new tweets only.",
+    "enabled": true,
+    "note": "Live fetch when TWITTER_BEARER_TOKEN is set; otherwise manual seeds in data/seeds/twitter_manual.json",
     "accounts": [
       { "handle": "NDRRMA_Nepal", "name": "NDRRMA Nepal", "region": ["nepal"] },
       { "handle": "NepalPoliceHQ", "name": "Nepal Police HQ", "region": ["nepal"] },

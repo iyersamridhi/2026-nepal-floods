@@ -22,14 +22,23 @@
     <div class="alert alert-warning">
       <strong>This does not replace official filing.</strong>
       After sending via WhatsApp or email, also file on the
-      <a href="https://udb.nepalpolice.gov.np/missing" target="_blank">Nepal Police portal</a>.
+      <a href="https://udb.nepalpolice.gov.np/missing" target="_blank" rel="noopener">Nepal Police portal</a>.
+      See also our <a href="/legal.html">disclaimer &amp; privacy terms</a>.
+    </div>
+
+    <div class="alert alert-info" data-i18n="privacyReportNote">
+      Privacy: nothing you type here is sent to or stored by this website. Your details stay on your device until you open WhatsApp or email yourself.
     </div>
 
     <div id="report-result" style="display:none"></div>
 
     <div class="panel" id="report-form-panel">
       <h2>Missing person details</h2>
-      <p class="form-hint">After submitting, you'll get WhatsApp and email buttons. WhatsApp opens with a short intro — full report is copied for you to paste.</p>
+      <div class="mode-tabs" role="tablist">
+        <button type="button" class="mode-tab active" data-mode="form">Fill the form</button>
+        <button type="button" class="mode-tab" data-mode="paste">I already have text — paste it</button>
+      </div>
+      <p class="form-hint">After preparing, you'll get WhatsApp and email buttons. Photos are not uploaded here — attach them yourself after WhatsApp / email / Nepal Police opens.</p>
       <form id="report-form"></form>
       <button type="submit" form="report-form" class="btn btn-primary" style="margin-top:0.5rem">Prepare report to send</button>
     </div>

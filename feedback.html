@@ -44,13 +44,50 @@
       <p data-i18n="volunteerIntro">If you have ideas for how this website could work better — design, translation, coding, sourcing official links — we’d love to hear from you. This is only about improving the site itself.</p>
       <p class="form-hint" data-i18n="volunteerNote">All disaster information we have is already on this website. This channel is not for missing-person cases or new disaster reports.</p>
       <div class="feedback-actions">
-        <a class="btn btn-secondary" href="mailto:samridhiiyer00@gmail.com?subject=2026%20Nepal%20Floods%20site%20%E2%80%94%20volunteer%20ideas" data-i18n="volunteerEmail">Email to get in touch</a>
+        <button type="button" class="btn btn-primary" id="btn-volunteer-email" data-i18n="volunteerEmail">Email to get in touch</button>
+        <button type="button" class="btn btn-secondary" id="btn-copy-volunteer-email" data-i18n="volunteerCopyEmail">Copy email address</button>
       </div>
-      <p class="volunteer-email-hint"><a href="mailto:samridhiiyer00@gmail.com">samridhiiyer00@gmail.com</a></p>
+      <p class="volunteer-email-hint">
+        <a id="volunteer-email-link" href="mailto:samridhiiyer00@gmail.com?subject=2026%20Nepal%20Floods%20site%20-%20volunteer%20ideas">samridhiiyer00@gmail.com</a>
+      </p>
+      <p class="form-hint" id="volunteer-email-status" hidden></p>
     </div>
 
     <footer class="site-footer" data-i18n="footer">Volunteer tool. We route you to official channels.</footer>
   </div>
   <script src="/js/common.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const EMAIL = "samridhiiyer00@gmail.com";
+      const SUBJECT = "2026 Nepal Floods site - volunteer ideas";
+      const mailto = `mailto:${EMAIL}?subject=${encodeURIComponent(SUBJECT)}`;
+
+      const openMail = () => {
+        window.location.href = mailto;
+      };
+
+      document.getElementById("btn-volunteer-email")?.addEventListener("click", openMail);
+      document.getElementById("volunteer-email-link")?.addEventListener("click", (e) => {
+        e.preventDefault();
+        openMail();
+      });
+
+      document.getElementById("btn-copy-volunteer-email")?.addEventListener("click", async () => {
+        const status = document.getElementById("volunteer-email-status");
+        try {
+          await navigator.clipboard.writeText(EMAIL);
+          if (status) {
+            status.hidden = false;
+            status.textContent = "Email copied — paste it into your mail app if the button does not open.";
+          }
+        } catch (err) {
+          if (status) {
+            status.hidden = false;
+            status.textContent = EMAIL;
+          }
+        }
+      });
+    });
+  </script>
 </body>
 </html>

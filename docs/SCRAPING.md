@@ -2,87 +2,70 @@
 
 ## Do you need an agent?
 
-**No.** A hash-diff cron is enough:
+**No.** A hash-diff cron over a configured source list is enough:
 
 ```
-Every 30 min:
-  1. Fetch mofa.gov.np/category/flashflood/
-  2. For each article URL → fetch page → hash body text
-  3. If hash == cached → skip (no Grok call, no bulletin change)
-  4. If new URL or hash changed → summarize → update bulletin
-  5. If nothing changed → skip rewriting items
+Every 30–60 min (GitHub Actions):
+  1. Read data/sources.json → officialSources[]
+  2. For each enabled source:
+     - category → discover URLs (MoFA)
+     - url → fetch static HTML (MEA, Xinhua, …)
+     - seed → curated JSON pointer (NDRRMA portal, Nepal Police UDB, …)
+  3. Hash body text → if unchanged, skip Grok
+  4. If new/changed → summarize → merge into data/bulletin.json
+  5. Twitter script runs separately → data/twitter_bulletin.json
+  6. Commit + push → Vercel redeploys
 ```
 
-This is deterministic, cheap, and safe. A full "agent" only makes sense if you add Twitter + 10 sources + conflict resolution later.
+Grok is a **summarizer only** — it does not decide what to scrape.
 
-## Primary source (auto)
+## Official sources (auto)
 
-| Source | URL | Why |
-|--------|-----|-----|
-| **MoFA flash flood category** | https://mofa.gov.np/category/flashflood/ | Daily updates, foreign national stats, ECR helplines |
+Configured in `data/sources.json` → `officialSources`:
 
-Scraper discovers all articles from the category page — no manual URL hunting.
+| Source | Type | Output |
+|--------|------|--------|
+| **MoFA flash flood category** | category | Discovers all daily updates |
+| **India MEA control room** | url (+ seed fallback) | Press release |
+| **Xinhua Gyirong** | url | Tibet/China-side rescue coverage |
+| **NDRRMA portal** | seed | Link to ndrrma.gov.np/np/rescue |
+| **Nepal Police UDB** | seed | Link to official found/missing lists |
+| **Embassy of India, Kathmandu** | seed | Contact pointer for Indian nationals |
 
-## Not auto-scraped (link only)
+Add new static URLs or seed files to `officialSources` — no code change needed for most cases.
+
+## Link-only (Resources page)
 
 | Source | Why |
 |--------|-----|
-| **India MEA** | JS-rendered site. Helplines on Resources page. Update `data/seeds/mea_control_room.json` manually if new communique. |
-| **NDRRMA / SETU** | Mostly JS apps — we link, don't scrape |
-| **Nepal Police UDB** | Don't republish photos — redirect to official found/missing pages |
+| **SETU** | App UI — link only |
+| **Chinese Embassy Nepal** | Consular contacts on Resources page |
+| **Nepal Police UDB photos** | Don't republish — redirect only |
 
-## Other sources worth adding later
+## Twitter (separate bulletin)
 
-- **Nepali Embassy Beijing** notice (Tibet side) — when new URL posted
-- **Xinhua / China Daily** Gyirong coverage — static URL, hash diff works
-- **District CDO Facebook pages** — need manual curation or Graph API
-
-## Summarization: how it works
-
-| Mode | When | Cost |
-|------|------|------|
-| **Rule-based** (default) | Always, as fallback | Free, runs locally |
-| **Grok (xAI)** | When `XAI_API_KEY` set AND content changed | ~$0.001 per changed article |
-
-### Do you need OpenRouter?
-
-**No for v1.** Rule-based handles unchanged runs. Grok via xAI direct is enough for quality summaries on changed MoFA pages.
-
-OpenRouter only helps if you want to swap models (Claude, GPT) without xAI account — optional later.
-
-### Do you need cloud?
-
-**No for scraping.** Cron on your laptop works.
-
-**Yes for 24/7 public site:** deploy static site to Netlify + GitHub Action cron to run `scrape_official.py` and commit `bulletin.json` (or use a tiny VPS cron).
-
-## Grok setup
-
-```bash
-cp .env.example .env
-# Add key from https://console.x.ai/
-python3 scripts/test_grok.py
-python3 scripts/scrape_official.py
-```
-
-Grok is called **only when article content hash changes** — not every cron tick.
-
-## Twitter + Grok (phase 2)
-
-**Accounts to monitor** (in `data/sources.json`):
+**Accounts** (in `data/sources.json` → `twitter.accounts`):
 
 - @NDRRMA_Nepal, @NepalPoliceHQ, @MoFANepal
 - @MEAIndia, @IndiainNepal
 - @NepalArmyHQ, @USEmbassyNepal, @NepalTourismBoard
 
-**Keywords:** bhotekoshi, rasuwa, gyirong, trishuli, flash flood, missing, rescued, kailash
+**Requires:** `TWITTER_BEARER_TOKEN` in GitHub Secrets for live fetch.  
+Without API: manual seeds in `data/seeds/twitter_manual.json`.
 
-**Requires:** `TWITTER_BEARER_TOKEN` (X API paid tier). Grok then summarizes **new** tweets only.
+## Summarization
 
-Without Twitter API: use Grok manually in X to scan those handles, paste into `data/seeds/twitter_manual.json`.
+| Mode | When | Cost |
+|------|------|------|
+| **Rule-based** | Always, as fallback | Free |
+| **Grok (xAI)** | When `XAI_API_KEY` set AND content changed | ~$0.001 per changed article |
 
-## Cron
+## Cron / GitHub Actions
 
 ```bash
-*/30 * * * * cd /path/to/project && ./scripts/refresh.sh >> /tmp/nfh.log 2>&1
+./scripts/refresh.sh   # both official + Twitter
 ```
+
+Workflow: `.github/workflows/refresh-bulletin.yml` (every 30 min + manual dispatch).
+
+Secrets: `XAI_API_KEY`, `TWITTER_BEARER_TOKEN` (both optional but recommended).

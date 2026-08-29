@@ -3,9 +3,17 @@ const I18N = {
     siteTitle: "2026 Nepal Floods",
     siteSubtitle: "Bhotekoshi · Rasuwa · Gyirong · Trishuli — find the right official channel",
     siteDisclaimer:
-      "Volunteer-run information and link collection site. We gather publicly available official contacts and updates — not a government agency, and we cannot verify individual cases.",
+      "Independent humanitarian volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We only point you to public official contacts; we cannot verify individual cases.",
     banner:
-      "Volunteer site — we link to official sources only. We do not confirm deaths, matches, or missing status.",
+      "Independent volunteer site — not an official organisation. We do not collect or store your data. We do not confirm deaths, matches, or missing status.",
+    legalTitle: "Disclaimer, Privacy & Terms",
+    legalSubtitle: "Independent humanitarian information site — not an official organisation",
+    legalIndepBannerTitle: "Independent & unofficial.",
+    legalIndepBannerBody:
+      " This website is not affiliated with, endorsed by, or operated by the Government of Nepal, Nepal Police, NDRRMA, MoFA, MEA, any embassy, UN agency, Red Cross/Red Crescent, or any other official body.",
+    legalLink: "Disclaimer & terms",
+    privacyReportNote:
+      "Privacy: nothing you type here is sent to or stored by this website. Your details stay on your device until you open WhatsApp or email yourself.",
     navHome: "Home",
     navWizard: "Who to contact",
     navSearch: "Check if found",
@@ -32,7 +40,7 @@ const I18N = {
     twitterFollow: "Follow official accounts for live updates",
     updatesResourcesLink: "Helplines & social accounts →",
     footer:
-      "Volunteer tool. We route you to official channels. We do not verify missing or deceased status. Confirmations come from Nepal Police, NDRRMA, or your embassy.",
+      "Independent volunteer tool — not affiliated with any official organisation. We route you to official channels and do not collect or store personal case data.",
     feedbackLink: "Feedback",
     feedbackVolunteerLink: "Feedback & volunteer",
     feedbackTitle: "Feedback",
@@ -49,6 +57,7 @@ const I18N = {
     volunteerIntro: "If you have ideas for how this website could work better — design, translation, coding, sourcing official links — we’d love to hear from you. This is only about improving the site itself.",
     volunteerNote: "All disaster information we have is already on this website. This channel is not for missing-person cases or new disaster reports.",
     volunteerEmail: "Email to get in touch",
+    volunteerCopyEmail: "Copy email address",
     volunteerStrip: "Have ideas to improve this site, or want to work on it together?",
     volunteerStripCta: "Feedback & volunteer →",
     officialLink: "View official record →",
@@ -60,9 +69,17 @@ const I18N = {
     siteTitle: "२०२६ नेपाल बाढी",
     siteSubtitle: "भोटेकोशी · रसुवा · ग्यिरोङ · त्रिशुली — सही आधिकारिक सम्पर्क",
     siteDisclaimer:
-      "स्वयंसेवी सूचना र लिङ्क सङ्कलन साइट। हामी सार्वजनिक आधिकारिक सम्पर्क र अपडेट सङ्कलन गर्छौं — सरकारी निकाय होइनौं, व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
+      "स्वतन्त्र मानवीय स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक आधिकारिक सम्पर्कमा मात्र मार्गदर्शन; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
     banner:
-      "स्वयंसेवी साइट — आधिकारिक स्रोतमा मात्र लिङ्क। मृत्यु, मिलान वा हराएको स्थिति पुष्टि गर्दैनौं।",
+      "स्वतन्त्र स्वयंसेवी साइट — आधिकारिक संस्था होइन। हामी तपाईंको डाटा सङ्कलन/भण्डारण गर्दैनौं। मृत्यु, मिलान वा हराएको स्थिति पुष्टि गर्दैनौं।",
+    legalTitle: "अस्वीकरण, गोपनीयता र सर्तहरू",
+    legalSubtitle: "स्वतन्त्र मानवीय सूचना साइट — आधिकारिक संस्था होइन",
+    legalIndepBannerTitle: "स्वतन्त्र र अनौपचारिक।",
+    legalIndepBannerBody:
+      " यो वेबसाइट नेपाल सरकार, नेपाल प्रहरी, NDRRMA, MoFA, MEA, कुनै दूतावास, संयुक्त राष्ट्र, रेडक्रस/रेडक्रेसेन्ट वा अन्य कुनै आधिकारिक निकायसँग आबद्ध, समर्थित वा सञ्चालित छैन।",
+    legalLink: "अस्वीकरण र सर्तहरू",
+    privacyReportNote:
+      "गोपनीयता: यहाँ लेखेको कुनै पनि विवरण यस वेबसाइटमा पठाइँदैन वा भण्डारण हुँदैन। WhatsApp वा इमेल आफैं खोल्दासम्म विवरण तपाईंको उपकरणमै रहन्छ।",
     navHome: "गृह",
     navWizard: "कसलाई सम्पर्क",
     navSearch: "फेला परेको जाँच",
@@ -89,7 +106,7 @@ const I18N = {
     twitterFollow: "प्रत्यक्ष अपडेटका लागि आधिकारिक खाता फलो गर्नुहोस्",
     updatesResourcesLink: "हेल्पलाइन र सामाजिक खाता →",
     footer:
-      "स्वयंसेवी उपकरण। हामी तपाईंलाई आधिकारिक च्यानलमा पुर्‍याउँछौं। हामी हराएको वा मृत्यु पुष्टि गर्दैनौं।",
+      "स्वतन्त्र स्वयंसेवी उपकरण — कुनै आधिकारिक संस्थासँग आबद्ध छैन। हामी आधिकारिक च्यानलमा पुर्‍याउँछौं र व्यक्तिगत केस डाटा सङ्कलन/भण्डारण गर्दैनौं।",
     feedbackLink: "प्रतिक्रिया",
     feedbackVolunteerLink: "प्रतिक्रिया र स्वयंसेवा",
     feedbackTitle: "प्रतिक्रिया",
@@ -106,6 +123,7 @@ const I18N = {
     volunteerIntro: "वेबसाइट कसरी राम्रो बनाउन सकिन्छ — डिजाइन, अनुवाद, कोड, आधिकारिक लिङ्क — भन्ने विचार भए सम्पर्क गर्नुहोस्। यो केवल साइट सुधारका लागि हो।",
     volunteerNote: "हामीसँग भएको सबै प्रकोप सम्बन्धी जानकारी यही साइटमा छ। हराएको व्यक्ति वा नयाँ रिपोर्टका लागि होइन।",
     volunteerEmail: "इमेल गर्नुहोस्",
+    volunteerCopyEmail: "इमेल ठेगाना कपी गर्नुहोस्",
     volunteerStrip: "साइट सुधारका विचार छ, वा सँगै काम गर्न चाहनुहुन्छ?",
     volunteerStripCta: "प्रतिक्रिया र स्वयंसेवा →",
     officialLink: "आधिकारिक अभिलेख हेर्नुहोस् →",
@@ -147,16 +165,25 @@ function renderVolunteerStrip() {
 
 function renderFooter() {
   document.querySelectorAll(".site-footer").forEach((el) => {
-    el.innerHTML = `${t("footer")} <span class="footer-sep">·</span> <a href="/feedback.html" class="footer-link footer-link-prominent">${t("feedbackVolunteerLink")}</a>`;
+    el.innerHTML = `${t("footer")} <span class="footer-sep">·</span> <a href="/legal.html" class="footer-link footer-link-prominent">${t("legalLink")}</a> <span class="footer-sep">·</span> <a href="/feedback.html" class="footer-link footer-link-prominent">${t("feedbackVolunteerLink")}</a>`;
+  });
+}
+
+function renderLangBlocks() {
+  document.querySelectorAll("[data-lang-block]").forEach((el) => {
+    const show = el.getAttribute("data-lang-block") === currentLang;
+    el.hidden = !show;
   });
 }
 
 function setLang(lang) {
   currentLang = lang;
   localStorage.setItem("lang", lang);
+  document.documentElement.lang = lang === "np" ? "ne" : "en";
   renderNav();
   renderSiteDisclaimer();
   renderVolunteerStrip();
+  renderLangBlocks();
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (key) el.textContent = t(key);
@@ -213,6 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderNav();
   renderSiteDisclaimer();
   renderVolunteerStrip();
+  renderLangBlocks();
   renderFooter();
   initLang();
   markActiveNav();

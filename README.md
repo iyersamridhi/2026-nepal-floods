@@ -2,6 +2,8 @@
 
 Volunteer routing tool for the **August 2026 Bhotekoshi / Rasuwa / Gyirong / Trishuli** flash floods.
 
+**Independent & unofficial.** Not affiliated with any government or official organisation. See [`legal.html`](legal.html) for the disclaimer, privacy notice (we do not collect or store personal case data), and terms of use.
+
 ## Deploy on Vercel
 
 This is a static site — no build step required.

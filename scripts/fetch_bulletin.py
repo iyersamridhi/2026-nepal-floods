@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 def main():
     scripts = [
         ROOT / "scripts" / "scrape_official.py",
+        ROOT / "scripts" / "scrape_twitter.py",
     ]
     for s in scripts:
         print(f"Running {s.name}...", file=sys.stderr)
