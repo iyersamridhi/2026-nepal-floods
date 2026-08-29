@@ -74,7 +74,7 @@ python3 scripts/serve.py
 | Page | Purpose |
 |------|---------|
 | `/updates.html` | **News from official channels** + **Twitter / X** (separate tabs) |
-| `/resources.html` | Helplines, portals, social accounts |
+| `/resources.html` | Searchable contacts, helplines, portals |
 | `/wizard.html` | Who to contact |
 | `/search.html` | Redirect to official **found** lists |
 | `/report.html` | Report helper → WhatsApp / email |

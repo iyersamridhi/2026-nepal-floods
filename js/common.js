@@ -22,7 +22,23 @@ const I18N = {
     navSearch: "Check if found",
     navReport: "Report missing",
     navUpdates: "Updates",
-    navResources: "Resources",
+    navResources: "Contacts",
+    resourcesSubtitle:
+      "Searchable phones, WhatsApp, emails, and government portals from public notices.",
+    resourcesSearchLabel: "Search contacts",
+    resourcesSearchPlaceholder: "Search by name, country, district, phone…",
+    resourcesDisclaimer:
+      "Numbers are compiled from public MEA, MoFA, embassy, and district notices. Confirm on the cited source before relying on them.",
+    resourcesShowing: "Showing",
+    resourcesEmpty: "No contacts match that search.",
+    chipAll: "All",
+    chipControl: "Control rooms",
+    chipNepal: "Nepal districts",
+    chipTibet: "Tibet / China",
+    chipEmbassy: "Embassies",
+    chipPortal: "Portals",
+    chipTwitter: "X / Twitter",
+    homeContactsDesc: "Control rooms, district phones, Tibet contacts, embassies, and portals — searchable.",
     navFeedback: "Feedback",
     homeCard1Title: "Who should I contact?",
     homeCard1Desc: "Not sure who to call? Answer a few questions for the right numbers.",
@@ -46,7 +62,7 @@ const I18N = {
     officialPortalsHint: "These are portals to search yourself — we do not copy case lists or photos here.",
     readOriginal: "Read original",
     openPortal: "Open portal",
-    updatesResourcesLink: "All helplines & contacts →",
+    updatesResourcesLink: "All contacts & numbers →",
     footer:
       "Volunteer site — contacts, links & updates only. Not affiliated with any government. We do not collect personal case data.",
     feedbackLink: "Feedback",
@@ -96,7 +112,23 @@ const I18N = {
     navSearch: "फेला परेको जाँच",
     navReport: "हराएको रिपोर्ट",
     navUpdates: "अपडेट",
-    navResources: "स्रोत",
+    navResources: "सम्पर्क",
+    resourcesSubtitle:
+      "सार्वजनिक सूचनाबाट फोन, WhatsApp, इमेल र सरकारी पोर्टल — खोज्न र फिल्टर गर्न मिल्ने।",
+    resourcesSearchLabel: "सम्पर्क खोज्नुहोस्",
+    resourcesSearchPlaceholder: "नाम, देश, जिल्ला, फोनबाट खोज्नुहोस्…",
+    resourcesDisclaimer:
+      "नम्बरहरू सार्वजनिक MEA, MoFA, दूतावास र जिल्ला सूचनाबाट सङ्कलित। भर पर्नु अघि स्रोतमा पुष्टि गर्नुहोस्।",
+    resourcesShowing: "देखाइँदै",
+    resourcesEmpty: "त्यो खोजसँग मिल्ने सम्पर्क छैन।",
+    chipAll: "सबै",
+    chipControl: "कन्ट्रोल रुम",
+    chipNepal: "नेपाल जिल्ला",
+    chipTibet: "तिब्बत / चीन",
+    chipEmbassy: "दूतावास",
+    chipPortal: "पोर्टल",
+    chipTwitter: "X / ट्विटर",
+    homeContactsDesc: "कन्ट्रोल रुम, जिल्ला फोन, तिब्बत सम्पर्क, दूतावास र पोर्टल — खोज्न मिल्ने।",
     navFeedback: "प्रतिक्रिया",
     homeCard1Title: "कसलाई सम्पर्क गर्ने?",
     homeCard1Desc: "कसलाई फोन गर्ने थाहा छैन? केही प्रश्नपछि सही नम्बर।",
@@ -120,7 +152,7 @@ const I18N = {
     officialPortalsHint: "यी पोर्टल आफैं खोज्नका लागि हुन् — हामी केस सूची वा फोटो कपी गर्दैनौं।",
     readOriginal: "मूल पढ्नुहोस्",
     openPortal: "पोर्टल खोल्नुहोस्",
-    updatesResourcesLink: "सबै हेल्पलाइन र सम्पर्क →",
+    updatesResourcesLink: "सबै सम्पर्क र नम्बर →",
     footer:
       "स्वयंसेवी साइट — सम्पर्क, लिङ्क र अपडेट मात्र। कुनै सरकारसँग आबद्ध छैन।",
     feedbackLink: "प्रतिक्रिया",
@@ -209,6 +241,7 @@ function setLang(lang) {
   });
   markActiveNav();
   renderFooter();
+  window.dispatchEvent(new Event("langchange"));
 }
 
 function initLang() {

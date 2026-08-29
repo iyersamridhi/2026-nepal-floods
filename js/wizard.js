@@ -164,7 +164,7 @@ function getResults() {
       formFirst: true,
       links: [
         { label: "Chinese Embassy Nepal (consular)", href: "https://np.china-embassy.gov.cn/eng/lxwm/" },
-        { label: "Resources — Tibet contacts", href: "/resources.html" },
+        { label: "Contacts — Tibet / China", href: "/resources.html" },
       ],
     });
   }

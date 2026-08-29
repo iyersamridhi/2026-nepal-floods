@@ -3,38 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resources & helplines — Nepal Floods 2026</title>
+  <title>Contacts &amp; helplines — Nepal Floods 2026</title>
+  <meta name="description" content="Searchable phones, WhatsApp, emails, government portals, and embassy contacts for the August 2026 floods in northern Nepal.">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body data-page="resources">
-  <div class="banner" data-i18n="banner">Volunteer site with links to government contacts and updates. We do not confirm missing or found status.</div>
-  <div class="container">
+  <div class="banner" data-i18n="banner">Volunteer site. Links to government contacts and updates only — we do not confirm missing or found status.</div>
+  <div class="container container-wide">
     <header class="site-header">
       <div class="lang-toggle">
         <button type="button" data-lang="en" class="active">EN</button>
         <button type="button" data-lang="np">ने</button>
       </div>
-      <h1 data-i18n="navResources">Resources</h1>
-      <p class="subtitle">Government portals, Twitter, and helplines compiled from official notices</p>
+      <h1 data-i18n="navResources">Contacts</h1>
+      <p class="subtitle" data-i18n="resourcesSubtitle">Searchable phones, WhatsApp, emails, and government portals from public notices.</p>
       <nav class="nav-links" id="site-nav"></nav>
     </header>
 
-    <div class="panel">
-      <h2>Government portals</h2>
-      <ul class="step-list" id="resource-portals"></ul>
+    <div class="directory-toolbar" id="directory-toolbar">
+      <div class="search-bar">
+        <label class="sr-only" for="directory-search" data-i18n="resourcesSearchLabel">Search contacts</label>
+        <input
+          type="search"
+          id="directory-search"
+          data-i18n-placeholder="resourcesSearchPlaceholder"
+          placeholder="Search by name, country, district, phone…"
+          autocomplete="off"
+        />
+      </div>
+      <div class="filter-chips" id="directory-chips" role="tablist" aria-label="Contact categories"></div>
+      <p class="directory-count form-hint" id="directory-count"></p>
     </div>
 
-    <div class="panel" style="margin-top:1rem">
-      <h2>Official Twitter / X</h2>
-      <p class="form-hint">Use for live updates — verify anything important on the linked government site.</p>
-      <ul class="step-list" id="resource-twitter"></ul>
-    </div>
+    <div id="directory-root" class="directory-root"></div>
 
-    <div class="panel" style="margin-top:1rem" id="resource-contacts"></div>
+    <p class="form-hint directory-disclaimer" data-i18n="resourcesDisclaimer">
+      Numbers are compiled from public MEA, MoFA, embassy, and district notices. Confirm on the cited source before relying on them.
+    </p>
 
     <footer class="site-footer" data-i18n="footer">Volunteer site — contacts, links & updates only.</footer>
   </div>
-  <script src="/js/common.js"></script>
-  <script src="/js/resources.js"></script>
+  <script src="/js/common.js?v=copy2"></script>
+  <script src="/js/resources.js?v=dir1"></script>
 </body>
 </html>

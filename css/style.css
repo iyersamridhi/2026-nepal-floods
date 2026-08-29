@@ -1083,6 +1083,161 @@ footer.site-footer .footer-link-prominent {
   color: var(--muted);
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.container-wide {
+  max-width: 920px;
+}
+
+.directory-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--warm-bg);
+  padding: 0.75rem 0 0.5rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.directory-toolbar .search-bar {
+  margin-bottom: 0.65rem;
+}
+
+.directory-toolbar .filter-chips {
+  margin-bottom: 0.35rem;
+}
+
+.chip-count {
+  opacity: 0.75;
+  font-size: 0.75em;
+  margin-left: 0.15rem;
+}
+
+.chip.active .chip-count {
+  opacity: 0.9;
+}
+
+.directory-count {
+  margin: 0.25rem 0 0;
+}
+
+.directory-section {
+  margin-bottom: 1.75rem;
+}
+
+.directory-section-title {
+  margin: 0 0 0.65rem;
+  font-size: 1rem;
+  color: var(--nepal-blue);
+  font-weight: 600;
+}
+
+.directory-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+}
+
+@media (min-width: 640px) {
+  .directory-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.dir-entry {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  min-width: 0;
+}
+
+.dir-entry-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.dir-entry-name {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.dir-badge {
+  flex-shrink: 0;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--nepal-blue);
+  background: #eef3fb;
+  padding: 0.2rem 0.45rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.dir-entry-meta {
+  margin: 0 0 0.55rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.dir-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.dir-action {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  text-decoration: none;
+  color: var(--nepal-blue);
+  line-height: 1.3;
+}
+
+.dir-action:hover {
+  border-color: var(--nepal-blue);
+  background: #f5f8fc;
+}
+
+.dir-action-wa {
+  border-color: #b7e0c8;
+  color: var(--success);
+}
+
+.dir-action-link {
+  font-weight: 500;
+}
+
+.directory-empty {
+  padding: 1.5rem 0;
+  color: var(--muted);
+}
+
+.directory-disclaimer {
+  margin-top: 1.5rem;
+}
+
 @media (max-width: 480px) {
   .record-card {
     flex-direction: column;
