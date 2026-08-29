@@ -58,6 +58,16 @@ header.site-header .subtitle {
   color: var(--muted);
   font-size: 0.95rem;
   margin: 0;
+  max-width: 40rem;
+  line-height: 1.45;
+}
+
+.home-intro {
+  margin: 0 0 1.5rem;
+  max-width: 40rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--text, #222);
 }
 
 .site-disclaimer {

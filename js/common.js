@@ -1,11 +1,14 @@
 const I18N = {
   en: {
     siteTitle: "Nepal Floods 2026",
-    siteSubtitle: "Contacts, links & updates — Bhotekoshi / Rasuwa",
+    siteSubtitle:
+      "Public contacts, missing-person forms, and government updates after the August 2026 floods in northern Nepal.",
     siteDisclaimer:
       "Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.",
     banner:
-      "Volunteer site with links to government contacts and updates. We do not confirm missing or found status.",
+      "Volunteer site. Links to government contacts and updates only — we do not confirm missing or found status.",
+    homeIntro:
+      "This page collects links families and friends have been asking for: SETU and Nepal Police forms, MoFA and embassy numbers, and short notes from public government sources. It does not run a missing-persons registry and does not verify individual cases.",
     legalTitle: "Disclaimer, Privacy & Terms",
     legalSubtitle: "Independent volunteer site — not an official organisation",
     legalIndepBannerTitle: "Independent & unofficial.",
@@ -72,11 +75,14 @@ const I18N = {
   },
   np: {
     siteTitle: "नेपाल बाढी २०२६",
-    siteSubtitle: "सम्पर्क, लिङ्क र अपडेट — भोटेकोशी / रसुवा",
+    siteSubtitle:
+      "अगस्ट २०२६ उत्तरी नेपाल बाढीपछिका सार्वजनिक सम्पर्क, हराएको व्यक्ति फारम र सरकारी अपडेट।",
     siteDisclaimer:
       "स्वतन्त्र स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक सम्पर्कमा मात्र लिङ्क; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
     banner:
-      "स्वयंसेवी साइट — सरकारी सम्पर्क र अपडेटका लिङ्क। हराएको/फेला परेको स्थिति पुष्टि गर्दैनौं।",
+      "स्वयंसेवी साइट। सरकारी सम्पर्क र अपडेटका लिङ्क मात्र — हराएको/फेला परेको स्थिति पुष्टि गर्दैनौं।",
+    homeIntro:
+      "यो पृष्ठले परिवार र साथीहरूले खोजिरहेका लिङ्कहरू एकै ठाउँमा राखेको छ: SETU र नेपाल प्रहरी फारम, MoFA र दूतावास नम्बर, र सार्वजनिक सरकारी स्रोतका छोटा नोट। यो हराएको व्यक्ति रजिस्ट्री होइन र व्यक्तिगत केस पुष्टि गर्दैन।",
     legalTitle: "अस्वीकरण, गोपनीयता र सर्तहरू",
     legalSubtitle: "स्वतन्त्र स्वयंसेवी साइट — आधिकारिक संस्था होइन",
     legalIndepBannerTitle: "स्वतन्त्र र अनौपचारिक।",

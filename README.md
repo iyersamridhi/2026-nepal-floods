@@ -1,6 +1,6 @@
 # Nepal Floods 2026
 
-Volunteer site with **contacts, links & updates** for the August 2026 Bhotekoshi / Rasuwa / Gyirong / Trishuli floods (SETU, Nepal Police, MoFA, embassies).
+Volunteer page of **public contacts, missing-person forms, and government updates** after the August 2026 floods in northern Nepal (SETU, Nepal Police, MoFA, embassies).
 
 **Independent & unofficial.** Not affiliated with any government. See [`legal.html`](legal.html) for disclaimer and privacy (we do not collect or store personal case data).
 
