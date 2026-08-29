@@ -34,11 +34,11 @@ const I18N = {
     tabOfficial: "Official updates",
     tabTwitter: "Authority posts (X)",
     officialHint: "Summaries from MoFA, MEA, and other official pages. Numbers can change — open the original source to confirm.",
-    twitterHint: "Posts and pointers from NDRRMA, Nepal Police, MoFA, MEA, embassies. Not official confirmation of individual cases.",
+    twitterHint: "Summaries linked to authority accounts. Live X fetch needs a paid API plan — until then we show curated posts. Always open the original.",
     officialEmpty: "No official updates loaded yet.",
     twitterEmpty: "No authority posts loaded yet. Follow the accounts below for live updates.",
     twitterFollow: "Follow official accounts",
-    twitterFollowHint: "Live X/Twitter feed needs an API token. Until then, use these accounts or the summaries above.",
+    twitterFollowHint: "For the newest posts, follow these accounts directly on X.",
     officialPortalsTitle: "Where to check official lists",
     officialPortalsHint: "These are portals to search yourself — we do not copy case lists or photos here.",
     readOriginal: "Read original",
@@ -105,11 +105,11 @@ const I18N = {
     tabOfficial: "आधिकारिक अपडेट",
     tabTwitter: "प्राधिकरण पोस्ट (X)",
     officialHint: "MoFA, MEA र अन्य आधिकारिक पृष्ठबाट सारांश। अंक बदलिन सक्छन् — पुष्टिका लागि मूल स्रोत खोल्नुहोस्।",
-    twitterHint: "NDRRMA, नेपाल प्रहरी, MoFA, MEA, दूतावासका पोस्ट। व्यक्तिगत केसको आधिकारिक पुष्टि होइन।",
+    twitterHint: "प्राधिकरण खातासँग लिङ्क सारांश। लाइभ X का लागि पेड API चाहिन्छ — अहिले curated पोस्ट। मूल खोल्नुहोस्।",
     officialEmpty: "अहिलेसम्म आधिकारिक अपडेट छैन।",
     twitterEmpty: "अहिलेसम्म प्राधिकरण पोस्ट लोड भएको छैन। तलका खाता फलो गर्नुहोस्।",
     twitterFollow: "आधिकारिक खाता फलो गर्नुहोस्",
-    twitterFollowHint: "लाइभ X/Twitter का लागि API टोकन चाहिन्छ। अहिले यी खाता वा माथिका सारांश प्रयोग गर्नुहोस्।",
+    twitterFollowHint: "नयाँ पोस्टका लागि यी खाता सिधै X मा फलो गर्नुहोस्।",
     officialPortalsTitle: "आधिकारिक सूची कहाँ जाँच गर्ने",
     officialPortalsHint: "यी पोर्टल आफैं खोज्नका लागि हुन् — हामी केस सूची वा फोटो कपी गर्दैनौं।",
     readOriginal: "मूल पढ्नुहोस्",
@@ -235,15 +235,52 @@ function markActiveNav() {
 
 function encodeWhatsApp(phone, text) {
   const num = phone.replace(/\D/g, "");
-  let msg = text || "";
-  if (msg.length > 1200) {
-    msg = msg.slice(0, 1150) + "\n\n[Message shortened. Full report is on your clipboard — paste after opening.]";
-  }
+  const msg = text || "";
   return `https://wa.me/${num}?text=${encodeURIComponent(msg)}`;
 }
 
 function encodeMailto(email, subject, body) {
-  return `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  let href = `mailto:${email}`;
+  const q = [];
+  if (subject) q.push(`subject=${encodeURIComponent(subject)}`);
+  if (body) q.push(`body=${encodeURIComponent(body)}`);
+  if (q.length) href += `?${q.join("&")}`;
+  return href;
+}
+
+/** Open email: always copy body; mailto with short body so browsers actually open. */
+async function openEmailClient(email, subject, body) {
+  const full = body || "";
+  try {
+    await navigator.clipboard.writeText(full);
+  } catch (e) {
+    /* user can still copy from the page textarea */
+  }
+
+  const pasteHint =
+    "Please paste the full message from your clipboard (we copied it for you).";
+  const href = encodeMailto(email, subject, pasteHint);
+
+  const a = document.createElement("a");
+  a.href = href;
+  a.style.display = "none";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+
+  return { copied: true };
+}
+
+function gmailComposeUrl(email, subject, body) {
+  const params = new URLSearchParams({
+    view: "cm",
+    fs: "1",
+    to: email,
+    su: subject || "",
+  });
+  // Gmail URL body also has limits — rely on clipboard for the full text
+  params.set("body", "Please paste the full message from your clipboard.");
+  return `https://mail.google.com/mail/?${params.toString()}`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {

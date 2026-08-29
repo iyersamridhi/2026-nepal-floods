@@ -33,7 +33,14 @@ def grok_summarize(prompt: str, max_tokens: int = 300) -> str | None:
     )
     if not api_key:
         return None
-    # Normalize so downstream checks see one name
+
+    # Secrets often get pasted with newlines, quotes, or a "Bearer " prefix
+    api_key = api_key.strip().strip('"').strip("'")
+    if api_key.lower().startswith("bearer "):
+        api_key = api_key[7:].strip()
+    api_key = "".join(api_key.split())
+    if not api_key:
+        return None
     os.environ.setdefault("XAI_API_KEY", api_key)
 
     model = os.environ.get("GROK_MODEL", "grok-3-latest")

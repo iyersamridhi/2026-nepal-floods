@@ -42,17 +42,27 @@ def tweet_hash(text: str) -> str:
     return hashlib.sha256(text.encode()).hexdigest()[:16]
 
 
+def sanitize_bearer(token: str | None) -> str | None:
+    if not token:
+        return None
+    token = token.strip().strip('"').strip("'")
+    if token.lower().startswith("bearer "):
+        token = token[7:].strip()
+    token = "".join(token.split())
+    return token or None
+
+
 def fetch_user_tweets(handle: str, bearer: str, keywords: list[str], max_results: int = 10) -> list[dict]:
-  kw = "%20OR%20".join(k.replace(" ", "%20") for k in keywords[:6])
-  q = f"from:{handle}%20({kw})"
-  url = (
-      f"https://api.twitter.com/2/tweets/search/recent?"
-      f"query={q}&max_results={max_results}&tweet.fields=created_at,text"
-  )
-  req = urllib.request.Request(url, headers={"Authorization": f"Bearer {bearer}"})
-  with urllib.request.urlopen(req, timeout=30) as resp:
-      data = json.loads(resp.read().decode())
-  return data.get("data", [])
+    kw = "%20OR%20".join(k.replace(" ", "%20") for k in keywords[:6])
+    q = f"from:{handle}%20({kw})"
+    url = (
+        f"https://api.twitter.com/2/tweets/search/recent?"
+        f"query={q}&max_results={max_results}&tweet.fields=created_at,text"
+    )
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {bearer}"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode())
+    return data.get("data", [])
 
 
 def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text: str, created_at: str, cache: dict, force: bool, source_url: str | None = None) -> tuple[dict, bool]:
@@ -127,19 +137,32 @@ def main():
     cache = load_cache()
     items: list[dict] = []
     any_changed = False
+    live_ok = False
 
-    bearer = os.environ.get("TWITTER_BEARER_TOKEN")
+    bearer = sanitize_bearer(os.environ.get("TWITTER_BEARER_TOKEN"))
     keywords = twitter_cfg.get("keywords", ["flood", "rasuwa", "missing"])
     twitter_enabled = twitter_cfg.get("enabled", False) or bool(bearer)
 
     if bearer and twitter_enabled:
+        payment_blocked = False
         for acct in twitter_cfg.get("accounts", []):
+            if payment_blocked:
+                break
             handle = acct["handle"]
             try:
                 tweets = fetch_user_tweets(handle, bearer, keywords)
             except Exception as e:
-                print(f"@{handle}: {e}", file=sys.stderr)
+                msg = str(e)
+                print(f"@{handle}: {msg}", file=sys.stderr)
+                if "402" in msg or "Payment Required" in msg:
+                    print(
+                        "X/Twitter API returned 402 Payment Required — "
+                        "Recent Search needs a paid Basic+ plan. Falling back to manual seeds.",
+                        file=sys.stderr,
+                    )
+                    payment_blocked = True
                 continue
+            live_ok = True
             for tw in tweets:
                 item, changed = build_tweet_item(
                     handle,
@@ -154,6 +177,8 @@ def main():
                 items.append(item)
                 if changed:
                     any_changed = True
+        if not live_ok:
+            print("No live tweets fetched — using manual seeds", file=sys.stderr)
     else:
         print("Twitter API not configured — using manual seeds only", file=sys.stderr)
 
@@ -173,26 +198,39 @@ def main():
         deduped.append(it)
     deduped.sort(key=lambda x: x.get("timestamp", ""), reverse=True)
 
-    grok_on = bool(os.environ.get("XAI_API_KEY") or os.environ.get("GROK_API_KEY"))
+    grok_on = bool(
+        sanitize_bearer(os.environ.get("XAI_API_KEY"))
+        or sanitize_bearer(os.environ.get("X_AI"))
+        or sanitize_bearer(os.environ.get("GROK_API_KEY"))
+    )
+
+    note = (
+        "Authority Twitter/X posts — summarized with link. Verify on original tweet; not official confirmation."
+        if live_ok
+        else "Curated authority post summaries (live X API unavailable or unpaid). Follow accounts below for newest posts."
+    )
 
     if not any_changed and TWITTER_BULLETIN.exists() and not force:
         existing = json.loads(TWITTER_BULLETIN.read_text(encoding="utf-8"))
         existing["generatedAt"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
         existing["skippedUnchanged"] = True
         existing["summarizer"] = "grok" if grok_on else "raw"
+        existing["liveFetch"] = live_ok
+        existing["note"] = note
         TWITTER_BULLETIN.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"No Twitter changes ({len(existing.get('items', []))} items)", file=sys.stderr)
         return
 
     bulletin = {
         "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "note": "Authority Twitter/X posts — summarized with link. Verify on original tweet; not official confirmation.",
+        "note": note,
+        "liveFetch": live_ok,
         "summarizer": "grok" if grok_on else "raw",
         "skippedUnchanged": False,
         "items": deduped,
     }
     TWITTER_BULLETIN.write_text(json.dumps(bulletin, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {len(deduped)} Twitter bulletin items", file=sys.stderr)
+    print(f"Wrote {len(deduped)} Twitter bulletin items (live={live_ok})", file=sys.stderr)
 
 
 if __name__ == "__main__":
