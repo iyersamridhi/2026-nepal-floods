@@ -1,0 +1,11 @@
+{
+  "id": "nesra-floodwatch-rasuwa",
+  "source": "NESRA FloodWatch (Nepalese Space Research Association)",
+  "sourceUrl": "https://nesraspace.org/floodwatch/rasuwa-2026/",
+  "timestamp": "2026-08-30T12:30:00+05:45",
+  "region": ["nepal"],
+  "title": "NESRA FloodWatch — Rasuwa / Bhotekoshi situation brief",
+  "citation": "NESRA — FloodWatch Rasuwa 2026",
+  "body": "Independent geospatial / satellite situational awareness page for the Rasuwa–Bhotekoshi–Trishuli flood. Not a government filing system and not a missing-persons registry. NESRA says follow DHM, NDRRMA and local authorities for official warnings. Useful for access, impact, and Earth-observation context.",
+  "kind": "pointer"
+}

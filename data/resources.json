@@ -1,5 +1,10 @@
 {
   "portals": [
+    { "name": "OPMCM Rasuwa Flood Rescue Portal (home)", "url": "https://rescue.opmcm.gov.np/", "region": "nepal" },
+    { "name": "OPMCM — missing / found persons", "url": "https://rescue.opmcm.gov.np/person-lost-found", "region": "nepal" },
+    { "name": "OPMCM — request help", "url": "https://rescue.opmcm.gov.np/ask-help", "region": "nepal" },
+    { "name": "OPMCM — help requests board", "url": "https://rescue.opmcm.gov.np/help-requests", "region": "nepal" },
+    { "name": "OPMCM — emergency contacts", "url": "https://rescue.opmcm.gov.np/emergency-contacts", "region": "nepal" },
     { "name": "Nepal Police — Found persons", "url": "https://udb.nepalpolice.gov.np/found", "region": "nepal" },
     { "name": "Nepal Police — Missing persons", "url": "https://udb.nepalpolice.gov.np/missing", "region": "nepal" },
     { "name": "Nepal Police — Unidentified remains", "url": "https://udb.nepalpolice.gov.np/dead-bodies", "region": "nepal" },
@@ -14,6 +19,7 @@
     { "name": "India MEA — Special Control Room (Nepal floods)", "url": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation", "region": "india" },
     { "name": "Embassy of India, Kathmandu", "url": "https://www.indembkathmandu.gov.in", "region": "india" },
     { "name": "Xinhua — Gyirong rescue coverage", "url": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html", "region": "tibet" },
+    { "name": "NESRA FloodWatch — Rasuwa 2026 situation (non-government)", "url": "https://nesraspace.org/floodwatch/rasuwa-2026/", "region": "situational" },
     { "name": "Sodhera — community missing / found board", "url": "https://flood.sodhera.com/", "region": "community" },
     { "name": "Hemkunt Foundation — report / public list", "url": "https://web-production-5f11e.up.railway.app/", "region": "community" },
     { "name": "Hemkunt Foundation — update a case", "url": "https://web-production-5f11e.up.railway.app/update", "region": "community" },

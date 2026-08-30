@@ -1,5 +1,15 @@
 const FOUND_LINKS = [
   {
+    title: "OPMCM — missing / found persons (official)",
+    desc: "Government of Nepal Rasuwa Flood Rescue Portal. Search missing and found reports there — we do not copy names here.",
+    href: "https://rescue.opmcm.gov.np/person-lost-found",
+  },
+  {
+    title: "OPMCM Rasuwa Flood Rescue Portal (home)",
+    desc: "Official Office of the Prime Minister portal: ask for help, browse help requests, emergency contacts, and more.",
+    href: "https://rescue.opmcm.gov.np/",
+  },
+  {
     title: "Injured — currently in Kathmandu hospitals (NDRRMA)",
     desc: "Official NDRRMA list of flood-injured people still under treatment in Kathmandu. We do not copy names here.",
     href: "https://ndrrma.gov.np/np/notice-information",

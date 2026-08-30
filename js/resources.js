@@ -5,6 +5,7 @@ const CATEGORIES = [
   { id: "tibet", labelKey: "chipTibet", label: "Tibet / China" },
   { id: "embassy", labelKey: "chipEmbassy", label: "Embassies" },
   { id: "community", labelKey: "chipCommunity", label: "Community boards" },
+  { id: "situational", labelKey: "chipSituational", label: "Situation briefs" },
   { id: "portal", labelKey: "chipPortal", label: "Portals" },
   { id: "twitter", labelKey: "chipTwitter", label: "X / Twitter" },
 ];
@@ -15,6 +16,7 @@ const CATEGORY_LABEL = {
   tibet: "Tibet / China",
   embassy: "Embassy",
   community: "Community board",
+  situational: "Situation brief",
   portal: "Portal",
   twitter: "X / Twitter",
 };
@@ -183,15 +185,22 @@ function buildDirectory(res, help) {
 
   (res.portals || []).forEach((p, i) => {
     const isCommunity = p.region === "community";
+    const isSituational = p.region === "situational";
     push({
       id: `portal-${i}`,
       name: p.name,
-      category: isCommunity ? "community" : "portal",
-      tags: [p.region || "", isCommunity ? "community board" : "portal", isCommunity ? "community" : "official"],
+      category: isCommunity ? "community" : isSituational ? "situational" : "portal",
+      tags: [
+        p.region || "",
+        isCommunity ? "community board" : isSituational ? "situation brief" : "portal",
+        isCommunity || isSituational ? "non-government" : "official",
+      ],
       url: p.url,
       note: isCommunity
         ? "Community-run missing / found board — not a government database."
-        : "",
+        : isSituational
+          ? "Situational awareness only — not for filing missing-person cases; follow DHM / NDRRMA for official warnings."
+          : "",
     });
   });
 

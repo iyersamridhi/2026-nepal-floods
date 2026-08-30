@@ -99,6 +99,7 @@ function getResults() {
       desc: "We do not copy names or photos. Open the government pages and search there.",
       links: [
         { label: "Go to official found lists", href: "/search.html", primary: true },
+        { label: "OPMCM — missing / found", href: "https://rescue.opmcm.gov.np/person-lost-found" },
         { label: "NDRRMA — under treatment (Kathmandu hospitals)", href: "https://ndrrma.gov.np/np/notice-information" },
         { label: "NDRRMA — discharged after treatment", href: "https://ndrrma.gov.np/np/misc-report" },
         { label: "Nepal Police — Found", href: "https://udb.nepalpolice.gov.np/found" },

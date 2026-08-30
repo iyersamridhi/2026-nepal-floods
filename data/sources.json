@@ -31,6 +31,24 @@
       "note": "China-side rescue coverage at Gyirong border port"
     },
     {
+      "id": "opmcm-rescue-portal",
+      "enabled": true,
+      "type": "seed",
+      "name": "OPMCM Rasuwa Flood Rescue Portal",
+      "seedFile": "data/seeds/opmcm_rescue_portal.json",
+      "region": ["nepal"],
+      "note": "Official GoN portal — link only; do not scrape personal cases"
+    },
+    {
+      "id": "nesra-floodwatch-rasuwa",
+      "enabled": true,
+      "type": "seed",
+      "name": "NESRA FloodWatch (situational awareness)",
+      "seedFile": "data/seeds/nesra_floodwatch.json",
+      "region": ["nepal"],
+      "note": "Non-government EO/situation brief — label clearly; not for filing missing persons"
+    },
+    {
       "id": "ndrrma-portal",
       "enabled": true,
       "type": "seed",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T08:59:18.148816Z",
+  "generatedAt": "2026-08-30T10:03:39.066863Z",
   "note": "Auto-scraped from 8 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -14,6 +14,70 @@
   "summarizer": "grok",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "nesra-floodwatch-rasuwa",
+      "timestamp": "2026-08-30T12:30:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "NESRA FloodWatch (Nepalese Space Research Association)",
+      "sourceUrl": "https://nesraspace.org/floodwatch/rasuwa-2026/",
+      "title": "NESRA FloodWatch — Rasuwa / Bhotekoshi situation brief",
+      "summary": "Independent geospatial / satellite situational awareness page for the Rasuwa–Bhotekoshi–Trishuli flood. Not a government filing system and not a missing-persons registry. NESRA says follow DHM, NDRRMA and local authorities for official warnings. Useful for access, impact, and Earth-observation context.",
+      "citation": "NESRA — FloodWatch Rasuwa 2026",
+      "kind": "pointer",
+      "scrapeMethod": "seed",
+      "contentHash": "nesra-floodwatch-rasuwa"
+    },
+    {
+      "id": "opmcm-rescue-portal",
+      "timestamp": "2026-08-30T12:00:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Office of the Prime Minister and Council of Ministers (OPMCM)",
+      "sourceUrl": "https://rescue.opmcm.gov.np/",
+      "title": "Rasuwa Flood Rescue Portal (OPMCM)",
+      "summary": "Official Government of Nepal portal for the 2026 Bhote Koshi–Trishuli / Rasuwa flood response. Families can search missing and found reports, request help, browse help requests, and open emergency contacts. Run by the Office of the Prime Minister and Council of Ministers. This site links to the portal; we do not copy names or case details.",
+      "citation": "OPMCM — rescue.opmcm.gov.np",
+      "kind": "pointer",
+      "scrapeMethod": "seed",
+      "contentHash": "opmcm-rescue-portal"
+    },
+    {
+      "id": "ndrrma-hospital-under-treatment",
+      "timestamp": "2026-08-30T07:17:00+05:45",
+      "publishedLabel": "30 Aug 2026 · 7:17 am",
+      "region": [
+        "nepal"
+      ],
+      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+      "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
+      "title": "Injured — currently in Kathmandu hospitals (NDRRMA)",
+      "summary": "NDRRMA has published a list of people injured in the Rasuwa Bhotekoshi and Trishuli floods. The list covers those now being treated in Kathmandu hospitals.",
+      "citation": "NDRRMA — notice-information (under treatment)",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "6fa65d1fda88f44a"
+    },
+    {
+      "id": "ndrrma-hospital-discharged",
+      "timestamp": "2026-08-30T07:17:00+05:45",
+      "publishedLabel": "30 Aug 2026 · 7:17 am",
+      "region": [
+        "nepal"
+      ],
+      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+      "sourceUrl": "https://ndrrma.gov.np/np/misc-report",
+      "title": "Injured — discharged after treatment (NDRRMA)",
+      "summary": "Some people injured in the Rasuwa floods were treated at hospitals in Kathmandu and have now been sent home. NDRRMA has posted a list of those discharged.",
+      "citation": "NDRRMA — misc-report (discharged)",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "3d33f5a6fe5fe1af"
+    },
     {
       "id": "mofa-0f39aa2364bf",
       "timestamp": "2026-08-29T15:00:00+05:45",
@@ -118,55 +182,6 @@
       "contentHash": "4e5bc0dc24197771"
     },
     {
-      "id": "mofa-c0d1aa509022",
-      "timestamp": "2026-08-26T17:00:00+05:45",
-      "publishedLabel": "26 Aug 2026 · 5:00 pm",
-      "region": [
-        "nepal",
-        "foreign"
-      ],
-      "source": "Nepal Ministry of Foreign Affairs",
-      "sourceUrl": "https://mofa.gov.np/content/1865/latest-updates-on-flash-floods--26-august/",
-      "title": "Latest Updates on Flash Floods- 26 August 2026",
-      "summary": "Nepal had severe flash floods this morning that killed people and damaged homes, roads, bridges and other infrastructure. So far 72 bodies have been recovered and 403 people are reported missing.",
-      "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 26 August 2026",
-      "kind": "update",
-      "scrapeMethod": "grok",
-      "contentHash": "65f7ee5ecd1e78db"
-    },
-    {
-      "id": "ndrrma-hospital-under-treatment",
-      "timestamp": "2026-08-30T07:17:00+05:45",
-      "publishedLabel": "30 Aug 2026 · 7:17 am",
-      "region": [
-        "nepal"
-      ],
-      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
-      "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
-      "title": "Injured — currently in Kathmandu hospitals (NDRRMA)",
-      "summary": "NDRRMA has published a list of people injured in the Rasuwa Bhotekoshi and Trishuli floods. The list covers those now being treated in Kathmandu hospitals.",
-      "citation": "NDRRMA — notice-information (under treatment)",
-      "kind": "pointer",
-      "scrapeMethod": "grok",
-      "contentHash": "6fa65d1fda88f44a"
-    },
-    {
-      "id": "ndrrma-hospital-discharged",
-      "timestamp": "2026-08-30T07:17:00+05:45",
-      "publishedLabel": "30 Aug 2026 · 7:17 am",
-      "region": [
-        "nepal"
-      ],
-      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
-      "sourceUrl": "https://ndrrma.gov.np/np/misc-report",
-      "title": "Injured — discharged after treatment (NDRRMA)",
-      "summary": "Some people injured in the Rasuwa floods were treated at hospitals in Kathmandu and have now been sent home. NDRRMA has posted a list of those discharged.",
-      "citation": "NDRRMA — misc-report (discharged)",
-      "kind": "pointer",
-      "scrapeMethod": "grok",
-      "contentHash": "3d33f5a6fe5fe1af"
-    },
-    {
       "id": "ndrrma-rescue-portal",
       "timestamp": "2026-08-27T10:00:00+05:45",
       "publishedLabel": "27 Aug 2026 · 10:00 am",
@@ -214,6 +229,23 @@
       "kind": "pointer",
       "scrapeMethod": "grok",
       "contentHash": "3210fdaaec387c91"
+    },
+    {
+      "id": "mofa-c0d1aa509022",
+      "timestamp": "2026-08-26T17:00:00+05:45",
+      "publishedLabel": "26 Aug 2026 · 5:00 pm",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1865/latest-updates-on-flash-floods--26-august/",
+      "title": "Latest Updates on Flash Floods- 26 August 2026",
+      "summary": "Nepal had severe flash floods this morning that killed people and damaged homes, roads, bridges and other infrastructure. So far 72 bodies have been recovered and 403 people are reported missing.",
+      "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 26 August 2026",
+      "kind": "update",
+      "scrapeMethod": "grok",
+      "contentHash": "65f7ee5ecd1e78db"
     }
   ]
 }
