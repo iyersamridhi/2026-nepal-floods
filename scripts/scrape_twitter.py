@@ -64,7 +64,7 @@ def fetch_user_tweets(handle: str, bearer: str, keywords: list[str], max_results
     Soft-filter client-side; if nothing matches, keep the recent posts.
     """
     max_results = max(10, min(int(max_results), 100))
-    q = urllib.parse.quote(f"from:{handle} -is:retweet", safe="")
+    q = urllib.parse.quote(f"from:{handle}", safe="")
     url = (
         f"https://api.twitter.com/2/tweets/search/recent?"
         f"query={q}&max_results={max_results}&tweet.fields=created_at,text"

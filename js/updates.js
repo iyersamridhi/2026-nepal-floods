@@ -30,7 +30,7 @@ async function loadOfficialBulletin() {
     state.officialItems = items;
 
     if (meta) {
-      meta.textContent = formatMeta(data, items.length);
+      meta.textContent = formatMeta(data, items.length, items);
     }
     const latestEl = document.getElementById("official-latest");
     if (latestEl) {
@@ -62,7 +62,7 @@ async function loadTwitterBulletin() {
     }
     items = sortBulletinItems(items);
     state.twitterItems = items;
-    if (meta) meta.textContent = formatMeta(data, items.length);
+    if (meta) meta.textContent = formatMeta(data, items.length, items);
     if (hint) {
       hint.textContent = data.liveFetch === false ? t("twitterLiveOff") : t("twitterHint");
     }
@@ -153,13 +153,15 @@ async function renderTwitterAccounts(el) {
   }
 }
 
-function formatMeta(data, visibleCount) {
+function formatMeta(data, visibleCount, items) {
   const checked = data.generatedAt ? formatStamp(data.generatedAt) : "—";
   const parts = [`Checked ${checked}`];
-  if (visibleCount != null) parts.push(`${visibleCount} update${visibleCount === 1 ? "" : "s"}`);
-  if (data.liveFetch === false && state.tab === "twitter") {
-    /* keep quiet — hint already explains */
+  if (items && items.length) {
+    const newest = items.find((i) => i.kind !== "pointer") || items[0];
+    const when = newest?.publishedLabel || formatStamp(newest?.timestamp);
+    if (when) parts.push(`Newest post ${when}`);
   }
+  if (visibleCount != null) parts.push(`${visibleCount} update${visibleCount === 1 ? "" : "s"}`);
   return parts.join(" · ");
 }
 
