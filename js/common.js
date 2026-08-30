@@ -103,7 +103,7 @@ const I18N = {
     openPortal: "Open portal",
     updatesResourcesLink: "All contacts & numbers →",
     footer:
-      "Volunteer site — contacts, links & bulletin only. Not affiliated with any government. We do not collect personal case data.",
+      "Community volunteer site — not official. Contacts, links & bulletin only. We do not collect personal case data.",
     feedbackLink: "Feedback",
     feedbackVolunteerLink: "Feedback & volunteer",
     feedbackTitle: "Feedback",
@@ -232,7 +232,7 @@ const I18N = {
     openPortal: "पोर्टल खोल्नुहोस्",
     updatesResourcesLink: "सबै सम्पर्क र नम्बर →",
     footer:
-      "स्वयंसेवी साइट — सम्पर्क, लिङ्क र अपडेट मात्र। कुनै सरकारसँग आबद्ध छैन।",
+      "सामुदायिक स्वयंसेवी साइट — आधिकारिक होइन। सम्पर्क, लिङ्क र बुलेटिन मात्र।",
     feedbackLink: "प्रतिक्रिया",
     feedbackVolunteerLink: "प्रतिक्रिया र स्वयंसेवा",
     feedbackTitle: "प्रतिक्रिया",
