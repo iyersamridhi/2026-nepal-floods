@@ -353,6 +353,7 @@ def scrape_from_body(
     if unchanged and cached.get("item"):
         print(f"  unchanged — skip Grok ({cache_key})", file=sys.stderr)
         item = dict(cached["item"])
+        item["summary"] = strip_summary_urls(item.get("summary", ""))
         item["scrapeMethod"] = "cached"
         item.setdefault("kind", kind)
         return item, False
