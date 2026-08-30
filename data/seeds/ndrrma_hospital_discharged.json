@@ -1,0 +1,11 @@
+{
+  "id": "ndrrma-hospital-discharged",
+  "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+  "sourceUrl": "https://ndrrma.gov.np/np/misc-report",
+  "timestamp": "2026-08-30T07:17:00+05:45",
+  "region": ["nepal"],
+  "title": "Injured — discharged after treatment (NDRRMA)",
+  "citation": "NDRRMA — misc-report (discharged)",
+  "body": "NDRRMA published a list of people injured in the Rasuwa Bhotekoshi / Trishuli floods who were treated in Kathmandu hospitals and have since been discharged. Open the official NDRRMA page to search the list. This site links to NDRRMA; we do not copy names or case details.",
+  "kind": "pointer"
+}

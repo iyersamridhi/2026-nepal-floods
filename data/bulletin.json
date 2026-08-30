@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T08:16:43.902477Z",
+  "generatedAt": "2026-08-30T08:57:41.967664Z",
   "note": "Auto-scraped from 6 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -12,6 +12,38 @@
   "summarizer": "grok",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "ndrrma-hospital-under-treatment",
+      "timestamp": "2026-08-30T07:17:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+      "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
+      "title": "Injured — currently in Kathmandu hospitals (NDRRMA)",
+      "summary": "NDRRMA published a list of people injured in the Rasuwa Bhotekoshi / Trishuli floods who are currently receiving treatment in various Kathmandu hospitals. Open the official NDRRMA page to search the list. This site links to NDRRMA; we do not copy names or case details.",
+      "citation": "NDRRMA — notice-information (under treatment)",
+      "kind": "pointer",
+      "scrapeMethod": "seed",
+      "contentHash": "ndrrma-hospital-under-treatment"
+    },
+    {
+      "id": "ndrrma-hospital-discharged",
+      "timestamp": "2026-08-30T07:17:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+      "sourceUrl": "https://ndrrma.gov.np/np/misc-report",
+      "title": "Injured — discharged after treatment (NDRRMA)",
+      "summary": "NDRRMA published a list of people injured in the Rasuwa Bhotekoshi / Trishuli floods who were treated in Kathmandu hospitals and have since been discharged. Open the official NDRRMA page to search the list. This site links to NDRRMA; we do not copy names or case details.",
+      "citation": "NDRRMA — misc-report (discharged)",
+      "kind": "pointer",
+      "scrapeMethod": "seed",
+      "contentHash": "ndrrma-hospital-discharged"
+    },
     {
       "id": "mofa-0f39aa2364bf",
       "timestamp": "2026-08-29T15:00:00+05:45",
@@ -116,23 +148,6 @@
       "contentHash": "4e5bc0dc24197771"
     },
     {
-      "id": "mofa-c0d1aa509022",
-      "timestamp": "2026-08-26T17:00:00+05:45",
-      "publishedLabel": "26 Aug 2026 · 5:00 pm",
-      "region": [
-        "nepal",
-        "foreign"
-      ],
-      "source": "Nepal Ministry of Foreign Affairs",
-      "sourceUrl": "https://mofa.gov.np/content/1865/latest-updates-on-flash-floods--26-august/",
-      "title": "Latest Updates on Flash Floods- 26 August 2026",
-      "summary": "Flash floods hit Nepal’s Bhote Koshi River today, with 72 bodies recovered so far and 403 people reported missing.",
-      "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 26 August 2026",
-      "kind": "update",
-      "scrapeMethod": "grok",
-      "contentHash": "65f7ee5ecd1e78db"
-    },
-    {
       "id": "ndrrma-rescue-portal",
       "timestamp": "2026-08-27T10:00:00+05:45",
       "publishedLabel": "27 Aug 2026 · 10:00 am",
@@ -180,6 +195,23 @@
       "kind": "pointer",
       "scrapeMethod": "grok",
       "contentHash": "3210fdaaec387c91"
+    },
+    {
+      "id": "mofa-c0d1aa509022",
+      "timestamp": "2026-08-26T17:00:00+05:45",
+      "publishedLabel": "26 Aug 2026 · 5:00 pm",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1865/latest-updates-on-flash-floods--26-august/",
+      "title": "Latest Updates on Flash Floods- 26 August 2026",
+      "summary": "Flash floods hit Nepal’s Bhote Koshi River today, with 72 bodies recovered so far and 403 people reported missing.",
+      "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 26 August 2026",
+      "kind": "update",
+      "scrapeMethod": "grok",
+      "contentHash": "65f7ee5ecd1e78db"
     }
   ]
 }

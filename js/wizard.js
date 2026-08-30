@@ -99,6 +99,8 @@ function getResults() {
       desc: "We do not copy names or photos. Open the government pages and search there.",
       links: [
         { label: "Go to official found lists", href: "/search.html", primary: true },
+        { label: "NDRRMA — under treatment (Kathmandu hospitals)", href: "https://ndrrma.gov.np/np/notice-information" },
+        { label: "NDRRMA — discharged after treatment", href: "https://ndrrma.gov.np/np/misc-report" },
         { label: "Nepal Police — Found", href: "https://udb.nepalpolice.gov.np/found" },
         { label: "SETU — request help form", href: SETU_FORM_URL },
       ],

@@ -4,6 +4,8 @@
     { "name": "Nepal Police — Missing persons", "url": "https://udb.nepalpolice.gov.np/missing", "region": "nepal" },
     { "name": "Nepal Police — Unidentified remains", "url": "https://udb.nepalpolice.gov.np/dead-bodies", "region": "nepal" },
     { "name": "NDRRMA rescue updates", "url": "https://ndrrma.gov.np/np/rescue", "region": "nepal" },
+    { "name": "NDRRMA — injured under treatment (Kathmandu hospitals)", "url": "https://ndrrma.gov.np/np/notice-information", "region": "nepal" },
+    { "name": "NDRRMA — injured discharged after treatment", "url": "https://ndrrma.gov.np/np/misc-report", "region": "nepal" },
     { "name": "SETU — Request help (missing/rescue form)", "url": "https://setu.ndrrma.gov.np/admin/help.php", "region": "nepal" },
     { "name": "SETU rescued & missing list", "url": "https://setu.ndrrma.gov.np", "region": "nepal" },
     { "name": "MoFA — Flash flood updates (daily)", "url": "https://mofa.gov.np/category/flashflood/", "region": "nepal" },

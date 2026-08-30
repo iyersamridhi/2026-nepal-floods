@@ -40,6 +40,24 @@
       "note": "Portal pointer — NDRRMA site is mostly JS"
     },
     {
+      "id": "ndrrma-hospital-under-treatment",
+      "enabled": true,
+      "type": "seed",
+      "name": "NDRRMA — injured under treatment (Kathmandu hospitals)",
+      "seedFile": "data/seeds/ndrrma_hospital_under_treatment.json",
+      "region": ["nepal"],
+      "note": "From NDRRMA X post 30 Aug — notice-information board; link only, no name scrape"
+    },
+    {
+      "id": "ndrrma-hospital-discharged",
+      "enabled": true,
+      "type": "seed",
+      "name": "NDRRMA — injured discharged after treatment",
+      "seedFile": "data/seeds/ndrrma_hospital_discharged.json",
+      "region": ["nepal"],
+      "note": "From NDRRMA X post 30 Aug — misc-report board; link only, no name scrape"
+    },
+    {
       "id": "nepal-police-udb",
       "enabled": true,
       "type": "seed",

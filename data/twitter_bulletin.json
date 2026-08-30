@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T08:46:16.734008Z",
+  "generatedAt": "2026-08-30T08:57:41.966397Z",
   "note": "Authority Twitter/X posts — summarized with link. Verify on original tweet; not official confirmation.",
   "liveFetch": true,
   "summarizer": "grok",
@@ -82,6 +82,21 @@
       "citation": "Tweet by @IndiainNepal",
       "scrapeMethod": "grok",
       "contentHash": "b275faeb50604063"
+    },
+    {
+      "id": "twitter-2093961178418749652",
+      "timestamp": "2026-08-30T07:17:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093961178418749652",
+      "title": "NDRRMA Nepal",
+      "summary": "@NDRRMA_Nepal shared Kathmandu hospital lists for people injured in the Rasuwa Bhotekoshi/Trishuli floods: those still under treatment, and those already discharged after treatment.",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "scrapeMethod": "manual",
+      "contentHash": "manual-2093961178418749652"
     },
     {
       "id": "twitter-2093931799080751376",

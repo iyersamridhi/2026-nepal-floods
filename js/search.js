@@ -1,5 +1,15 @@
 const FOUND_LINKS = [
   {
+    title: "Injured — currently in Kathmandu hospitals (NDRRMA)",
+    desc: "Official NDRRMA list of flood-injured people still under treatment in Kathmandu. We do not copy names here.",
+    href: "https://ndrrma.gov.np/np/notice-information",
+  },
+  {
+    title: "Injured — discharged after treatment (NDRRMA)",
+    desc: "Official NDRRMA list of flood-injured people discharged from Kathmandu hospitals. We do not copy names here.",
+    href: "https://ndrrma.gov.np/np/misc-report",
+  },
+  {
     title: "Found / unidentified living persons — Nepal Police",
     desc: "Official list of people found. Search there. We do not copy names or photos here.",
     href: "https://udb.nepalpolice.gov.np/found",
