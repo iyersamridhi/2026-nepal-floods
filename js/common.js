@@ -7,8 +7,7 @@ const I18N = {
       "Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.",
     banner:
       "Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.",
-    homeIntro:
-      "Official portals and helplines, a short who-to-contact guide, and clear paths to report someone missing or check found and hospital lists. A bulletin gathers public notes and authority posts. Links open the original sources — we store nothing personal.",
+    homeIntro: "",
     legalTitle: "Disclaimer, Privacy & Terms",
     legalSubtitle: "Independent volunteer site — not an official organisation",
     legalIndepBannerTitle: "Independent & unofficial.",
@@ -104,7 +103,7 @@ const I18N = {
     openPortal: "Open portal",
     updatesResourcesLink: "All contacts & numbers →",
     footer:
-      "Community volunteer site — not official. Contacts, links & bulletin only. We do not collect personal case data.",
+      "Volunteer site — contacts, links & bulletin only. Not affiliated with any government. We do not collect personal case data.",
     feedbackLink: "Feedback",
     feedbackVolunteerLink: "Feedback & volunteer",
     feedbackTitle: "Feedback",
@@ -137,8 +136,7 @@ const I18N = {
       "स्वतन्त्र स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक सम्पर्कमा मात्र लिङ्क; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
     banner:
       "स्वतन्त्र स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक सम्पर्कमा मात्र लिङ्क; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
-    homeIntro:
-      "आधिकारिक पोर्टल र हेल्पलाइन, कसलाई सम्पर्क गर्ने छोटो गाइड, र हराएको रिपोर्ट वा फेला/अस्पताल सूची जाँचका स्पष्ट बाटो। बुलेटिनमा सार्वजनिक नोट र प्राधिकरणका पोस्ट। लिङ्क मूल स्रोतमै जान्छन् — हामी व्यक्तिगत डाटा राख्दैनौं।",
+    homeIntro: "",
     legalTitle: "अस्वीकरण, गोपनीयता र सर्तहरू",
     legalSubtitle: "स्वतन्त्र स्वयंसेवी साइट — आधिकारिक संस्था होइन",
     legalIndepBannerTitle: "स्वतन्त्र र अनौपचारिक।",
@@ -234,7 +232,7 @@ const I18N = {
     openPortal: "पोर्टल खोल्नुहोस्",
     updatesResourcesLink: "सबै सम्पर्क र नम्बर →",
     footer:
-      "सामुदायिक स्वयंसेवी साइट — आधिकारिक होइन। सम्पर्क, लिङ्क र बुलेटिन मात्र।",
+      "स्वयंसेवी साइट — सम्पर्क, लिङ्क र अपडेट मात्र। कुनै सरकारसँग आबद्ध छैन।",
     feedbackLink: "प्रतिक्रिया",
     feedbackVolunteerLink: "प्रतिक्रिया र स्वयंसेवा",
     feedbackTitle: "प्रतिक्रिया",
