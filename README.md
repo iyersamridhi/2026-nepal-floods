@@ -2,7 +2,20 @@
 
 Volunteer page of **public contacts, missing-person forms, and government updates** after the August 2026 floods in northern Nepal (SETU, Nepal Police, MoFA, embassies).
 
+**Live site:** https://2026-nepal-floods.vercel.app
+
 **Independent & unofficial.** Not affiliated with any government. See [`legal.html`](legal.html) for disclaimer and privacy (we do not collect or store personal case data).
+
+## SEO / search indexing
+
+- Keyword titles & descriptions on every page (Bhotekoshi, Rasuwa, Gyirong, MoFA, MEA control room, etc.)
+- [`robots.txt`](robots.txt) + [`sitemap.xml`](sitemap.xml)
+- Updates stay fresh via GitHub Action (~30 min)
+
+**You still need to submit once** (Google/Bing accounts required — see [`docs/SEO.md`](docs/SEO.md)):
+
+1. [Google Search Console](https://search.google.com/search-console) → add `https://2026-nepal-floods.vercel.app` → submit sitemap `https://2026-nepal-floods.vercel.app/sitemap.xml`
+2. Optional: [Bing Webmaster Tools](https://www.bing.com/webmasters) → same sitemap
 
 ## Deploy on Vercel
 
