@@ -172,7 +172,8 @@ def build_tweet_item(
     cached = cache.get(tid, {})
     role = role if role in ("authority", "journalist") else "authority"
 
-    if cached.get("contentHash") == ch and cached.get("item") and not force:
+    if cached.get("contentHash") == ch and cached.get("item"):
+        # Never re-Grok unchanged text — FORCE_RESCRAPE only forces a fresh API pull / write
         item = dict(cached["item"])
         item["summary"] = strip_summary_urls(item.get("summary", ""))
         item.setdefault("themes", assign_themes(f"{item.get('summary','')} {text}"))
@@ -182,10 +183,12 @@ def build_tweet_item(
 
     summary = strip_summary_urls(text[:480])
     method = "raw"
-    ai = grok_summarize_tweet(handle, text, url)
-    if ai:
-        summary = strip_summary_urls(ai)
-        method = "grok"
+    skip_grok = os.environ.get("SKIP_GROK", "0") == "1"
+    if not skip_grok:
+        ai = grok_summarize_tweet(handle, text, url)
+        if ai:
+            summary = strip_summary_urls(ai)
+            method = "grok"
 
     # Normalize tweet times (API returns UTC) to ISO string; UI formats Nepal time
     ts = created_at or datetime.now(timezone.utc).isoformat()
@@ -247,6 +250,10 @@ def load_manual_seeds(cache: dict, force: bool) -> tuple[list[dict], bool]:
 def main():
     load_dotenv()
     force = os.environ.get("FORCE_RESCRAPE", os.environ.get("FORCE_RESCrape", "0")) == "1"
+    role_filter = (os.environ.get("TWITTER_ROLE_FILTER") or "all").strip().lower()
+    if role_filter not in ("all", "authority", "journalist"):
+        role_filter = "all"
+
     sources = json.loads(SOURCES.read_text(encoding="utf-8"))
     twitter_cfg = sources.get("twitter", {})
     cache = load_cache()
@@ -259,16 +266,21 @@ def main():
     exclude = twitter_cfg.get("excludeKeywords", [])
     twitter_enabled = twitter_cfg.get("enabled", False) or bool(bearer)
 
+    accounts = list(twitter_cfg.get("accounts", []))
+    if role_filter != "all":
+        accounts = [a for a in accounts if (a.get("role") or "authority") == role_filter]
+        print(f"TWITTER_ROLE_FILTER={role_filter} → {len(accounts)} accounts", file=sys.stderr)
+
     if bearer and twitter_enabled:
         payment_blocked = False
-        for acct in twitter_cfg.get("accounts", []):
+        for acct in accounts:
             if payment_blocked:
                 break
             handle = acct["handle"]
             priority = acct.get("priority", "related")
             role = acct.get("role", "authority")
-            # Journalists: pull a wider recent window so ground reporting shows up
-            max_results = 100 if role == "journalist" else 40
+            # Cap window — 100× many accounts + Grok was timing out CI
+            max_results = 40 if role == "journalist" else 40
             try:
                 tweets = fetch_user_tweets(
                     handle,
@@ -290,6 +302,7 @@ def main():
                     payment_blocked = True
                 continue
             live_ok = True
+            print(f"@{handle}: {len(tweets)} flood-relevant", file=sys.stderr)
             for tw in tweets:
                 item, changed = build_tweet_item(
                     handle,
@@ -312,6 +325,8 @@ def main():
         print("Twitter API not configured — using manual seeds only", file=sys.stderr)
 
     manual, manual_changed = load_manual_seeds(cache, force)
+    if role_filter != "all":
+        manual = [m for m in manual if (m.get("role") or "authority") == role_filter]
     items.extend(manual)
     any_changed = any_changed or manual_changed
 
@@ -325,13 +340,31 @@ def main():
             continue
         seen.add(it["id"])
         deduped.append(it)
+
+    # Role-filtered runs merge into existing bulletin so authority posts aren't wiped
+    if role_filter != "all" and TWITTER_BULLETIN.exists():
+        existing = json.loads(TWITTER_BULLETIN.read_text(encoding="utf-8"))
+        kept = [
+            it
+            for it in (existing.get("items") or [])
+            if (it.get("role") or "authority") != role_filter
+        ]
+        merged = {it["id"]: it for it in kept}
+        for it in deduped:
+            merged[it["id"]] = it
+        deduped = list(merged.values())
+        print(
+            f"Merged {role_filter} scrape into existing bulletin ({len(deduped)} total)",
+            file=sys.stderr,
+        )
+
     deduped.sort(key=lambda x: x.get("timestamp", ""), reverse=True)
 
     grok_on = bool(
         sanitize_bearer(os.environ.get("XAI_API_KEY"))
         or sanitize_bearer(os.environ.get("X_AI"))
         or sanitize_bearer(os.environ.get("GROK_API_KEY"))
-    )
+    ) and os.environ.get("SKIP_GROK", "0") != "1"
 
     note = (
         "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation."
@@ -339,7 +372,7 @@ def main():
         else "Curated X post summaries (live API unavailable or unpaid). Follow accounts below for newest posts."
     )
 
-    if not any_changed and TWITTER_BULLETIN.exists() and not force:
+    if not any_changed and TWITTER_BULLETIN.exists() and not force and role_filter == "all":
         existing = json.loads(TWITTER_BULLETIN.read_text(encoding="utf-8"))
         existing["generatedAt"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
         existing["skippedUnchanged"] = True
@@ -359,7 +392,11 @@ def main():
         "items": deduped,
     }
     TWITTER_BULLETIN.write_text(json.dumps(bulletin, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {len(deduped)} Twitter bulletin items (live={live_ok})", file=sys.stderr)
+    jn = sum(1 for i in deduped if i.get("role") == "journalist")
+    print(
+        f"Wrote {len(deduped)} Twitter bulletin items (live={live_ok}, journalists={jn})",
+        file=sys.stderr,
+    )
 
 
 if __name__ == "__main__":

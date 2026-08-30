@@ -6,14 +6,22 @@ on:
   workflow_dispatch:
     inputs:
       force_rescrape:
-        description: Force re-fetch and re-summarize even if content looks unchanged
+        description: Force write even if unchanged (does not re-Grok cached tweets)
         type: boolean
-        default: true
+        default: false
+      journalists_only:
+        description: Fast path — scrape Journalists on X only (skip MoFA scrape)
+        type: boolean
+        default: false
+      skip_grok:
+        description: Skip Grok summaries (much faster; uses raw tweet text)
+        type: boolean
+        default: false
 
 # Only one refresh at a time — long scrapes were overlapping and fighting on push
 concurrency:
   group: refresh-bulletins
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -21,7 +29,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
         with:
@@ -36,9 +44,12 @@ jobs:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY || secrets.X_AI }}
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
           FORCE_RESCRAPE: ${{ github.event_name == 'workflow_dispatch' && inputs.force_rescrape && '1' || '0' }}
+          SKIP_OFFICIAL: ${{ github.event_name == 'workflow_dispatch' && inputs.journalists_only && '1' || '0' }}
+          TWITTER_ROLE_FILTER: ${{ github.event_name == 'workflow_dispatch' && inputs.journalists_only && 'journalist' || 'all' }}
+          SKIP_GROK: ${{ github.event_name == 'workflow_dispatch' && inputs.skip_grok && '1' || '0' }}
         run: |
           chmod +x scripts/refresh.sh scripts/commit_bulletin.sh
-          echo "FORCE_RESCRAPE=${FORCE_RESCRAPE}"
+          echo "FORCE_RESCRAPE=${FORCE_RESCRAPE} SKIP_OFFICIAL=${SKIP_OFFICIAL} TWITTER_ROLE_FILTER=${TWITTER_ROLE_FILTER} SKIP_GROK=${SKIP_GROK}"
           ./scripts/refresh.sh
 
       - name: Commit and push bulletin data
