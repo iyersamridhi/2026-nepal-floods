@@ -12,7 +12,7 @@
 
 | Item | Status | Notes |
 |------|--------|--------|
-| Keyword `<title>` + `<meta name="description">` on all HTML pages | Done | Bhotekoshi, Rasuwa, Gyirong, Trishuli, MoFA emergency, MEA control room, missing tourist Nepal, SETU, Nepal Police |
+| Keyword `<title>` + `<meta name="description">` on all HTML pages | Done | Soft wording: official contacts / SETU forms / MoFA helplines — **avoid “missing person routing”** (misleading). Keywords: Bhotekoshi, Rasuwa, Gyirong, MoFA, MEA, SETU, Nepal Police |
 | Canonical URLs | Done | Per-page `link rel="canonical"` → vercel.app |
 | Open Graph + Twitter cards | Done | Shared image: `/assets/og-share.png` |
 | `robots.txt` | Done | https://2026-nepal-floods.vercel.app/robots.txt |
