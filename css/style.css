@@ -1822,3 +1822,183 @@ body[data-page="wizard"] .panel {
   margin-right: auto;
   width: 100%;
 }
+
+/* —— Shared page frame + filter banner —— */
+.page-frame {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  padding: 1.1rem 1.15rem 1.4rem;
+  margin-top: 0.85rem;
+}
+
+.filter-banner,
+.updates-toolbar,
+.directory-toolbar {
+  background: #f7f9fc;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 0.7rem 0.8rem 0.65rem;
+  margin: 0 0 0.85rem;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.filter-banner-head,
+.updates-toolbar-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.45rem 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-banner-head > .form-hint,
+.updates-toolbar-head > .form-hint {
+  margin: 0;
+  font-weight: 600;
+  color: var(--nepal-blue-deep);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+body[data-page="updates"] .updates-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: block;
+  margin: 0 0 0.85rem;
+  padding: 0.7rem 0.8rem 0.65rem;
+  background: #f7f9fc;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+body[data-page="updates"] .updates-toolbar-head {
+  justify-content: flex-start;
+  gap: 0.45rem 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+body[data-page="updates"] .updates-filter {
+  margin: 0;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.45rem;
+}
+
+@media (max-width: 640px) {
+  body[data-page="updates"] .updates-filter {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+body[data-page="updates"] .updates-filter .form-hint {
+  margin: 0;
+  font-size: 0.78rem;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+body[data-page="updates"] .updates-filter select {
+  min-width: 9rem;
+  width: auto;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.88rem;
+}
+
+body[data-page="updates"] .theme-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+}
+
+body[data-page="resources"] .directory-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: #f7f9fc;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: none;
+  backdrop-filter: none;
+  padding: 0.7rem 0.8rem 0.65rem;
+  margin: 1rem 0 0.85rem;
+}
+
+body[data-page="resources"] .directory-toolbar .search-bar {
+  margin: 0;
+}
+
+body[data-page="resources"] .directory-toolbar .filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+}
+
+body[data-page="resources"] .directory-count {
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Same border language everywhere */
+.action-card,
+.update-item,
+.dir-entry,
+.panel,
+.portal-link,
+.account-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: none;
+}
+
+.action-card,
+.update-item,
+.dir-entry {
+  background: var(--card);
+}
+
+body[data-page="updates"] .updates-panel {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0.35rem 0 0;
+}
+
+body[data-page="report"] .report-step,
+body[data-page="wizard"] .wizard-panel,
+body[data-page="wizard"] .panel {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: none;
+}
+
+body[data-page="home"] .home-spotlight .section-block {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: none;
+}
+
+.chip {
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: #fff;
+}

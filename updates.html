@@ -15,7 +15,7 @@
   <meta property="og:description" content="Latest MoFA and authority summaries for the 2026 Nepal floods. Verify on the original government page.">
   <meta property="og:image" content="https://2026-nepal-floods.vercel.app/assets/og-share.png">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="/css/style.css?v=layout6">
+  <link rel="stylesheet" href="/css/style.css?v=layout7">
 </head>
 <body data-page="updates">
   <div class="banner" data-i18n="banner">Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.</div>
@@ -38,21 +38,22 @@
       </nav>
     </header>
 
-    <div class="updates-toolbar">
-      <div class="search-bar updates-filter">
-        <label for="region-filter" class="form-hint" data-i18n="updatesFilterLabel">Filter by region</label>
-        <select id="region-filter">
-          <option value="all">All regions</option>
-          <option value="nepal">Nepal</option>
-          <option value="india">India</option>
-          <option value="tibet">Tibet / China</option>
-          <option value="foreign">Foreign nationals</option>
-        </select>
-      </div>
-      <div class="theme-filter-wrap">
+    <div class="page-frame">
+    <div class="filter-banner updates-toolbar">
+      <div class="filter-banner-head updates-toolbar-head">
         <p class="form-hint" data-i18n="updatesThemeLabel">Themes (tap several to combine)</p>
-        <div class="theme-chips" id="theme-chips" aria-label="Theme filters"></div>
+        <div class="search-bar updates-filter">
+          <label for="region-filter" class="form-hint" data-i18n="updatesFilterLabel">Region</label>
+          <select id="region-filter">
+            <option value="all">All regions</option>
+            <option value="nepal">Nepal</option>
+            <option value="india">India</option>
+            <option value="tibet">Tibet / China</option>
+            <option value="foreign">Foreign nationals</option>
+          </select>
+        </div>
       </div>
+      <div class="theme-chips" id="theme-chips" aria-label="Theme filters"></div>
     </div>
 
     <div class="tab-bar" role="tablist">
@@ -61,7 +62,7 @@
     </div>
 
     <div class="tab-panel active" id="panel-official" role="tabpanel" aria-labelledby="tab-official">
-      <div class="panel updates-panel">
+      <div class="updates-panel">
         <p class="form-hint" data-i18n="officialHint">Summaries from MoFA, MEA, and other official pages. Numbers can change — open the original to confirm.</p>
         <p class="updates-meta" id="official-meta">Loading…</p>
         <div id="official-list" class="updates-list"></div>
@@ -69,7 +70,7 @@
     </div>
 
     <div class="tab-panel" id="panel-twitter" role="tabpanel" aria-labelledby="tab-twitter" hidden>
-      <div class="panel updates-panel">
+      <div class="updates-panel">
         <p class="form-hint" id="twitter-hint" data-i18n="twitterHint">Posts and pointers from NDRRMA, Nepal Police, MoFA, MEA, embassies. Not official confirmation of individual cases.</p>
         <p class="updates-meta" id="twitter-meta">Loading…</p>
         <div id="twitter-list" class="updates-list"></div>
@@ -77,14 +78,15 @@
       </div>
     </div>
 
-    <div class="panel" style="margin-top:1rem">
+    <div style="margin-top:1rem">
       <a class="btn btn-secondary" href="/resources.html" data-i18n="updatesResourcesLink">All contacts &amp; numbers →</a>
+    </div>
     </div>
 
     <footer class="site-footer" data-i18n="footer">Volunteer site — contacts, links & updates only.</footer>
   </div>
-  <script src="/js/common.js?v=layout6"></script>
-  <script src="/js/updates.js?v=layout6"></script>
+  <script src="/js/common.js?v=layout7"></script>
+  <script src="/js/updates.js?v=layout7"></script>
 
   <!-- Vercel Web Analytics -->
   <script>
