@@ -23,7 +23,7 @@
   <meta name="twitter:description" content="MoFA emergency, MEA control room, SETU &amp; Nepal Police links for Bhotekoshi / Rasuwa floods. Volunteer routing site.">
   <meta name="twitter:image" content="https://2026-nepal-floods.vercel.app/assets/og-share.png">
   <link rel="canonical" href="https://2026-nepal-floods.vercel.app/">
-  <link rel="stylesheet" href="/css/style.css?v=layout8">
+  <link rel="stylesheet" href="/css/style.css?v=layout9">
 </head>
 <body data-page="home">
   <div class="banner" data-i18n="banner">Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.</div>
@@ -40,11 +40,24 @@
         <a href="/wizard.html" data-page="wizard" data-i18n="navWizard">Who to contact</a>
         <a href="/search.html" data-page="search" data-i18n="navSearch">Check if found</a>
         <a href="/report.html" data-page="report" data-i18n="navReport">Report missing</a>
-        <a href="/updates.html" data-page="updates" data-i18n="navUpdates">Bulletin</a>
+        <a href="/updates.html" data-page="updates" class="nav-bulletin" data-i18n="navUpdates">Bulletin</a>
         <a href="/resources.html" data-page="resources" data-i18n="navResources">Contacts</a>
         <a href="/feedback.html" data-page="feedback" class="nav-feedback" data-i18n="navFeedback">Feedback</a>
       </nav>
     </header>
+
+    <div class="bulletin-spotlight" id="bulletin-spotlight">
+      <div class="bulletin-spotlight-copy">
+        <p class="section-kicker" data-i18n="homeBulletinKicker">Live authority feed</p>
+        <h2 class="section-title" data-i18n="homeCard4Title">Bulletin</h2>
+        <p class="form-hint" data-i18n="homeBulletinDesc">MoFA / MEA notes and posts from NDRRMA, police, embassies on X — refreshed about every 30 minutes. Always open the original.</p>
+        <p class="bulletin-spotlight-meta form-hint" id="bulletin-spotlight-meta"></p>
+      </div>
+      <div class="bulletin-spotlight-actions">
+        <a class="btn btn-primary" href="/updates.html" data-i18n="homeBulletinOfficialCta">Official notes →</a>
+        <a class="btn btn-secondary" href="/updates.html#twitter" data-i18n="homeBulletinXCta">Authority posts on X →</a>
+      </div>
+    </div>
 
     <div class="card-grid">
       <a class="action-card" href="/report.html">
@@ -58,10 +71,6 @@
       <a class="action-card" href="/wizard.html">
         <h2 data-i18n="homeCard1Title">Who should I contact?</h2>
         <p data-i18n="homeCard1Desc">Answer a few questions — we tell you which authority to call or email.</p>
-      </a>
-      <a class="action-card" href="/updates.html">
-        <h2 data-i18n="homeCard4Title">Bulletin</h2>
-        <p data-i18n="homeCard4Desc">Authority notes and press releases, with links to the originals.</p>
       </a>
       <a class="action-card" href="/resources.html">
         <h2 data-i18n="navResources">Contacts</h2>
@@ -134,7 +143,7 @@
 
     <footer class="site-footer" data-i18n="footer">Volunteer site — contacts, links & updates only.</footer>
   </div>
-  <script src="/js/common.js?v=layout8"></script>
+  <script src="/js/common.js?v=layout9"></script>
 
   <!-- Vercel Web Analytics -->
   <script>

@@ -124,9 +124,17 @@ function refreshVisibleMeta() {
 async function loadBulletins() {
   state.filter = document.getElementById("region-filter")?.value || "all";
   await Promise.all([loadOfficialBulletin(), loadTwitterBulletin()]);
+  updateTabCounts();
   renderThemeChips();
   renderOfficialList();
   if (state.tab === "twitter") renderTwitterList();
+}
+
+function updateTabCounts() {
+  const off = document.getElementById("tab-count-official");
+  const tw = document.getElementById("tab-count-twitter");
+  if (off) off.textContent = String(state.officialItems.length || "");
+  if (tw) tw.textContent = String(state.twitterItems.length || "");
 }
 
 async function loadOfficialBulletin() {

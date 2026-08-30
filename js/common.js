@@ -62,6 +62,11 @@ const I18N = {
     homeCard3Desc: "Open the OPMCM or SETU form, then WhatsApp / email contacts for MoFA or embassies if needed.",
     homeCard4Title: "Bulletin",
     homeCard4Desc: "Authority notes and press releases, with links to the originals.",
+    homeBulletinKicker: "Live authority feed",
+    homeBulletinDesc:
+      "MoFA / MEA notes and posts from NDRRMA, police, embassies on X — refreshed about every 30 minutes. Always open the original.",
+    homeBulletinOfficialCta: "Official notes →",
+    homeBulletinXCta: "Authority posts on X →",
     updatesSubtitle: "Authority notes, press releases, and portals — always open the original to confirm",
     updatesFilterLabel: "Filter by region",
     updatesThemeLabel: "Themes (tap several to combine)",
@@ -74,7 +79,7 @@ const I18N = {
     themeContacts: "Contacts / hotlines",
     themeBriefing: "Briefings / updates",
     tabOfficial: "Official notes",
-    tabTwitter: "Authority posts (X)",
+    tabTwitter: "Authority posts on X",
     officialHint: "Summaries from MoFA, MEA, and other official pages. Numbers can change — open the original to confirm.",
     twitterHint:
       "Short notes from authority X accounts, with links to the originals. Numbers move fast — open the post to confirm.",
@@ -178,6 +183,11 @@ const I18N = {
     homeCard3Desc: "OPMCM वा SETU फारम खोल्नुहोस् — त्यसपछि MoFA / दूतावासका लागि व्हाट्सएप / इमेल।",
     homeCard4Title: "बुलेटिन",
     homeCard4Desc: "आधिकारिक नोट र प्रेस विज्ञप्ति, मूल लिङ्कसहित।",
+    homeBulletinKicker: "लाइभ आधिकारिक फिड",
+    homeBulletinDesc:
+      "MoFA / MEA नोट र NDRRMA, प्रहरी, दूतावासका X पोस्ट — करिब ३० मिनेटमा अपडेट। सधैं मूल खोल्नुहोस्।",
+    homeBulletinOfficialCta: "आधिकारिक नोट →",
+    homeBulletinXCta: "X मा प्राधिकरण पोस्ट →",
     updatesSubtitle: "आधिकारिक नोट, प्रेस विज्ञप्ति र पोर्टल — पुष्टिका लागि सधैं मूल खोल्नुहोस्",
     updatesFilterLabel: "क्षेत्र अनुसार फिल्टर",
     updatesThemeLabel: "विषय (थपेर मिलाउन ट्याप)",
@@ -190,7 +200,7 @@ const I18N = {
     themeContacts: "सम्पर्क / हटलाइन",
     themeBriefing: "ब्रीफिङ / अपडेट",
     tabOfficial: "आधिकारिक नोट",
-    tabTwitter: "प्राधिकरण पोस्ट (X)",
+    tabTwitter: "X मा प्राधिकरण पोस्ट",
     officialHint: "MoFA, MEA र अन्य आधिकारिक पृष्ठबाट सारांश। अंक बदलिन सक्छन् — पुष्टिका लागि मूल स्रोत खोल्नुहोस्। MoFA ले नयाँ दैनिक अपडेट ननिकालेसम्म सबैभन्दा नयाँ आइटम अघिल्लो दिनको हुन सक्छ।",
     twitterHint:
       "प्राधिकरणका X पोस्टबाट छोटा नोट, मूल लिङ्कसहित। अंक बदलिन सक्छन् — पुष्टिका लागि मूल पोस्ट खोल्नुहोस्।",
@@ -309,7 +319,7 @@ const NAV_LINKS_HTML = `
     <a href="/wizard.html" data-page="wizard" data-i18n="navWizard">Who to contact</a>
     <a href="/search.html" data-page="search" data-i18n="navSearch">Check if found</a>
     <a href="/report.html" data-page="report" data-i18n="navReport">Report missing</a>
-    <a href="/updates.html" data-page="updates" data-i18n="navUpdates">Bulletin</a>
+    <a href="/updates.html" data-page="updates" class="nav-bulletin" data-i18n="navUpdates">Bulletin</a>
     <a href="/resources.html" data-page="resources" data-i18n="navResources">Contacts</a>
     <a href="/feedback.html" data-page="feedback" class="nav-feedback" data-i18n="navFeedback">Feedback</a>
   `;
