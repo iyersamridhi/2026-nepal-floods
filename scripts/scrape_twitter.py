@@ -114,17 +114,42 @@ def assign_themes(text: str) -> list[str]:
     low = (text or "").lower()
     themes = []
     checks = [
-        ("hospitals", ["hospital", "injured", "discharged", "treatment", "अस्पताल", "घाइते", "उपचार", "डिश्चार्ज"]),
-        ("rescue", ["rescue", "rescued", "उद्धार", "helicopter", "search and rescue", "खोज"]),
-        ("missing", ["missing", "unaccounted", "lost", "बेपत्ता", "हराएको", "सम्पर्कमा नआएका"]),
+        ("hospitals", ["hospital", "injured", "discharged", "treatment", "under treatment", "अस्पताल", "घाइते", "उपचार", "डिश्चार्ज"]),
+        ("rescue", ["rescue", "rescued", "उद्धार", "उद्वार", "helicopter", "search and rescue", "खोज"]),
+        (
+            "missing",
+            [
+                "missing",
+                "unaccounted",
+                "lost",
+                "found",
+                "rescued",
+                "बेपत्ता",
+                "हराएको",
+                "सम्पर्कमा नआएका",
+                "उद्वार",
+                "उद्धार",
+                "विवरण",
+                "discharged",
+                "under treatment",
+                "patient",
+                "names",
+            ],
+        ),
         ("remains", ["unidentified", "dead body", "bodies recovered", "शव", "remains", "forensic", "dna"]),
         ("relief", ["relief", "राहत", "cash support", "food", "fuel", "truck"]),
-        ("contacts", ["hotline", "control room", "helpline", "whatsapp", "emergency contact", "सम्पर्क"]),
+        ("contacts", ["hotline", "control room", "helpline", "whatsapp", "emergency contact", "सम्पर्क", "0086", "+86"]),
         ("briefing", ["press", "briefing", "update", "अपडेट", "press release", "situation"]),
     ]
     for theme, words in checks:
         if any(w.lower() in low for w in words):
             themes.append(theme)
+    # Patient / rescued name-lists also belong under People lists
+    if "hospitals" in themes and "missing" not in themes:
+        themes.append("missing")
+    if "rescue" in themes and any(w in low for w in ["rescued", "उद्वार", "उद्धार", "विवरण", "list", "names"]):
+        if "missing" not in themes:
+            themes.append("missing")
     return themes or ["briefing"]
 
 

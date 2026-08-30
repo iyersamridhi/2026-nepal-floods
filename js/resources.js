@@ -130,6 +130,18 @@ function buildDirectory(res, help) {
     });
   }
 
+  if (help.tarEnglishHotlines) {
+    push({
+      id: "tar-en",
+      name: help.tarEnglishHotlines.name,
+      category: "tibet",
+      tags: ["Tibet", "TAR", "China", "hotline", "English", "missing"],
+      phones: phonesOf(help.tarEnglishHotlines),
+      url: help.tarEnglishHotlines.sourceUrl,
+      note: help.tarEnglishHotlines.note,
+    });
+  }
+
   if (help.indiaEmbassyBeijing) {
     push({
       id: "ind-bj",

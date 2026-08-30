@@ -10,12 +10,51 @@ const THEMES = [
 ];
 
 const THEME_WORDS = {
-  hospitals: ["hospital", "injured", "discharged", "treatment", "अस्पताल", "घाइते", "उपचार", "डिश्चार्ज"],
-  rescue: ["rescue", "rescued", "उद्धार", "helicopter", "search and rescue", "खोज"],
-  missing: ["missing", "unaccounted", "lost", "found", "बेपत्ता", "हराएको", "सम्पर्कमा नआएका", "फेला"],
+  hospitals: [
+    "hospital",
+    "injured",
+    "discharged",
+    "treatment",
+    "under treatment",
+    "patient",
+    "अस्पताल",
+    "घाइते",
+    "उपचार",
+    "डिश्चार्ज",
+  ],
+  rescue: ["rescue", "rescued", "उद्धार", "उद्वार", "helicopter", "search and rescue", "खोज"],
+  missing: [
+    "missing",
+    "unaccounted",
+    "lost",
+    "found",
+    "rescued",
+    "names",
+    "list",
+    "details of",
+    "बेपत्ता",
+    "हराएको",
+    "सम्पर्कमा नआएका",
+    "फेला",
+    "उद्वार",
+    "उद्धार",
+    "विवरण",
+    "discharged",
+    "under treatment",
+    "patient",
+  ],
   remains: ["unidentified", "dead body", "bodies recovered", "शव", "remains", "forensic", "dna"],
   relief: ["relief", "राहत", "cash support", "food", "fuel", "truck", "supplies"],
-  contacts: ["hotline", "control room", "helpline", "whatsapp", "emergency contact", "सम्पर्क"],
+  contacts: [
+    "hotline",
+    "control room",
+    "helpline",
+    "whatsapp",
+    "emergency contact",
+    "सम्पर्क",
+    "0086",
+    "+86",
+  ],
   briefing: ["press", "briefing", "update", "अपडेट", "press release", "situation", "portal"],
 };
 
@@ -24,17 +63,32 @@ const state = {
   officialItems: [],
   twitterItems: [],
   filter: "all",
-  theme: "all",
+  /** empty = all themes; otherwise OR-match any selected id */
+  themes: new Set(),
 };
 
-function assignThemes(item) {
-  if (Array.isArray(item.themes) && item.themes.length) return item.themes;
-  const blob = `${item.title || ""} ${item.summary || ""} ${item.source || ""}`.toLowerCase();
+function computeThemes(blob) {
+  const low = (blob || "").toLowerCase();
   const themes = [];
   for (const [theme, words] of Object.entries(THEME_WORDS)) {
-    if (words.some((w) => blob.includes(w.toLowerCase()))) themes.push(theme);
+    if (words.some((w) => low.includes(w.toLowerCase()))) themes.push(theme);
+  }
+  if (themes.includes("hospitals") && !themes.includes("missing")) themes.push("missing");
+  if (
+    themes.includes("rescue") &&
+    ["rescued", "उद्वार", "उद्धार", "विवरण", "list", "names", "details"].some((w) => low.includes(w))
+  ) {
+    if (!themes.includes("missing")) themes.push("missing");
   }
   return themes.length ? themes : ["briefing"];
+}
+
+function assignThemes(item) {
+  const blob = `${item.title || ""} ${item.summary || ""} ${item.source || ""}`;
+  const computed = computeThemes(blob);
+  const stored = Array.isArray(item.themes) ? item.themes : [];
+  const merged = [...new Set([...stored, ...computed])];
+  return merged.length ? merged : ["briefing"];
 }
 
 function withThemes(items) {
@@ -42,8 +96,29 @@ function withThemes(items) {
 }
 
 function matchesTheme(item) {
-  if (state.theme === "all") return true;
-  return (item.themes || []).includes(state.theme);
+  if (!state.themes.size) return true;
+  const itemThemes = item.themes || [];
+  for (const th of state.themes) {
+    if (itemThemes.includes(th)) return true;
+  }
+  return false;
+}
+
+function refreshVisibleMeta() {
+  const meta = document.getElementById(state.tab === "twitter" ? "twitter-meta" : "official-meta");
+  const items = (state.tab === "twitter" ? state.twitterItems : state.officialItems).filter(matchesTheme);
+  if (!meta) return;
+  const checked = (meta.textContent || "").split(" · ")[0] || "";
+  const countPart = `${items.length} update${items.length === 1 ? "" : "s"}`;
+  if (checked.startsWith("Checked")) {
+    const newest = items.find((i) => i.kind !== "pointer") || items[0];
+    const when = newest?.publishedLabel || (newest ? formatStamp(newest.timestamp) : "");
+    meta.textContent = when
+      ? `${checked} · Newest post ${when} · ${countPart}`
+      : `${checked} · ${countPart}`;
+  } else {
+    meta.textContent = countPart;
+  }
 }
 
 async function loadBulletins() {
@@ -78,7 +153,7 @@ async function loadOfficialBulletin() {
       const newest = visible.find((i) => i.kind !== "pointer") || visible[0];
       if (newest) {
         const when = newest.publishedLabel || formatStamp(newest.timestamp);
-        latestEl.innerHTML = `Newest official update in this feed: <strong>${escapeHtml(when)}</strong> — ${escapeHtml(
+        latestEl.innerHTML = `Newest official note in this feed: <strong>${escapeHtml(when)}</strong> — ${escapeHtml(
           newest.title || newest.source || ""
         )}`;
       } else {
@@ -87,7 +162,7 @@ async function loadOfficialBulletin() {
     }
   } catch (e) {
     state.officialItems = [];
-    container.innerHTML = `<div class="alert alert-error">Could not load updates.</div>`;
+    container.innerHTML = `<div class="alert alert-error">Could not load bulletin.</div>`;
   }
 }
 
@@ -135,26 +210,29 @@ function renderThemeChips() {
     counts[th.id] = pool.filter((i) => (i.themes || []).includes(th.id)).length;
   });
 
+  const allActive = state.themes.size === 0;
   el.innerHTML = THEMES.map((th) => {
     const n = counts[th.id] || 0;
-    const active = state.theme === th.id ? " active" : "";
-    return `<button type="button" class="chip${active}" data-theme="${th.id}" role="tab" aria-selected="${
-      state.theme === th.id
-    }">${escapeHtml(t(th.labelKey))} <span class="chip-count">${n}</span></button>`;
+    const active = th.id === "all" ? allActive : state.themes.has(th.id);
+    return `<button type="button" class="chip${active ? " active" : ""}" data-theme="${th.id}" aria-pressed="${active}">${escapeHtml(
+      t(th.labelKey)
+    )} <span class="chip-count">${n}</span></button>`;
   }).join("");
 
   el.querySelectorAll("[data-theme]").forEach((btn) => {
     btn.addEventListener("click", () => {
-      state.theme = btn.getAttribute("data-theme") || "all";
+      const id = btn.getAttribute("data-theme") || "all";
+      if (id === "all") {
+        state.themes.clear();
+      } else if (state.themes.has(id)) {
+        state.themes.delete(id);
+      } else {
+        state.themes.add(id);
+      }
       renderThemeChips();
       if (state.tab === "twitter") renderTwitterList();
       else renderOfficialList();
-      const meta = document.getElementById(state.tab === "twitter" ? "twitter-meta" : "official-meta");
-      const items = (state.tab === "twitter" ? state.twitterItems : state.officialItems).filter(matchesTheme);
-      if (meta) {
-        const checked = meta.textContent.split(" · ")[0] || "";
-        meta.textContent = `${checked} · ${items.length} update${items.length === 1 ? "" : "s"}`;
-      }
+      refreshVisibleMeta();
     });
   });
 }
@@ -174,12 +252,12 @@ function renderOfficialList() {
 
   let html = "";
   if (news.length) {
-    html += news.map((u) => renderItem(u, false)).join("");
+    html += `<div class="updates-grid">${news.map((u) => renderItem(u, false)).join("")}</div>`;
   }
   if (portals.length) {
     html += `<h3 class="updates-section-title">${escapeHtml(t("officialPortalsTitle"))}</h3>`;
     html += `<p class="form-hint updates-section-hint">${escapeHtml(t("officialPortalsHint"))}</p>`;
-    html += portals.map((u) => renderItem(u, false)).join("");
+    html += `<div class="updates-grid">${portals.map((u) => renderItem(u, false)).join("")}</div>`;
   }
   container.innerHTML = html;
 }
@@ -193,7 +271,7 @@ async function renderTwitterList() {
   if (!items.length) {
     container.innerHTML = `<div class="empty-state">${escapeHtml(t("twitterEmpty"))}</div>`;
   } else {
-    container.innerHTML = items.map((u) => renderItem(u, true)).join("");
+    container.innerHTML = `<div class="updates-grid">${items.map((u) => renderItem(u, true)).join("")}</div>`;
   }
   await renderTwitterAccounts(accountsEl);
 }
@@ -249,7 +327,9 @@ function shortSource(name) {
     [/xinhua/i, "Xinhua"],
     [/ndrrma/i, "NDRRMA"],
     [/nepal police/i, "Nepal Police"],
+    [/embassy of india beijing/i, "India in China"],
     [/embassy of india/i, "India Embassy"],
+    [/eoibeijing/i, "India in China"],
     [/opmcm|prime minister/i, "OPMCM"],
     [/twitter @/i, (s) => s.replace(/^Twitter\s+/i, "")],
   ];
@@ -277,9 +357,9 @@ function renderItem(u, isTwitter) {
     ? `<span class="badge badge-twitter">X / Twitter</span>`
     : isPointer
       ? `<span class="badge badge-portal">Official portal</span>`
-      : `<span class="badge badge-official">Official update</span>`;
+      : `<span class="badge badge-official">Official note</span>`;
   const summary = stripSummaryUrls(u.summary);
-  const themes = (u.themes || []).slice(0, 3);
+  const themes = (u.themes || []).slice(0, 4);
   const themeHtml = themes.length
     ? `<div class="update-theme-tags">${themes
         .map((th) => {
@@ -389,6 +469,7 @@ function switchTab(tab) {
   renderThemeChips();
   if (tab === "twitter") renderTwitterList();
   else renderOfficialList();
+  refreshVisibleMeta();
 }
 
 document.addEventListener("DOMContentLoaded", () => {

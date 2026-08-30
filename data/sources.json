@@ -251,6 +251,16 @@
         "priority": "related"
       },
       {
+        "handle": "EOIBeijing",
+        "name": "Embassy of India Beijing",
+        "region": [
+          "tibet",
+          "india",
+          "foreign"
+        ],
+        "priority": "related"
+      },
+      {
         "handle": "MEAIndia",
         "name": "MEA India",
         "region": [
@@ -320,6 +330,7 @@
       "त्रिशुली",
       "रसुवा",
       "उद्धार",
+      "उद्वार",
       "हराएको",
       "बेपत्ता",
       "घाइते",
@@ -330,7 +341,11 @@
       "शव",
       "विपद्",
       "खोज",
+      "विवरण",
       "kathmandu",
+      "hotline",
+      "tar",
+      "mudslide",
       "relief flight",
       "indian national",
       "indian nationals",

@@ -1183,6 +1183,59 @@ footer.site-footer .footer-link-prominent {
   max-width: 920px;
 }
 
+/* Bulletin page: use the desktop width instead of a narrow reading column */
+.container-bulletin {
+  max-width: 1120px;
+}
+
+@media (min-width: 900px) {
+  body[data-page="updates"] .bulletin-header h1 {
+    font-size: 2.15rem;
+    letter-spacing: -0.02em;
+  }
+
+  body[data-page="updates"] .updates-toolbar {
+    display: grid;
+    grid-template-columns: 14rem minmax(0, 1fr);
+    align-items: start;
+    gap: 1.25rem 1.75rem;
+    padding: 1rem 1.15rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin: 0.75rem 0 1rem;
+  }
+
+  body[data-page="updates"] .theme-chips {
+    gap: 0.45rem;
+  }
+
+  body[data-page="updates"] .theme-chips .chip {
+    font-size: 0.84rem;
+  }
+
+  body[data-page="updates"] .tab-bar {
+    margin-bottom: 0.25rem;
+  }
+
+  .updates-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.85rem;
+  }
+
+  .updates-grid .update-item {
+    margin: 0;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .updates-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .directory-toolbar {
   position: sticky;
   top: 0;

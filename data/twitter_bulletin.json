@@ -229,7 +229,8 @@
       "scrapeMethod": "grok",
       "contentHash": "6acec50230708237",
       "themes": [
-        "hospitals"
+        "hospitals",
+        "missing"
       ]
     },
     {
@@ -305,6 +306,27 @@
       "themes": [
         "briefing"
       ]
+    },
+    {
+      "id": "twitter-2093912605433774318",
+      "timestamp": "2026-08-30T04:04:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "tibet",
+        "india",
+        "foreign"
+      ],
+      "source": "Twitter @EOIBeijing",
+      "sourceUrl": "https://x.com/EOIBeijing/status/2093912605433774318",
+      "title": "Embassy of India Beijing",
+      "summary": "Following the recent flash floods and mudslides in the Tibet Autonomous Region (TAR), People’s Republic of China, TAR authorities have established two dedicated 24-hour English-language hotlines to assist families seeking information about missing foreign nationals. The hotlines can be reached at: 1) 0086-891-6817165 2) 0086-183-0802-6705 @MEAIndia",
+      "citation": "Tweet by @EOIBeijing",
+      "themes": [
+        "missing",
+        "contacts"
+      ],
+      "scrapeMethod": "raw",
+      "contentHash": "b89745a08828e1f8"
     },
     {
       "id": "twitter-2093909876577873947",
@@ -931,7 +953,7 @@
       "scrapeMethod": "grok",
       "contentHash": "4d84e109e8e173bd",
       "themes": [
-        "briefing"
+        "missing"
       ]
     },
     {
@@ -967,7 +989,8 @@
       "scrapeMethod": "grok",
       "contentHash": "95c329dedf259ede",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1003,7 +1026,8 @@
       "scrapeMethod": "grok",
       "contentHash": "d47f8d81db45bee6",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1021,7 +1045,8 @@
       "scrapeMethod": "grok",
       "contentHash": "2adbee78581515f3",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1193,7 +1218,8 @@
       "scrapeMethod": "grok",
       "contentHash": "fbb24c4441a40182",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1212,7 +1238,8 @@
       "scrapeMethod": "grok",
       "contentHash": "b9a5fcac4d6680f2",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1269,7 +1296,8 @@
       "scrapeMethod": "grok",
       "contentHash": "d3099c3fbb809068",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1346,7 +1374,8 @@
       "scrapeMethod": "grok",
       "contentHash": "6c52609cb8dfdd70",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1365,7 +1394,8 @@
       "scrapeMethod": "grok",
       "contentHash": "0912ad2d8d7698bf",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1422,7 +1452,8 @@
       "contentHash": "ba648886461e658c",
       "themes": [
         "hospitals",
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1551,7 +1582,8 @@
       "scrapeMethod": "grok",
       "contentHash": "af42d2e82ea8150d",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -1605,7 +1637,8 @@
       "scrapeMethod": "grok",
       "contentHash": "47571bc445e815cf",
       "themes": [
-        "hospitals"
+        "hospitals",
+        "missing"
       ]
     },
     {
@@ -1736,7 +1769,8 @@
       "contentHash": "be55b943f66173f1",
       "themes": [
         "rescue",
-        "relief"
+        "relief",
+        "missing"
       ]
     },
     {
@@ -2074,7 +2108,8 @@
       "scrapeMethod": "grok",
       "contentHash": "d6a0914ab7b01631",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -2092,7 +2127,8 @@
       "scrapeMethod": "grok",
       "contentHash": "a1623a7af7a9503a",
       "themes": [
-        "hospitals"
+        "hospitals",
+        "missing"
       ]
     },
     {
@@ -2129,7 +2165,8 @@
       "scrapeMethod": "grok",
       "contentHash": "3c6ff11de72c1238",
       "themes": [
-        "hospitals"
+        "hospitals",
+        "missing"
       ]
     },
     {
@@ -2259,7 +2296,8 @@
       "scrapeMethod": "grok",
       "contentHash": "74edae6a01f0482e",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -2461,7 +2499,8 @@
       "scrapeMethod": "grok",
       "contentHash": "b65523734f66dbfa",
       "themes": [
-        "rescue"
+        "rescue",
+        "missing"
       ]
     },
     {
@@ -2592,6 +2631,7 @@
       "contentHash": "e9b6bcac0ef25541",
       "themes": [
         "rescue",
+        "missing",
         "briefing"
       ]
     },

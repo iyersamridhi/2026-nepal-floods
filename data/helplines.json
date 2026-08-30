@@ -19,6 +19,12 @@
     "whatsapp": ["+8618514284905"],
     "note": "MEA said this line is also on WhatsApp for persons last seen in Tibet/China."
   },
+  "tarEnglishHotlines": {
+    "name": "TAR (Tibet) 24h English hotlines — missing foreign nationals",
+    "phones": ["+868916817165", "+8618308026705"],
+    "sourceUrl": "https://x.com/EOIBeijing/status/2093912605433774318",
+    "note": "Announced by Embassy of India, Beijing (@EOIBeijing): Tibet Autonomous Region authorities’ dedicated English hotlines after flash floods / mudslides. Confirm on the original post."
+  },
   "nepalMofa": {
     "name": "Nepal MoFA Emergency Control Room",
     "phones": ["+9779744441227", "+9779744441228"],
@@ -40,6 +46,12 @@
     { "name": "Assistant CDO, Chitwan", "phone": "+9779855088891" }
   ],
   "tibetChina": [
+    {
+      "name": "TAR (Tibet) 24h English hotlines — missing foreign nationals",
+      "phones": ["+868916817165", "+8618308026705"],
+      "note": "Via Embassy of India Beijing (@EOIBeijing), 30 Aug 2026. Confirm on original notice.",
+      "url": "https://x.com/EOIBeijing/status/2093912605433774318"
+    },
     {
       "name": "Nepal Consulate General, Lhasa",
       "phone": "+8613549067481",

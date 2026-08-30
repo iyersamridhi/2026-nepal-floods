@@ -20,7 +20,7 @@ const I18N = {
     navWizard: "Who to contact",
     navSearch: "Check if found",
     navReport: "Report missing",
-    navUpdates: "Updates",
+    navUpdates: "Bulletin",
     navResources: "Contacts",
     resourcesSubtitle:
       "Searchable phones, WhatsApp, emails, and government portals from public notices.",
@@ -60,25 +60,25 @@ const I18N = {
     homeCard2Desc: "Search OPMCM, Nepal Police, SETU, and NDRRMA hospital lists — we don’t copy names or photos here.",
     homeCard3Title: "Report someone missing",
     homeCard3Desc: "Open the OPMCM or SETU form, then WhatsApp / email contacts for MoFA or embassies if needed.",
-    homeCard4Title: "News & updates",
-    homeCard4Desc: "Short updates from government sources, with links to the originals.",
-    updatesSubtitle: "Short notes from public sources — always open the original to confirm",
+    homeCard4Title: "Bulletin",
+    homeCard4Desc: "Authority notes and press releases, with links to the originals.",
+    updatesSubtitle: "Authority notes, press releases, and portals — always open the original to confirm",
     updatesFilterLabel: "Filter by region",
-    updatesThemeLabel: "Filter by theme",
+    updatesThemeLabel: "Themes (tap several to combine)",
     themeAll: "All themes",
     themeRescue: "Rescue / search",
-    themeMissing: "Missing / found",
+    themeMissing: "People lists",
     themeHospitals: "Hospitals / injured",
     themeRemains: "Remains / forensic",
     themeRelief: "Relief / supplies",
     themeContacts: "Contacts / hotlines",
     themeBriefing: "Briefings / updates",
-    tabOfficial: "Official updates",
+    tabOfficial: "Official notes",
     tabTwitter: "Authority posts (X)",
     officialHint: "Summaries from MoFA, MEA, and other official pages. Numbers can change — open the original source to confirm. If MoFA has not published a newer daily note yet, the newest item may still be from the previous day.",
     twitterHint:
       "Short notes from authority X accounts, with links to the originals. Numbers move fast — open the post to confirm.",
-    officialEmpty: "No official updates loaded yet.",
+    officialEmpty: "No official notes loaded yet.",
     twitterEmpty: "No authority posts loaded yet. Follow the accounts below for live updates.",
     twitterFollow: "Follow official accounts",
     twitterFollowHint: "For the newest posts, follow these accounts directly on X.",
@@ -90,7 +90,7 @@ const I18N = {
     openPortal: "Open portal",
     updatesResourcesLink: "All contacts & numbers →",
     footer:
-      "Volunteer site — contacts, links & updates only. Not affiliated with any government. We do not collect personal case data.",
+      "Volunteer site — contacts, links & bulletin only. Not affiliated with any government. We do not collect personal case data.",
     feedbackLink: "Feedback",
     feedbackVolunteerLink: "Feedback & volunteer",
     feedbackTitle: "Feedback",
@@ -136,7 +136,7 @@ const I18N = {
     navWizard: "कसलाई सम्पर्क",
     navSearch: "फेला परेको जाँच",
     navReport: "हराएको रिपोर्ट",
-    navUpdates: "अपडेट",
+    navUpdates: "बुलेटिन",
     navResources: "सम्पर्क",
     resourcesSubtitle:
       "सार्वजनिक सूचनाबाट फोन, WhatsApp, इमेल र सरकारी पोर्टल — खोज्न र फिल्टर गर्न मिल्ने।",
@@ -176,20 +176,20 @@ const I18N = {
     homeCard2Desc: "OPMCM, नेपाल प्रहरी, SETU र NDRRMA अस्पताल सूची खोज्नुहोस् — यहाँ नाम/फोटो कपी गर्दैनौं।",
     homeCard3Title: "हराएको व्यक्ति रिपोर्ट",
     homeCard3Desc: "OPMCM वा SETU फारम खोल्नुहोस् — त्यसपछि MoFA / दूतावासका लागि व्हाट्सएप / इमेल।",
-    homeCard4Title: "समाचार र अपडेट",
-    homeCard4Desc: "सरकारी स्रोतबाट छोटो अपडेट, मूल लिङ्कसहित।",
-    updatesSubtitle: "सार्वजनिक स्रोतबाट छोटा नोट — पुष्टिका लागि सधैं मूल खोल्नुहोस्",
+    homeCard4Title: "बुलेटिन",
+    homeCard4Desc: "आधिकारिक नोट र प्रेस विज्ञप्ति, मूल लिङ्कसहित।",
+    updatesSubtitle: "आधिकारिक नोट, प्रेस विज्ञप्ति र पोर्टल — पुष्टिका लागि सधैं मूल खोल्नुहोस्",
     updatesFilterLabel: "क्षेत्र अनुसार फिल्टर",
-    updatesThemeLabel: "विषय अनुसार फिल्टर",
+    updatesThemeLabel: "विषय (थपेर मिलाउन ट्याप)",
     themeAll: "सबै विषय",
     themeRescue: "उद्धार / खोज",
-    themeMissing: "हराएको / फेला",
+    themeMissing: "व्यक्ति सूची",
     themeHospitals: "अस्पताल / घाइते",
     themeRemains: "शव / फोरेन्सिक",
     themeRelief: "राहत / आपूर्ति",
     themeContacts: "सम्पर्क / हटलाइन",
     themeBriefing: "ब्रीफिङ / अपडेट",
-    tabOfficial: "आधिकारिक अपडेट",
+    tabOfficial: "आधिकारिक नोट",
     tabTwitter: "प्राधिकरण पोस्ट (X)",
     officialHint: "MoFA, MEA र अन्य आधिकारिक पृष्ठबाट सारांश। अंक बदलिन सक्छन् — पुष्टिका लागि मूल स्रोत खोल्नुहोस्। MoFA ले नयाँ दैनिक अपडेट ननिकालेसम्म सबैभन्दा नयाँ आइटम अघिल्लो दिनको हुन सक्छ।",
     twitterHint:
@@ -309,7 +309,7 @@ const NAV_LINKS_HTML = `
     <a href="/wizard.html" data-page="wizard" data-i18n="navWizard">Who to contact</a>
     <a href="/search.html" data-page="search" data-i18n="navSearch">Check if found</a>
     <a href="/report.html" data-page="report" data-i18n="navReport">Report missing</a>
-    <a href="/updates.html" data-page="updates" data-i18n="navUpdates">Updates</a>
+    <a href="/updates.html" data-page="updates" data-i18n="navUpdates">Bulletin</a>
     <a href="/resources.html" data-page="resources" data-i18n="navResources">Contacts</a>
     <a href="/feedback.html" data-page="feedback" class="nav-feedback" data-i18n="navFeedback">Feedback</a>
   `;
