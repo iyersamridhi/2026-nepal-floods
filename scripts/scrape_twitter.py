@@ -93,7 +93,7 @@ def fetch_user_tweets(
     max_results: int = 40,
 ) -> list[dict]:
     """
-    Pull recent posts from a curated authority account, then soft-filter
+    Pull recent posts from a curated account, then soft-filter
     for Nepal flood relevance (wide EN + Nepali keywords).
     """
     max_results = max(10, min(int(max_results), 100))
@@ -267,6 +267,8 @@ def main():
             handle = acct["handle"]
             priority = acct.get("priority", "related")
             role = acct.get("role", "authority")
+            # Journalists: pull a wider recent window so ground reporting shows up
+            max_results = 100 if role == "journalist" else 40
             try:
                 tweets = fetch_user_tweets(
                     handle,
@@ -274,6 +276,7 @@ def main():
                     keywords=keywords,
                     exclude=exclude,
                     priority=priority,
+                    max_results=max_results,
                 )
             except Exception as e:
                 msg = str(e)

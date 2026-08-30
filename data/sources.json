@@ -390,6 +390,137 @@
         "priority": "related",
         "role": "journalist",
         "note": "India desk — Rasuwa ground reports"
+      },
+      {
+        "handle": "ratopati",
+        "name": "Ratopati",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "Khabarhub",
+        "name": "Khabarhub",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "therising_np",
+        "name": "The Rising Nepal",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "gorkhapatra",
+        "name": "Gorkhapatra",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "AJEnglish",
+        "name": "Al Jazeera English",
+        "region": [
+          "nepal",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "Reuters",
+        "name": "Reuters",
+        "region": [
+          "nepal",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "AP",
+        "name": "Associated Press",
+        "region": [
+          "nepal",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "BBCWorld",
+        "name": "BBC World",
+        "region": [
+          "nepal",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "ANI",
+        "name": "ANI",
+        "region": [
+          "nepal",
+          "india",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "PTI_News",
+        "name": "PTI",
+        "region": [
+          "nepal",
+          "india",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "timesofindia",
+        "name": "Times of India",
+        "region": [
+          "nepal",
+          "india",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "IndianExpress",
+        "name": "The Indian Express",
+        "region": [
+          "nepal",
+          "india",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "the_hindu",
+        "name": "The Hindu",
+        "region": [
+          "nepal",
+          "india",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
       }
     ],
     "keywords": [
@@ -456,7 +587,18 @@
       "indian national",
       "indian nationals",
       "special control room",
-      "situation room"
+      "situation room",
+      "betrawati",
+      "dhunge",
+      "syafrubesi",
+      "trishuli 3",
+      "hydropower tunnel",
+      "tunnel rescue",
+      "glacial",
+      "debris flow",
+      "बेत्रावती",
+      "धादिङ",
+      "नुवाकोट"
     ],
     "excludeKeywords": [
       "uzbekistan",
