@@ -20,7 +20,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-from grok_client import grok_summarize_tweet, load_dotenv
+from grok_client import grok_summarize_tweet, load_dotenv, strip_summary_urls
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "data" / "sources.json"
@@ -54,14 +54,13 @@ def sanitize_bearer(token: str | None) -> str | None:
     return token or None
 
 
-def fetch_user_tweets(handle: str, bearer: str, keywords: list[str], max_results: int = 20) -> list[dict]:
+def fetch_user_tweets(handle: str, bearer: str, keywords: list[str] | None = None, max_results: int = 40) -> list[dict]:
     """
-    Pull recent posts from an authority account.
+    Pull recent posts from a curated authority account.
 
-    Do NOT require flood keywords in the API query — posts like
-    "List of foreign Citizens Rescued Today" often omit place names and were
-    being dropped when we only OR'd the first 6 keywords.
-    Soft-filter client-side; if nothing matches, keep the recent posts.
+    Keep all recent posts from these accounts — do not soft-filter by English
+    flood keywords. That filter dropped Nepali updates (e.g. NDRRMA भोटेकोशी
+    खोज/उद्धार notes) whenever other English posts also matched.
     """
     max_results = max(10, min(int(max_results), 100))
     q = urllib.parse.quote(f"from:{handle}", safe="")
@@ -72,18 +71,7 @@ def fetch_user_tweets(handle: str, bearer: str, keywords: list[str], max_results
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {bearer}"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         data = json.loads(resp.read().decode())
-    tweets = data.get("data", []) or []
-    if not keywords or not tweets:
-        return tweets
-
-    keys = [k.lower() for k in keywords if k]
-    matched = []
-    for tw in tweets:
-        text = (tw.get("text") or "").lower()
-        if any(k in text for k in keys):
-            matched.append(tw)
-    # Prefer matches, but never return empty when the account did post recently
-    return matched if matched else tweets
+    return data.get("data", []) or []
 
 
 def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text: str, created_at: str, cache: dict, force: bool, source_url: str | None = None) -> tuple[dict, bool]:
@@ -94,14 +82,15 @@ def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text:
 
     if cached.get("contentHash") == ch and cached.get("item") and not force:
         item = dict(cached["item"])
+        item["summary"] = strip_summary_urls(item.get("summary", ""))
         item["scrapeMethod"] = "cached"
         return item, False
 
-    summary = text[:480]
+    summary = strip_summary_urls(text[:480])
     method = "raw"
     ai = grok_summarize_tweet(handle, text, url)
     if ai:
-        summary = ai
+        summary = strip_summary_urls(ai)
         method = "grok"
 
     # Normalize tweet times (API returns UTC) to ISO string; UI formats Nepal time

@@ -29,7 +29,7 @@ from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
 
-from grok_client import grok_summarize_official, load_dotenv as _load_dotenv
+from grok_client import grok_summarize_official, load_dotenv as _load_dotenv, strip_summary_urls
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -320,11 +320,11 @@ def build_item(
 
 
 def summarize_content(title: str, body: str, url: str, paragraphs: list[str]) -> tuple[str, str]:
-    summary = summarize_rule_based(title, paragraphs)
+    summary = strip_summary_urls(summarize_rule_based(title, paragraphs))
     method = "rule-based"
     ai = grok_summarize_official(title, body, url)
     if ai:
-        summary = ai
+        summary = strip_summary_urls(ai)
         method = "grok"
     return summary, method
 

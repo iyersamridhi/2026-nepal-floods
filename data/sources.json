@@ -86,7 +86,7 @@
   },
   "twitter": {
     "enabled": true,
-    "note": "Live fetch when TWITTER_BEARER_TOKEN is set; otherwise manual seeds in data/seeds/twitter_manual.json",
+    "note": "Live fetch when TWITTER_BEARER_TOKEN is set; otherwise manual seeds in data/seeds/twitter_manual.json. Fetches all recent posts from listed accounts (no keyword soft-filter).",
     "accounts": [
       { "handle": "NDRRMA_Nepal", "name": "NDRRMA Nepal", "region": ["nepal"] },
       { "handle": "NepalPoliceHQ", "name": "Nepal Police HQ", "region": ["nepal"] },
@@ -97,19 +97,6 @@
       { "handle": "USEmbassyNepal", "name": "US Embassy Nepal", "region": ["foreign"] },
       { "handle": "NepalTourismBoard", "name": "Nepal Tourism Board", "region": ["nepal", "foreign"] }
     ],
-    "keywords": [
-      "bhotekoshi",
-      "bhote koshi",
-      "rasuwa",
-      "gyirong",
-      "trishuli",
-      "flash flood",
-      "missing",
-      "rescued",
-      "found",
-      "foreign national",
-      "kailash",
-      "mansarovar"
-    ]
+    "keywords": []
   }
 }

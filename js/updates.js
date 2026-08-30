@@ -181,6 +181,16 @@ function shortSource(name) {
   return name || "Official source";
 }
 
+function stripSummaryUrls(text) {
+  if (!text) return "";
+  let cleaned = String(text).replace(/https?:\/\/\S+/gi, "");
+  cleaned = cleaned.replace(
+    /(?:\n\s*)?(?:for the (?:latest )?details,?\s*check the original(?: update)? here:?|see the full update here:?|check the original page(?: for updates)?:?|for the full details,?\s*see the original report here:?|check the original page here for contact numbers:?|open the (?:post|original|page)(?: for (?:the )?full (?:note|details))?\.?|check (?:them|it) at\.?|read the original\.?)\s*$/i,
+    ""
+  );
+  return cleaned.replace(/[ \t]{2,}/g, " ").replace(/\n{3,}/g, "\n\n").trim().replace(/[:–-]+$/, "").trim();
+}
+
 function renderItem(u, isTwitter) {
   const when = formatStamp(u.timestamp, u.publishedLabel);
   const source = shortSource(u.source);
@@ -190,6 +200,7 @@ function renderItem(u, isTwitter) {
     : isPointer
       ? `<span class="badge badge-portal">Official portal</span>`
       : `<span class="badge badge-official">Official update</span>`;
+  const summary = stripSummaryUrls(u.summary);
 
   return `
     <article class="update-item${isPointer ? " update-item-portal" : ""}">
@@ -199,7 +210,7 @@ function renderItem(u, isTwitter) {
         <time datetime="${escapeHtml(u.timestamp || "")}">${escapeHtml(when)}</time>
       </div>
       ${u.title ? `<h3 class="bulletin-title">${escapeHtml(u.title)}</h3>` : ""}
-      <p class="update-summary">${escapeHtml(u.summary)}</p>
+      <p class="update-summary">${escapeHtml(summary)}</p>
       <a class="update-link" href="${escapeHtml(u.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(
         isPointer ? t("openPortal") : t("readOriginal")
       )} →</a>
