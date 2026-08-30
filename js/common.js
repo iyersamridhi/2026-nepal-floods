@@ -442,10 +442,65 @@ async function openEmailClientAsync(email, subject, body, opts) {
 
 document.addEventListener("DOMContentLoaded", () => {
   renderNav();
+  document.querySelectorAll('.nav-links a[data-page="updates"]').forEach((a) => {
+    a.classList.add("nav-bulletin");
+  });
   renderSiteDisclaimer();
   renderVolunteerStrip();
   renderLangBlocks();
   renderFooter();
   initLang();
   markActiveNav();
+  enhanceBulletinVisibility();
 });
+
+async function enhanceBulletinVisibility() {
+  try {
+    const [offRes, twRes] = await Promise.all([
+      fetch(`/data/bulletin.json?_=${Date.now()}`),
+      fetch(`/data/twitter_bulletin.json?_=${Date.now()}`),
+    ]);
+    const official = offRes.ok ? await offRes.json() : null;
+    const twitter = twRes.ok ? await twRes.json() : null;
+    const offN = (official?.items || []).length;
+    const twN = (twitter?.items || []).length;
+    const checked = official?.generatedAt || twitter?.generatedAt;
+    const fresh =
+      checked && Date.now() - new Date(checked).getTime() < 3 * 60 * 60 * 1000;
+
+    document.querySelectorAll(".nav-bulletin").forEach((a) => {
+      a.classList.toggle("is-live", Boolean(fresh));
+      if (!a.querySelector(".nav-live-dot")) {
+        const tip = document.createElement("span");
+        tip.className = "nav-live-dot";
+        tip.setAttribute("aria-hidden", "true");
+        a.appendChild(tip);
+      }
+    });
+
+    const meta = document.getElementById("bulletin-spotlight-meta");
+    if (meta) {
+      const parts = [];
+      if (offN) parts.push(`${offN} official notes`);
+      if (twN) parts.push(`${twN} authority posts on X`);
+      if (checked) {
+        try {
+          const when = new Intl.DateTimeFormat("en-GB", {
+            timeZone: "Asia/Kathmandu",
+            day: "numeric",
+            month: "short",
+            hour: "numeric",
+            minute: "2-digit",
+            hour12: true,
+          }).format(new Date(checked));
+          parts.push(`Checked ${when}`);
+        } catch (e) {
+          /* ignore */
+        }
+      }
+      meta.textContent = parts.join(" · ");
+    }
+  } catch (e) {
+    /* ignore — spotlight still works without meta */
+  }
+}
