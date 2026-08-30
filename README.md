@@ -8,14 +8,11 @@ Volunteer page of **public contacts, missing-person forms, and government update
 
 ## SEO / search indexing
 
-- Keyword titles & descriptions on every page (Bhotekoshi, Rasuwa, Gyirong, MoFA, MEA control room, etc.)
-- [`robots.txt`](robots.txt) + [`sitemap.xml`](sitemap.xml)
-- Updates stay fresh via GitHub Action (~30 min)
+**For agents:** see [`docs/SEO.md`](docs/SEO.md) — SEO basics + Google Search Console verification are **already done**. Do not redo from scratch.
 
-**You still need to submit once** (Google/Bing accounts required — see [`docs/SEO.md`](docs/SEO.md)):
-
-1. [Google Search Console](https://search.google.com/search-console) → add `https://2026-nepal-floods.vercel.app` → submit sitemap `https://2026-nepal-floods.vercel.app/sitemap.xml`
-2. Optional: [Bing Webmaster Tools](https://www.bing.com/webmasters) → same sitemap
+- Keyword titles & descriptions, `robots.txt`, `sitemap.xml`, OG tags
+- GSC verified (`google3e1e15a0daa51e2c.html`); bulletins refresh via GitHub Action
+- Remaining (human): Request indexing if GSC still says “Discovered – currently not indexed” (normal for new sites)
 
 ## Deploy on Vercel
 
