@@ -956,6 +956,32 @@ footer.site-footer {
   line-height: 1.6;
 }
 
+footer.site-footer .footer-main,
+footer.site-footer .footer-reach {
+  margin: 0;
+}
+
+footer.site-footer .footer-reach {
+  margin-top: 0.55rem;
+  font-size: 0.78rem;
+}
+
+footer.site-footer .footer-reach-label {
+  margin-right: 0.45rem;
+  font-weight: 600;
+  color: var(--nepal-blue-deep);
+}
+
+footer.site-footer .footer-reach-link {
+  color: var(--nepal-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer.site-footer .footer-reach-link:hover {
+  text-decoration: underline;
+}
+
 footer.site-footer .footer-link {
   color: var(--muted);
   text-decoration: none;

@@ -106,6 +106,10 @@ const I18N = {
       "Volunteer site — contacts, links & bulletin only. Not affiliated with any government. We do not collect personal case data.",
     feedbackLink: "Feedback",
     feedbackVolunteerLink: "Feedback & volunteer",
+    reachOut: "Reach out",
+    reachOutLinkedIn: "LinkedIn",
+    reachOutX: "X",
+    reachOutEmail: "Email",
     feedbackTitle: "Feedback",
     feedbackSubtitle: "Help improve this volunteer tool",
     feedbackIntro: "This site is run by volunteers. If something is wrong, outdated, or could work better, let us know.",
@@ -235,6 +239,10 @@ const I18N = {
       "स्वयंसेवी साइट — सम्पर्क, लिङ्क र अपडेट मात्र। कुनै सरकारसँग आबद्ध छैन।",
     feedbackLink: "प्रतिक्रिया",
     feedbackVolunteerLink: "प्रतिक्रिया र स्वयंसेवा",
+    reachOut: "सम्पर्क",
+    reachOutLinkedIn: "LinkedIn",
+    reachOutX: "X",
+    reachOutEmail: "इमेल",
     feedbackTitle: "प्रतिक्रिया",
     feedbackSubtitle: "यो स्वयंसेवी उपकरण सुधार्न मद्दत गर्नुहोस्",
     feedbackIntro: "यो साइट स्वयंसेवीहरूले चलाउँछन्। केही गलत, पुरानो, वा राम्रो बनाउन सकिने भए जानकारी दिनुहोस्।",
@@ -291,8 +299,22 @@ function renderSodheraBlocks() {
 }
 
 function renderFooter() {
+  const mail = encodeMailto(
+    "samridhi.iyer@icloud.com",
+    "2026 Nepal Floods site — feedback / reach out",
+    ""
+  );
   document.querySelectorAll(".site-footer").forEach((el) => {
-    el.innerHTML = `${t("footer")} <span class="footer-sep">·</span> <a href="/legal.html" class="footer-link footer-link-prominent">${t("legalLink")}</a> <span class="footer-sep">·</span> <a href="/feedback.html" class="footer-link footer-link-prominent">${t("feedbackVolunteerLink")}</a>`;
+    el.innerHTML = `
+      <p class="footer-main">${t("footer")} <span class="footer-sep">·</span> <a href="/legal.html" class="footer-link footer-link-prominent">${t("legalLink")}</a> <span class="footer-sep">·</span> <a href="/feedback.html" class="footer-link footer-link-prominent">${t("feedbackVolunteerLink")}</a></p>
+      <p class="footer-reach">
+        <span class="footer-reach-label">${t("reachOut")}</span>
+        <a class="footer-reach-link" href="https://www.linkedin.com/in/samridhi-iyer/" target="_blank" rel="noopener">${t("reachOutLinkedIn")}</a>
+        <span class="footer-sep">·</span>
+        <a class="footer-reach-link" href="https://x.com/iyersam10" target="_blank" rel="noopener">${t("reachOutX")} @iyersam10</a>
+        <span class="footer-sep">·</span>
+        <a class="footer-reach-link" href="${mail}">${t("reachOutEmail")}</a>
+      </p>`;
   });
 }
 
