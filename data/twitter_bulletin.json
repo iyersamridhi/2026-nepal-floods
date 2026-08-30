@@ -1,29 +1,66 @@
 {
-  "generatedAt": "2026-08-30T14:46:11.132594Z",
+  "generatedAt": "2026-08-30T15:09:30.843691Z",
   "note": "Authority Twitter/X posts — summarized with link. Verify on original tweet; not official confirmation.",
   "liveFetch": true,
   "summarizer": "grok",
   "skippedUnchanged": false,
   "items": [
     {
-      "id": "twitter-2094066325476016502",
-      "timestamp": "2026-08-30T14:14:52.000Z",
+      "id": "twitter-2094074390355095706",
+      "timestamp": "2026-08-30T14:46:55.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094074390355095706",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Indian forensic teams met with Nepali experts at the Nepal Police Central Forensic Science Laboratory and Tribhuvan University. @IndiainNepal",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "remains"
+      ],
+      "scrapeMethod": "grok",
+      "contentHash": "3c76c96038eafc83"
+    },
+    {
+      "id": "twitter-2094073319280755166",
+      "timestamp": "2026-08-30T14:42:39.000Z",
       "publishedLabel": "",
       "region": [
         "nepal"
       ],
       "source": "Twitter @NDRRMA_Nepal",
-      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094066325476016502",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094073319280755166",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared the names of the women rescued today on 2083 Bhadra 14. Families can look there for updates.",
+      "summary": "@NDRRMA_Nepal posted a list of foreign citizens rescued on August 30 from the Rasuwa Bhotekoshi flood that hit on August 26.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
-        "missing",
-        "briefing"
+        "missing"
       ],
       "scrapeMethod": "grok",
-      "contentHash": "bf806c16f245f7c2"
+      "contentHash": "9cb2975ba0e75691"
+    },
+    {
+      "id": "twitter-2094071384733569400",
+      "timestamp": "2026-08-30T14:34:58.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094071384733569400",
+      "title": "NDRRMA Nepal",
+      "summary": "@NDRRMA_Nepal posted the details of the men rescued today on 14 Bhadra 2083.",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "scrapeMethod": "grok",
+      "contentHash": "798ca97321df2808"
     },
     {
       "id": "twitter-2094063469721272350",
@@ -36,7 +73,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2094063469721272350",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian rescue team worked with Nepal’s army today searching the hydropower tunnels in Chilime and Langtang. @IndiainNepal says they’ll keep going together.",
+      "summary": "The Indian tunnel rescue team worked with the Nepali Army today searching the hydropower sites in Chilime and Langtang, and they’ll keep going together. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue"
@@ -55,7 +92,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2094062867469480227",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian tunnel rescue team worked with Nepal’s army today searching the hydropower sites in Chilime and Langtang, and they’ll keep going together. @IndiainNepal",
+      "summary": "The Indian tunnel rescue team worked with the Nepali Army today searching the hydropower sites in Chilime and Langtang, and they'll keep going together. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue"
@@ -74,7 +111,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2094062333882511507",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian tunnel rescue team worked with Nepal’s army today searching the hydropower sites in Chilime and Langtang, and they’ll keep going together. @IndiainNepal",
+      "summary": "The Indian rescue team worked with Nepal’s army today searching the hydropower tunnels in Chilime and Langtang, and they’ll keep going together. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue"
@@ -93,7 +130,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2094058685274447980",
       "title": "Embassy of India Kathmandu",
-      "summary": "An Indian search-and-rescue team joined Nepal’s army at the hydropower tunnel. @IndiainNepal",
+      "summary": "An Indian team trained for tunnel search and rescue joined Nepal’s army at the hydropower tunnel. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue"
@@ -111,7 +148,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094051829495873632",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a short update on the search, rescue, and relief work for the Rasuwa flood, timed for 6 PM on 30 August, and tagged @moha_nepal.",
+      "summary": "@NDRRMA_Nepal shared a short update on search, rescue, and relief efforts for the Rasuwa flood as of 6 PM on August 30th, tagging @moha_nepal.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -132,7 +169,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2094050952580137034",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal posted that 149 Indian nationals have been rescued in Nepal as of 5:30 pm on 30 August. The post also lists the names.",
+      "summary": "@IndiainNepal shared that 149 Indians have been rescued in Nepal as of 5:30 pm on 30 August, with the names listed in the post.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -152,13 +189,14 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094050674480930990",
       "title": "Nepal Police HQ",
-      "summary": "Families dealing with the flood in Bhotekoshi, Rasuwa can reach @NepalPoliceHQ for help with search, rescue, relief, and information.",
+      "summary": "Families dealing with the flood in Bhotekoshi, Rasuwa can reach these numbers for search, rescue, relief, or updates. @NepalPoliceHQ",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "rescue",
         "missing",
         "relief",
-        "contacts"
+        "contacts",
+        "briefing"
       ],
       "scrapeMethod": "grok",
       "contentHash": "33ec26cb78f0abed"
@@ -173,7 +211,7 @@
       "source": "Twitter @MEAIndia",
       "sourceUrl": "https://x.com/MEAIndia/status/2094041428469182793",
       "title": "MEA India",
-      "summary": "@MEAIndia says 149 Indian nationals have been rescued in Nepal as of 1730 hrs on 30 August 2026, with the names listed in their update.",
+      "summary": "@MEAIndia reports that 149 Indian nationals have been rescued in Nepal as of 5:30 pm on 30 August 2026, and the names are listed in their post.",
       "citation": "Tweet by @MEAIndia",
       "themes": [
         "rescue",
@@ -193,7 +231,7 @@
       "source": "Twitter @MEAIndia",
       "sourceUrl": "https://x.com/MEAIndia/status/2094039357653176546",
       "title": "MEA India",
-      "summary": "@MEAIndia shared a short update on the Indian nationals rescued in Nepal.",
+      "summary": "@MEAIndia posted a short update on Indian nationals rescued in Nepal.",
       "citation": "Tweet by @MEAIndia",
       "themes": [
         "rescue",
@@ -213,7 +251,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094029893386621136",
       "title": "Nepal Police HQ",
-      "summary": "Police are handling body management only, not funerals — let's stick to the facts and skip the rumors. @NepalPoliceHQ",
+      "summary": "@NepalPoliceHQ says they’re managing the bodies, not carrying out funerals. They’re asking people to stick to what’s actually happening and not follow rumors.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "remains"
@@ -232,7 +270,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2094007081867366885",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal held a briefing today with Foreign Secretary Amrit Bahadur Rai to share updates on the search, rescue and relief work after the floods in the Bhote Koshi River.",
+      "summary": "@MoFANepal held a briefing today with Foreign Secretary Amrit Bahadur Rai on the search, rescue and relief work after the Bhote Koshi floods.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "rescue",
@@ -252,7 +290,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2094000748891926993",
       "title": "US Embassy Nepal",
-      "summary": "Search and rescue teams are still working in northern Rasuwa after the big flood on August 26, with flood and landslide risks continuing along the Bhote Koshi and Trishuli river areas. @USEmbassyNepal noted the travel disruptions there.",
+      "summary": "Search and rescue teams are still working in northern Rasuwa after the big flood on August 26, with flood and landslide risks continuing along the Bhote Koshi and Trishuli river areas. @USEmbassyNepal",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "rescue"
@@ -271,7 +309,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093987513803354488",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian ambassador met the forensic team sent to Nepal. They'll be working alongside local teams there. @IndiainNepal",
+      "summary": "The Indian ambassador met the forensic team sent to Nepal, who'll be working with their local counterparts. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "remains"
@@ -289,7 +327,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093982140484694398",
       "title": "NDRRMA Nepal",
-      "summary": "There's a fresh update on search, rescue and relief efforts for the Rasuwa flood from @NDRRMA_Nepal, posted as of 1 PM on 30 August with @moha_nepal.",
+      "summary": "@NDRRMA_Nepal posted a short update on the search, rescue, and relief work for the Rasuwa flood as of 1 PM on August 30th, along with @moha_nepal.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -309,7 +347,7 @@
       "source": "Twitter @MEAIndia",
       "sourceUrl": "https://x.com/MEAIndia/status/2093973055525753198",
       "title": "MEA India",
-      "summary": "The Indian ambassador met the forensic team now in Nepal, where they'll work with local experts on DNA samples to help identify those lost in the floods. @MEAIndia",
+      "summary": "The Indian ambassador met the forensic team now in Nepal, where they'll work with local experts on DNA tests to help identify those lost in the recent floods. @MEAIndia",
       "citation": "Tweet by @MEAIndia",
       "themes": [
         "missing",
@@ -328,7 +366,7 @@
       "source": "Twitter @MEAIndia",
       "sourceUrl": "https://x.com/MEAIndia/status/2093972881785160140",
       "title": "MEA India",
-      "summary": "India's forensic team is in Nepal working with local experts on DNA samples to help identify those lost in the recent floods. @MEAIndia noted that Ambassador Naveen Srivastava met with the team.",
+      "summary": "The Indian ambassador met the forensic team now in Nepal. They'll be working with local experts on DNA samples to help identify those lost in the recent floods. @MEAIndia",
       "citation": "Tweet by @MEAIndia",
       "themes": [
         "missing",
@@ -347,7 +385,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093972578608251061",
       "title": "Nepal Police HQ",
-      "summary": "Nepal Police are out helping with rescues. @NepalPoliceHQ",
+      "summary": "Nepal Police are out helping with rescue work, says @NepalPoliceHQ.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "rescue",
@@ -367,10 +405,9 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093967391868985531",
       "title": "Embassy of India Kathmandu",
-      "summary": "India's ambassador @navsri6619 met the forensic team that will work with Nepali experts on DNA tests to help identify those lost in the recent flash flood. @IndiainNepal",
+      "summary": "Ambassador @navsri6619 met with the Indian forensic team that will work with Nepali experts on DNA analysis to help identify victims of the recent flash flood.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
-        "missing",
         "remains"
       ],
       "scrapeMethod": "grok",
@@ -387,7 +424,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093966603490898310",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal shares that Ambassador @navsri6619 met the Indian forensic team, who will work with Nepali experts on DNA testing to help identify those lost in the recent flash flood.",
+      "summary": "@IndiainNepal The Indian ambassador met with the forensic team heading to Nepal. They'll work alongside local experts on DNA testing to help identify those lost in the recent flash flood.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "missing",
@@ -407,7 +444,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093965886696948110",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian Ambassador @navsri6619 met the forensic team that will work with Nepali experts on DNA testing to help identify those lost in the recent floods. @IndiainNepal",
+      "summary": "The Indian ambassador @navsri6619 met the forensic team that will work with Nepali experts on DNA testing to help identify those lost in the recent floods. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "missing",
@@ -426,7 +463,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093961178418749652",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared the names of people injured in the Rasuwa Bhotekoshi and Trishuli floods who are currently being treated in Kathmandu hospitals or have already been discharged.",
+      "summary": "@NDRRMA_Nepal shared the names of people injured in the Rasuwa Bhotekoshi and Trishuli floods who are still being treated in Kathmandu hospitals or have already been discharged.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "hospitals",
@@ -446,7 +483,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093933620994199942",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal shared that China’s Tibet region set up two 24-hour English hotlines to help families.",
+      "summary": "@IndiainNepal noted that Tibet Autonomous Region, China has opened two 24-hour English hotlines for families needing help.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "contacts"
@@ -464,7 +501,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093921566786813957",
       "title": "Nepal Police HQ",
-      "summary": "Nepal police arrested one person for running a scam with fake statements in the name of the Prime Minister’s disaster rescue fund. @NepalPoliceHQ",
+      "summary": "Nepal Police arrested one person who was scamming people with fake statements claiming to be from the Prime Minister’s disaster rescue fund. @NepalPoliceHQ",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "rescue",
@@ -483,7 +520,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093914916390600757",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ shared a quick update on the flood situation in Rasuwa district, with details as of 8 AM on the 14th.",
+      "summary": "@NepalPoliceHQ posted an update on the flood in Rasuwa district, with the latest details as of 8 AM on the 14th.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -503,7 +540,7 @@
       "source": "Twitter @EOIBeijing",
       "sourceUrl": "https://x.com/EOIBeijing/status/2093912605433774318",
       "title": "Embassy of India Beijing",
-      "summary": "@EOIBeijing noted that after the recent floods and mudslides in Tibet, local authorities set up two English-language hotlines that stay open 24 hours for families looking for news on missing foreign nationals.",
+      "summary": "@EOIBeijing noted that after the recent floods and mudslides in Tibet, local authorities set up two English-language hotlines that families can call anytime for information on missing foreign nationals.",
       "citation": "Tweet by @EOIBeijing",
       "themes": [
         "missing",
@@ -522,7 +559,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093909876577873947",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a short update on search, rescue, and relief work for the Bhote Koshi flood, with details received by 9 AM on Bhadra 14.",
+      "summary": "@NDRRMA_Nepal just posted the latest update on search, rescue, and relief work for the Bhote Koshi flood, covering info received up to 9 AM on Bhadra 14.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -543,7 +580,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093907225567985735",
       "title": "Nepal Police HQ",
-      "summary": "Families, the road at Krishnabhir in Dhading’s Benighat Rorang area is fully blocked after the river washed part of it away. @NepalPoliceHQ",
+      "summary": "The road at Krishnabhir in Dhading’s Benighat Rorang area has collapsed after the river washed it away, so it’s fully blocked right now. @NepalPoliceHQ",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -562,7 +599,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093904783661036021",
       "title": "Embassy of India Kathmandu",
-      "summary": "India's fourth flight with 11 tons of relief supplies has arrived in Nepal and the materials have been handed over, @IndiainNepal noted. Along with blankets, sleeping bags, tarps and plastic sheets, it brought search-and-rescue teams with tunnel gear and forensic experts for DNA work.",
+      "summary": "@IndiainNepal says their fourth flight with 11 tons of relief supplies has arrived in Nepal and been handed over, including search-and-rescue teams, forensic experts for DNA work, plus blankets, sleeping bags and tarps.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -584,7 +621,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093885974124323238",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal noted that India's fourth flight with 11 tonnes of relief supplies has landed in Nepal.",
+      "summary": "@IndiainNepal noted that India’s fourth flight with 11 tonnes of relief supplies has landed in Nepal.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "relief"
@@ -602,7 +639,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093880162530242721",
       "title": "Nepal Police HQ",
-      "summary": "Nepal Police shared that tributes were paid at Pashupati Aryaghat for Pr. Chau. Timure and Pr. Sa. Ni. Ram Hari Khadka, the two officers who died in the flood while on duty in Rasuwa Bhotekoshi. @NepalPoliceHQ",
+      "summary": "@NepalPoliceHQ said the police chief and other officers went to Pashupati Aryaghat to pay respects to Pr. Chau. Timure and Pr. Sa. Ni. Ram Hari Khadka, who died in the flood in Rasuwa Bhotekoshi while on duty.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -621,7 +658,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093880124173426931",
       "title": "Embassy of India Kathmandu",
-      "summary": "The fourth Indian flight has landed in Kathmandu with essential supplies and technical support, per @IndiainNepal.",
+      "summary": "The fourth Indian flight has landed in Kathmandu with essential supplies and technical capabilities, per @IndiainNepal.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "briefing"
@@ -640,7 +677,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093879464304525325",
       "title": "Embassy of India Kathmandu",
-      "summary": "India's fourth flight brought 11 tonnes of relief supplies, including blankets, sleeping bags, tarpaulins, plastic sheets, and hygiene items. @IndiainNepal",
+      "summary": "India's @IndiainNepal noted that a fourth flight from India brought 11 tonnes of relief supplies, including blankets, sleeping bags, tarpaulins, plastic sheets, and hygiene items.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "relief"
@@ -658,7 +695,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093878038471790898",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal says the safety of American citizens is their top concern right now, with their teams in Nepal and China helping people and supporting relief work. They're also providing more than $3.6 million to help Nepal.",
+      "summary": "@USEmbassyNepal says their main focus right now is helping American citizens stay safe, with staff in Nepal and China working on that and on disaster relief, and the US is sending more than $3.6 million to support Nepal.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "relief"
@@ -676,7 +713,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093876407160242529",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal says the flood flow in Rasuwa’s Bhotekoshi river has risen a bit more, so they’re asking everyone in the affected areas around Rasuwa, Nuwakot, Dhading and Chitwan—especially near the river or helping with rescue—to stay careful. They’ll share updates as they get them.",
+      "summary": "@NDRRMA_Nepal says the flood flow in Rasuwa’s Bhotekoshi River has risen a bit more, so they’re asking everyone in the affected areas of Rasuwa, Nuwakot, Dhading, and Chitwan—especially along the river—to stay careful. They’ll share updates as they get them.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -699,7 +736,7 @@
       "source": "Twitter @EOIBeijing",
       "sourceUrl": "https://x.com/EOIBeijing/status/2093875505040900355",
       "title": "Embassy of India Beijing",
-      "summary": "@EOIBeijing shared a note on India and Nepal under the Neighbourhood First approach.",
+      "summary": "@EOIBeijing shared a post about India and Nepal under the Neighbourhood First tag.",
       "citation": "Tweet by @EOIBeijing",
       "themes": [
         "briefing"
@@ -717,7 +754,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093874839119655161",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared a post from @DHM_FloodEWS.",
+      "summary": "@NDRRMA_Nepal shared a post from @DHM_FloodEWS with their latest flood update.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "briefing"
@@ -735,7 +772,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093842225222627473",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal passed along a note from the State Department that the safety of American citizens comes first, and that the embassies in Nepal and China are working closely on it.",
+      "summary": "@USEmbassyNepal shared that nothing matters more to them than keeping American citizens safe, and the embassies in Nepal and China are working closely on it.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -753,7 +790,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093837452159107160",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal is sharing a note from Rasuwa officials that they’ve heard the Bhotekoshi River’s flow has increased, so people living near the river in Rasuwa, Nuwakot, and Dhading should keep an eye out. They’ll pass along more details when they get them.",
+      "summary": "Rasuw a’s district office heard reports of rising flow in the Bhotekoshi River and is asking people near the river in Rasuwa, Nuwakot, and Dhading to stay alert. @NDRRMA_Nepal will share more updates as they get them.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "briefing"
@@ -772,7 +809,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093764617290084468",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian embassy in Nepal (@IndiainNepal) passed along an update from the foreign ministry on Indian nationals caught in the floods.",
+      "summary": "@IndiainNepal shared a note from @MEAIndia with an update on Indian nationals affected by the floods in Nepal.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "briefing"
@@ -811,7 +848,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093761049959018612",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal shared that the fourth flight carrying 11 tonnes of relief assistance has left India.",
+      "summary": "India’s fourth flight with 11 tonnes of relief supplies has left for Nepal, according to @IndiainNepal.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "relief"
@@ -830,7 +867,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093760829510533222",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal posted a note from @MEAIndia with details on India's relief work after the flash floods in Nepal.",
+      "summary": "@IndiainNepal shared a note from @MEAIndia on India's relief work after the flash floods in Nepal.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "relief",
@@ -850,7 +887,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093760607401165049",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal shared a note from @MEAIndia with details on India's relief efforts after the flash floods in Nepal.",
+      "summary": "@IndiainNepal shared a note from @MEAIndia about India’s help and relief work after the flash floods in Nepal.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "relief",
@@ -870,7 +907,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093755862334808414",
       "title": "Embassy of India Kathmandu",
-      "summary": "India's embassy in Nepal has shared a press release on identifying the remains of those lost in the recent flash flood. @IndiainNepal",
+      "summary": "India's embassy in Nepal has posted a press release about identifying remains of those lost in the recent flash flood. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "missing",
@@ -891,7 +928,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093754791981977808",
       "title": "Embassy of India Kathmandu",
-      "summary": "India's embassy in Nepal shared a press release about identifying remains of those lost in the recent flash flood. @IndiainNepal",
+      "summary": "India's mission in Nepal posted a press release about identifying remains of those lost in the recent flash flood. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "missing",
@@ -911,7 +948,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093753240601125202",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared their eighth update on search and rescue work for the Bhotekoshi flood in Rasuwa.",
+      "summary": "@NDRRMA_Nepal just shared their eighth update on search and rescue work after the Bhotekoshi flood in Rasuwa.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -932,10 +969,9 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093753063609889153",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian Embassy in Nepal has shared a press release on identifying remains of those lost in the recent flash floods. @IndiainNepal posted it via @MEAIndia.",
+      "summary": "@IndiainNepal shared a note from @MEAIndia pointing families to the Embassy’s press release on identifying remains from the recent flash flood.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
-        "missing",
         "remains",
         "briefing"
       ],
@@ -953,7 +989,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093752905069482187",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal noted that a technical team from India went to check the hydropower tunnels in the affected area.",
+      "summary": "India sent a technical team to check the hydropower tunnels in the affected area. @IndiainNepal posted the update.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "briefing"
@@ -971,7 +1007,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093729332686737798",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal just put out an urgent notice about drone flights.",
+      "summary": "@NDRRMA_Nepal posted an urgent notice about drone flights.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "briefing"
@@ -989,7 +1025,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093729001911280117",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a list of the temporary shelters running in Nuwakot, with the camp names and contact numbers for the people in charge.",
+      "summary": "@NDRRMA_Nepal shared the names of the temporary shelters open in Nuwakot, plus the local areas they’re in and the contact person with phone number for each.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "missing",
@@ -1008,7 +1044,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093728801389994493",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared the details of the women rescued today on 2083.05.13.",
+      "summary": "@NDRRMA_Nepal posted the list of women rescued today on 2083.05.13.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -1027,7 +1063,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093727947555500331",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal has posted the names and details of the men rescued today on 2083.05.13.",
+      "summary": "@NDRRMA_Nepal posted the details of the men rescued today on 2083.05.13.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -1066,7 +1102,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://mofa.gov.np/content/1866/press-briefing-note-by-hon--minister-for/",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal says 626 bodies have been recovered from the Bhote Koshi flood so far, with over 4450 people rescued including 187 foreign nationals, while around 2400 remain unaccounted for as searches continue.",
+      "summary": "From @MoFANepal, the latest on the Bhote Koshi flood shows 626 bodies recovered so far, with about 2400 people still unaccounted for and over 4450 rescued, including more than 187 foreign nationals. Search and checks are still underway, so the numbers may shift.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "rescue",
@@ -1087,7 +1123,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093713254740791692",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ can help with questions about foreign citizens who were rescued, are missing, injured, or not yet identified.",
+      "summary": "@NepalPoliceHQ has a page for families making inquiries about foreign citizens who are rescued, missing, injured, or unidentified.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "hospitals",
@@ -1108,7 +1144,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093711943567802801",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal shared that search and rescue teams are still out after the big flood in Nepal’s Rasuwa District on August 26. A lake had formed upstream and added to the trouble.",
+      "summary": "Search and rescue teams are still working in Nepal’s Rasuwa District after the severe flood on August 26, notes @USEmbassyNepal.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "rescue"
@@ -1126,7 +1162,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093710632214561161",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal just posted an urgent note about relief management that families may want to check.",
+      "summary": "@NDRRMA_Nepal just shared an urgent notice about relief management. Families can take a look if it affects them.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "relief"
@@ -1144,7 +1180,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093704329140302238",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a short update on search, rescue, and relief work for the Bhote Koshi flood, based on what they knew by 6:30 in the evening.",
+      "summary": "@NDRRMA_Nepal has posted the latest update on search, rescue, and relief work for the Bhote Koshi flood, with information gathered up to 6:30 in the evening on Bhadra 13.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -1166,7 +1202,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093698520134099041",
       "title": "Embassy of India Kathmandu",
-      "summary": "A team from India checked the hydropower tunnels in the flooded areas today to help speed up the search for people still stuck. @IndiainNepal",
+      "summary": "A team from India checked the hydropower tunnels in the flooded areas today to help locate and rescue people who are still stuck. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -1186,7 +1222,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093686725868658896",
       "title": "Embassy of India Kathmandu",
-      "summary": "Suman Shekhar met the Indian workers rescued by the Nepali Army in recent days to check how they’re doing. @IndiainNepal",
+      "summary": "@IndiainNepal noted that Suman Shekhar met with the Indian workers rescued by the Nepali Army in recent days to ask how they’re doing.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -1206,7 +1242,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093684118924198147",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian Embassy @IndiainNepal is staying in touch with Nepali officials to help locate and bring home Indian citizens affected by the floods. Their First Secretary (Commerce) met with people recently rescued from the Upper Trishuli 1 project today.",
+      "summary": "The Indian embassy @IndiainNepal is staying in touch with Nepali officials to help locate and bring home Indian citizens affected by the floods. Their commerce secretary also met some people who were just rescued from the Upper Trishuli 1 site today.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -1226,7 +1262,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093681050799296915",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal shared that the Indian technical team met this morning and checked the tunnels in Chilime as part of the rescue work.",
+      "summary": "Indian officials met the technical team on the tunnel rescue this morning, and the team checked the tunnels in Chilime. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue"
@@ -1245,7 +1281,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093680909522485348",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian Embassy in Kathmandu @IndiainNepal is still working with Nepali authorities on search and rescue for Indian nationals caught in the flash floods. Their First Secretary also met some Indian workers who were recently brought out safely.",
+      "summary": "The Indian Embassy @IndiainNepal is still working with Nepali authorities on search and rescue for Indian nationals caught in the flash floods. Their First Secretary also met some Indian workers who were recently brought to safety.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -1265,7 +1301,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093677889434878409",
       "title": "Embassy of India Kathmandu",
-      "summary": "@IndiainNepal shared an update from @MEAIndia on Indian nationals and relief efforts in Nepal.",
+      "summary": "The Indian mission in Nepal (@IndiainNepal) shared an update from @MEAIndia on Indian nationals and relief efforts there.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "relief",
@@ -1285,11 +1321,10 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093676870340608095",
       "title": "Embassy of India Kathmandu",
-      "summary": "A team from India went into the hydropower tunnels in the flooded area today to help locate people who are still missing. @IndiainNepal",
+      "summary": "A technical team from India has checked the hydropower tunnels in the flooded area to help find people who are still stranded. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
-        "rescue",
-        "missing"
+        "rescue"
       ],
       "scrapeMethod": "grok",
       "contentHash": "6c86993cea77ce4a"
@@ -1305,7 +1340,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093676612156055862",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian Embassy in Kathmandu @IndiainNepal is still working with Nepali authorities on search and rescue for Indian nationals affected by the flash floods. Their team also met some rescued Indian workers today.",
+      "summary": "The Indian Embassy @IndiainNepal is still working with Nepali authorities on search and rescue for Indian nationals caught in the floods. Today their First Secretary met some of the workers who were recently brought to safety.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -1325,7 +1360,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093676506694467868",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian Embassy in Kathmandu @IndiainNepal is still working with Nepali authorities on search and rescue for Indian nationals affected by the flash floods. They also met recently rescued Indian workers.",
+      "summary": "The Indian Embassy in Kathmandu @IndiainNepal is still working with Nepali authorities on search and rescue for Indian nationals caught in the flash floods. Their First Secretary also met some Indian workers who were recently brought to safety.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -1345,7 +1380,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093674578057039938",
       "title": "Embassy of India Kathmandu",
-      "summary": "A team from India has been checking the hydropower tunnels in the flood area to help locate and reach people who are still missing. @IndiainNepal",
+      "summary": "A team from India went into the hydropower tunnels in the flooded area today to help locate people who are still missing. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -1364,12 +1399,13 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093673406327824534",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ posted a list of hospitals where people rescued from the disaster are being treated.",
+      "summary": "@NepalPoliceHQ posted a list of hospitals where people rescued from the disaster are currently receiving treatment. Families can check there for updates on their loved ones.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "hospitals",
         "rescue",
-        "missing"
+        "missing",
+        "briefing"
       ],
       "scrapeMethod": "grok",
       "contentHash": "ba648886461e658c"
@@ -1384,7 +1420,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093661709450006745",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ noted the main highway is blocked until 5 PM on the 13th.",
+      "summary": "The main highway is blocked until 5 PM on the 13th, according to @NepalPoliceHQ.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -1403,7 +1439,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093654930859201007",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal shared that Minister Shisir Khanal held a briefing today on the government’s search, rescue and relief work after the Bhote Koshi floods.",
+      "summary": "@MoFANepal held a press briefing today with Foreign Minister Shisir Khanal on the search, rescue and relief work after the Bhote Koshi floods.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "rescue",
@@ -1423,7 +1459,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093645306214965493",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared that Nepal Police have details on unidentified bodies recovered from the Rasuwa floods.",
+      "summary": "Families looking for details on unidentified bodies from the Rasuwa floods can check the Nepal Police information shared by @NDRRMA_Nepal.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "missing",
@@ -1442,7 +1478,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093639628410782171",
       "title": "Nepal Police HQ",
-      "summary": "If you're looking for word on unidentified bodies from the flood in Bhotekoshi, Rasuwa, @NepalPoliceHQ has shared the details they have so far.",
+      "summary": "If you're looking for word on unidentified bodies from the flood in Bhotekoshi, Rasuwa, @NepalPoliceHQ has shared the details.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "missing",
@@ -1450,25 +1486,6 @@
       ],
       "scrapeMethod": "grok",
       "contentHash": "6c1daaac2a4928b5"
-    },
-    {
-      "id": "twitter-2093631693186019717",
-      "timestamp": "2026-08-29T09:27:48.000Z",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "Twitter @NepalPoliceHQ",
-      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093631693186019717",
-      "title": "Nepal Police HQ",
-      "summary": "Nepal Police is still out there doing rescue work right now. @NepalPoliceHQ",
-      "citation": "Tweet by @NepalPoliceHQ",
-      "themes": [
-        "rescue",
-        "missing"
-      ],
-      "scrapeMethod": "grok",
-      "contentHash": "c82f01c4806c3ac4"
     },
     {
       "id": "twitter-2093631075784495420",
@@ -1480,10 +1497,11 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093631075784495420",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal says search and rescue teams are still working in Rasuwa District and along the Bhote Koshi and Trishuli rivers after the big flood on August 26, with flood risks and travel problems continuing.",
+      "summary": "Search and rescue teams are still working in Rasuwa District and along the Bhote Koshi and Trishuli rivers after the severe flood there on August 26. @USEmbassyNepal posted an update on the ongoing recovery efforts.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
-        "rescue"
+        "rescue",
+        "briefing"
       ],
       "scrapeMethod": "grok",
       "contentHash": "eee4d12a15d9c16a"
@@ -1498,7 +1516,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093627349178908877",
       "title": "NDRRMA Nepal",
-      "summary": "Details of people rescued today by Nepali Army and private helicopters are with @moha_nepal, as noted by @NDRRMA_Nepal.",
+      "summary": "@NDRRMA_Nepal shared the details of people rescued today by Nepali Army and private helicopters, with the list going to @moha_nepal.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -1517,7 +1535,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093622628909273345",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ shared a request from Nepal Police that families may want to look at.",
+      "summary": "Nepal Police has posted a request at @NepalPoliceHQ.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -1535,7 +1553,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093622378958119402",
       "title": "Nepal Police HQ",
-      "summary": "Nepal Police are working on handling the bodies right now. @NepalPoliceHQ",
+      "summary": "Nepal Police @NepalPoliceHQ are working on managing the bodies.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "remains"
@@ -1553,7 +1571,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093610011683594628",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared the list of hospitals in Kathmandu where the injured, brought in after the rescue, are now being treated. They posted it with @moha_nepal.",
+      "summary": "@NDRRMA_Nepal shared a list of Kathmandu hospitals treating people injured in the disaster and brought there for care, along with @moha_nepal.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "hospitals",
@@ -1573,7 +1591,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093582572739850405",
       "title": "Nepal Police HQ",
-      "summary": "Nepal Police are still out there handling disaster response work. @NepalPoliceHQ",
+      "summary": "@NepalPoliceHQ says their teams are still out handling disaster response work.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -1591,7 +1609,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093571272882192740",
       "title": "Nepal Police HQ",
-      "summary": "Police have arrested 29 people who broke into safes carried off by the floods and stole the cash inside. @NepalPoliceHQ",
+      "summary": "Nepal Police say they’ve arrested 29 people who broke into safes carried off by the floods and took the cash inside. @NepalPoliceHQ",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -1609,7 +1627,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093560325538996588",
       "title": "US Embassy Nepal",
-      "summary": "The @USEmbassyNepal account shared that the State Department is focused on helping every American affected by the floods, and that’s their top priority right now.",
+      "summary": "@USEmbassyNepal shared that the State Department is focused on helping every American affected by the floods, and that’s their top priority right now.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -1627,7 +1645,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093557222743892419",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a short update on search, rescue, and relief work for the Bhote Koshi flood, covering what they knew by 10 AM on Bhadra 13.",
+      "summary": "@NDRRMA_Nepal just posted the latest update on search, rescue, and relief work for the Bhote Koshi flood, covering info received up to 10 AM on Bhadra 13.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -1649,7 +1667,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093556022841634824",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal shared a note from @OOP_Nepal saying they’re deeply saddened by the passing of His Majesty King Harald V and sending condolences to the royal family.",
+      "summary": "@MoFANepal shared a note from @OOP_Nepal saying they’re saddened by King Harald V’s passing and sending condolences to the royal family.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -1667,7 +1685,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093550037762785792",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ says two people were picked up with 13 kilos and 905 grams of charas.",
+      "summary": "@NepalPoliceHQ noted that two people were arrested with 13 kg 905 g of charas.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -1686,7 +1704,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093549938869444628",
       "title": "Embassy of India Kathmandu",
-      "summary": "India's embassy in Nepal @IndiainNepal has handed a third batch of relief supplies—portable generators, food packets, dignity kits, and water tablets—to Minister Mahabir Pun, along with an 11-member team of doctors and paramedics for the tunnel rescue.",
+      "summary": "@IndiainNepal has handed over a third batch of relief supplies—portable generators, food packets, dignity kits, and water tablets—to Minister Mahavir Pun, along with an 11-member team of doctors and paramedics to support the tunnel rescue.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -1705,7 +1723,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093546309810794910",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ shared an update on the flood in Rasuwa district, with details as of 7 AM on the 13th.",
+      "summary": "@NepalPoliceHQ has posted an update on the flood in Rasuwa district, covering details up to 7 AM on 13th of the 5th month, 2083.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -1724,11 +1742,10 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093545540499931538",
       "title": "Embassy of India Kathmandu",
-      "summary": "India's third flight bringing help has reached Kathmandu, with the supplies handed over to Minister Mahabir Pun. @IndiainNepal shared the update.",
+      "summary": "India's third flight with help has landed in Kathmandu, and the relief supplies were handed over to Minister Mahabir Pun. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
-        "relief",
-        "briefing"
+        "relief"
       ],
       "scrapeMethod": "grok",
       "contentHash": "57678749d7f08c11"
@@ -1744,7 +1761,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://x.com/IndiainNepal/status/2093541633560285495",
       "title": "Embassy of India Kathmandu",
-      "summary": "India’s mission in Nepal has sent a third set of relief supplies that includes portable generators, dignity kits, food packets, and water purification tablets. @IndiainNepal",
+      "summary": "India's mission in Nepal noted a third round of relief supplies heading out, with generators, dignity kits, food packets, and water tablets. @IndiainNepal",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "relief"
@@ -1762,33 +1779,13 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093538211847193064",
       "title": "NDRRMA Nepal",
-      "summary": "If you're in Kathmandu and want to help families hit by the Bhotekoshi flood in Rasuwa, @NDRRMA_Nepal noted that the District Administration Office has put out a notice on collecting relief materials.",
+      "summary": "If you're in Kathmandu and want to help families hit by the Bhotekoshi flood in Rasuwa, the District Administration Office has details on what relief materials they're collecting. @NDRRMA_Nepal",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "relief"
       ],
       "scrapeMethod": "grok",
       "contentHash": "6f572a3a94c3de84"
-    },
-    {
-      "id": "twitter-2093528546841121011",
-      "timestamp": "2026-08-29T02:37:56.000Z",
-      "publishedLabel": "",
-      "region": [
-        "india",
-        "nepal"
-      ],
-      "source": "Twitter @IndiainNepal",
-      "sourceUrl": "https://x.com/IndiainNepal/status/2093528546841121011",
-      "title": "Embassy of India Kathmandu",
-      "summary": "A third flight from India carrying relief supplies has reached Kathmandu, and an 11-member medical and tunnel rescue team is now on site. @IndiainNepal",
-      "citation": "Tweet by @IndiainNepal",
-      "themes": [
-        "rescue",
-        "relief"
-      ],
-      "scrapeMethod": "grok",
-      "contentHash": "99de387fd36c7400"
     },
     {
       "id": "twitter-2093525640565899625",
@@ -1800,7 +1797,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093525640565899625",
       "title": "Nepal Police HQ",
-      "summary": "The road from Kathmandu to Mugling is open again, @NepalPoliceHQ says, except for one short one-way stretch near Baireni in Dhading.",
+      "summary": "The road from Kathmandu to Mugling is open, though there's still a short one-way stretch near Baireni Bazar in Dhading. @NepalPoliceHQ shared the update.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -1818,7 +1815,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093394766826496157",
       "title": "Nepal Police HQ",
-      "summary": "Nepal Police cleared the Prithvi Highway in Dhading by removing the river materials blocking the Pokhare, Wangge, and Galaudi sections. @NepalPoliceHQ",
+      "summary": "Nepal Police cleared the Prithvi Highway in Dhading by removing the river debris blocking the Pokhare, Wangge, and Galaudi sections. @NepalPoliceHQ",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -1836,7 +1833,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093386823385104667",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal just posted their seventh update on the search, rescue, and relief work for the Bhotekoshi flood in Rasuwa, covering everything through yesterday evening.",
+      "summary": "@NDRRMA_Nepal posted their seventh update on search, rescue, and relief efforts for the Bhotekoshi flood in Rasuwa, covering the situation up to 7 PM on Bhadra 12.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -1858,7 +1855,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/",
       "title": "MoFA Nepal",
-      "summary": "After the flash floods hit the Bhote Koshi River area on 26 August, 538 bodies have been recovered so far and 511 people from 33 countries are still missing. Search and rescue continues, and @MoFANepal can be reached for family updates.",
+      "summary": "If you're checking on family after the Bhote Koshi floods, @MoFANepal says search and rescue is still going, with 538 bodies recovered so far and 511 people missing. Their emergency room can be reached at +977-9744441227 or +977-9744441228.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "rescue",
@@ -1881,7 +1878,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093369335893131344",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a notice about how people can help with search, rescue, and relief supplies.",
+      "summary": "@NDRRMA_Nepal posted a notice about assistance for search, rescue, and relief materials.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -1901,7 +1898,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093366658840850522",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a link with details on Nepali citizens who were airlifted. Families can check there for updates.",
+      "summary": "@NDRRMA_Nepal has posted details on Nepali citizens who were airlifted. Families can check there for updates.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -1921,7 +1918,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093365384552587412",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal reports that flooding has risen again in the Bhotekoshi, so families along the Trishuli River up to Mugling should move to safer spots and stay alert until more news comes.",
+      "summary": "@NDRRMA_Nepal reports that China has passed on word of rising floodwater in the Bhotekoshi again, so families along the Trishuli riverbanks up to Mugling are asked to move to safer spots and stay watchful until the next update.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "briefing"
@@ -1939,7 +1936,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093363478744776793",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal has shared the names of the foreign citizens rescued on August 28.",
+      "summary": "@NDRRMA_Nepal posted the names of foreign citizens rescued on August 28.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -1958,7 +1955,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093361568419655968",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ says one person died and 33 were hurt in a tractor accident.",
+      "summary": "A tractor accident has left one person dead and 33 others injured, per @NepalPoliceHQ.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "hospitals",
@@ -1977,7 +1974,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093359218804007269",
       "title": "US Embassy Nepal",
-      "summary": "Nepali authorities are still running search-and-rescue operations because roads, bridges, and power systems took heavy damage. @USEmbassyNepal shared the update.",
+      "summary": "Nepali authorities are still running search-and-rescue efforts after roads, bridges, and power systems took heavy damage. @USEmbassyNepal shared the update.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "rescue",
@@ -1996,7 +1993,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093357663224758507",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted the list of people injured in the Bhotekoshi flood who were treated at Rasuwa Hospital up to 6 PM today.",
+      "summary": "@NDRRMA_Nepal posted a list of people injured or sick from the Bhotekoshi flood who were treated at Rasuwa Hospital up to 6 PM today.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "hospitals",
@@ -2015,7 +2012,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093340061420900753",
       "title": "NDRRMA Nepal",
-      "summary": "The information department will stay open this weekend, including Saturday and Sunday, to quickly issue press passes for journalists covering the floods along the Bhotekoshi and Trishuli rivers. @NDRRMA_Nepal",
+      "summary": "@NDRRMA_Nepal noted that the information department will stay open this weekend so Nepali and foreign journalists can quickly get press passes for reporting on the floods along the Bhotekoshi and Trishuli rivers.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "briefing"
@@ -2033,7 +2030,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093334209159168063",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a short update on search, rescue, and relief work for the Bhote Koshi flood, with details gathered up to 7 PM on Bhadra 12.",
+      "summary": "@NDRRMA_Nepal posted an update on search, rescue, and relief work for the Bhote Koshi flood, with details gathered up to 7 PM on Bhadra 12, 2083.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -2054,7 +2051,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093324948387528810",
       "title": "US Embassy Nepal",
-      "summary": "The US is sending emergency supplies that Nepal asked for and working to get them to families who need them. @USEmbassyNepal noted that Chargé d’Affaires Scott Urbom sent the first shipment today.",
+      "summary": "@USEmbassyNepal says the US is sending emergency supplies Nepal asked for, and the first shipment went out today from Chargé d’Affaires Scott Urbom to reach people who need them.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -2073,7 +2070,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093324138131935743",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal shares daily updates on foreign nationals affected by the Bhote Koshi flash flood.",
+      "summary": "@MoFANepal is sharing daily updates on foreign nationals affected by the Bhote Koshi flash flood.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2109,12 +2106,11 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093316919445373194",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared that the Rasuwa district office has listed the people brought out by rescue teams today up to 4:30 PM. Families can check those names for updates on their own.",
+      "summary": "@NDRRMA_Nepal passed along word from the Rasuwa district office that rescue teams brought people out today from morning until 4:30 PM, with the full list of names posted there.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
-        "missing",
-        "briefing"
+        "missing"
       ],
       "scrapeMethod": "grok",
       "contentHash": "74edae6a01f0482e"
@@ -2130,7 +2126,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093304464631562609",
       "title": "MoFA Nepal",
-      "summary": "Nepal's prime minister thanked Pakistan's @CMShehbaz for calling with condolences. @MoFANepal",
+      "summary": "@MoFANepal shared that @PM_nepal_ thanked Pakistan’s Prime Minister @CMShehbaz for calling with heartfelt condolences.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2148,7 +2144,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093295330506998009",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ says teams from Kalika Rural Municipality and the local police office in Kalikasthan are pulling children out of the flooded areas and getting them to safety.",
+      "summary": "@NepalPoliceHQ says teams from Kalika Rural Municipality and the local police office in Kalikasthan are bringing children stranded by the floods to safe places.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -2166,7 +2162,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093283999741509772",
       "title": "NDRRMA Nepal",
-      "summary": "The road from Kathmandu through Tokha and on to Dhunche is open again for small four-wheel vehicles, reconnecting Rasuwa to the network. @NDRRMA_Nepal",
+      "summary": "The road from Kathmandu through Tokha and on to Dhunche is open again for small four-wheeled vehicles, so Rasuwa is reconnected to the main road network. @NDRRMA_Nepal",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "briefing"
@@ -2184,7 +2180,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093283977495024102",
       "title": "Nepal Police HQ",
-      "summary": "Nepal Police are still working on search and rescue, collecting and identifying bodies, and handling the disaster response. @NepalPoliceHQ",
+      "summary": "Nepal Police are still working on search and rescue, recovering and identifying bodies, and handling the rest of the disaster response. @NepalPoliceHQ",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "rescue",
@@ -2204,7 +2200,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093280482939339145",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ shared a short update on the flood in Rasuwa district, with details current as of 15:00 on 2083/05/12.",
+      "summary": "@NepalPoliceHQ shared a short update on the flood in Rasuwa district, with the latest info as of 3 PM on the 12th.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -2224,7 +2220,7 @@
       "source": "Twitter @EOIBeijing",
       "sourceUrl": "https://x.com/EOIBeijing/status/2093274971292516518",
       "title": "Embassy of India Beijing",
-      "summary": "@EOIBeijing noted that @DrSJaishankar held a review meeting with the Foreign Secretary, the MEA team, and the ambassadors in Kathmandu and Beijing about the floods in Nepal.",
+      "summary": "@EOIBeijing shared that @DrSJaishankar held a review meeting with the Foreign Secretary, the MEA team, and the ambassadors in Kathmandu and Beijing on the Nepal floods.",
       "citation": "Tweet by @EOIBeijing",
       "themes": [
         "briefing"
@@ -2242,7 +2238,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093273522122719344",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared the latest update on search, rescue, and relief work for the Bhotekoshi flood, with details as of 3 PM on Bhadra 12.",
+      "summary": "@NDRRMA_Nepal shared a quick update on search, rescue and relief work after the Bhotekoshi flood, with details they had up to 3 pm on 12 Bhadra. It also tags @moha_nepal.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -2263,7 +2259,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093268684940939646",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ is asking families to support each other, stay united and safe, and hold on to our humanity in this painful time.",
+      "summary": "In these hard days for the country, @NepalPoliceHQ is asking people to look out for each other, stay united and safe, and keep their humanity.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -2281,7 +2277,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093263274456260882",
       "title": "US Embassy Nepal",
-      "summary": "The US Embassy in Nepal posted that the President called the situation there terrible and said the US has reached out offering any help needed. @USEmbassyNepal",
+      "summary": "The US Embassy shared that the President called the tragedy in Nepal terrible and said the US has offered any help the country needs. @USEmbassyNepal",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -2299,7 +2295,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093257340019790309",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal says they’ve sent another 1,200 soldiers out today to search the rivers from Rasuwa to Chitwan.",
+      "summary": "@NDRRMA_Nepal says they’ve sent another 1,200 soldiers out today to search the rivers from Rasuwa to Chitwan for bodies.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -2318,7 +2314,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093247009461579926",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a list of people rescued so far, shared by the Nuwakot district administration office.",
+      "summary": "@NDRRMA_Nepal posted the list of people rescued so far, sent in by the Nuwakot district office.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -2326,45 +2322,6 @@
       ],
       "scrapeMethod": "grok",
       "contentHash": "b65523734f66dbfa"
-    },
-    {
-      "id": "twitter-2093236060881092837",
-      "timestamp": "2026-08-28T07:15:42.000Z",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "Twitter @NDRRMA_Nepal",
-      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093236060881092837",
-      "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal just posted the latest update on search, rescue, and relief work for the Bhotekoshi flood, covering everything they knew up to noon on 12 Bhadra.",
-      "citation": "Tweet by @NDRRMA_Nepal",
-      "themes": [
-        "rescue",
-        "missing",
-        "relief",
-        "briefing"
-      ],
-      "scrapeMethod": "grok",
-      "contentHash": "cbcf7a765a81a79f"
-    },
-    {
-      "id": "twitter-2093221795021418830",
-      "timestamp": "2026-08-28T06:19:00.000Z",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "Twitter @NDRRMA_Nepal",
-      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093221795021418830",
-      "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal is asking people to stay extra alert right now, along with @moha_nepal.",
-      "citation": "Tweet by @NDRRMA_Nepal",
-      "themes": [
-        "briefing"
-      ],
-      "scrapeMethod": "grok",
-      "contentHash": "c2a4d7b9845ccd9b"
     },
     {
       "id": "twitter-2093146727817826589",
@@ -2394,7 +2351,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093141688068030773",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal passed along a note from @TravelGov saying Americans in the areas hit by the recent flash flooding in Nepal should check the latest guidance from the U.S. Department.",
+      "summary": "If your family is in one of the areas hit by the recent flash flooding in Nepal, @USEmbassyNepal is pointing Americans to the latest guidance from the U.S. Department.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -2413,7 +2370,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093014968925057414",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal passed along thanks to @_OrbanAnita for her condolences, saying the government and people of Nepal truly appreciate the kind words.",
+      "summary": "@MoFANepal shared that the government and people of Nepal are grateful for @_OrbanAnita’s kind condolences.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2432,7 +2389,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093014960624578951",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal shared thanks to @andrii_sybiha for his kind words of sympathy and solidarity with Nepal during this difficult time.",
+      "summary": "@MoFANepal passed along a note from @shisir thanking @andrii_sybiha for his message of sympathy and support for Nepal at this hard time.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2451,7 +2408,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093014941574013366",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal shared thanks to @oana_toiu for her condolences and her offer to support Nepal’s people and government.",
+      "summary": "@MoFANepal passed along thanks to @oana_toiu for her condolences and her offer to support Nepal’s people and government right now.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2470,7 +2427,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093014930731712810",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal passed on thanks to @ckombos for the condolences and solidarity with Nepal’s people and government, saying they deeply value that support.",
+      "summary": "Nepal's foreign ministry @MoFANepal thanked @ckombos for the condolences and solidarity shown to the country's people and government. They said Nepal values that kind of support.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2489,7 +2446,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093014921214849336",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal noted that Nepal’s government and people are grateful for the sympathy and support offered by @HMcEntee.",
+      "summary": "@MoFANepal shared a note from @shisir thanking @HMcEntee for the sympathy and support, saying the government and people of Nepal deeply appreciate it.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2508,7 +2465,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093014255968874555",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal has opened an Emergency Control Room to help families of foreign nationals caught in the Bhote Koshi flash flood.",
+      "summary": "@MoFANepal has set up an emergency control room to help with foreign nationals affected by the Bhote Koshi flash flood.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "contacts"
@@ -2527,7 +2484,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093013097221103637",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal has set up an emergency response team to help foreign nationals affected by the Bhote Koshi flash flood.",
+      "summary": "@MoFANepal has an emergency response team available to help foreign nationals affected by the Bhote Koshi flash flood.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2546,7 +2503,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093012704051200032",
       "title": "MoFA Nepal",
-      "summary": "Nepal's government is using every resource it has right now to help. They also wanted to thank @jmalbares for the kind words of support.",
+      "summary": "@MoFANepal noted that Nepal’s government is using all its resources to respond, and thanked @jmalbares for the messages of solidarity.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2565,7 +2522,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093012687831904757",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal passed along thanks to @MariaStenergard for her message of solidarity with Nepal and its people.",
+      "summary": "@MoFANepal shared thanks to @MariaStenergard for her words of solidarity with Nepal and noted how much the country values that support.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2583,7 +2540,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2093012508051403158",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal noted that Nepali teams are still searching for people after the floods, and the main surge has moved downstream.",
+      "summary": "@USEmbassyNepal noted that Nepali authorities are still carrying out search-and-rescue work, with the main flood surge now moving downstream.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "rescue"
@@ -2602,7 +2559,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2093011760634790240",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal passed on thanks to @ministerBZ for the condolences and support during this difficult time, noting how much Nepal values the solidarity.",
+      "summary": "@MoFANepal shared a note thanking @ministerBZ for the condolences and support during this hard time, saying Nepal values the solidarity.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2621,7 +2578,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://mofa.gov.np/content/1862/notice--emergency-control-room--ecr--for-assistance/",
       "title": "MoFA Nepal",
-      "summary": "Nepal's foreign ministry has set up an emergency control room for foreign nationals affected by the Bhote Koshi flash flood in Rasuwa. Reach them on WhatsApp or phone at +977-9744441227 or +977-9744441228 (7am–10pm) or email emergency@mofa.gov.np. @MoFANepal",
+      "summary": "Families with relatives affected by the Bhote Koshi flash flood in Rasuwa can reach the Emergency Control Room through @MoFANepal at +977-9744441227 or +977-9744441228 on WhatsApp or phone from 7am to 10pm, or by emailing emergency@mofa.gov.np.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "contacts",
@@ -2629,42 +2586,6 @@
       ],
       "scrapeMethod": "grok",
       "contentHash": "d34803ef7640b0fd"
-    },
-    {
-      "id": "twitter-2093003192372171136",
-      "timestamp": "2026-08-27T15:50:21.000Z",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "Twitter @NepalPoliceHQ",
-      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2093003192372171136",
-      "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ shared a flood update for Rasuwa district covering details up to 21:00 on 2083/05/11.",
-      "citation": "Tweet by @NepalPoliceHQ",
-      "themes": [
-        "briefing"
-      ],
-      "scrapeMethod": "grok",
-      "contentHash": "34713272101e16f7"
-    },
-    {
-      "id": "twitter-2092985849290055692",
-      "timestamp": "2026-08-27T14:41:26.000Z",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "Twitter @NepalPoliceHQ",
-      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092985849290055692",
-      "title": "Nepal Police HQ",
-      "summary": "Nepal Police HQ (@NepalPoliceHQ) is making a heartfelt request.",
-      "citation": "Tweet by @NepalPoliceHQ",
-      "themes": [
-        "briefing"
-      ],
-      "scrapeMethod": "grok",
-      "contentHash": "30e9b019d487e135"
     },
     {
       "id": "twitter-2092985491931197538",
@@ -2677,7 +2598,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092985491931197538",
       "title": "MoFA Nepal",
-      "summary": "Nepal's foreign minister spoke by phone today with US Under Secretary Allison Hooker, who passed along condolences from the US government. @MoFANepal",
+      "summary": "Nepal's foreign minister got a call today from US Under Secretary Allison Hooker @UnderSecStateP, who passed along the US government's condolences. @MoFANepal shared the update.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2696,7 +2617,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092975447034495369",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal passed on thanks to @SenatorWong for her words of sympathy right now, and noted how much Nepal values that feeling of standing together.",
+      "summary": "@MoFANepal passed on thanks to @SenatorWong for her words of sympathy right now, saying Nepal values that kind of solidarity.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2715,7 +2636,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092975437446332567",
       "title": "MoFA Nepal",
-      "summary": "Nepal's foreign ministry @MoFANepal thanked New Zealand's foreign minister for the kind words of sympathy, noting how much the country values that sense of solidarity.",
+      "summary": "@MoFANepal thanked New Zealand’s foreign minister for the kind words of sympathy and said Nepal values that sense of solidarity.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2734,7 +2655,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092973645698400473",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal shared thanks to @IruthishamAdam for the condolences and solidarity, noting how much the government and people of Nepal value them.",
+      "summary": "@MoFANepal retweeted thanks to @IruthishamAdam for her condolences and solidarity, saying the government and people of Nepal deeply value the support.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2753,7 +2674,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092968875902308862",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal passed along word that the donation gateway for international donors is now live and accepts cards.",
+      "summary": "@MoFANepal shared that the donation gateway for international donors is now open and accepts cards.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2772,7 +2693,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092957578653224979",
       "title": "MoFA Nepal",
-      "summary": "Nepal's prime minister thanked New Zealand's @chrisluxonmp for messages of sympathy and support during this hard time, and said the country appreciates it. @MoFANepal shared the note.",
+      "summary": "Nepal's prime minister thanked New Zealand's Chris Luxon for his words of sympathy and support right now. @MoFANepal",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2791,7 +2712,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092957569702928763",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal shared that the Prime Minister thanked @LawrenceWongST for his condolences and solidarity, noting the government is using all resources to respond.",
+      "summary": "@MoFANepal shared that the prime minister thanked @LawrenceWongST for his condolences and solidarity, noting the government is using all resources to respond.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2810,7 +2731,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092957559988908221",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal shared that Nepal's government is grateful for the kind words of solidarity from Prime Minister @anwaribrahim.",
+      "summary": "@MoFANepal shared that Nepal's prime minister thanked @anwaribrahim for his words of support. The government is putting resources toward the response.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2829,7 +2750,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092957551889654238",
       "title": "MoFA Nepal",
-      "summary": "@PM_nepal_ thanked @mindaugassink for the condolences and solidarity. @MoFANepal passed it along.",
+      "summary": "@MoFANepal passed along @PM_nepal_’s thanks to @mindaugassink for the condolences and support.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2848,7 +2769,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092957544163758498",
       "title": "MoFA Nepal",
-      "summary": "Nepal's prime minister thanked Germany's chancellor for the condolences and solidarity. @MoFANepal",
+      "summary": "Nepal's prime minister thanked the German chancellor for their condolences and solidarity. @MoFANepal",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2867,7 +2788,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092957531341758494",
       "title": "MoFA Nepal",
-      "summary": "Nepal's government is grateful for Canada's support in this difficult time. @MoFANepal shared that they're putting resources to use right now.",
+      "summary": "Nepal's Prime Minister thanked Canada's @MarkJCarney for the country's support right now. @MoFANepal",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2886,7 +2807,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092957522269450295",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal shared a note from @PM_nepal_ thanking Australia's @AlboMP for his sympathy and solidarity, and saying the government is using all its resources right now.",
+      "summary": "@MoFANepal shared that Nepal's prime minister thanked Australia's @AlboMP for his words of sympathy and solidarity, and said the government is using all resources to respond.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2904,32 +2825,13 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092950217138339990",
       "title": "Nepal Police HQ",
-      "summary": "Nepal Police say they've arrested the people who took earrings from someone who died. @NepalPoliceHQ",
+      "summary": "Nepal Police have taken into custody the people who stole earrings from a deceased person. @NepalPoliceHQ",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
       ],
       "scrapeMethod": "grok",
       "contentHash": "ca9609e11f51054f"
-    },
-    {
-      "id": "twitter-2092946961402130606",
-      "timestamp": "2026-08-27T12:06:55.000Z",
-      "publishedLabel": "",
-      "region": [
-        "nepal",
-        "foreign"
-      ],
-      "source": "Twitter @MoFANepal",
-      "sourceUrl": "https://x.com/MoFANepal/status/2092946961402130606",
-      "title": "MoFA Nepal",
-      "summary": "@MoFANepal shared that Nepal’s prime minister thanked @trahmanbnp for the sympathy and condolences. They said they remain grateful for the support.",
-      "citation": "Tweet by @MoFANepal",
-      "themes": [
-        "briefing"
-      ],
-      "scrapeMethod": "grok",
-      "contentHash": "b111df85f558c222"
     },
     {
       "id": "twitter-manual-mea-control-room",
@@ -2942,7 +2844,7 @@
       "source": "Twitter @MEAIndia",
       "sourceUrl": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
       "title": "MEA India",
-      "summary": "Families with relatives in Nepal can reach @MEAIndia’s control room at +91-11-23088718, +91-11-23088719, WhatsApp +91-9968291988, or situationroom@mea.gov.in.",
+      "summary": "If your family is in Nepal amid the floods, @MEAIndia has opened a control room you can reach at +91-11-23088718, +91-11-23088719, WhatsApp +91-9968291988, or situationroom@mea.gov.in.",
       "citation": "Tweet by @MEAIndia",
       "themes": [
         "contacts",
@@ -2962,7 +2864,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092943017217044961",
       "title": "MoFA Nepal",
-      "summary": "Nepal's prime minister thanked Pakistan's leader @CMShehbaz and its people for their sympathy and solidarity. @MoFANepal",
+      "summary": "Nepal's prime minister thanked Pakistan's leader @CMShehbaz and its people for their sympathy and support. @MoFANepal",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2981,7 +2883,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://x.com/MoFANepal/status/2092941139129299210",
       "title": "MoFA Nepal",
-      "summary": "Nepal’s prime minister thanked Japan’s leader for her condolences and said the support means a lot right now. @MoFANepal",
+      "summary": "Nepal’s prime minister thanked Japan’s leader for her condolences and said the solidarity means a lot right now. @MoFANepal shared the note.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "briefing"
@@ -2999,7 +2901,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092931122976129429",
       "title": "Nepal Police HQ",
-      "summary": "If you're checking on unidentified or unclaimed bodies from the flood in Bhotekoshi, Rasuwa, @NepalPoliceHQ has posted details.",
+      "summary": "@NepalPoliceHQ shared details on unidentified and unclaimed bodies from the flood in Bhotekoshi, Rasuwa. Families can check what they posted.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "missing",
@@ -3018,7 +2920,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092921704037364171",
       "title": "Nepal Police HQ",
-      "summary": "Nepal Police says they're staying on with rescue work. @NepalPoliceHQ",
+      "summary": "Nepal Police says they're keeping up with rescue work. @NepalPoliceHQ",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "rescue",
@@ -3037,7 +2939,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092918633907245162",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal shared that a flash flood and debris flow hit Rasuwagadhi, Timure, Syafrubesi and nearby spots along the Bhote Koshi, Trishuli, and Narayani rivers on August 26, with major roads closed in the area.",
+      "summary": "Families in Rasuwa District and along the Bhote Koshi, Trishuli, and Narayani river corridors should know a major flash flood hit Rasuwagadhi, Timure, Syafrubesi and areas downstream on August 26, with roads closed. @USEmbassyNepal",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "relief"
@@ -3055,7 +2957,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://ndrrma.gov.np/np/rescue",
       "title": "NDRRMA Nepal",
-      "summary": "You can check the latest rescue and coordination updates for the Bhotekoshi and Rasuwa flash flood from @NDRRMA_Nepal on their rescue portal and SETU platform.",
+      "summary": "@NDRRMA_Nepal has updates on the rescue and coordination work for the Bhotekoshi and Rasuwa flash flood on their rescue portal and the SETU platform. Families can check there for the latest.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -3063,6 +2965,26 @@
       ],
       "scrapeMethod": "grok",
       "contentHash": "183cc9fc868ee359"
+    },
+    {
+      "id": "twitter-2092906456492425495",
+      "timestamp": "2026-08-27T09:25:58.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2092906456492425495",
+      "title": "MoFA Nepal",
+      "summary": "Nepal’s foreign minister @shisir spoke by phone today with the UK’s Ed Miliband @Ed_Miliband, who shared his thoughts on the situation.",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "missing",
+        "briefing"
+      ],
+      "scrapeMethod": "grok",
+      "contentHash": "69af45f3c40d4394"
     },
     {
       "id": "twitter-manual-np-found",
@@ -3074,7 +2996,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://udb.nepalpolice.gov.np/found",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ says their database has the official lists of people found, missing, or unidentified after the floods, so families should check there instead of unofficial posts.",
+      "summary": "@NepalPoliceHQ has shared that their database now has the official lists of people found, missing, or unidentified after the floods. They recommend checking there instead of other posts online.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "missing",
@@ -3093,7 +3015,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092897643378946355",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ shared a flood update for Rasuwa district as of 13:30 on 2083/05/11.",
+      "summary": "@NepalPoliceHQ posted a flood update for Rasuwa district as of 13:30 on 2083/05/11.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -3111,7 +3033,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092876194895315300",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ put out a quick scam alert with their official website and Facebook page.",
+      "summary": "@NepalPoliceHQ is flagging a scam and sharing the real official website and Facebook page to check.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -3129,7 +3051,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092862867280380173",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ posted a short update on the flood in Rasuwa district, covering the situation as of 10 AM on 2083/05/11.",
+      "summary": "@NepalPoliceHQ shared a quick update on the flood in Rasuwa district, covering the situation as of 10 AM on 2083/05/11.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "briefing"
@@ -3165,10 +3087,10 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092847002115568028",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal sends condolences to the families and loved ones who lost people in the Rasuwa district flood, and sympathy to everyone affected.",
+      "summary": "@USEmbassyNepal sends condolences to the families and loved ones of those who died in the flood in Nepal’s Rasuwa district, and shares sympathy with everyone affected.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
-        "missing"
+        "briefing"
       ],
       "scrapeMethod": "grok",
       "contentHash": "e0cb48b65b57de04"
@@ -3183,7 +3105,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092840646973264003",
       "title": "US Embassy Nepal",
-      "summary": "The US is sending its condolences to the families who lost loved ones in the Rasuwa flash floods. @USEmbassyNepal",
+      "summary": "@USEmbassyNepal is thinking of the families who lost loved ones in the Rasuwa floods and sends its condolences.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "missing",
@@ -3202,7 +3124,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092839696380399783",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal is thinking of the families who lost loved ones in the Rasuwa floods.",
+      "summary": "The US is sending its condolences to the families who lost loved ones in the Rasuwa district floods. @USEmbassyNepal",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "missing",
@@ -3230,6 +3152,42 @@
       "contentHash": "150cc152de00089c"
     },
     {
+      "id": "twitter-2092815760653692956",
+      "timestamp": "2026-08-27T03:25:34.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092815760653692956",
+      "title": "Nepal Police HQ",
+      "summary": "@NepalPoliceHQ is passing along a quick reminder to stay careful and keep safe.",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "scrapeMethod": "grok",
+      "contentHash": "dfe6d9da46162824"
+    },
+    {
+      "id": "twitter-2092792225096966400",
+      "timestamp": "2026-08-27T01:52:03.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092792225096966400",
+      "title": "Nepal Police HQ",
+      "summary": "@NepalPoliceHQ shared a flood update for Rasuwa district covering the situation up to 5 AM on the 11th.",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "scrapeMethod": "grok",
+      "contentHash": "0965f2945cec66b5"
+    },
+    {
       "id": "twitter-2092777556265357774",
       "timestamp": "2026-08-27T00:53:45.000Z",
       "publishedLabel": "",
@@ -3239,7 +3197,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092777556265357774",
       "title": "US Embassy Nepal",
-      "summary": "The US ambassador to India shared condolences for the floods in Nepal and said their hearts are with the families who lost loved ones. @USEmbassyNepal",
+      "summary": "@USEmbassyNepal shared a note from the US Ambassador to India sending condolences to Nepal after the floods, with thoughts for the families who lost loved ones.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "missing"
@@ -3257,7 +3215,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092777542856130607",
       "title": "US Embassy Nepal",
-      "summary": "The @USEmbassyNepal shared that @SecRubio and the State Department are sending their solidarity and prayers to the Nepali people after the floods.",
+      "summary": "@USEmbassyNepal shared a note from Secretary Rubio saying they’re standing with the Nepali people and keeping them in their prayers after the floods.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -3275,7 +3233,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092768126576513394",
       "title": "US Embassy Nepal",
-      "summary": "If you're an American family in the areas of Nepal hit by the recent flash flooding, keep an eye on the latest guidance from the State Department. @USEmbassyNepal",
+      "summary": "If you're an American in the parts of Nepal hit by the recent flash flooding, keep an eye on the latest guidance from the U.S. Department. @USEmbassyNepal shared the reminder.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -3294,7 +3252,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://www.indembkathmandu.gov.in",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian Embassy in Kathmandu (@IndiainNepal) is working with Nepalese authorities on search and rescue for Indian nationals affected by the flash floods in Rasuwa and Bhotekoshi. Families can contact the MEA control room or the Embassy for help.",
+      "summary": "The Indian embassy in Kathmandu is working with Nepalese authorities on search and rescue for Indian nationals caught in the flash floods in Rasuwa and Bhotekoshi. Reach out to the MEA control room or the embassy @IndiainNepal if you need help.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -3302,6 +3260,24 @@
       ],
       "scrapeMethod": "grok",
       "contentHash": "0731d0b9dd0613bc"
+    },
+    {
+      "id": "twitter-2092664227899261286",
+      "timestamp": "2026-08-26T17:23:26.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2092664227899261286",
+      "title": "Nepal Police HQ",
+      "summary": "@NepalPoliceHQ posted a short update on the flood in Rasuwa district, covering the situation up to 23:05 on 10th of the 5th month, 2083.",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "scrapeMethod": "grok",
+      "contentHash": "678eb07e594f723d"
     },
     {
       "id": "twitter-2092638301207552172",
@@ -3313,7 +3289,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092638301207552172",
       "title": "US Embassy Nepal",
-      "summary": "If your family needs urgent help with the Rasuwa flooding, U.S. citizens can call the embassy at +977-1-423-4000. @USEmbassyNepal shared the number.",
+      "summary": "If your family needs urgent help because of the flooding in Rasuwa, U.S. citizens can call the embassy at +977-1-423-4000. @USEmbassyNepal",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -3331,7 +3307,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092633508720353531",
       "title": "US Embassy Nepal",
-      "summary": "The US is sending condolences to families in Nepal who have been hit hard by the floods and are grieving their losses. @USEmbassyNepal",
+      "summary": "The US is sending condolences to families in Nepal who’ve been hit by the floods and are mourning their losses. @USEmbassyNepal",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -3351,7 +3327,7 @@
       "source": "Twitter @EOIBeijing",
       "sourceUrl": "https://x.com/EOIBeijing/status/2092629405621497923",
       "title": "Embassy of India Beijing",
-      "summary": "If your family is caught up in the flash flood near the Tibet border, Indian nationals can get help from Chinese officials on the ground at 0086 139 8999 0012 or through @EOIBeijing.",
+      "summary": "If your family is stuck near the Tibet border after the floods, Indian nationals can reach Chinese officials on the ground at 0086 139 8999 0012 or contact the embassy for help, according to @EOIBeijing.",
       "citation": "Tweet by @EOIBeijing",
       "themes": [
         "contacts"
@@ -3371,7 +3347,7 @@
       "source": "Twitter @EOIBeijing",
       "sourceUrl": "https://x.com/EOIBeijing/status/2092625461331542090",
       "title": "Embassy of India Beijing",
-      "summary": "If your family is stranded after the flash flood near the Tibet border, @EOIBeijing says Indian nationals can contact Chinese officials at 0086 139 8999 0012 or the embassy for help.",
+      "summary": "If your family has someone stranded near the recent flash flood in the border areas of Tibet, they can reach Chinese officials on the ground at 0086 139 8999 0012 or contact the embassy through @EOIBeijing.",
       "citation": "Tweet by @EOIBeijing",
       "themes": [
         "contacts"
@@ -3389,7 +3365,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092568764487242098",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal noted that Nepali authorities are warning about severe flooding in Rasuwa, with alerts for areas along the Bhote Koshi, Trishuli, and Narayani rivers. Families in Rasuwa, Nuwakot, Dhading, Gorkha, Chitwan, or Tanahun should keep away from riverbanks and low-lying spots.",
+      "summary": "@USEmbassyNepal notes that Nepali authorities are reporting severe flooding in Rasuwa, with warnings for communities along the Bhote Koshi, Trishuli, and Narayani rivers. Families in Rasuwa, Nuwakot, Dhading, Gorkha, Chitwan, or Tanahun are advised to stay clear of riverbanks and low-lying areas.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "briefing"
@@ -3407,7 +3383,7 @@
       "source": "Twitter @USEmbassyNepal",
       "sourceUrl": "https://x.com/USEmbassyNepal/status/2092563353474421028",
       "title": "US Embassy Nepal",
-      "summary": "@USEmbassyNepal is saddened by the loss of life and damage from the Bhote Koshi flood in Rasuwa district and communities downstream, and sends condolences to the families who are grieving.",
+      "summary": "The @USEmbassyNepal said they're saddened by the loss of life from the Bhote Koshi flood in Rasuwa district and are thinking of the families who are grieving.",
       "citation": "Tweet by @USEmbassyNepal",
       "themes": [
         "missing",
