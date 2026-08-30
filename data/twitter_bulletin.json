@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-30T15:21:00.963890Z",
-  "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
-  "liveFetch": true,
-  "summarizer": "grok",
+  "generatedAt": "2026-08-30T17:33:53.041605Z",
+  "note": "Curated X post summaries (live API unavailable or unpaid). Follow accounts below for newest posts.",
+  "liveFetch": false,
+  "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
     {
@@ -2241,11 +2241,12 @@
       "summary": "Kathmandu Post ground reporting from Nuwakot’s flooded villages after the Bhotekoshi flood — relief delayed in places; search for bodies continuing. Open the article for full context; not an official missing list.",
       "citation": "Tweet by @kathmandupost",
       "themes": [
-        "briefing"
+        "missing",
+        "relief"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "485479644a022601"
     },
     {
       "id": "twitter-2093304464631562609",
@@ -2800,11 +2801,12 @@
       "summary": "NDTV ground report from Rasuwa — debris, washed-out markets, and rescue scene after glacial collapse / debris flow along Bhotekoshi and Trishuli. Journalistic coverage; confirm figures with NDRRMA / MoFA.",
       "citation": "Tweet by @ndtv",
       "themes": [
-        "briefing"
+        "rescue",
+        "missing"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "59d97e1ed02828ab"
     },
     {
       "id": "twitter-2093003192372171136",
@@ -3612,8 +3614,8 @@
         "briefing"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "84ba1f19a040b3b9"
     },
     {
       "id": "twitter-2092568764487242098",
