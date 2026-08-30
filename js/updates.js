@@ -52,6 +52,7 @@ async function loadOfficialBulletin() {
 
 async function loadTwitterBulletin() {
   const meta = document.getElementById("twitter-meta");
+  const hint = document.getElementById("twitter-hint");
   try {
     const res = await fetch(`/data/twitter_bulletin.json?_=${Date.now()}`);
     const data = await res.json();
@@ -62,9 +63,13 @@ async function loadTwitterBulletin() {
     items = sortBulletinItems(items);
     state.twitterItems = items;
     if (meta) meta.textContent = formatMeta(data, items.length);
+    if (hint) {
+      hint.textContent = data.liveFetch === false ? t("twitterLiveOff") : t("twitterHint");
+    }
   } catch (e) {
     state.twitterItems = [];
     if (meta) meta.textContent = "";
+    if (hint) hint.textContent = t("twitterLiveOff");
   }
 }
 

@@ -38,6 +38,15 @@
   {
     "handle": "NDRRMA_Nepal",
     "name": "NDRRMA Nepal",
+    "region": ["nepal", "foreign"],
+    "timestamp": "2026-08-29T15:32:00+05:45",
+    "tweetId": "2093723515719713102",
+    "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093723515719713102",
+    "text": "List of foreign Citizens Rescued Today (August 29, 2026). See the post for the attached list / details."
+  },
+  {
+    "handle": "NDRRMA_Nepal",
+    "name": "NDRRMA Nepal",
     "region": ["nepal"],
     "timestamp": "2026-08-27T10:00:00+05:45",
     "tweetId": "manual-ndrrma-rescue",

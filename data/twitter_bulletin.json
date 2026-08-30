@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T04:57:09.892847Z",
-  "note": "Authority Twitter/X posts — summarized with link. Verify on original tweet; not official confirmation.",
+  "generatedAt": "2026-08-30T08:10:59.366776Z",
+  "note": "Authority X posts — short plain notes with links to the originals. Open the post to confirm.",
   "liveFetch": true,
   "summarizer": "grok",
   "skippedUnchanged": false,
@@ -51,6 +51,22 @@
       "citation": "Tweet by @MEAIndia",
       "scrapeMethod": "grok",
       "contentHash": "d9636a821946382e"
+    },
+    {
+      "id": "twitter-2093723515719713102",
+      "timestamp": "2026-08-29T15:32:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093723515719713102",
+      "title": "NDRRMA Nepal",
+      "summary": "@NDRRMA_Nepal posted a list of foreign citizens rescued on August 29, 2026. Check their post for the names.",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "scrapeMethod": "grok",
+      "contentHash": "b7f00d37803dd358"
     },
     {
       "id": "twitter-manual-mofa-29aug",

@@ -72,13 +72,14 @@ def grok_summarize(prompt: str, max_tokens: int = 300) -> str | None:
 
 def grok_summarize_official(title: str, body: str, source_url: str) -> str | None:
     prompt = (
-        "You summarize official Nepal Bhotekoshi/Rasuwa flood bulletins for families.\n"
+        "Rewrite this flood update for ordinary readers (families looking for news).\n"
+        "Tone: plain and human — not a government press release, not stiff, not salesy.\n"
         "Rules:\n"
-        "- 2-3 factual sentences only\n"
-        "- Include aggregate numbers ONLY if explicitly in the text\n"
-        "- Do NOT claim named individuals are found or deceased\n"
-        "- Do NOT suggest matches between missing persons and bodies\n"
-        "- Do not add information not in the source\n\n"
+        "- 2 short sentences max\n"
+        "- Only facts clearly in the text; include numbers only if the source states them\n"
+        "- Do not name anyone as found or deceased unless the source does\n"
+        "- Do not invent details or sound like you are an official channel\n"
+        "- End by pointing people to the original page if useful\n\n"
         f"Title: {title}\nSource URL: {source_url}\n\n{body[:6000]}"
     )
     return grok_summarize(prompt)
@@ -86,9 +87,11 @@ def grok_summarize_official(title: str, body: str, source_url: str) -> str | Non
 
 def grok_summarize_tweet(handle: str, text: str, url: str) -> str | None:
     prompt = (
-        "Summarize this tweet from a disaster authority in 1-2 factual sentences.\n"
-        "This is NOT official confirmation — preserve uncertainty.\n"
-        "Do not add facts not in the tweet. Include @handle.\n\n"
+        "Rewrite this authority tweet as a short plain note for families.\n"
+        "Tone: calm, human, not bureaucratic. Do not sound like an official bulletin yourself.\n"
+        "1-2 sentences. Include @handle. Only use facts from the tweet.\n"
+        "If the tweet is just a link or list, say what it points to.\n"
+        "Do not add 'this is not official confirmation' boilerplate — keep it simple.\n\n"
         f"@{handle}\n{url}\n\n{text[:2000]}"
     )
     return grok_summarize(prompt, max_tokens=150)

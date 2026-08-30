@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -53,9 +54,17 @@ def sanitize_bearer(token: str | None) -> str | None:
     return token or None
 
 
-def fetch_user_tweets(handle: str, bearer: str, keywords: list[str], max_results: int = 10) -> list[dict]:
-    kw = "%20OR%20".join(k.replace(" ", "%20") for k in keywords[:6])
-    q = f"from:{handle}%20({kw})"
+def fetch_user_tweets(handle: str, bearer: str, keywords: list[str], max_results: int = 20) -> list[dict]:
+    """
+    Pull recent posts from an authority account.
+
+    Do NOT require flood keywords in the API query — posts like
+    "List of foreign Citizens Rescued Today" often omit place names and were
+    being dropped when we only OR'd the first 6 keywords.
+    Soft-filter client-side; if nothing matches, keep the recent posts.
+    """
+    max_results = max(10, min(int(max_results), 100))
+    q = urllib.parse.quote(f"from:{handle} -is:retweet", safe="")
     url = (
         f"https://api.twitter.com/2/tweets/search/recent?"
         f"query={q}&max_results={max_results}&tweet.fields=created_at,text"
@@ -63,7 +72,18 @@ def fetch_user_tweets(handle: str, bearer: str, keywords: list[str], max_results
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {bearer}"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         data = json.loads(resp.read().decode())
-    return data.get("data", [])
+    tweets = data.get("data", []) or []
+    if not keywords or not tweets:
+        return tweets
+
+    keys = [k.lower() for k in keywords if k]
+    matched = []
+    for tw in tweets:
+        text = (tw.get("text") or "").lower()
+        if any(k in text for k in keys):
+            matched.append(tw)
+    # Prefer matches, but never return empty when the account did post recently
+    return matched if matched else tweets
 
 
 def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text: str, created_at: str, cache: dict, force: bool, source_url: str | None = None) -> tuple[dict, bool]:
