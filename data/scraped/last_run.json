@@ -1,6 +1,6 @@
 {
-  "at": "2026-08-30T08:16:43.902477Z",
-  "urls": 10,
+  "at": "2026-08-30T08:59:18.148816Z",
+  "urls": 12,
   "changed": true,
   "grok": true,
   "sources": [
@@ -8,6 +8,8 @@
     "mea",
     "xinhua-gyirong",
     "ndrrma-portal",
+    "ndrrma-hospital-under-treatment",
+    "ndrrma-hospital-discharged",
     "nepal-police-udb",
     "indemb-kathmandu"
   ]

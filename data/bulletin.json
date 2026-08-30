@@ -1,49 +1,19 @@
 {
-  "generatedAt": "2026-08-30T08:57:41.967664Z",
-  "note": "Auto-scraped from 6 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
+  "generatedAt": "2026-08-30T08:59:18.148816Z",
+  "note": "Auto-scraped from 8 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
     "India Ministry of External Affairs",
     "Xinhua (Gyirong / Tibet side)",
     "NDRRMA Nepal",
+    "NDRRMA — injured under treatment (Kathmandu hospitals)",
+    "NDRRMA — injured discharged after treatment",
     "Nepal Police UDB",
     "Embassy of India, Kathmandu"
   ],
   "summarizer": "grok",
   "skippedUnchanged": false,
   "items": [
-    {
-      "id": "ndrrma-hospital-under-treatment",
-      "timestamp": "2026-08-30T07:17:00+05:45",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
-      "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
-      "title": "Injured — currently in Kathmandu hospitals (NDRRMA)",
-      "summary": "NDRRMA published a list of people injured in the Rasuwa Bhotekoshi / Trishuli floods who are currently receiving treatment in various Kathmandu hospitals. Open the official NDRRMA page to search the list. This site links to NDRRMA; we do not copy names or case details.",
-      "citation": "NDRRMA — notice-information (under treatment)",
-      "kind": "pointer",
-      "scrapeMethod": "seed",
-      "contentHash": "ndrrma-hospital-under-treatment"
-    },
-    {
-      "id": "ndrrma-hospital-discharged",
-      "timestamp": "2026-08-30T07:17:00+05:45",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
-      "sourceUrl": "https://ndrrma.gov.np/np/misc-report",
-      "title": "Injured — discharged after treatment (NDRRMA)",
-      "summary": "NDRRMA published a list of people injured in the Rasuwa Bhotekoshi / Trishuli floods who were treated in Kathmandu hospitals and have since been discharged. Open the official NDRRMA page to search the list. This site links to NDRRMA; we do not copy names or case details.",
-      "citation": "NDRRMA — misc-report (discharged)",
-      "kind": "pointer",
-      "scrapeMethod": "seed",
-      "contentHash": "ndrrma-hospital-discharged"
-    },
     {
       "id": "mofa-0f39aa2364bf",
       "timestamp": "2026-08-29T15:00:00+05:45",
@@ -55,7 +25,7 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1866/press-briefing-note-by-hon--minister-for/",
       "title": "Press Briefing Note by Hon. Minister for Foreign Affairs on Bhote Koshi Flood",
-      "summary": "After the Bhote Koshi floods, 626 bodies have been recovered and about 2400 people are still unaccounted for. Over 4450 people have been rescued, including more than 187 foreign nationals.",
+      "summary": "Rescue teams have saved more than 4,450 people from the Bhote Koshi floods, including 187 foreigners, while 626 bodies have been recovered and about 2,400 people remain missing. Search efforts continue in the affected districts with help arriving from India and other countries.",
       "citation": "Nepal Ministry of Foreign Affairs — Press Briefing Note by Hon. Minister for Foreign Affairs on Bhote Koshi Flood",
       "kind": "update",
       "scrapeMethod": "grok",
@@ -72,7 +42,7 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/",
       "title": "Latest Updates on Flash Floods- 28 August 2026",
-      "summary": "Flash floods hit Nepal's Bhote Koshi River on 26 August, killing many and leaving others missing. So far 538 bodies have been recovered and 511 people are still unaccounted for.",
+      "summary": "Flash floods hit Nepal’s Bhote Koshi River on 26 August. So far 538 bodies have been recovered, and 511 people from 33 countries remain missing.",
       "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 28 August 2026",
       "kind": "update",
       "scrapeMethod": "grok",
@@ -90,7 +60,7 @@
       "source": "Xinhua (Gyirong / Tibet side)",
       "sourceUrl": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html",
       "title": "FOCUS | Rescue operations at mudslide-hit border port in SW China's Xizang",
-      "summary": "Rescue teams are working at the mudslide site in Gyirong Port, where three people have been reported killed, 558 are missing, and two villagers have been rescued as of Thursday morning.",
+      "summary": "A mudslide hit Gyirong Port on Wednesday morning, killing three people and leaving 558 others missing as of Thursday. Rescue teams and helicopters have been sent in, with more than 250 rescuers now on site and supplies arriving for those affected.",
       "citation": "Xinhua (Gyirong / Tibet side) — FOCUS | Rescue operations at mudslide-hit border port in SW China's Xizang",
       "kind": "update",
       "scrapeMethod": "grok",
@@ -107,7 +77,7 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1863/latest-updates-on-flash-floods-27-august-2026/",
       "title": "Latest Updates on Flash Floods-27 August 2026",
-      "summary": "Flash floods hit Nepal’s Bhote Koshi River on 26 August, with 359 bodies recovered so far and 596 people from 33 countries reported missing. Rescue teams are still searching the area.",
+      "summary": "A flash flood hit Nepal’s Bhote Koshi River on 26 August. So far 359 bodies have been recovered and 596 people from 33 countries are still missing.",
       "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods-27 August 2026",
       "kind": "update",
       "scrapeMethod": "grok",
@@ -124,7 +94,7 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1862/notice--emergency-control-room--ecr--for-assistance/",
       "title": "NOTICE: Emergency Control Room (ECR) for Assistance regarding Foreign Nationals Affected by the Bhote Koshi Flash Flood",
-      "summary": "Nepal's foreign ministry has set up a hotline for families seeking info on foreign nationals missing or affected in the Rasuwa floods. Call or message +977-9744441227 or +977-9744441228 between 7am and 10pm, or see the full notice at the link above.",
+      "summary": "Nepal's foreign ministry has opened a help room for foreign nationals missing or affected by the Rasuwa floods. Call or message +977-9744441227 or +977-9744441228 from 7am to 10pm.",
       "citation": "Nepal Ministry of Foreign Affairs — NOTICE: Emergency Control Room (ECR) for Assistance regarding Foreign Nationals Affected by the Bhote Koshi Flash Flood",
       "kind": "update",
       "scrapeMethod": "grok",
@@ -141,11 +111,60 @@
       "source": "India Ministry of External Affairs",
       "sourceUrl": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
       "title": "Special Control Room in MEA for Nepal Floods Situation",
-      "summary": "India's foreign ministry has opened a 24-hour control room in Delhi for the Nepal floods. Contact numbers and embassy details are on the original page",
+      "summary": "India's foreign ministry has opened a 24-hour control room in Delhi for the Nepal floods. Reach them at +91 11 2308 8718, +91 11 2308 8719 or +91 9968291988 on WhatsApp, or email situationroom@mea.gov.in.",
       "citation": "MEA press release — Special Control Room in MEA for Nepal Floods Situation",
       "kind": "update",
       "scrapeMethod": "grok",
       "contentHash": "4e5bc0dc24197771"
+    },
+    {
+      "id": "mofa-c0d1aa509022",
+      "timestamp": "2026-08-26T17:00:00+05:45",
+      "publishedLabel": "26 Aug 2026 · 5:00 pm",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1865/latest-updates-on-flash-floods--26-august/",
+      "title": "Latest Updates on Flash Floods- 26 August 2026",
+      "summary": "Nepal had severe flash floods this morning that killed people and damaged homes, roads, bridges and other infrastructure. So far 72 bodies have been recovered and 403 people are reported missing.",
+      "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 26 August 2026",
+      "kind": "update",
+      "scrapeMethod": "grok",
+      "contentHash": "65f7ee5ecd1e78db"
+    },
+    {
+      "id": "ndrrma-hospital-under-treatment",
+      "timestamp": "2026-08-30T07:17:00+05:45",
+      "publishedLabel": "30 Aug 2026 · 7:17 am",
+      "region": [
+        "nepal"
+      ],
+      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+      "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
+      "title": "Injured — currently in Kathmandu hospitals (NDRRMA)",
+      "summary": "NDRRMA has published a list of people injured in the Rasuwa Bhotekoshi and Trishuli floods. The list covers those now being treated in Kathmandu hospitals.",
+      "citation": "NDRRMA — notice-information (under treatment)",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "6fa65d1fda88f44a"
+    },
+    {
+      "id": "ndrrma-hospital-discharged",
+      "timestamp": "2026-08-30T07:17:00+05:45",
+      "publishedLabel": "30 Aug 2026 · 7:17 am",
+      "region": [
+        "nepal"
+      ],
+      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+      "sourceUrl": "https://ndrrma.gov.np/np/misc-report",
+      "title": "Injured — discharged after treatment (NDRRMA)",
+      "summary": "Some people injured in the Rasuwa floods were treated at hospitals in Kathmandu and have now been sent home. NDRRMA has posted a list of those discharged.",
+      "citation": "NDRRMA — misc-report (discharged)",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "3d33f5a6fe5fe1af"
     },
     {
       "id": "ndrrma-rescue-portal",
@@ -157,7 +176,7 @@
       "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
       "sourceUrl": "https://ndrrma.gov.np/np/rescue",
       "title": "NDRRMA rescue coordination portal",
-      "summary": "Rescue updates for the Bhotekoshi and Rasuwa flash flood are on the NDRRMA portal and SETU site. Check for the latest.",
+      "summary": "Updates on the Bhotekoshi and Rasuwa flash flood are posted on the official rescue portal and SETU platform. Families can check those sites for the latest status instead of social media.",
       "citation": "NDRRMA — rescue portal (ndrrma.gov.np/np/rescue)",
       "kind": "pointer",
       "scrapeMethod": "grok",
@@ -173,7 +192,7 @@
       "source": "Nepal Police — Unified Database (UDB)",
       "sourceUrl": "https://udb.nepalpolice.gov.np/missing",
       "title": "Nepal Police official found and missing lists",
-      "summary": "Nepal Police keeps the main lists of people missing or found after the floods.",
+      "summary": "Nepal Police keeps the main lists of people missing or found after the floods. Only they can confirm someone's status, not other sites or social media.",
       "citation": "Nepal Police UDB — udb.nepalpolice.gov.np",
       "kind": "pointer",
       "scrapeMethod": "grok",
@@ -190,28 +209,11 @@
       "source": "Embassy of India, Kathmandu",
       "sourceUrl": "https://www.indembkathmandu.gov.in",
       "title": "Embassy of India, Kathmandu — assistance for Indian nationals",
-      "summary": "The Indian embassy in Kathmandu is working with local authorities on search and rescue for Indian nationals hit by the floods in Rasuwa and Bhotekoshi.",
+      "summary": "The Indian embassy in Kathmandu is working with Nepalese authorities on search and rescue for Indian nationals caught in the floods around Rasuwa and Bhotekoshi. Families can reach the Delhi control room or the embassy on WhatsApp for help.",
       "citation": "Embassy of India, Kathmandu",
       "kind": "pointer",
       "scrapeMethod": "grok",
       "contentHash": "3210fdaaec387c91"
-    },
-    {
-      "id": "mofa-c0d1aa509022",
-      "timestamp": "2026-08-26T17:00:00+05:45",
-      "publishedLabel": "26 Aug 2026 · 5:00 pm",
-      "region": [
-        "nepal",
-        "foreign"
-      ],
-      "source": "Nepal Ministry of Foreign Affairs",
-      "sourceUrl": "https://mofa.gov.np/content/1865/latest-updates-on-flash-floods--26-august/",
-      "title": "Latest Updates on Flash Floods- 26 August 2026",
-      "summary": "Flash floods hit Nepal’s Bhote Koshi River today, with 72 bodies recovered so far and 403 people reported missing.",
-      "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 26 August 2026",
-      "kind": "update",
-      "scrapeMethod": "grok",
-      "contentHash": "65f7ee5ecd1e78db"
     }
   ]
 }
