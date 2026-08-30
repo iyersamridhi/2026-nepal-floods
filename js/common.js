@@ -7,7 +7,8 @@ const I18N = {
       "Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.",
     banner:
       "Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.",
-    homeIntro: "",
+    homeIntro:
+      "Official portals and helplines, a short who-to-contact guide, and clear paths to report someone missing or check found and hospital lists. A bulletin gathers public notes and authority posts. Links open the original sources — we store nothing personal.",
     legalTitle: "Disclaimer, Privacy & Terms",
     legalSubtitle: "Independent volunteer site — not an official organisation",
     legalIndepBannerTitle: "Independent & unofficial.",
@@ -136,7 +137,8 @@ const I18N = {
       "स्वतन्त्र स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक सम्पर्कमा मात्र लिङ्क; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
     banner:
       "स्वतन्त्र स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक सम्पर्कमा मात्र लिङ्क; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
-    homeIntro: "",
+    homeIntro:
+      "आधिकारिक पोर्टल र हेल्पलाइन, कसलाई सम्पर्क गर्ने छोटो गाइड, र हराएको रिपोर्ट वा फेला/अस्पताल सूची जाँचका स्पष्ट बाटो। बुलेटिनमा सार्वजनिक नोट र प्राधिकरणका पोस्ट। लिङ्क मूल स्रोतमै जान्छन् — हामी व्यक्तिगत डाटा राख्दैनौं।",
     legalTitle: "अस्वीकरण, गोपनीयता र सर्तहरू",
     legalSubtitle: "स्वतन्त्र स्वयंसेवी साइट — आधिकारिक संस्था होइन",
     legalIndepBannerTitle: "स्वतन्त्र र अनौपचारिक।",
