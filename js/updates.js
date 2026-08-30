@@ -148,18 +148,6 @@ async function loadOfficialBulletin() {
 
     const visible = items.filter(matchesTheme);
     if (meta) meta.textContent = formatMeta(data, visible.length, visible);
-    const latestEl = document.getElementById("official-latest");
-    if (latestEl) {
-      const newest = visible.find((i) => i.kind !== "pointer") || visible[0];
-      if (newest) {
-        const when = newest.publishedLabel || formatStamp(newest.timestamp);
-        latestEl.innerHTML = `Newest official note in this feed: <strong>${escapeHtml(when)}</strong> — ${escapeHtml(
-          newest.title || newest.source || ""
-        )}`;
-      } else {
-        latestEl.textContent = "";
-      }
-    }
   } catch (e) {
     state.officialItems = [];
     container.innerHTML = `<div class="alert alert-error">Could not load bulletin.</div>`;

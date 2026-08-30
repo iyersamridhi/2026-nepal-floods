@@ -15,7 +15,7 @@
   <meta property="og:description" content="Guided form to contact MoFA emergency and MEA control room. Volunteer tool — not an official filing.">
   <meta property="og:image" content="https://2026-nepal-floods.vercel.app/assets/og-share.png">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="/css/style.css?v=layout3">
+  <link rel="stylesheet" href="/css/style.css?v=layout4">
 </head>
 <body data-page="report">
   <div class="banner" data-i18n="banner">Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.</div>
@@ -26,7 +26,7 @@
         <button type="button" data-lang="np">ने</button>
       </div>
       <h1 data-i18n="navReport">Report someone missing</h1>
-      <p class="subtitle">SETU form first — then WhatsApp / email contacts for MoFA or embassies if needed</p>
+      <p class="subtitle">File on an official portal first — then optionally prepare a WhatsApp / email message</p>
       <nav class="nav-links is-ready" id="site-nav">
         <a href="/" data-page="home" data-i18n="navHome">Home</a>
         <a href="/wizard.html" data-page="wizard" data-i18n="navWizard">Who to contact</a>
@@ -38,23 +38,34 @@
       </nav>
     </header>
 
-    <div class="report-top">
-    <section class="section-block">
+    <section class="panel report-step">
       <p class="section-kicker">1 · Official filing</p>
       <h2 class="section-title">Government portals</h2>
-      <p class="form-hint">Use these official sites to file or search. We cannot submit for you, and we do not copy case lists here.</p>
-      <div class="btn-group">
-        <a class="btn btn-primary" href="https://rescue.opmcm.gov.np/person-lost-found" target="_blank" rel="noopener">OPMCM — missing / found →</a>
-        <a class="btn btn-secondary" href="https://rescue.opmcm.gov.np/ask-help" target="_blank" rel="noopener">OPMCM — ask for help →</a>
-        <a class="btn btn-secondary" href="https://setu.ndrrma.gov.np/admin/help.php" target="_blank" rel="noopener">SETU missing form →</a>
-        <a class="btn btn-secondary" href="https://udb.nepalpolice.gov.np/missing" target="_blank" rel="noopener">Nepal Police portal</a>
+      <p class="form-hint">We cannot submit for you. Open one of these official sites to file or search.</p>
+      <div class="portal-link-grid">
+        <a class="portal-link portal-link-primary" href="https://rescue.opmcm.gov.np/person-lost-found" target="_blank" rel="noopener">
+          <strong>OPMCM missing / found</strong>
+          <span>Government of Nepal rescue portal</span>
+        </a>
+        <a class="portal-link" href="https://rescue.opmcm.gov.np/ask-help" target="_blank" rel="noopener">
+          <strong>OPMCM ask for help</strong>
+          <span>Request assistance on the same portal</span>
+        </a>
+        <a class="portal-link" href="https://setu.ndrrma.gov.np/admin/help.php" target="_blank" rel="noopener">
+          <strong>SETU missing form</strong>
+          <span>NDRRMA official form</span>
+        </a>
+        <a class="portal-link" href="https://udb.nepalpolice.gov.np/missing" target="_blank" rel="noopener">
+          <strong>Nepal Police</strong>
+          <span>UDB missing persons portal</span>
+        </a>
       </div>
     </section>
 
-    <section class="section-block" data-sodhera-block>
+    <section class="panel report-step" data-sodhera-block>
       <p class="section-kicker" data-i18n="sodheraKicker">Community-run missing boards</p>
-      <h2 class="section-title" data-i18n="sodheraTitle">Report or browse on community sites</h2>
-      <p class="form-hint" data-i18n="sodheraDesc">Separate tools run by others — not government databases. Still file on SETU / Nepal Police as well.</p>
+      <h2 class="section-title" data-i18n="sodheraTitle">Also on community sites</h2>
+      <p class="form-hint" data-i18n="sodheraDesc">Separate tools run by others — not government databases.</p>
       <div class="card-grid community-cards">
         <a class="action-card" href="https://flood.sodhera.com/" target="_blank" rel="noopener">
           <h2 data-i18n="sodheraCardTitle">Sodhera Intelligence</h2>
@@ -71,9 +82,8 @@
         </div>
       </div>
     </section>
-    </div>
 
-    <section class="section-block" id="report-form-panel">
+    <section class="panel report-step" id="report-form-panel">
       <p class="section-kicker">2 · Also notify contacts</p>
       <h2 class="section-title">WhatsApp / email helper</h2>
       <p class="form-hint">Optional. Prepare a message for MoFA, MEA, or embassies. Nothing is uploaded here — photos go on those apps.</p>
@@ -90,8 +100,8 @@
 
     <section class="section-block" id="report-result" hidden></section>
 
-    <section class="section-block">
-      <p class="section-kicker">4 · More contacts</p>
+    <section class="panel report-step">
+      <p class="section-kicker">3 · More contacts</p>
       <h2 class="section-title">All contacts &amp; embassies</h2>
       <p class="form-hint">MEA control room, Nepal district phones, Tibet contacts, and embassy numbers.</p>
       <a class="btn btn-secondary" href="/resources.html">Search all contacts →</a>
@@ -99,8 +109,8 @@
 
     <footer class="site-footer" data-i18n="footer">Volunteer site — contacts, links & updates only.</footer>
   </div>
-  <script src="/js/common.js?v=theme1"></script>
-  <script src="/js/report.js?v=theme1"></script>
+  <script src="/js/common.js?v=layout4"></script>
+  <script src="/js/report.js?v=layout4"></script>
 
   <!-- Vercel Web Analytics -->
   <script>

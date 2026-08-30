@@ -1289,7 +1289,6 @@ body[data-page="legal"] .container {
     box-shadow: var(--shadow-soft);
   }
 
-  body[data-page="report"] .report-top,
   body[data-page="search"] .search-top {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1298,7 +1297,6 @@ body[data-page="legal"] .container {
     margin-top: 1.25rem;
   }
 
-  body[data-page="report"] .report-top .section-block,
   body[data-page="search"] .search-top .section-block {
     margin-top: 0;
     padding: 1.15rem 1.2rem;
@@ -1308,19 +1306,17 @@ body[data-page="legal"] .container {
     box-shadow: var(--shadow-soft);
   }
 
-  body[data-page="report"] .report-top .section-block:first-of-type,
   body[data-page="search"] .search-top .section-block:first-of-type {
     padding-top: 1.15rem;
     border-top: 1px solid var(--border);
   }
 
-  body[data-page="report"] .report-top .community-cards,
   body[data-page="search"] .search-top .community-cards {
     grid-template-columns: 1fr;
   }
 
   body[data-page="report"] #report-form-panel {
-    max-width: 52rem;
+    max-width: none;
   }
 
   body[data-page="wizard"] .panel {
@@ -1350,13 +1346,8 @@ body[data-page="legal"] .container {
 
   .updates-grid .update-item {
     margin: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .updates-grid .update-summary {
-    flex: 1;
+    height: auto;
+    align-self: start;
   }
 }
 
@@ -1392,7 +1383,7 @@ body[data-page="legal"] .container {
   }
 
   .updates-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
 }
@@ -1739,5 +1730,84 @@ body[data-page="resources"] .directory-toolbar .filter-chips {
   .record-card img {
     width: 100%;
     height: 140px;
+  }
+}
+
+/* Report page — stacked steps + portal tiles */
+body[data-page="report"] .report-step {
+  margin-top: 1rem;
+}
+
+body[data-page="report"] .report-step .section-title {
+  margin-bottom: 0.35rem;
+}
+
+.portal-link-grid {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 0.85rem;
+}
+
+@media (min-width: 700px) {
+  .portal-link-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.portal-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #f7f9fc;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.portal-link:hover {
+  border-color: var(--nepal-blue);
+  background: #fff;
+}
+
+.portal-link strong {
+  color: var(--nepal-blue-deep);
+  font-size: 0.98rem;
+}
+
+.portal-link span {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.portal-link-primary {
+  background: var(--nepal-blue);
+  border-color: var(--nepal-blue);
+  color: #fff;
+}
+
+.portal-link-primary strong,
+.portal-link-primary span {
+  color: #fff;
+}
+
+.portal-link-primary span {
+  opacity: 0.88;
+}
+
+.portal-link-primary:hover {
+  background: var(--nepal-blue-deep);
+  border-color: var(--nepal-blue-deep);
+}
+
+body[data-page="report"] .community-cards {
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 900px) {
+  body[data-page="report"] .container {
+    max-width: min(var(--content-lg), 58rem);
   }
 }
