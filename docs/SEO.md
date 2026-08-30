@@ -63,6 +63,15 @@
 
 ---
 
-## Keywords we already target
+### Social preview cache (LinkedIn / Facebook)
 
-Bhotekoshi, Rasuwa, Gyirong, Trishuli, MoFA emergency, MEA control room, missing tourist Nepal, SETU, Nepal Police found/missing lists
+The site HTML can be correct while LinkedIn still shows an **old card**. That is LinkedIn’s cache, not Vercel.
+
+1. Open [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)
+2. Paste `https://2026-nepal-floods.vercel.app/`
+3. Click **Inspect** — this refreshes their preview
+4. Share the link again in a **new** LinkedIn post (old posts may keep the old card)
+
+WhatsApp usually refreshes faster; LinkedIn can lag days until Post Inspector is used.
+
+`og:image` uses a `?v=` query so crawlers treat it as a new asset after title/copy changes.
