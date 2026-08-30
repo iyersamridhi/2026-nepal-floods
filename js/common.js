@@ -96,7 +96,7 @@ const I18N = {
     twitterLiveOff:
       "Live X fetch isn’t available right now, so this list may lag. Follow the accounts below for the newest posts.",
     journalistsLiveOff:
-      "Live X fetch isn’t available right now, so journalist posts may lag. Follow the accounts below for the newest reporting.",
+      "Live X fetch for journalists isn’t available right now (API limit). Showing curated ground reports from news desks — open the original to verify.",
     officialPortalsTitle: "Where to check official lists",
     officialPortalsHint: "These are portals to search yourself — we do not copy case lists or photos here.",
     readOriginal: "Read original",
@@ -225,7 +225,7 @@ const I18N = {
     twitterLiveOff:
       "अहिले लाइभ X उपलब्ध छैन — यो सूची ढिलो हुन सक्छ। नयाँ पोस्टका लागि तलका खाता फलो गर्नुहोस्।",
     journalistsLiveOff:
-      "अहिले लाइभ X उपलब्ध छैन — पत्रकार पोस्ट ढिलो हुन सक्छ। नयाँ रिपोर्टका लागि तलका खाता फलो गर्नुहोस्।",
+      "अहिले पत्रकारका लागि लाइभ X उपलब्ध छैन (API सीमा)। समाचार डेस्कका क्युरेटेड स्थलगत रिपोर्ट देखाइएको छ — पुष्टिका लागि मूल खोल्नुहोस्।",
     officialPortalsTitle: "आधिकारिक सूची कहाँ जाँच गर्ने",
     officialPortalsHint: "यी पोर्टल आफैं खोज्नका लागि हुन् — हामी केस सूची वा फोटो कपी गर्दैनौं।",
     readOriginal: "मूल पढ्नुहोस्",

@@ -426,6 +426,17 @@
         ],
         "priority": "related",
         "role": "journalist"
+      },
+      {
+        "handle": "the_hindu",
+        "name": "The Hindu",
+        "region": [
+          "nepal",
+          "india",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
       }
     ],
     "keywords": [

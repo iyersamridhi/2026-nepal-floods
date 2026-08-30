@@ -2,7 +2,10 @@
   {
     "handle": "MoFANepal",
     "name": "MoFA Nepal",
-    "region": ["nepal", "foreign"],
+    "region": [
+      "nepal",
+      "foreign"
+    ],
     "timestamp": "2026-08-29T15:00:00+05:45",
     "tweetId": "manual-mofa-29aug",
     "sourceUrl": "https://mofa.gov.np/content/1866/press-briefing-note-by-hon--minister-for/",
@@ -11,7 +14,10 @@
   {
     "handle": "MoFANepal",
     "name": "MoFA Nepal",
-    "region": ["nepal", "foreign"],
+    "region": [
+      "nepal",
+      "foreign"
+    ],
     "timestamp": "2026-08-28T17:00:00+05:45",
     "tweetId": "manual-mofa-28aug",
     "sourceUrl": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/",
@@ -20,7 +26,10 @@
   {
     "handle": "MoFANepal",
     "name": "MoFA Nepal",
-    "region": ["nepal", "foreign"],
+    "region": [
+      "nepal",
+      "foreign"
+    ],
     "timestamp": "2026-08-27T16:16:00+05:45",
     "tweetId": "manual-mofa-ecr",
     "sourceUrl": "https://mofa.gov.np/content/1862/notice--emergency-control-room--ecr--for-assistance/",
@@ -29,7 +38,10 @@
   {
     "handle": "MEAIndia",
     "name": "MEA India",
-    "region": ["india", "nepal"],
+    "region": [
+      "india",
+      "nepal"
+    ],
     "timestamp": "2026-08-27T12:00:00+05:30",
     "tweetId": "manual-mea-control-room",
     "sourceUrl": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
@@ -38,7 +50,11 @@
   {
     "handle": "EOIBeijing",
     "name": "Embassy of India Beijing",
-    "region": ["tibet", "india", "foreign"],
+    "region": [
+      "tibet",
+      "india",
+      "foreign"
+    ],
     "timestamp": "2026-08-30T04:04:00+05:45",
     "tweetId": "2093912605433774318",
     "sourceUrl": "https://x.com/EOIBeijing/status/2093912605433774318",
@@ -47,7 +63,9 @@
   {
     "handle": "NDRRMA_Nepal",
     "name": "NDRRMA Nepal",
-    "region": ["nepal"],
+    "region": [
+      "nepal"
+    ],
     "timestamp": "2026-08-29T15:50:00+05:45",
     "tweetId": "2093727947555500331",
     "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093727947555500331",
@@ -56,7 +74,9 @@
   {
     "handle": "NDRRMA_Nepal",
     "name": "NDRRMA Nepal",
-    "region": ["nepal"],
+    "region": [
+      "nepal"
+    ],
     "timestamp": "2026-08-29T08:01:00+05:45",
     "tweetId": "2093610011683594628",
     "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093610011683594628",
@@ -65,7 +85,9 @@
   {
     "handle": "NDRRMA_Nepal",
     "name": "NDRRMA Nepal",
-    "region": ["nepal"],
+    "region": [
+      "nepal"
+    ],
     "timestamp": "2026-08-30T07:17:00+05:45",
     "tweetId": "2093961178418749652",
     "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093961178418749652",
@@ -74,7 +96,9 @@
   {
     "handle": "NDRRMA_Nepal",
     "name": "NDRRMA Nepal",
-    "region": ["nepal"],
+    "region": [
+      "nepal"
+    ],
     "timestamp": "2026-08-30T03:53:00+05:45",
     "tweetId": "2093909876577873947",
     "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093909876577873947",
@@ -83,7 +107,10 @@
   {
     "handle": "NDRRMA_Nepal",
     "name": "NDRRMA Nepal",
-    "region": ["nepal", "foreign"],
+    "region": [
+      "nepal",
+      "foreign"
+    ],
     "timestamp": "2026-08-29T15:32:00+05:45",
     "tweetId": "2093723515719713102",
     "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093723515719713102",
@@ -92,7 +119,9 @@
   {
     "handle": "NDRRMA_Nepal",
     "name": "NDRRMA Nepal",
-    "region": ["nepal"],
+    "region": [
+      "nepal"
+    ],
     "timestamp": "2026-08-27T10:00:00+05:45",
     "tweetId": "manual-ndrrma-rescue",
     "sourceUrl": "https://ndrrma.gov.np/np/rescue",
@@ -101,7 +130,9 @@
   {
     "handle": "NepalPoliceHQ",
     "name": "Nepal Police HQ",
-    "region": ["nepal"],
+    "region": [
+      "nepal"
+    ],
     "timestamp": "2026-08-27T09:00:00+05:45",
     "tweetId": "manual-np-found",
     "sourceUrl": "https://udb.nepalpolice.gov.np/found",
@@ -110,7 +141,10 @@
   {
     "handle": "IndiainNepal",
     "name": "Embassy of India Kathmandu",
-    "region": ["india", "nepal"],
+    "region": [
+      "india",
+      "nepal"
+    ],
     "timestamp": "2026-08-26T18:00:00+05:45",
     "tweetId": "manual-indemb",
     "sourceUrl": "https://www.indembkathmandu.gov.in",
@@ -120,7 +154,10 @@
     "handle": "journoprk",
     "name": "Parshuram Kaphle",
     "role": "journalist",
-    "region": ["nepal", "tibet"],
+    "region": [
+      "nepal",
+      "tibet"
+    ],
     "timestamp": "2026-08-26T14:00:00+05:45",
     "tweetId": "2092497659047379186",
     "sourceUrl": "https://x.com/journoprk/status/2092497659047379186",
@@ -130,20 +167,76 @@
     "handle": "kathmandupost",
     "name": "The Kathmandu Post",
     "role": "journalist",
-    "region": ["nepal"],
+    "region": [
+      "nepal"
+    ],
+    "timestamp": "2026-08-30T18:00:00+05:45",
+    "tweetId": "manual-kpost-pokhara-morgue-30aug",
+    "sourceUrl": "https://kathmandupost.com/gandaki-province/2026/08/30/families-scour-pokhara-morgue-for-loved-ones-swept-away-by-flood",
+    "text": "Ground report: more than 1,000 relatives arrived in Pokhara to view photos of 102 bodies recovered downstream after the Bhotekoshi flood (Gorkha, Tanahun, Dhading, Nawalparasi East). Help desk offers free support for filing reports and transport. Journalistic coverage — confirm with police / NDRRMA."
+  },
+  {
+    "handle": "kathmandupost",
+    "name": "The Kathmandu Post",
+    "role": "journalist",
+    "region": [
+      "nepal"
+    ],
+    "timestamp": "2026-08-28T16:00:00+05:45",
+    "tweetId": "manual-kpost-bodies-downstream-28aug",
+    "sourceUrl": "https://kathmandupost.com/national/2026/08/28/nepal-struggles-to-store-and-identify-bodies-carried-downstream-by-devastating-flood",
+    "text": "Bodies from Rasuwa / Nuwakot turning up far downstream; Chitwan and Pokhara morgues under strain. Temporary body-management centres and relatives searching for missing family. Not an official list — verify with district police / NDRRMA."
+  },
+  {
+    "handle": "kathmandupost",
+    "name": "The Kathmandu Post",
+    "role": "journalist",
+    "region": [
+      "nepal"
+    ],
     "timestamp": "2026-08-28T12:00:00+05:45",
-    "tweetId": "manual-kpost-nuwakot",
+    "tweetId": "manual-kpost-nuwakot-grief-28aug",
     "sourceUrl": "https://kathmandupost.com/national/2026/08/28/in-nuwakot-s-flooded-villages-grief-comes-before-rescue",
-    "text": "Kathmandu Post ground reporting from Nuwakot’s flooded villages after the Bhotekoshi flood — relief delayed in places; search for bodies continuing. Open the article for full context; not an official missing list."
+    "text": "From Nuwakot’s flooded villages: relief slow to reach some settlements; search for buried homes and missing relatives continuing days after the Bhotekoshi surge. Open original for names and local detail."
+  },
+  {
+    "handle": "therising_np",
+    "name": "The Rising Nepal",
+    "role": "journalist",
+    "region": [
+      "nepal"
+    ],
+    "timestamp": "2026-08-27T12:00:00+05:45",
+    "tweetId": "manual-rising-bhotekoshi-ground",
+    "sourceUrl": "https://risingnepaldaily.com/news/85750",
+    "text": "Gorkhapatra / Rising Nepal ground reporting from Dhunge Bazaar to Trishuli and Devighat — minutes to evacuate after DAO Rasuwa alerted NDRRMA ~8:55am; journalists documenting rescue alongside security forces."
   },
   {
     "handle": "ndtv",
     "name": "NDTV",
     "role": "journalist",
-    "region": ["nepal", "india", "foreign"],
+    "region": [
+      "nepal",
+      "india",
+      "foreign"
+    ],
     "timestamp": "2026-08-27T16:00:00+05:45",
-    "tweetId": "manual-ndtv-rasuwa",
+    "tweetId": "manual-ndtv-rasuwa-ground",
     "sourceUrl": "https://www.ndtv.com/world-news/ndtv-ground-report-from-rasuwa-the-worst-flood-hit-district-in-nepal-11977305",
-    "text": "NDTV ground report from Rasuwa — debris, washed-out markets, and rescue scene after glacial collapse / debris flow along Bhotekoshi and Trishuli. Journalistic coverage; confirm figures with NDRRMA / MoFA."
+    "text": "NDTV ground report from Rasuwa with Sikta Deo and Ranveer Singh — debris, washed-out markets, glacier/debris-flow scene along Bhotekoshi–Trishuli. Confirm casualty figures with NDRRMA."
+  },
+  {
+    "handle": "the_hindu",
+    "name": "The Hindu",
+    "role": "journalist",
+    "region": [
+      "nepal",
+      "india",
+      "foreign"
+    ],
+    "timestamp": "2026-08-30T20:00:00+05:45",
+    "tweetId": "manual-hindu-live-30aug",
+    "sourceUrl": "https://www.thehindu.com/news/international/nepal-flash-floods-live-updates-death-toll-rescue-operation-missing-person-tibet-border-glacier-collapse-news/article71406948.ece",
+    "text": "Live coverage: death toll and missing figures rising; NDRRMA warned Bhotekoshi water levels rose again Sunday morning; tunnel rescues continue. Numbers move fast — check MoFA / NDRRMA originals."
   }
 ]
