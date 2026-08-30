@@ -5,18 +5,24 @@ on:
     - cron: "*/30 * * * *"
   workflow_dispatch:
 
+# Only one refresh at a time — long scrapes were overlapping and fighting on push
+concurrency:
+  group: refresh-bulletins
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -25,19 +31,8 @@ jobs:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY || secrets.X_AI }}
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
         run: |
-          chmod +x scripts/refresh.sh
+          chmod +x scripts/refresh.sh scripts/commit_bulletin.sh
           ./scripts/refresh.sh
 
-      - name: Commit updated data files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/bulletin.json data/twitter_bulletin.json data/scraped/
-          if git diff --staged --quiet; then
-            echo "No bulletin changes to commit"
-            exit 0
-          fi
-          git commit -m "chore: refresh official and Twitter bulletins"
-          # Rebase onto latest main in case another push landed during the run
-          git pull --rebase origin main
-          git push
+      - name: Commit and push bulletin data
+        run: ./scripts/commit_bulletin.sh
