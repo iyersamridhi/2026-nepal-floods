@@ -16,6 +16,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -84,6 +85,36 @@ def is_flood_relevant(text: str, priority: str, keywords: list[str], exclude: li
     return False
 
 
+def api_get(url: str, bearer: str) -> dict:
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {bearer}"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode("utf-8", errors="replace")[:500]
+        except Exception:
+            pass
+        raise RuntimeError(f"HTTP Error {e.code}: {e.reason}. {body}") from e
+
+
+def resolve_user_id(handle: str, bearer: str, cache: dict) -> str:
+    key = f"user_id:{handle.lower()}"
+    ids = cache.setdefault("_user_ids", {})
+    if ids.get(key):
+        return ids[key]
+    data = api_get(
+        f"https://api.twitter.com/2/users/by/username/{urllib.parse.quote(handle)}",
+        bearer,
+    )
+    uid = (data.get("data") or {}).get("id")
+    if not uid:
+        raise RuntimeError(f"No user id for @{handle}: {data}")
+    ids[key] = uid
+    return uid
+
+
 def fetch_user_tweets(
     handle: str,
     bearer: str,
@@ -91,24 +122,49 @@ def fetch_user_tweets(
     exclude: list[str] | None = None,
     priority: str = "related",
     max_results: int = 40,
+    cache: dict | None = None,
 ) -> list[dict]:
     """
-    Pull recent posts from a curated account, then soft-filter
-    for Nepal flood relevance (wide EN + Nepali keywords).
+    Pull recent posts from a curated account, then soft-filter for flood relevance.
+
+    Prefer user timeline (cheaper / separate quota from Recent Search). Fall back
+    to recent search `from:handle` only if timeline fails for a non-billing reason.
     """
-    max_results = max(10, min(int(max_results), 100))
-    q = urllib.parse.quote(f"from:{handle}", safe="")
-    url = (
-        f"https://api.twitter.com/2/tweets/search/recent?"
-        f"query={q}&max_results={max_results}&tweet.fields=created_at,text"
-    )
-    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {bearer}"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode())
-    tweets = data.get("data", []) or []
+    max_results = max(5, min(int(max_results), 100))
     keywords = keywords or []
     exclude = exclude or []
-    return [tw for tw in tweets if is_flood_relevant(tw.get("text", ""), priority, keywords, exclude)]
+    cache = cache if cache is not None else {}
+    tweets: list[dict] = []
+    method = "timeline"
+
+    try:
+        uid = resolve_user_id(handle, bearer, cache)
+        # timeline max_results must be 5–100
+        url = (
+            f"https://api.twitter.com/2/users/{uid}/tweets?"
+            f"max_results={max_results}&tweet.fields=created_at,text&exclude=retweets,replies"
+        )
+        data = api_get(url, bearer)
+        tweets = data.get("data", []) or []
+    except Exception as timeline_err:
+        msg = str(timeline_err)
+        # Billing / plan block — don't burn more credits on search
+        if "402" in msg or "Payment Required" in msg:
+            raise
+        print(f"@{handle}: timeline failed ({msg}); trying recent search", file=sys.stderr)
+        method = "search"
+        q = urllib.parse.quote(f"from:{handle}", safe="")
+        url = (
+            f"https://api.twitter.com/2/tweets/search/recent?"
+            f"query={q}&max_results={max(10, min(max_results, 100))}"
+            f"&tweet.fields=created_at,text"
+        )
+        data = api_get(url, bearer)
+        tweets = data.get("data", []) or []
+
+    kept = [tw for tw in tweets if is_flood_relevant(tw.get("text", ""), priority, keywords, exclude)]
+    print(f"@{handle}: {method} {len(tweets)} raw → {len(kept)} flood-relevant", file=sys.stderr)
+    return kept
 
 
 def assign_themes(text: str) -> list[str]:
@@ -279,8 +335,8 @@ def main():
             handle = acct["handle"]
             priority = acct.get("priority", "related")
             role = acct.get("role", "authority")
-            # Cap window — 100× many accounts + Grok was timing out CI
-            max_results = 40 if role == "journalist" else 40
+            # Cap window — keep CI under rate/credit budgets
+            max_results = 40
             try:
                 tweets = fetch_user_tweets(
                     handle,
@@ -289,6 +345,7 @@ def main():
                     exclude=exclude,
                     priority=priority,
                     max_results=max_results,
+                    cache=cache,
                 )
             except Exception as e:
                 msg = str(e)
@@ -296,13 +353,12 @@ def main():
                 if "402" in msg or "Payment Required" in msg:
                     print(
                         "X/Twitter API returned 402 Payment Required — "
-                        "Recent Search needs a paid Basic+ plan. Falling back to manual seeds.",
+                        "plan/credits exhausted for this endpoint. Keeping prior bulletin + manual seeds.",
                         file=sys.stderr,
                     )
                     payment_blocked = True
                 continue
             live_ok = True
-            print(f"@{handle}: {len(tweets)} flood-relevant", file=sys.stderr)
             for tw in tweets:
                 item, changed = build_tweet_item(
                     handle,
