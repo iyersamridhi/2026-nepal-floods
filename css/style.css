@@ -867,19 +867,8 @@ header.site-header .subtitle {
 }
 
 @media (min-width: 720px) {
-  .updates-toolbar {
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
   .updates-filter {
-    min-width: 11rem;
-  }
-
-  .theme-filter-wrap {
-    flex: 1;
+    min-width: 0;
   }
 }
 
@@ -1325,14 +1314,6 @@ body[data-page="legal"] .container {
     margin-right: auto;
   }
 
-  body[data-page="updates"] .updates-toolbar {
-    display: grid;
-    grid-template-columns: 13.5rem minmax(0, 1fr);
-    align-items: end;
-    gap: 1rem 1.5rem;
-    padding: 1rem 1.15rem;
-  }
-
   body[data-page="updates"] .theme-chips {
     flex-wrap: wrap;
     overflow: visible;
@@ -1451,12 +1432,10 @@ body[data-page="updates"] .updates-toolbar {
   position: sticky;
   top: 0;
   z-index: 30;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+  display: block;
   margin: 0.85rem 0 0.65rem;
-  padding: 0.85rem 0.95rem;
-  background: rgba(255, 255, 255, 0.92);
+  padding: 0.75rem 0.9rem 0.7rem;
+  background: rgba(255, 255, 255, 0.95);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow-soft);
@@ -1464,41 +1443,62 @@ body[data-page="updates"] .updates-toolbar {
   -webkit-backdrop-filter: blur(10px);
 }
 
-body[data-page="updates"] .updates-filter {
+body[data-page="updates"] .updates-toolbar-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.45rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+body[data-page="updates"] .updates-toolbar-head > .form-hint {
   margin: 0;
-}
-
-body[data-page="updates"] .updates-filter select {
-  min-width: 11rem;
-  max-width: 100%;
-}
-
-body[data-page="updates"] .theme-filter-wrap .form-hint {
-  margin: 0 0 0.4rem;
   font-weight: 600;
   color: var(--nepal-blue-deep);
   font-size: 0.78rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  align-self: center;
+}
+
+body[data-page="updates"] .updates-filter {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.55rem;
+}
+
+body[data-page="updates"] .updates-filter .form-hint {
+  margin: 0;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+body[data-page="updates"] .updates-filter select {
+  min-width: 9.5rem;
+  width: auto;
+  max-width: 100%;
+  padding: 0.4rem 0.55rem;
+  font-size: 0.9rem;
+}
+
+body[data-page="updates"] .theme-filter-wrap {
+  margin: 0;
 }
 
 body[data-page="updates"] .theme-chips {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 0.4rem;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding: 0.15rem 0 0.35rem;
-  margin: 0 -0.15rem;
-  padding-left: 0.15rem;
-  padding-right: 0.15rem;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-  scroll-snap-type: x proximity;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
 }
 
 body[data-page="updates"] .theme-chips .chip {
-  scroll-snap-align: start;
+  scroll-snap-align: unset;
 }
 
 body[data-page="updates"] .updates-panel {
