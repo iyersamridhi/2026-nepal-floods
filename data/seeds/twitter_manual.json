@@ -38,6 +38,15 @@
   {
     "handle": "NDRRMA_Nepal",
     "name": "NDRRMA Nepal",
+    "region": ["nepal"],
+    "timestamp": "2026-08-30T03:53:00+05:45",
+    "tweetId": "2093909876577873947",
+    "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093909876577873947",
+    "text": "भोटेकोशी बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट-२०८३, (मितिः२०८३ भदौ १४ गते बिहान ९ बजेसम्म प्राप्त जानकारीसहित) — Bhotekoshi flood search, rescue and relief update as of 9am on 14 Bhadra 2083 (30 Aug 2026)."
+  },
+  {
+    "handle": "NDRRMA_Nepal",
+    "name": "NDRRMA Nepal",
     "region": ["nepal", "foreign"],
     "timestamp": "2026-08-29T15:32:00+05:45",
     "tweetId": "2093723515719713102",

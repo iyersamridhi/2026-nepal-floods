@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T08:19:04.509044Z",
+  "generatedAt": "2026-08-30T08:46:16.734008Z",
   "note": "Authority Twitter/X posts — summarized with link. Verify on original tweet; not official confirmation.",
   "liveFetch": true,
   "summarizer": "grok",
@@ -97,6 +97,21 @@
       "citation": "Tweet by @MEAIndia",
       "scrapeMethod": "grok",
       "contentHash": "8757deb2bf577d0e"
+    },
+    {
+      "id": "twitter-2093909876577873947",
+      "timestamp": "2026-08-30T03:53:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093909876577873947",
+      "title": "NDRRMA Nepal",
+      "summary": "@NDRRMA_Nepal has posted the latest update on search, rescue and relief work for the Bhotekoshi flood, covering info received up to 9am on 14 Bhadra 2083.",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "scrapeMethod": "grok",
+      "contentHash": "manual-2093909876577873947"
     },
     {
       "id": "twitter-2093762607262073239",
