@@ -1321,6 +1321,8 @@ body[data-page="legal"] .container {
 
   body[data-page="wizard"] .panel {
     max-width: 44rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   body[data-page="updates"] .updates-toolbar {
@@ -1810,4 +1812,13 @@ body[data-page="report"] .community-cards {
   body[data-page="report"] .container {
     max-width: min(var(--content-lg), 58rem);
   }
+}
+
+/* Keep reading-width forms centered in the wide shell */
+body[data-page="wizard"] .wizard-panel,
+body[data-page="wizard"] .panel {
+  max-width: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
