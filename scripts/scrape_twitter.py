@@ -54,13 +54,46 @@ def sanitize_bearer(token: str | None) -> str | None:
     return token or None
 
 
-def fetch_user_tweets(handle: str, bearer: str, keywords: list[str] | None = None, max_results: int = 40) -> list[dict]:
+def is_flood_relevant(text: str, priority: str, keywords: list[str], exclude: list[str]) -> bool:
     """
-    Pull recent posts from a curated authority account.
+    Keep Nepal-flood posts; drop unrelated diplomatic noise.
 
-    Keep all recent posts from these accounts — do not soft-filter by English
-    flood keywords. That filter dropped Nepali updates (e.g. NDRRMA भोटेकोशी
-    खोज/उद्धार notes) whenever other English posts also matched.
+    - excludeKeywords always drop (Uzbekistan yoga, Mann Ki Baat, etc.)
+    - related accounts (MEA / embassies): must match a flood keyword
+    - disaster-primary accounts (NDRRMA / police / MoFA / Army / MoHA):
+      match keyword OR any Devanagari content (Nepali notices often omit English place names)
+    """
+    raw = text or ""
+    low = raw.lower()
+    for ex in exclude:
+        if ex and ex.lower() in low:
+            return False
+
+    keys = [k for k in keywords if k]
+    if any(k.lower() in low for k in keys):
+        return True
+
+    if priority == "disaster":
+        # Nepali-script authority posts about the response
+        if re.search(r"[\u0900-\u097F]", raw):
+            return True
+        # Image-only English captions that still name the flood response
+        if re.search(r"\b(update|relief|rescue|missing|injured)\b", low):
+            return True
+    return False
+
+
+def fetch_user_tweets(
+    handle: str,
+    bearer: str,
+    keywords: list[str] | None = None,
+    exclude: list[str] | None = None,
+    priority: str = "related",
+    max_results: int = 40,
+) -> list[dict]:
+    """
+    Pull recent posts from a curated authority account, then soft-filter
+    for Nepal flood relevance (wide EN + Nepali keywords).
     """
     max_results = max(10, min(int(max_results), 100))
     q = urllib.parse.quote(f"from:{handle}", safe="")
@@ -71,7 +104,28 @@ def fetch_user_tweets(handle: str, bearer: str, keywords: list[str] | None = Non
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {bearer}"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         data = json.loads(resp.read().decode())
-    return data.get("data", []) or []
+    tweets = data.get("data", []) or []
+    keywords = keywords or []
+    exclude = exclude or []
+    return [tw for tw in tweets if is_flood_relevant(tw.get("text", ""), priority, keywords, exclude)]
+
+
+def assign_themes(text: str) -> list[str]:
+    low = (text or "").lower()
+    themes = []
+    checks = [
+        ("hospitals", ["hospital", "injured", "discharged", "treatment", "अस्पताल", "घाइते", "उपचार", "डिश्चार्ज"]),
+        ("rescue", ["rescue", "rescued", "उद्धार", "helicopter", "search and rescue", "खोज"]),
+        ("missing", ["missing", "unaccounted", "lost", "बेपत्ता", "हराएको", "सम्पर्कमा नआएका"]),
+        ("remains", ["unidentified", "dead body", "bodies recovered", "शव", "remains", "forensic", "dna"]),
+        ("relief", ["relief", "राहत", "cash support", "food", "fuel", "truck"]),
+        ("contacts", ["hotline", "control room", "helpline", "whatsapp", "emergency contact", "सम्पर्क"]),
+        ("briefing", ["press", "briefing", "update", "अपडेट", "press release", "situation"]),
+    ]
+    for theme, words in checks:
+        if any(w.lower() in low for w in words):
+            themes.append(theme)
+    return themes or ["briefing"]
 
 
 def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text: str, created_at: str, cache: dict, force: bool, source_url: str | None = None) -> tuple[dict, bool]:
@@ -83,6 +137,7 @@ def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text:
     if cached.get("contentHash") == ch and cached.get("item") and not force:
         item = dict(cached["item"])
         item["summary"] = strip_summary_urls(item.get("summary", ""))
+        item.setdefault("themes", assign_themes(f"{item.get('summary','')} {text}"))
         item["scrapeMethod"] = "cached"
         return item, False
 
@@ -110,6 +165,7 @@ def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text:
         "title": name,
         "summary": summary,
         "citation": f"Tweet by @{handle}",
+        "themes": assign_themes(f"{summary} {text}"),
         "scrapeMethod": method,
         "contentHash": ch,
     }
@@ -159,6 +215,7 @@ def main():
 
     bearer = sanitize_bearer(os.environ.get("TWITTER_BEARER_TOKEN"))
     keywords = twitter_cfg.get("keywords", ["flood", "rasuwa", "missing"])
+    exclude = twitter_cfg.get("excludeKeywords", [])
     twitter_enabled = twitter_cfg.get("enabled", False) or bool(bearer)
 
     if bearer and twitter_enabled:
@@ -167,8 +224,15 @@ def main():
             if payment_blocked:
                 break
             handle = acct["handle"]
+            priority = acct.get("priority", "related")
             try:
-                tweets = fetch_user_tweets(handle, bearer, keywords)
+                tweets = fetch_user_tweets(
+                    handle,
+                    bearer,
+                    keywords=keywords,
+                    exclude=exclude,
+                    priority=priority,
+                )
             except Exception as e:
                 msg = str(e)
                 print(f"@{handle}: {msg}", file=sys.stderr)

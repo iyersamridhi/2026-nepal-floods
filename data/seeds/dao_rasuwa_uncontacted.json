@@ -1,0 +1,12 @@
+{
+  "id": "dao-rasuwa-uncontacted",
+  "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
+  "sourceUrl": "https://daorasuwa.moha.gov.np/page/b-dha-pasha-ca-ta-sama-para-kama-naaaeka-va-yaka-ta-hara-ka-va-varanae-upalb",
+  "timestamp": "2026-08-28T12:00:00+05:45",
+  "region": ["nepal"],
+  "title": "DAO Rasuwa — notice: people not yet in contact after the flood",
+  "citation": "DAO Rasuwa — uncontacted persons notice",
+  "body": "District Administration Office, Rasuwa notice asking families to provide details of people who could not be reached after the flood. Official MoHA district page.",
+  "kind": "pointer",
+  "themes": ["missing", "contacts"]
+}

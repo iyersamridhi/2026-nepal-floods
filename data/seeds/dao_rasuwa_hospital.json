@@ -1,0 +1,12 @@
+{
+  "id": "dao-rasuwa-hospital-treatment",
+  "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
+  "sourceUrl": "https://daorasuwa.moha.gov.np/en/page/b-dha-pa-rabha-va-tahara-ka-rasa-va-asa-pata-lma-bhaeka-upaca-ra-va-varanae",
+  "timestamp": "2026-08-28T12:00:00+05:45",
+  "region": ["nepal"],
+  "title": "DAO Rasuwa — hospital treatment list (Rasuwa Hospital)",
+  "citation": "DAO Rasuwa — Bhotekoshi flood treatment details",
+  "body": "District Administration Office, Rasuwa published treatment details for flood-affected people at Rasuwa Hospital (PDF list through 12 Bhadra 2083). Official MoHA district page — bilingual site (नेपाली / EN). This site links to the page; we do not copy names.",
+  "kind": "pointer",
+  "themes": ["hospitals", "injured"]
+}

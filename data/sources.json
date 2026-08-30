@@ -7,7 +7,10 @@
       "name": "Nepal Ministry of Foreign Affairs",
       "categoryUrl": "https://mofa.gov.np/category/flashflood/",
       "baseUrl": "https://mofa.gov.np",
-      "region": ["nepal", "foreign"],
+      "region": [
+        "nepal",
+        "foreign"
+      ],
       "note": "Primary source — discovers all flash-flood articles from category page"
     },
     {
@@ -16,7 +19,10 @@
       "type": "url",
       "name": "India Ministry of External Affairs",
       "url": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
-      "region": ["india", "nepal"],
+      "region": [
+        "india",
+        "nepal"
+      ],
       "seedFile": "data/seeds/mea_control_room.json",
       "seedFallback": true,
       "note": "MEA control room press release; seed used if page fetch fails"
@@ -27,8 +33,63 @@
       "type": "url",
       "name": "Xinhua (Gyirong / Tibet side)",
       "url": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html",
-      "region": ["tibet", "nepal", "foreign"],
+      "region": [
+        "tibet",
+        "nepal",
+        "foreign"
+      ],
       "note": "China-side rescue coverage at Gyirong border port"
+    },
+    {
+      "id": "dao-rasuwa-flood-hub",
+      "enabled": true,
+      "type": "seed",
+      "name": "DAO Rasuwa — Bhotekoshi flood notices hub",
+      "seedFile": "data/seeds/dao_rasuwa_hub.json",
+      "region": [
+        "nepal"
+      ],
+      "note": "MoHA district hub — bilingual"
+    },
+    {
+      "id": "dao-rasuwa-hospital",
+      "enabled": true,
+      "type": "seed",
+      "name": "DAO Rasuwa — hospital treatment list",
+      "seedFile": "data/seeds/dao_rasuwa_hospital.json",
+      "region": [
+        "nepal"
+      ]
+    },
+    {
+      "id": "dao-rasuwa-missing",
+      "enabled": true,
+      "type": "seed",
+      "name": "DAO Rasuwa — missing persons",
+      "seedFile": "data/seeds/dao_rasuwa_missing.json",
+      "region": [
+        "nepal"
+      ]
+    },
+    {
+      "id": "dao-rasuwa-bodies",
+      "enabled": true,
+      "type": "seed",
+      "name": "DAO Rasuwa — body collection",
+      "seedFile": "data/seeds/dao_rasuwa_bodies.json",
+      "region": [
+        "nepal"
+      ]
+    },
+    {
+      "id": "dao-rasuwa-uncontacted",
+      "enabled": true,
+      "type": "seed",
+      "name": "DAO Rasuwa — uncontacted persons notice",
+      "seedFile": "data/seeds/dao_rasuwa_uncontacted.json",
+      "region": [
+        "nepal"
+      ]
     },
     {
       "id": "opmcm-rescue-portal",
@@ -36,7 +97,9 @@
       "type": "seed",
       "name": "OPMCM Rasuwa Flood Rescue Portal",
       "seedFile": "data/seeds/opmcm_rescue_portal.json",
-      "region": ["nepal"],
+      "region": [
+        "nepal"
+      ],
       "note": "Official GoN portal — link only; do not scrape personal cases"
     },
     {
@@ -45,7 +108,9 @@
       "type": "seed",
       "name": "NESRA FloodWatch (situational awareness)",
       "seedFile": "data/seeds/nesra_floodwatch.json",
-      "region": ["nepal"],
+      "region": [
+        "nepal"
+      ],
       "note": "Non-government EO/situation brief — label clearly; not for filing missing persons"
     },
     {
@@ -54,7 +119,9 @@
       "type": "seed",
       "name": "NDRRMA Nepal",
       "seedFile": "data/seeds/ndrrma_portal.json",
-      "region": ["nepal"],
+      "region": [
+        "nepal"
+      ],
       "note": "Portal pointer — NDRRMA site is mostly JS"
     },
     {
@@ -63,7 +130,9 @@
       "type": "seed",
       "name": "NDRRMA — injured under treatment (Kathmandu hospitals)",
       "seedFile": "data/seeds/ndrrma_hospital_under_treatment.json",
-      "region": ["nepal"],
+      "region": [
+        "nepal"
+      ],
       "note": "From NDRRMA X post 30 Aug — notice-information board; link only, no name scrape"
     },
     {
@@ -72,7 +141,9 @@
       "type": "seed",
       "name": "NDRRMA — injured discharged after treatment",
       "seedFile": "data/seeds/ndrrma_hospital_discharged.json",
-      "region": ["nepal"],
+      "region": [
+        "nepal"
+      ],
       "note": "From NDRRMA X post 30 Aug — misc-report board; link only, no name scrape"
     },
     {
@@ -81,7 +152,9 @@
       "type": "seed",
       "name": "Nepal Police UDB",
       "seedFile": "data/seeds/nepal_police_udb.json",
-      "region": ["nepal"],
+      "region": [
+        "nepal"
+      ],
       "note": "Official found/missing lists — we link, do not republish photos"
     },
     {
@@ -90,7 +163,10 @@
       "type": "seed",
       "name": "Embassy of India, Kathmandu",
       "seedFile": "data/seeds/indemb_kathmandu.json",
-      "region": ["india", "nepal"],
+      "region": [
+        "india",
+        "nepal"
+      ],
       "note": "Curated embassy contact pointer for Indian nationals"
     }
   ],
@@ -122,17 +198,156 @@
   },
   "twitter": {
     "enabled": true,
-    "note": "Live fetch when TWITTER_BEARER_TOKEN is set; otherwise manual seeds in data/seeds/twitter_manual.json. Fetches all recent posts from listed accounts (no keyword soft-filter).",
+    "note": "Live fetch when TWITTER_BEARER_TOKEN is set. Soft-filter with wide EN+Nepali flood keywords; disaster-primary accounts keep broader matches; MEA/embassy require Nepal-flood relevance.",
     "accounts": [
-      { "handle": "NDRRMA_Nepal", "name": "NDRRMA Nepal", "region": ["nepal"] },
-      { "handle": "NepalPoliceHQ", "name": "Nepal Police HQ", "region": ["nepal"] },
-      { "handle": "MoFANepal", "name": "MoFA Nepal", "region": ["nepal", "foreign"] },
-      { "handle": "MEAIndia", "name": "MEA India", "region": ["india"] },
-      { "handle": "IndiainNepal", "name": "Embassy of India Kathmandu", "region": ["india", "nepal"] },
-      { "handle": "NepalArmyHQ", "name": "Nepal Army", "region": ["nepal"] },
-      { "handle": "USEmbassyNepal", "name": "US Embassy Nepal", "region": ["foreign"] },
-      { "handle": "NepalTourismBoard", "name": "Nepal Tourism Board", "region": ["nepal", "foreign"] }
+      {
+        "handle": "NDRRMA_Nepal",
+        "name": "NDRRMA Nepal",
+        "region": [
+          "nepal"
+        ],
+        "priority": "disaster"
+      },
+      {
+        "handle": "NepalPoliceHQ",
+        "name": "Nepal Police HQ",
+        "region": [
+          "nepal"
+        ],
+        "priority": "disaster"
+      },
+      {
+        "handle": "MoFANepal",
+        "name": "MoFA Nepal",
+        "region": [
+          "nepal",
+          "foreign"
+        ],
+        "priority": "disaster"
+      },
+      {
+        "handle": "moha_nepal",
+        "name": "Ministry of Home Affairs Nepal",
+        "region": [
+          "nepal"
+        ],
+        "priority": "disaster"
+      },
+      {
+        "handle": "NepalArmyHQ",
+        "name": "Nepal Army",
+        "region": [
+          "nepal"
+        ],
+        "priority": "disaster"
+      },
+      {
+        "handle": "IndiainNepal",
+        "name": "Embassy of India Kathmandu",
+        "region": [
+          "india",
+          "nepal"
+        ],
+        "priority": "related"
+      },
+      {
+        "handle": "MEAIndia",
+        "name": "MEA India",
+        "region": [
+          "india"
+        ],
+        "priority": "related"
+      },
+      {
+        "handle": "USEmbassyNepal",
+        "name": "US Embassy Nepal",
+        "region": [
+          "foreign"
+        ],
+        "priority": "related"
+      },
+      {
+        "handle": "NepalTourismBoard",
+        "name": "Nepal Tourism Board",
+        "region": [
+          "nepal",
+          "foreign"
+        ],
+        "priority": "related"
+      }
     ],
-    "keywords": []
+    "keywords": [
+      "nepal",
+      "rasuwa",
+      "bhotekoshi",
+      "bhote koshi",
+      "trishuli",
+      "gyirong",
+      "tibet",
+      "flood",
+      "flash flood",
+      "missing",
+      "rescued",
+      "rescue",
+      "relief",
+      "injured",
+      "hospital",
+      "discharged",
+      "forensic",
+      "dna",
+      "unidentified",
+      "dead body",
+      "ndrrma",
+      "setu",
+      "mofa",
+      "mea control",
+      "kathmandu hospital",
+      "nuwakot",
+      "chitwan",
+      "dhading",
+      "gorkha",
+      "tanahun",
+      "nawaparasi",
+      "nawalparasi",
+      "hydropower",
+      "kailash",
+      "mansarovar",
+      "langtang",
+      "syabrubesi",
+      "timure",
+      "बाढी",
+      "भोटेकोशी",
+      "त्रिशुली",
+      "रसुवा",
+      "उद्धार",
+      "हराएको",
+      "बेपत्ता",
+      "घाइते",
+      "उपचार",
+      "अस्पताल",
+      "डिश्चार्ज",
+      "राहत",
+      "शव",
+      "विपद्",
+      "खोज",
+      "kathmandu",
+      "relief flight",
+      "indian national",
+      "indian nationals",
+      "special control room",
+      "situation room"
+    ],
+    "excludeKeywords": [
+      "uzbekistan",
+      "tashkent",
+      "mirziyoyev",
+      "yogasana",
+      "yoga session",
+      "mann ki baat",
+      "shaktisat",
+      "serbia",
+      "belgrade",
+      "world yogasana"
+    ]
   }
 }

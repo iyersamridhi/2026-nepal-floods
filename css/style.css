@@ -802,10 +802,63 @@ header.site-header .subtitle {
 
 .updates-toolbar {
   margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.theme-filter-wrap .form-hint {
+  margin-bottom: 0.35rem;
+}
+
+.theme-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.theme-chips .chip {
+  font-size: 0.82rem;
+  padding: 0.35rem 0.7rem;
+}
+
+@media (min-width: 720px) {
+  .updates-toolbar {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .updates-filter {
+    min-width: 11rem;
+  }
+
+  .theme-filter-wrap {
+    flex: 1;
+  }
 }
 
 .updates-panel {
   padding-top: 1rem;
+}
+
+.update-theme-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0.35rem 0 0.15rem;
+}
+
+.update-theme-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--nepal-blue);
+  background: #eef3fa;
+  border-radius: 4px;
+  padding: 0.15rem 0.4rem;
 }
 
 .bulletin-title {

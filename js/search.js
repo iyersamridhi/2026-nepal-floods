@@ -5,9 +5,9 @@ const FOUND_LINKS = [
     href: "https://rescue.opmcm.gov.np/person-lost-found",
   },
   {
-    title: "OPMCM Rasuwa Flood Rescue Portal (home)",
-    desc: "Official Office of the Prime Minister portal: ask for help, browse help requests, emergency contacts, and more.",
-    href: "https://rescue.opmcm.gov.np/",
+    title: "DAO Rasuwa — hospital treatment list (Rasuwa Hospital)",
+    desc: "District Administration Office (MoHA) PDF list of flood patients treated at Rasuwa Hospital. Bilingual district site.",
+    href: "https://daorasuwa.moha.gov.np/en/page/b-dha-pa-rabha-va-tahara-ka-rasa-va-asa-pata-lma-bhaeka-upaca-ra-va-varanae",
   },
   {
     title: "Injured — currently in Kathmandu hospitals (NDRRMA)",
@@ -18,6 +18,16 @@ const FOUND_LINKS = [
     title: "Injured — discharged after treatment (NDRRMA)",
     desc: "Official NDRRMA list of flood-injured people discharged from Kathmandu hospitals. We do not copy names here.",
     href: "https://ndrrma.gov.np/np/misc-report",
+  },
+  {
+    title: "DAO Rasuwa — Bhotekoshi flood notices hub",
+    desc: "Official MoHA district hub: rescue notices, missing lists, body collection, hospital details (नेपाली / EN).",
+    href: "https://daorasuwa.moha.gov.np/page/bha-ta-ka-sha-b-dha-bha-tha-ra",
+  },
+  {
+    title: "OPMCM Rasuwa Flood Rescue Portal (home)",
+    desc: "Official Office of the Prime Minister portal: ask for help, browse help requests, emergency contacts, and more.",
+    href: "https://rescue.opmcm.gov.np/",
   },
   {
     title: "Found / unidentified living persons — Nepal Police",

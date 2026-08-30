@@ -1,5 +1,10 @@
 {
   "portals": [
+    { "name": "DAO Rasuwa — Bhotekoshi flood notices hub", "url": "https://daorasuwa.moha.gov.np/page/bha-ta-ka-sha-b-dha-bha-tha-ra", "region": "nepal" },
+    { "name": "DAO Rasuwa — hospital treatment (Rasuwa Hospital)", "url": "https://daorasuwa.moha.gov.np/en/page/b-dha-pa-rabha-va-tahara-ka-rasa-va-asa-pata-lma-bhaeka-upaca-ra-va-varanae", "region": "nepal" },
+    { "name": "DAO Rasuwa — missing persons list", "url": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-ka-ranae-b-pata-ta-bhaeka-va-varanae", "region": "nepal" },
+    { "name": "DAO Rasuwa — body collection list", "url": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-shava-sa-kalna-va-varanae", "region": "nepal" },
+    { "name": "DAO Rasuwa — uncontacted persons notice", "url": "https://daorasuwa.moha.gov.np/page/b-dha-pasha-ca-ta-sama-para-kama-naaaeka-va-yaka-ta-hara-ka-va-varanae-upalb", "region": "nepal" },
     { "name": "OPMCM Rasuwa Flood Rescue Portal (home)", "url": "https://rescue.opmcm.gov.np/", "region": "nepal" },
     { "name": "OPMCM — missing / found persons", "url": "https://rescue.opmcm.gov.np/person-lost-found", "region": "nepal" },
     { "name": "OPMCM — request help", "url": "https://rescue.opmcm.gov.np/ask-help", "region": "nepal" },
@@ -27,6 +32,7 @@
   ],
   "twitter": [
     { "name": "NDRRMA Nepal", "url": "https://x.com/NDRRMA_Nepal" },
+    { "name": "Ministry of Home Affairs Nepal", "url": "https://x.com/moha_nepal" },
     { "name": "Nepal Police", "url": "https://x.com/NepalPoliceHQ" },
     { "name": "MoFA Nepal", "url": "https://x.com/MoFANepal" },
     { "name": "MEA India", "url": "https://x.com/MEAIndia" },

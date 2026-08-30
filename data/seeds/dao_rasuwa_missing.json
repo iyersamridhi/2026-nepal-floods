@@ -1,0 +1,12 @@
+{
+  "id": "dao-rasuwa-missing",
+  "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
+  "sourceUrl": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-ka-ranae-b-pata-ta-bhaeka-va-varanae",
+  "timestamp": "2026-08-28T12:00:00+05:45",
+  "region": ["nepal"],
+  "title": "DAO Rasuwa — missing persons list (Bhotekoshi flood)",
+  "citation": "DAO Rasuwa — missing after Bhotekoshi flood",
+  "body": "District Administration Office, Rasuwa list of people reported missing after the Bhotekoshi flood. Official MoHA district page. Open the original for names — we do not copy them here.",
+  "kind": "pointer",
+  "themes": ["missing"]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "dao-rasuwa-flood-hub",
+  "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
+  "sourceUrl": "https://daorasuwa.moha.gov.np/page/bha-ta-ka-sha-b-dha-bha-tha-ra",
+  "timestamp": "2026-08-28T12:00:00+05:45",
+  "region": ["nepal"],
+  "title": "DAO Rasuwa — Bhotekoshi flood notices hub (भाद्र २०८३)",
+  "citation": "DAO Rasuwa — Bhotekoshi flood section",
+  "body": "Official District Administration Office, Rasuwa section collecting Bhotekoshi flood notices: rescue, hospital treatment, missing, body collection, and related circulars. Site has नेपाली / English. Start here for district press releases.",
+  "kind": "pointer",
+  "themes": ["briefing", "rescue"]
+}
