@@ -62,9 +62,8 @@ const I18N = {
     homeCard3Desc: "Open the OPMCM or SETU form, then WhatsApp / email contacts for MoFA or embassies if needed.",
     homeCard4Title: "Bulletin",
     homeCard4Desc: "Authority notes and press releases, with links to the originals.",
-    homeBulletinKicker: "Live authority feed",
-    homeBulletinDesc:
-      "MoFA / MEA notes and posts from NDRRMA, police, embassies on X — refreshed about every 30 minutes. Always open the original.",
+    homeBulletinKicker: "Live",
+    homeBulletinDesc: "Official notes + authority posts on X · ~every 30 min",
     homeBulletinOfficialCta: "Official notes →",
     homeBulletinXCta: "Authority posts on X →",
     updatesSubtitle: "Authority notes, press releases, and portals — always open the original to confirm",
@@ -183,9 +182,8 @@ const I18N = {
     homeCard3Desc: "OPMCM वा SETU फारम खोल्नुहोस् — त्यसपछि MoFA / दूतावासका लागि व्हाट्सएप / इमेल।",
     homeCard4Title: "बुलेटिन",
     homeCard4Desc: "आधिकारिक नोट र प्रेस विज्ञप्ति, मूल लिङ्कसहित।",
-    homeBulletinKicker: "लाइभ आधिकारिक फिड",
-    homeBulletinDesc:
-      "MoFA / MEA नोट र NDRRMA, प्रहरी, दूतावासका X पोस्ट — करिब ३० मिनेटमा अपडेट। सधैं मूल खोल्नुहोस्।",
+    homeBulletinKicker: "लाइभ",
+    homeBulletinDesc: "आधिकारिक नोट + X मा प्राधिकरण पोस्ट · करिब ३० मिनेट",
     homeBulletinOfficialCta: "आधिकारिक नोट →",
     homeBulletinXCta: "X मा प्राधिकरण पोस्ट →",
     updatesSubtitle: "आधिकारिक नोट, प्रेस विज्ञप्ति र पोर्टल — पुष्टिका लागि सधैं मूल खोल्नुहोस्",
@@ -481,8 +479,8 @@ async function enhanceBulletinVisibility() {
     const meta = document.getElementById("bulletin-spotlight-meta");
     if (meta) {
       const parts = [];
-      if (offN) parts.push(`${offN} official notes`);
-      if (twN) parts.push(`${twN} authority posts on X`);
+      if (offN) parts.push(`${offN} official`);
+      if (twN) parts.push(`${twN} on X`);
       if (checked) {
         try {
           const when = new Intl.DateTimeFormat("en-GB", {
@@ -493,12 +491,12 @@ async function enhanceBulletinVisibility() {
             minute: "2-digit",
             hour12: true,
           }).format(new Date(checked));
-          parts.push(`Checked ${when}`);
+          parts.push(when);
         } catch (e) {
           /* ignore */
         }
       }
-      meta.textContent = parts.join(" · ");
+      if (parts.length) meta.textContent = parts.join(" · ");
     }
   } catch (e) {
     /* ignore — spotlight still works without meta */
