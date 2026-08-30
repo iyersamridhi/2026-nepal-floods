@@ -75,7 +75,7 @@ const I18N = {
     themeBriefing: "Briefings / updates",
     tabOfficial: "Official notes",
     tabTwitter: "Authority posts (X)",
-    officialHint: "Summaries from MoFA, MEA, and other official pages. Numbers can change — open the original source to confirm. If MoFA has not published a newer daily note yet, the newest item may still be from the previous day.",
+    officialHint: "Summaries from MoFA, MEA, and other official pages. Numbers can change — open the original to confirm.",
     twitterHint:
       "Short notes from authority X accounts, with links to the originals. Numbers move fast — open the post to confirm.",
     officialEmpty: "No official notes loaded yet.",
