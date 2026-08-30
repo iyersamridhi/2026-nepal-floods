@@ -115,5 +115,35 @@
     "tweetId": "manual-indemb",
     "sourceUrl": "https://www.indembkathmandu.gov.in",
     "text": "Embassy of India, Kathmandu is coordinating with Nepalese authorities on search and rescue for Indian nationals affected by flash floods in Rasuwa / Bhotekoshi area. Contact MEA control room or Embassy for assistance."
+  },
+  {
+    "handle": "journoprk",
+    "name": "Parshuram Kaphle",
+    "role": "journalist",
+    "region": ["nepal", "tibet"],
+    "timestamp": "2026-08-26T14:00:00+05:45",
+    "tweetId": "2092497659047379186",
+    "sourceUrl": "https://x.com/journoprk/status/2092497659047379186",
+    "text": "Nepali journalist on the Rasuwa / Bhote Koshi flash flood: questions early-warning gaps from across the northern border after devastating flooding. Not an official statement — verify with MoFA / NDRRMA."
+  },
+  {
+    "handle": "kathmandupost",
+    "name": "The Kathmandu Post",
+    "role": "journalist",
+    "region": ["nepal"],
+    "timestamp": "2026-08-28T12:00:00+05:45",
+    "tweetId": "manual-kpost-nuwakot",
+    "sourceUrl": "https://kathmandupost.com/national/2026/08/28/in-nuwakot-s-flooded-villages-grief-comes-before-rescue",
+    "text": "Kathmandu Post ground reporting from Nuwakot’s flooded villages after the Bhotekoshi flood — relief delayed in places; search for bodies continuing. Open the article for full context; not an official missing list."
+  },
+  {
+    "handle": "ndtv",
+    "name": "NDTV",
+    "role": "journalist",
+    "region": ["nepal", "india", "foreign"],
+    "timestamp": "2026-08-27T16:00:00+05:45",
+    "tweetId": "manual-ndtv-rasuwa",
+    "sourceUrl": "https://www.ndtv.com/world-news/ndtv-ground-report-from-rasuwa-the-worst-flood-hit-district-in-nepal-11977305",
+    "text": "NDTV ground report from Rasuwa — debris, washed-out markets, and rescue scene after glacial collapse / debris flow along Bhotekoshi and Trishuli. Journalistic coverage; confirm figures with NDRRMA / MoFA."
   }
 ]

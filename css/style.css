@@ -831,6 +831,11 @@ header.site-header .subtitle {
   color: #1565c0;
 }
 
+.badge-journalist {
+  background: #fdecea;
+  color: #9b1c1c;
+}
+
 .badge-portal {
   background: #f3f4f6;
   color: #4b5563;
@@ -2153,8 +2158,8 @@ body[data-page="home"] .home-spotlight .section-block {
 
 .tab-bar-split {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.45rem;
   border-bottom: none;
   margin: 0.35rem 0 0.85rem;
 }
@@ -2164,14 +2169,16 @@ body[data-page="home"] .home-spotlight .section-block {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: #f7f9fc;
-  padding: 0.75rem 0.9rem;
+  padding: 0.65rem 0.55rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 0.35rem 0.5rem;
+  gap: 0.3rem 0.4rem;
   color: var(--nepal-blue-deep);
-  font-size: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.25;
+  text-align: center;
 }
 
 .tab-bar-split .tab:hover {
@@ -2197,6 +2204,17 @@ body[data-page="home"] .home-spotlight .section-block {
   border-color: #0f1419;
 }
 
+.tab-bar-split .tab.tab-journalists:not(.active) {
+  border-color: #c8102e;
+  color: #8a0f22;
+  background: #fff5f6;
+}
+
+.tab-bar-split .tab.tab-journalists.active {
+  background: #8a0f22;
+  border-color: #8a0f22;
+}
+
 .tab-count {
   display: inline-flex;
   min-width: 1.5rem;
@@ -2215,4 +2233,17 @@ body[data-page="home"] .home-spotlight .section-block {
 
 .tab-count:empty {
   display: none;
+}
+
+@media (max-width: 640px) {
+  .tab-bar-split {
+    grid-template-columns: 1fr;
+  }
+
+  .tab-bar-split .tab {
+    justify-content: space-between;
+    text-align: left;
+    padding: 0.7rem 0.85rem;
+    font-size: 0.95rem;
+  }
 }

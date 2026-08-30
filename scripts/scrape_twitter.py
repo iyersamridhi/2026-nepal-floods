@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Fetch authority tweets → data/twitter_bulletin.json (separate from official news).
+Fetch authority + journalist tweets → data/twitter_bulletin.json (separate from official news).
 
 Requires TWITTER_BEARER_TOKEN for live fetch.
-Manual tweets: add to data/seeds/twitter_manual.json
+Accounts in data/sources.json twitter.accounts use role=authority|journalist.
+Manual tweets: add to data/seeds/twitter_manual.json (optional role field).
 
 Grok (XAI_API_KEY): summarizes new tweets only.
 """
@@ -153,16 +154,29 @@ def assign_themes(text: str) -> list[str]:
     return themes or ["briefing"]
 
 
-def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text: str, created_at: str, cache: dict, force: bool, source_url: str | None = None) -> tuple[dict, bool]:
+def build_tweet_item(
+    handle: str,
+    name: str,
+    regions: list,
+    tweet_id: str,
+    text: str,
+    created_at: str,
+    cache: dict,
+    force: bool,
+    source_url: str | None = None,
+    role: str = "authority",
+) -> tuple[dict, bool]:
     url = source_url or f"https://x.com/{handle}/status/{tweet_id}"
     tid = f"twitter-{tweet_id}"
     ch = tweet_hash(text)
     cached = cache.get(tid, {})
+    role = role if role in ("authority", "journalist") else "authority"
 
     if cached.get("contentHash") == ch and cached.get("item") and not force:
         item = dict(cached["item"])
         item["summary"] = strip_summary_urls(item.get("summary", ""))
         item.setdefault("themes", assign_themes(f"{item.get('summary','')} {text}"))
+        item["role"] = role
         item["scrapeMethod"] = "cached"
         return item, False
 
@@ -191,6 +205,7 @@ def build_tweet_item(handle: str, name: str, regions: list, tweet_id: str, text:
         "summary": summary,
         "citation": f"Tweet by @{handle}",
         "themes": assign_themes(f"{summary} {text}"),
+        "role": role,
         "scrapeMethod": method,
         "contentHash": ch,
     }
@@ -221,6 +236,7 @@ def load_manual_seeds(cache: dict, force: bool) -> tuple[list[dict], bool]:
             cache,
             force,
             s.get("sourceUrl"),
+            s.get("role", "authority"),
         )
         items.append(item)
         if changed:
@@ -250,6 +266,7 @@ def main():
                 break
             handle = acct["handle"]
             priority = acct.get("priority", "related")
+            role = acct.get("role", "authority")
             try:
                 tweets = fetch_user_tweets(
                     handle,
@@ -280,6 +297,8 @@ def main():
                     tw.get("created_at", ""),
                     cache,
                     force,
+                    None,
+                    role,
                 )
                 items.append(item)
                 if changed:
@@ -312,9 +331,9 @@ def main():
     )
 
     note = (
-        "Authority Twitter/X posts — summarized with link. Verify on original tweet; not official confirmation."
+        "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation."
         if live_ok
-        else "Curated authority post summaries (live X API unavailable or unpaid). Follow accounts below for newest posts."
+        else "Curated X post summaries (live API unavailable or unpaid). Follow accounts below for newest posts."
     )
 
     if not any_changed and TWITTER_BULLETIN.exists() and not force:

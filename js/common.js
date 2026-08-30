@@ -63,10 +63,11 @@ const I18N = {
     homeCard4Title: "Bulletin",
     homeCard4Desc: "Authority notes and press releases, with links to the originals.",
     homeBulletinKicker: "Live",
-    homeBulletinDesc: "Official notes + authority posts on X · ~every 30 min",
+    homeBulletinDesc: "Official notes, authority & journalist posts on X · ~every 30 min",
     homeBulletinOfficialCta: "Official notes →",
-    homeBulletinXCta: "Authority posts on X →",
-    updatesSubtitle: "Authority notes, press releases, and portals — always open the original to confirm",
+    homeBulletinXCta: "Authority on X →",
+    homeBulletinJournalistsCta: "Journalists on X →",
+    updatesSubtitle: "Authority notes, journalist reporting, and portals — always open the original to confirm",
     updatesFilterLabel: "Filter by region",
     updatesThemeLabel: "Themes (tap several to combine)",
     themeAll: "All themes",
@@ -78,16 +79,24 @@ const I18N = {
     themeContacts: "Contacts / hotlines",
     themeBriefing: "Briefings / updates",
     tabOfficial: "Official notes",
-    tabTwitter: "Authority posts on X",
+    tabTwitter: "Authority on X",
+    tabJournalists: "Journalists on X",
     officialHint: "Summaries from MoFA, MEA, and other official pages. Numbers can change — open the original to confirm.",
     twitterHint:
       "Short notes from authority X accounts, with links to the originals. Numbers move fast — open the post to confirm.",
+    journalistsHint:
+      "On-ground and news-desk reporting from journalists and outlets covering the floods. Not official — open the original and verify.",
     officialEmpty: "No official notes loaded yet.",
     twitterEmpty: "No authority posts loaded yet. Follow the accounts below for live updates.",
+    journalistsEmpty: "No journalist posts loaded yet. Follow the accounts below — or check back after the next refresh.",
     twitterFollow: "Follow official accounts",
     twitterFollowHint: "For the newest posts, follow these accounts directly on X.",
+    journalistsFollow: "Follow journalists & outlets",
+    journalistsFollowHint: "Field reporters and news desks covering Rasuwa / Bhotekoshi — verify before acting.",
     twitterLiveOff:
       "Live X fetch isn’t available right now, so this list may lag. Follow the accounts below for the newest posts.",
+    journalistsLiveOff:
+      "Live X fetch isn’t available right now, so journalist posts may lag. Follow the accounts below for the newest reporting.",
     officialPortalsTitle: "Where to check official lists",
     officialPortalsHint: "These are portals to search yourself — we do not copy case lists or photos here.",
     readOriginal: "Read original",
@@ -183,10 +192,11 @@ const I18N = {
     homeCard4Title: "बुलेटिन",
     homeCard4Desc: "आधिकारिक नोट र प्रेस विज्ञप्ति, मूल लिङ्कसहित।",
     homeBulletinKicker: "लाइभ",
-    homeBulletinDesc: "आधिकारिक नोट + X मा प्राधिकरण पोस्ट · करिब ३० मिनेट",
+    homeBulletinDesc: "आधिकारिक नोट, प्राधिकरण र पत्रकारका X पोस्ट · करिब ३० मिनेट",
     homeBulletinOfficialCta: "आधिकारिक नोट →",
-    homeBulletinXCta: "X मा प्राधिकरण पोस्ट →",
-    updatesSubtitle: "आधिकारिक नोट, प्रेस विज्ञप्ति र पोर्टल — पुष्टिका लागि सधैं मूल खोल्नुहोस्",
+    homeBulletinXCta: "X मा प्राधिकरण →",
+    homeBulletinJournalistsCta: "X मा पत्रकार →",
+    updatesSubtitle: "आधिकारिक नोट, पत्रकार रिपोर्ट र पोर्टल — पुष्टिका लागि सधैं मूल खोल्नुहोस्",
     updatesFilterLabel: "क्षेत्र अनुसार फिल्टर",
     updatesThemeLabel: "विषय (थपेर मिलाउन ट्याप)",
     themeAll: "सबै विषय",
@@ -198,16 +208,24 @@ const I18N = {
     themeContacts: "सम्पर्क / हटलाइन",
     themeBriefing: "ब्रीफिङ / अपडेट",
     tabOfficial: "आधिकारिक नोट",
-    tabTwitter: "X मा प्राधिकरण पोस्ट",
+    tabTwitter: "X मा प्राधिकरण",
+    tabJournalists: "X मा पत्रकार",
     officialHint: "MoFA, MEA र अन्य आधिकारिक पृष्ठबाट सारांश। अंक बदलिन सक्छन् — पुष्टिका लागि मूल स्रोत खोल्नुहोस्। MoFA ले नयाँ दैनिक अपडेट ननिकालेसम्म सबैभन्दा नयाँ आइटम अघिल्लो दिनको हुन सक्छ।",
     twitterHint:
       "प्राधिकरणका X पोस्टबाट छोटा नोट, मूल लिङ्कसहित। अंक बदलिन सक्छन् — पुष्टिका लागि मूल पोस्ट खोल्नुहोस्।",
+    journalistsHint:
+      "बाढी कभर गर्ने पत्रकार र समाचार डेस्कका स्थलगत रिपोर्ट। आधिकारिक होइन — मूल खोलेर पुष्टि गर्नुहोस्।",
     officialEmpty: "अहिलेसम्म आधिकारिक अपडेट छैन।",
     twitterEmpty: "अहिलेसम्म प्राधिकरण पोस्ट लोड भएको छैन। तलका खाता फलो गर्नुहोस्।",
+    journalistsEmpty: "अहिलेसम्म पत्रकार पोस्ट लोड भएको छैन। तलका खाता फलो गर्नुहोस् — वा अर्को रिफ्रेशपछि हेर्नुहोस्।",
     twitterFollow: "आधिकारिक खाता फलो गर्नुहोस्",
     twitterFollowHint: "नयाँ पोस्टका लागि यी खाता सिधै X मा फलो गर्नुहोस्।",
+    journalistsFollow: "पत्रकार र आउटलेट फलो गर्नुहोस्",
+    journalistsFollowHint: "रसुवा / भोटेकोशी कभर गर्ने स्थलगत पत्रकार — कार्य गर्नुअघि पुष्टि गर्नुहोस्।",
     twitterLiveOff:
       "अहिले लाइभ X उपलब्ध छैन — यो सूची ढिलो हुन सक्छ। नयाँ पोस्टका लागि तलका खाता फलो गर्नुहोस्।",
+    journalistsLiveOff:
+      "अहिले लाइभ X उपलब्ध छैन — पत्रकार पोस्ट ढिलो हुन सक्छ। नयाँ रिपोर्टका लागि तलका खाता फलो गर्नुहोस्।",
     officialPortalsTitle: "आधिकारिक सूची कहाँ जाँच गर्ने",
     officialPortalsHint: "यी पोर्टल आफैं खोज्नका लागि हुन् — हामी केस सूची वा फोटो कपी गर्दैनौं।",
     readOriginal: "मूल पढ्नुहोस्",
@@ -461,7 +479,30 @@ async function enhanceBulletinVisibility() {
     const official = offRes.ok ? await offRes.json() : null;
     const twitter = twRes.ok ? await twRes.json() : null;
     const offN = (official?.items || []).length;
-    const twN = (twitter?.items || []).length;
+    let roleByHandle = {};
+    try {
+      const srcRes = await fetch(`/data/sources.json?_=${Date.now()}`);
+      if (srcRes.ok) {
+        const src = await srcRes.json();
+        for (const acct of src.twitter?.accounts || []) {
+          if (!acct.handle) continue;
+          roleByHandle[String(acct.handle).toLowerCase()] =
+            acct.role === "journalist" ? "journalist" : "authority";
+        }
+      }
+    } catch (e) {
+      /* ignore */
+    }
+    const twItems = twitter?.items || [];
+    const resolveRole = (item) => {
+      if (item.role === "journalist" || item.role === "authority") return item.role;
+      const blob = `${item.source || ""} ${item.citation || ""} ${item.sourceUrl || ""}`;
+      const m = blob.match(/@([A-Za-z0-9_]+)/) || blob.match(/x\.com\/([A-Za-z0-9_]+)/i);
+      if (m && roleByHandle[m[1].toLowerCase()]) return roleByHandle[m[1].toLowerCase()];
+      return "authority";
+    };
+    const authN = twItems.filter((i) => resolveRole(i) !== "journalist").length;
+    const jnN = twItems.filter((i) => resolveRole(i) === "journalist").length;
     const checked = official?.generatedAt || twitter?.generatedAt;
     const fresh =
       checked && Date.now() - new Date(checked).getTime() < 3 * 60 * 60 * 1000;
@@ -480,7 +521,8 @@ async function enhanceBulletinVisibility() {
     if (meta) {
       const parts = [];
       if (offN) parts.push(`${offN} official`);
-      if (twN) parts.push(`${twN} on X`);
+      if (authN) parts.push(`${authN} authority`);
+      if (jnN) parts.push(`${jnN} journalists`);
       if (checked) {
         try {
           const when = new Intl.DateTimeFormat("en-GB", {

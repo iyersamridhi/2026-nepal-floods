@@ -1,44 +1,229 @@
 {
   "portals": [
-    { "name": "DAO Rasuwa — Bhotekoshi flood notices hub", "url": "https://daorasuwa.moha.gov.np/page/bha-ta-ka-sha-b-dha-bha-tha-ra", "region": "nepal" },
-    { "name": "DAO Rasuwa — hospital treatment (Rasuwa Hospital)", "url": "https://daorasuwa.moha.gov.np/en/page/b-dha-pa-rabha-va-tahara-ka-rasa-va-asa-pata-lma-bhaeka-upaca-ra-va-varanae", "region": "nepal" },
-    { "name": "DAO Rasuwa — missing persons list", "url": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-ka-ranae-b-pata-ta-bhaeka-va-varanae", "region": "nepal" },
-    { "name": "DAO Rasuwa — body collection list", "url": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-shava-sa-kalna-va-varanae", "region": "nepal" },
-    { "name": "DAO Rasuwa — uncontacted persons notice", "url": "https://daorasuwa.moha.gov.np/page/b-dha-pasha-ca-ta-sama-para-kama-naaaeka-va-yaka-ta-hara-ka-va-varanae-upalb", "region": "nepal" },
-    { "name": "OPMCM Rasuwa Flood Rescue Portal (home)", "url": "https://rescue.opmcm.gov.np/", "region": "nepal" },
-    { "name": "OPMCM — missing / found persons", "url": "https://rescue.opmcm.gov.np/person-lost-found", "region": "nepal" },
-    { "name": "OPMCM — request help", "url": "https://rescue.opmcm.gov.np/ask-help", "region": "nepal" },
-    { "name": "OPMCM — help requests board", "url": "https://rescue.opmcm.gov.np/help-requests", "region": "nepal" },
-    { "name": "OPMCM — emergency contacts", "url": "https://rescue.opmcm.gov.np/emergency-contacts", "region": "nepal" },
-    { "name": "Nepal Police — Found persons", "url": "https://udb.nepalpolice.gov.np/found", "region": "nepal" },
-    { "name": "Nepal Police — Missing persons", "url": "https://udb.nepalpolice.gov.np/missing", "region": "nepal" },
-    { "name": "Nepal Police — Unidentified remains", "url": "https://udb.nepalpolice.gov.np/dead-bodies", "region": "nepal" },
-    { "name": "NDRRMA rescue updates", "url": "https://ndrrma.gov.np/np/rescue", "region": "nepal" },
-    { "name": "NDRRMA — injured under treatment (Kathmandu hospitals)", "url": "https://ndrrma.gov.np/np/notice-information", "region": "nepal" },
-    { "name": "NDRRMA — injured discharged after treatment", "url": "https://ndrrma.gov.np/np/misc-report", "region": "nepal" },
-    { "name": "SETU — Request help (missing/rescue form)", "url": "https://setu.ndrrma.gov.np/admin/help.php", "region": "nepal" },
-    { "name": "SETU rescued & missing list", "url": "https://setu.ndrrma.gov.np", "region": "nepal" },
-    { "name": "MoFA — Flash flood updates (daily)", "url": "https://mofa.gov.np/category/flashflood/", "region": "nepal" },
-    { "name": "MoFA — ECR notice (foreign nationals)", "url": "https://mofa.gov.np/content/1862/notice--emergency-response-team-for-assistance-regarding/", "region": "nepal" },
-    { "name": "MoFA — Latest update 28 Aug", "url": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/", "region": "nepal" },
-    { "name": "India MEA — Special Control Room (Nepal floods)", "url": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation", "region": "india" },
-    { "name": "Embassy of India, Kathmandu", "url": "https://www.indembkathmandu.gov.in", "region": "india" },
-    { "name": "Xinhua — Gyirong rescue coverage", "url": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html", "region": "tibet" },
-    { "name": "NESRA FloodWatch — Rasuwa 2026 situation (non-government)", "url": "https://nesraspace.org/floodwatch/rasuwa-2026/", "region": "situational" },
-    { "name": "Sodhera — community missing / found board", "url": "https://flood.sodhera.com/", "region": "community" },
-    { "name": "Hemkunt Foundation — report / public list", "url": "https://web-production-5f11e.up.railway.app/", "region": "community" },
-    { "name": "Hemkunt Foundation — update a case", "url": "https://web-production-5f11e.up.railway.app/update", "region": "community" },
-    { "name": "Chinese Embassy in Nepal", "url": "https://np.china-embassy.gov.cn/eng/lxwm/", "region": "tibet" }
+    {
+      "name": "DAO Rasuwa — Bhotekoshi flood notices hub",
+      "url": "https://daorasuwa.moha.gov.np/page/bha-ta-ka-sha-b-dha-bha-tha-ra",
+      "region": "nepal"
+    },
+    {
+      "name": "DAO Rasuwa — hospital treatment (Rasuwa Hospital)",
+      "url": "https://daorasuwa.moha.gov.np/en/page/b-dha-pa-rabha-va-tahara-ka-rasa-va-asa-pata-lma-bhaeka-upaca-ra-va-varanae",
+      "region": "nepal"
+    },
+    {
+      "name": "DAO Rasuwa — missing persons list",
+      "url": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-ka-ranae-b-pata-ta-bhaeka-va-varanae",
+      "region": "nepal"
+    },
+    {
+      "name": "DAO Rasuwa — body collection list",
+      "url": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-shava-sa-kalna-va-varanae",
+      "region": "nepal"
+    },
+    {
+      "name": "DAO Rasuwa — uncontacted persons notice",
+      "url": "https://daorasuwa.moha.gov.np/page/b-dha-pasha-ca-ta-sama-para-kama-naaaeka-va-yaka-ta-hara-ka-va-varanae-upalb",
+      "region": "nepal"
+    },
+    {
+      "name": "OPMCM Rasuwa Flood Rescue Portal (home)",
+      "url": "https://rescue.opmcm.gov.np/",
+      "region": "nepal"
+    },
+    {
+      "name": "OPMCM — missing / found persons",
+      "url": "https://rescue.opmcm.gov.np/person-lost-found",
+      "region": "nepal"
+    },
+    {
+      "name": "OPMCM — request help",
+      "url": "https://rescue.opmcm.gov.np/ask-help",
+      "region": "nepal"
+    },
+    {
+      "name": "OPMCM — help requests board",
+      "url": "https://rescue.opmcm.gov.np/help-requests",
+      "region": "nepal"
+    },
+    {
+      "name": "OPMCM — emergency contacts",
+      "url": "https://rescue.opmcm.gov.np/emergency-contacts",
+      "region": "nepal"
+    },
+    {
+      "name": "Nepal Police — Found persons",
+      "url": "https://udb.nepalpolice.gov.np/found",
+      "region": "nepal"
+    },
+    {
+      "name": "Nepal Police — Missing persons",
+      "url": "https://udb.nepalpolice.gov.np/missing",
+      "region": "nepal"
+    },
+    {
+      "name": "Nepal Police — Unidentified remains",
+      "url": "https://udb.nepalpolice.gov.np/dead-bodies",
+      "region": "nepal"
+    },
+    {
+      "name": "NDRRMA rescue updates",
+      "url": "https://ndrrma.gov.np/np/rescue",
+      "region": "nepal"
+    },
+    {
+      "name": "NDRRMA — injured under treatment (Kathmandu hospitals)",
+      "url": "https://ndrrma.gov.np/np/notice-information",
+      "region": "nepal"
+    },
+    {
+      "name": "NDRRMA — injured discharged after treatment",
+      "url": "https://ndrrma.gov.np/np/misc-report",
+      "region": "nepal"
+    },
+    {
+      "name": "SETU — Request help (missing/rescue form)",
+      "url": "https://setu.ndrrma.gov.np/admin/help.php",
+      "region": "nepal"
+    },
+    {
+      "name": "SETU rescued & missing list",
+      "url": "https://setu.ndrrma.gov.np",
+      "region": "nepal"
+    },
+    {
+      "name": "MoFA — Flash flood updates (daily)",
+      "url": "https://mofa.gov.np/category/flashflood/",
+      "region": "nepal"
+    },
+    {
+      "name": "MoFA — ECR notice (foreign nationals)",
+      "url": "https://mofa.gov.np/content/1862/notice--emergency-response-team-for-assistance-regarding/",
+      "region": "nepal"
+    },
+    {
+      "name": "MoFA — Latest update 28 Aug",
+      "url": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/",
+      "region": "nepal"
+    },
+    {
+      "name": "India MEA — Special Control Room (Nepal floods)",
+      "url": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
+      "region": "india"
+    },
+    {
+      "name": "Embassy of India, Kathmandu",
+      "url": "https://www.indembkathmandu.gov.in",
+      "region": "india"
+    },
+    {
+      "name": "Xinhua — Gyirong rescue coverage",
+      "url": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html",
+      "region": "tibet"
+    },
+    {
+      "name": "NESRA FloodWatch — Rasuwa 2026 situation (non-government)",
+      "url": "https://nesraspace.org/floodwatch/rasuwa-2026/",
+      "region": "situational"
+    },
+    {
+      "name": "Sodhera — community missing / found board",
+      "url": "https://flood.sodhera.com/",
+      "region": "community"
+    },
+    {
+      "name": "Hemkunt Foundation — report / public list",
+      "url": "https://web-production-5f11e.up.railway.app/",
+      "region": "community"
+    },
+    {
+      "name": "Hemkunt Foundation — update a case",
+      "url": "https://web-production-5f11e.up.railway.app/update",
+      "region": "community"
+    },
+    {
+      "name": "Chinese Embassy in Nepal",
+      "url": "https://np.china-embassy.gov.cn/eng/lxwm/",
+      "region": "tibet"
+    }
   ],
   "twitter": [
-    { "name": "NDRRMA Nepal", "url": "https://x.com/NDRRMA_Nepal" },
-    { "name": "Ministry of Home Affairs Nepal", "url": "https://x.com/moha_nepal" },
-    { "name": "Nepal Police", "url": "https://x.com/NepalPoliceHQ" },
-    { "name": "MoFA Nepal", "url": "https://x.com/MoFANepal" },
-    { "name": "MEA India", "url": "https://x.com/MEAIndia" },
-    { "name": "Embassy of India Kathmandu", "url": "https://x.com/IndiainNepal" },
-    { "name": "Embassy of India Beijing", "url": "https://x.com/EOIBeijing" },
-    { "name": "Nepal Army", "url": "https://x.com/NepalArmyHQ" },
-    { "name": "US Embassy Nepal", "url": "https://x.com/USEmbassyNepal" }
+    {
+      "name": "NDRRMA Nepal",
+      "url": "https://x.com/NDRRMA_Nepal"
+    },
+    {
+      "name": "Ministry of Home Affairs Nepal",
+      "url": "https://x.com/moha_nepal"
+    },
+    {
+      "name": "Nepal Police",
+      "url": "https://x.com/NepalPoliceHQ"
+    },
+    {
+      "name": "MoFA Nepal",
+      "url": "https://x.com/MoFANepal"
+    },
+    {
+      "name": "MEA India",
+      "url": "https://x.com/MEAIndia"
+    },
+    {
+      "name": "Embassy of India Kathmandu",
+      "url": "https://x.com/IndiainNepal"
+    },
+    {
+      "name": "Embassy of India Beijing",
+      "url": "https://x.com/EOIBeijing"
+    },
+    {
+      "name": "Nepal Army",
+      "url": "https://x.com/NepalArmyHQ"
+    },
+    {
+      "name": "US Embassy Nepal",
+      "url": "https://x.com/USEmbassyNepal"
+    }
+  ],
+  "twitterJournalists": [
+    {
+      "name": "Parshuram Kaphle",
+      "url": "https://x.com/journoprk"
+    },
+    {
+      "name": "The Kathmandu Post",
+      "url": "https://x.com/kathmandupost"
+    },
+    {
+      "name": "Online Khabar",
+      "url": "https://x.com/Online_khabar"
+    },
+    {
+      "name": "Online Khabar (EN)",
+      "url": "https://x.com/OnlineKhabar_En"
+    },
+    {
+      "name": "Setopati",
+      "url": "https://x.com/setopati"
+    },
+    {
+      "name": "Republica",
+      "url": "https://x.com/myrepublica"
+    },
+    {
+      "name": "The Himalayan Times",
+      "url": "https://x.com/thehimalayan"
+    },
+    {
+      "name": "BBC Nepali",
+      "url": "https://x.com/BBCNepali"
+    },
+    {
+      "name": "Naya Patrika",
+      "url": "https://x.com/NAYA_PATRIKA"
+    },
+    {
+      "name": "NDTV",
+      "url": "https://x.com/ndtv"
+    }
   ]
 }

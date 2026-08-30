@@ -62,6 +62,8 @@ const state = {
   tab: "official",
   officialItems: [],
   twitterItems: [],
+  journalistItems: [],
+  roleByHandle: {},
   filter: "all",
   /** empty = all themes; otherwise OR-match any selected id */
   themes: new Set(),
@@ -105,8 +107,14 @@ function matchesTheme(item) {
 }
 
 function refreshVisibleMeta() {
-  const meta = document.getElementById(state.tab === "twitter" ? "twitter-meta" : "official-meta");
-  const items = (state.tab === "twitter" ? state.twitterItems : state.officialItems).filter(matchesTheme);
+  const metaId =
+    state.tab === "twitter"
+      ? "twitter-meta"
+      : state.tab === "journalists"
+        ? "journalists-meta"
+        : "official-meta";
+  const meta = document.getElementById(metaId);
+  const items = activeTabItems().filter(matchesTheme);
   if (!meta) return;
   const checked = (meta.textContent || "").split(" · ")[0] || "";
   const countPart = `${items.length} update${items.length === 1 ? "" : "s"}`;
@@ -121,20 +129,57 @@ function refreshVisibleMeta() {
   }
 }
 
+function activeTabItems() {
+  if (state.tab === "twitter") return state.twitterItems;
+  if (state.tab === "journalists") return state.journalistItems;
+  return state.officialItems;
+}
+
+function resolveItemRole(item) {
+  if (item.role === "journalist" || item.role === "authority") return item.role;
+  const blob = `${item.source || ""} ${item.citation || ""} ${item.sourceUrl || ""}`;
+  const m = blob.match(/@([A-Za-z0-9_]+)/) || blob.match(/x\.com\/([A-Za-z0-9_]+)/i);
+  if (m) {
+    const role = state.roleByHandle[m[1].toLowerCase()];
+    if (role) return role;
+  }
+  return "authority";
+}
+
+async function loadAccountRoles() {
+  try {
+    const res = await fetch(`/data/sources.json?_=${Date.now()}`);
+    if (!res.ok) return;
+    const data = await res.json();
+    const map = {};
+    for (const acct of data.twitter?.accounts || []) {
+      if (!acct.handle) continue;
+      map[String(acct.handle).toLowerCase()] = acct.role === "journalist" ? "journalist" : "authority";
+    }
+    state.roleByHandle = map;
+  } catch (e) {
+    state.roleByHandle = {};
+  }
+}
+
 async function loadBulletins() {
   state.filter = document.getElementById("region-filter")?.value || "all";
+  await loadAccountRoles();
   await Promise.all([loadOfficialBulletin(), loadTwitterBulletin()]);
   updateTabCounts();
   renderThemeChips();
   renderOfficialList();
   if (state.tab === "twitter") renderTwitterList();
+  if (state.tab === "journalists") renderJournalistList();
 }
 
 function updateTabCounts() {
   const off = document.getElementById("tab-count-official");
   const tw = document.getElementById("tab-count-twitter");
+  const jn = document.getElementById("tab-count-journalists");
   if (off) off.textContent = String(state.officialItems.length || "");
   if (tw) tw.textContent = String(state.twitterItems.length || "");
+  if (jn) jn.textContent = String(state.journalistItems.length || "");
 }
 
 async function loadOfficialBulletin() {
@@ -165,6 +210,8 @@ async function loadOfficialBulletin() {
 async function loadTwitterBulletin() {
   const meta = document.getElementById("twitter-meta");
   const hint = document.getElementById("twitter-hint");
+  const jMeta = document.getElementById("journalists-meta");
+  const jHint = document.getElementById("journalists-hint");
   try {
     const res = await fetch(`/data/twitter_bulletin.json?_=${Date.now()}`);
     const data = await res.json();
@@ -173,16 +220,26 @@ async function loadTwitterBulletin() {
       items = items.filter((u) => (u.region || []).includes(state.filter));
     }
     items = sortBulletinItems(items);
-    state.twitterItems = items;
-    const visible = items.filter(matchesTheme);
-    if (meta) meta.textContent = formatMeta(data, visible.length, visible);
+    state.twitterItems = items.filter((i) => resolveItemRole(i) !== "journalist");
+    state.journalistItems = items.filter((i) => resolveItemRole(i) === "journalist");
+
+    const twVisible = state.twitterItems.filter(matchesTheme);
+    const jVisible = state.journalistItems.filter(matchesTheme);
+    if (meta) meta.textContent = formatMeta(data, twVisible.length, twVisible);
+    if (jMeta) jMeta.textContent = formatMeta(data, jVisible.length, jVisible);
     if (hint) {
       hint.textContent = data.liveFetch === false ? t("twitterLiveOff") : t("twitterHint");
     }
+    if (jHint) {
+      jHint.textContent = data.liveFetch === false ? t("journalistsLiveOff") : t("journalistsHint");
+    }
   } catch (e) {
     state.twitterItems = [];
+    state.journalistItems = [];
     if (meta) meta.textContent = "";
+    if (jMeta) jMeta.textContent = "";
     if (hint) hint.textContent = t("twitterLiveOff");
+    if (jHint) jHint.textContent = t("journalistsLiveOff");
   }
 }
 
@@ -199,7 +256,7 @@ function sortBulletinItems(items) {
 function renderThemeChips() {
   const el = document.getElementById("theme-chips");
   if (!el) return;
-  const pool = state.tab === "twitter" ? state.twitterItems : state.officialItems;
+  const pool = activeTabItems();
   const counts = { all: pool.length };
   THEMES.forEach((th) => {
     if (th.id === "all") return;
@@ -227,6 +284,7 @@ function renderThemeChips() {
       }
       renderThemeChips();
       if (state.tab === "twitter") renderTwitterList();
+      else if (state.tab === "journalists") renderJournalistList();
       else renderOfficialList();
       refreshVisibleMeta();
     });
@@ -267,17 +325,31 @@ async function renderTwitterList() {
   if (!items.length) {
     container.innerHTML = `<div class="empty-state">${escapeHtml(t("twitterEmpty"))}</div>`;
   } else {
-    container.innerHTML = `<div class="updates-grid">${items.map((u) => renderItem(u, true)).join("")}</div>`;
+    container.innerHTML = `<div class="updates-grid">${items.map((u) => renderItem(u, "authority")).join("")}</div>`;
   }
-  await renderTwitterAccounts(accountsEl);
+  await renderFollowAccounts(accountsEl, "twitter", "twitterFollow", "twitterFollowHint");
 }
 
-async function renderTwitterAccounts(el) {
+async function renderJournalistList() {
+  const container = document.getElementById("journalists-list");
+  const accountsEl = document.getElementById("journalists-accounts");
+  if (!container) return;
+
+  const items = state.journalistItems.filter(matchesTheme);
+  if (!items.length) {
+    container.innerHTML = `<div class="empty-state">${escapeHtml(t("journalistsEmpty"))}</div>`;
+  } else {
+    container.innerHTML = `<div class="updates-grid">${items.map((u) => renderItem(u, "journalist")).join("")}</div>`;
+  }
+  await renderFollowAccounts(accountsEl, "twitterJournalists", "journalistsFollow", "journalistsFollowHint");
+}
+
+async function renderFollowAccounts(el, resourceKey, titleKey, hintKey) {
   if (!el) return;
   try {
     const res = await fetch("/data/resources.json");
     const data = await res.json();
-    const accounts = data.twitter || [];
+    const accounts = data[resourceKey] || [];
     if (!accounts.length) {
       el.hidden = true;
       return;
@@ -285,8 +357,8 @@ async function renderTwitterAccounts(el) {
 
     el.hidden = false;
     el.innerHTML = `
-      <h3 class="account-grid-title">${escapeHtml(t("twitterFollow"))}</h3>
-      <p class="form-hint">${escapeHtml(t("twitterFollowHint"))}</p>
+      <h3 class="account-grid-title">${escapeHtml(t(titleKey))}</h3>
+      <p class="form-hint">${escapeHtml(t(hintKey))}</p>
       <div class="account-grid-inner">
         ${accounts
           .map(
@@ -345,15 +417,18 @@ function stripSummaryUrls(text) {
   return cleaned.replace(/[ \t]{2,}/g, " ").replace(/\n{3,}/g, "\n\n").trim().replace(/[:–-]+$/, "").trim();
 }
 
-function renderItem(u, isTwitter) {
+function renderItem(u, feedKind) {
   const when = formatStamp(u.timestamp, u.publishedLabel);
   const source = shortSource(u.source);
   const isPointer = u.kind === "pointer";
-  const badge = isTwitter
-    ? `<span class="badge badge-twitter">X / Twitter</span>`
-    : isPointer
-      ? `<span class="badge badge-portal">Official portal</span>`
-      : `<span class="badge badge-official">Official note</span>`;
+  const badge =
+    feedKind === "journalist"
+      ? `<span class="badge badge-journalist">Journalist</span>`
+      : feedKind === "authority" || feedKind === true
+        ? `<span class="badge badge-twitter">X / Twitter</span>`
+        : isPointer
+          ? `<span class="badge badge-portal">Official portal</span>`
+          : `<span class="badge badge-official">Official note</span>`;
   const summary = stripSummaryUrls(u.summary);
   const themes = (u.themes || []).slice(0, 4);
   const themeHtml = themes.length
@@ -464,6 +539,7 @@ function switchTab(tab) {
   });
   renderThemeChips();
   if (tab === "twitter") renderTwitterList();
+  else if (tab === "journalists") renderJournalistList();
   else renderOfficialList();
   refreshVisibleMeta();
 }
@@ -479,11 +555,13 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("langchange", () => {
     renderThemeChips();
     if (state.tab === "twitter") renderTwitterList();
+    else if (state.tab === "journalists") renderJournalistList();
     else renderOfficialList();
   });
 
   const hash = window.location.hash.replace("#", "");
   if (hash === "twitter") switchTab("twitter");
+  else if (hash === "journalists") switchTab("journalists");
 
   loadBulletins();
 });

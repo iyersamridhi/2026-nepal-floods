@@ -47,7 +47,7 @@ The workflow runs every 30 minutes (`.github/workflows/refresh-bulletin.yml`). E
 
 ```bash
 python3 scripts/scrape_official.py   # MoFA → data/bulletin.json
-python3 scripts/scrape_twitter.py    # Authority posts → data/twitter_bulletin.json
+python3 scripts/scrape_twitter.py    # Authority + journalist X posts → data/twitter_bulletin.json
 ./scripts/refresh.sh                 # both
 ```
 

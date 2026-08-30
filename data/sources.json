@@ -198,7 +198,7 @@
   },
   "twitter": {
     "enabled": true,
-    "note": "Live fetch when TWITTER_BEARER_TOKEN is set. Soft-filter with wide EN+Nepali flood keywords; disaster-primary accounts keep broader matches; MEA/embassy require Nepal-flood relevance.",
+    "note": "Live fetch when TWITTER_BEARER_TOKEN is set. Soft-filter with wide EN+Nepali flood keywords; disaster-primary authority accounts keep broader matches; MEA/embassy/journalist accounts require Nepal-flood relevance. role=authority vs journalist splits the Bulletin X tabs.",
     "accounts": [
       {
         "handle": "NDRRMA_Nepal",
@@ -206,7 +206,8 @@
         "region": [
           "nepal"
         ],
-        "priority": "disaster"
+        "priority": "disaster",
+        "role": "authority"
       },
       {
         "handle": "NepalPoliceHQ",
@@ -214,7 +215,8 @@
         "region": [
           "nepal"
         ],
-        "priority": "disaster"
+        "priority": "disaster",
+        "role": "authority"
       },
       {
         "handle": "MoFANepal",
@@ -223,7 +225,8 @@
           "nepal",
           "foreign"
         ],
-        "priority": "disaster"
+        "priority": "disaster",
+        "role": "authority"
       },
       {
         "handle": "moha_nepal",
@@ -231,7 +234,8 @@
         "region": [
           "nepal"
         ],
-        "priority": "disaster"
+        "priority": "disaster",
+        "role": "authority"
       },
       {
         "handle": "NepalArmyHQ",
@@ -239,7 +243,8 @@
         "region": [
           "nepal"
         ],
-        "priority": "disaster"
+        "priority": "disaster",
+        "role": "authority"
       },
       {
         "handle": "IndiainNepal",
@@ -248,7 +253,8 @@
           "india",
           "nepal"
         ],
-        "priority": "related"
+        "priority": "related",
+        "role": "authority"
       },
       {
         "handle": "EOIBeijing",
@@ -258,7 +264,8 @@
           "india",
           "foreign"
         ],
-        "priority": "related"
+        "priority": "related",
+        "role": "authority"
       },
       {
         "handle": "MEAIndia",
@@ -266,7 +273,8 @@
         "region": [
           "india"
         ],
-        "priority": "related"
+        "priority": "related",
+        "role": "authority"
       },
       {
         "handle": "USEmbassyNepal",
@@ -274,7 +282,8 @@
         "region": [
           "foreign"
         ],
-        "priority": "related"
+        "priority": "related",
+        "role": "authority"
       },
       {
         "handle": "NepalTourismBoard",
@@ -283,7 +292,104 @@
           "nepal",
           "foreign"
         ],
-        "priority": "related"
+        "priority": "related",
+        "role": "authority"
+      },
+      {
+        "handle": "journoprk",
+        "name": "Parshuram Kaphle",
+        "region": [
+          "nepal",
+          "tibet"
+        ],
+        "priority": "related",
+        "role": "journalist",
+        "note": "Naya Patrika — foreign/strategic affairs; ground commentary on Rasuwa floods"
+      },
+      {
+        "handle": "kathmandupost",
+        "name": "The Kathmandu Post",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "Online_khabar",
+        "name": "Online Khabar",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "OnlineKhabar_En",
+        "name": "Online Khabar (EN)",
+        "region": [
+          "nepal",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "setopati",
+        "name": "Setopati",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "myrepublica",
+        "name": "Republica",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "thehimalayan",
+        "name": "The Himalayan Times",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "BBCNepali",
+        "name": "BBC Nepali",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "NAYA_PATRIKA",
+        "name": "Naya Patrika",
+        "region": [
+          "nepal"
+        ],
+        "priority": "related",
+        "role": "journalist"
+      },
+      {
+        "handle": "ndtv",
+        "name": "NDTV",
+        "region": [
+          "nepal",
+          "india",
+          "foreign"
+        ],
+        "priority": "related",
+        "role": "journalist",
+        "note": "India desk — Rasuwa ground reports"
       }
     ],
     "keywords": [
