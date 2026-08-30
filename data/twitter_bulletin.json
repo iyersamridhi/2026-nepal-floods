@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-30T17:36:14.396435Z",
-  "note": "Authority posts (when X API available) plus curated journalist ground reports. Live X Recent Search returned 402 — journalist tab uses curated links until API access is restored. Verify on originals.",
+  "generatedAt": "2026-08-30T17:45:55.226393Z",
+  "note": "Curated X post summaries (live API unavailable or unpaid). Follow accounts below for newest posts.",
   "liveFetch": false,
-  "summarizer": "grok",
+  "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
     {
@@ -18,13 +18,14 @@
       "sourceUrl": "https://www.thehindu.com/news/international/nepal-flash-floods-live-updates-death-toll-rescue-operation-missing-person-tibet-border-glacier-collapse-news/article71406948.ece",
       "title": "The Hindu",
       "summary": "Live coverage: death toll and missing figures rising; NDRRMA warned Bhotekoshi water levels rose again Sunday morning; tunnel rescues continue. Numbers move fast — check MoFA / NDRRMA originals.",
-      "citation": "Report via @the_hindu",
+      "citation": "Tweet by @the_hindu",
       "themes": [
-        "briefing"
+        "rescue",
+        "missing"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "a9a171f5c5c9a79a"
     },
     {
       "id": "twitter-manual-kpost-pokhara-morgue-30aug",
@@ -37,13 +38,13 @@
       "sourceUrl": "https://kathmandupost.com/gandaki-province/2026/08/30/families-scour-pokhara-morgue-for-loved-ones-swept-away-by-flood",
       "title": "The Kathmandu Post",
       "summary": "Ground report: more than 1,000 relatives arrived in Pokhara to view photos of 102 bodies recovered downstream after the Bhotekoshi flood (Gorkha, Tanahun, Dhading, Nawalparasi East). Help desk offers free support for filing reports and transport. Journalistic coverage — confirm with police / NDRRMA.",
-      "citation": "Report via @kathmandupost",
+      "citation": "Tweet by @kathmandupost",
       "themes": [
-        "briefing"
+        "remains"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "2b95ca9b2ca74606"
     },
     {
       "id": "twitter-2094066325476016502",
@@ -2039,13 +2040,13 @@
       "sourceUrl": "https://kathmandupost.com/national/2026/08/28/nepal-struggles-to-store-and-identify-bodies-carried-downstream-by-devastating-flood",
       "title": "The Kathmandu Post",
       "summary": "Bodies from Rasuwa / Nuwakot turning up far downstream; Chitwan and Pokhara morgues under strain. Temporary body-management centres and relatives searching for missing family. Not an official list — verify with district police / NDRRMA.",
-      "citation": "Report via @kathmandupost",
+      "citation": "Tweet by @kathmandupost",
       "themes": [
-        "briefing"
+        "missing"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "7ac6b8b3b6b25e3f"
     },
     {
       "id": "twitter-2093366658840850522",
@@ -2288,7 +2289,7 @@
       "role": "authority"
     },
     {
-      "id": "twitter-manual-kpost-nuwakot",
+      "id": "twitter-manual-kpost-nuwakot-grief-28aug",
       "timestamp": "2026-08-28T12:00:00+05:45",
       "publishedLabel": "",
       "region": [
@@ -2297,14 +2298,15 @@
       "source": "Twitter @kathmandupost",
       "sourceUrl": "https://kathmandupost.com/national/2026/08/28/in-nuwakot-s-flooded-villages-grief-comes-before-rescue",
       "title": "The Kathmandu Post",
-      "summary": "Kathmandu Post ground reporting from Nuwakot’s flooded villages after the Bhotekoshi flood — relief delayed in places; search for bodies continuing. Open the article for full context; not an official missing list.",
+      "summary": "From Nuwakot’s flooded villages: relief slow to reach some settlements; search for buried homes and missing relatives continuing days after the Bhotekoshi surge. Open original for names and local detail.",
       "citation": "Tweet by @kathmandupost",
       "themes": [
-        "briefing"
+        "missing",
+        "relief"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "d574d1cecfb3b9fd"
     },
     {
       "id": "twitter-2093304464631562609",
@@ -2845,7 +2847,7 @@
       "role": "authority"
     },
     {
-      "id": "twitter-manual-ndtv-rasuwa",
+      "id": "twitter-manual-ndtv-rasuwa-ground",
       "timestamp": "2026-08-27T16:00:00+05:45",
       "publishedLabel": "",
       "region": [
@@ -2856,14 +2858,14 @@
       "source": "Twitter @ndtv",
       "sourceUrl": "https://www.ndtv.com/world-news/ndtv-ground-report-from-rasuwa-the-worst-flood-hit-district-in-nepal-11977305",
       "title": "NDTV",
-      "summary": "NDTV ground report from Rasuwa — debris, washed-out markets, and rescue scene after glacial collapse / debris flow along Bhotekoshi and Trishuli. Journalistic coverage; confirm figures with NDRRMA / MoFA.",
+      "summary": "NDTV ground report from Rasuwa with Sikta Deo and Ranveer Singh — debris, washed-out markets, glacier/debris-flow scene along Bhotekoshi–Trishuli. Confirm casualty figures with NDRRMA.",
       "citation": "Tweet by @ndtv",
       "themes": [
         "briefing"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "724edac5071b0485"
     },
     {
       "id": "twitter-2093003192372171136",
@@ -3193,13 +3195,14 @@
       "sourceUrl": "https://risingnepaldaily.com/news/85750",
       "title": "The Rising Nepal",
       "summary": "Gorkhapatra / Rising Nepal ground reporting from Dhunge Bazaar to Trishuli and Devighat — minutes to evacuate after DAO Rasuwa alerted NDRRMA ~8:55am; journalists documenting rescue alongside security forces.",
-      "citation": "Report via @therising_np",
+      "citation": "Tweet by @therising_np",
       "themes": [
-        "briefing"
+        "rescue",
+        "missing"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "2464d0787809c30c"
     },
     {
       "id": "twitter-manual-mea-control-room",
@@ -3685,13 +3688,13 @@
       "sourceUrl": "https://x.com/journoprk/status/2092497659047379186",
       "title": "Parshuram Kaphle",
       "summary": "Nepali journalist on the Rasuwa / Bhote Koshi flash flood: questions early-warning gaps from across the northern border after devastating flooding. Not an official statement — verify with MoFA / NDRRMA.",
-      "citation": "Report via @journoprk",
+      "citation": "Tweet by @journoprk",
       "themes": [
         "briefing"
       ],
       "role": "journalist",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "84ba1f19a040b3b9"
     },
     {
       "id": "twitter-2092568764487242098",
