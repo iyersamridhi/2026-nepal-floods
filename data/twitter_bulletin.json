@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T18:32:53.255532Z",
+  "generatedAt": "2026-08-30T21:31:18.498936Z",
   "note": "Curated X post summaries (live API unavailable or unpaid). Follow accounts below for newest posts.",
   "liveFetch": false,
   "summarizer": "grok",
@@ -17,12 +17,11 @@
       "source": "Twitter @the_hindu",
       "sourceUrl": "https://www.thehindu.com/news/international/nepal-flash-floods-live-updates-death-toll-rescue-operation-missing-person-tibet-border-glacier-collapse-news/article71406948.ece",
       "title": "The Hindu",
-      "summary": "@the_hindu is sharing live updates on the Nepal floods, with the death toll and missing numbers still climbing and a warning that Bhotekoshi water levels rose again Sunday morning while tunnel rescues go on.",
+      "summary": "According to @the_hindu, the death toll and missing numbers are still climbing, with water levels in the Bhotekoshi rising again Sunday morning and tunnel rescues ongoing.",
       "citation": "Tweet by @the_hindu",
       "themes": [
         "rescue",
-        "missing",
-        "briefing"
+        "missing"
       ],
       "role": "journalist",
       "scrapeMethod": "grok",
@@ -38,7 +37,7 @@
       "source": "Twitter @kathmandupost",
       "sourceUrl": "https://kathmandupost.com/gandaki-province/2026/08/30/families-scour-pokhara-morgue-for-loved-ones-swept-away-by-flood",
       "title": "The Kathmandu Post",
-      "summary": "Families have been arriving in Pokhara to look through photos of the 102 bodies recovered after the Bhotekoshi flood, with over a thousand relatives already there from Gorkha, Tanahun, Dhading and Nawalparasi East. @kathmandupost reports a help desk on site offering free support with filing and transport.",
+      "summary": "More than a thousand family members have reached Pokhara to look through photos of the 102 bodies recovered after the Bhotekoshi flood. @kathmandupost notes a help desk on site offering free support with reports and transport.",
       "citation": "Tweet by @kathmandupost",
       "themes": [
         "remains"
@@ -57,11 +56,12 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093961178418749652",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared a list of people injured in the Rasuwa Bhotekoshi and Trishuli floods who are currently being treated in Kathmandu hospitals or have already been discharged.",
+      "summary": "If you're checking on someone hurt in the Rasuwa Bhotekoshi or Trishuli flood, @NDRRMA_Nepal has posted updates on people still getting care in Kathmandu hospitals and those already discharged.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "hospitals",
-        "missing"
+        "missing",
+        "briefing"
       ],
       "role": "authority",
       "scrapeMethod": "grok",
@@ -79,7 +79,7 @@
       "source": "Twitter @EOIBeijing",
       "sourceUrl": "https://x.com/EOIBeijing/status/2093912605433774318",
       "title": "Embassy of India Beijing",
-      "summary": "After the floods and mudslides in Tibet, local authorities have set up two 24-hour English hotlines for families seeking information on missing foreign nationals: 0086-891-6817165 or 0086-183-0802-6705. @EOIBeijing",
+      "summary": "After the recent floods and mudslides in Tibet, authorities there have set up two 24-hour English hotlines for families looking for information on missing foreign nationals. The numbers are 0086-891-6817165 and 0086-183-0802-6705, per @EOIBeijing.",
       "citation": "Tweet by @EOIBeijing",
       "themes": [
         "missing",
@@ -99,7 +99,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093909876577873947",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal has posted the latest update on search, rescue and relief work for the Bhotekoshi flood, with details as of 9am on 14 Bhadra 2083.",
+      "summary": "@NDRRMA_Nepal shared the latest update on search, rescue and relief work for the Bhotekoshi flood, with details as of 9am on 14 Bhadra 2083.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -121,7 +121,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093727947555500331",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared details of the men rescued today, 13 Bhadra 2083.",
+      "summary": "@NDRRMA_Nepal shared the details of the men rescued today.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -142,7 +142,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093723515719713102",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal posted a list of foreign citizens rescued today, August 29, 2026.",
+      "summary": "@NDRRMA_Nepal shared a list of foreign citizens rescued today, August 29. Check their account for the details.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -163,7 +163,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://mofa.gov.np/content/1866/press-briefing-note-by-hon--minister-for/",
       "title": "MoFA Nepal",
-      "summary": "From @MoFANepal: In the Bhote Koshi flood, 626 bodies have been recovered so far, with around 2400 people still unaccounted for. Over 4450 have been rescued, including more than 187 foreign nationals, and the search continues.",
+      "summary": "@MoFANepal says 626 bodies have been recovered from the Bhote Koshi flood, with about 2400 people still unaccounted for. More than 4450 people have been rescued so far, including over 187 foreign nationals, and search teams are still working.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "rescue",
@@ -185,7 +185,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093610011683594628",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal shared details on the Kathmandu hospitals treating people injured in the disaster and brought there for care, along with @moha_nepal.",
+      "summary": "@NDRRMA_Nepal has shared a list of Kathmandu hospitals treating people injured in the disaster and brought there for care, along with @moha_nepal.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "hospitals",
@@ -207,7 +207,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/",
       "title": "MoFA Nepal",
-      "summary": "@MoFANepal says flash floods hit the Bhote Koshi River area on 26 August, with 538 bodies recovered so far and 511 people still missing out of 632 from 33 countries. Search and rescue is ongoing, and families can call their emergency room at +977-9744441227 or +977-9744441228.",
+      "summary": "Families checking on loved ones after the Bhote Koshi floods on 26 August can contact @MoFANepal, which reports 538 bodies recovered so far and ongoing searches for 511 people still missing out of 632 from 33 countries.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "rescue",
@@ -231,11 +231,10 @@
       "source": "Twitter @kathmandupost",
       "sourceUrl": "https://kathmandupost.com/national/2026/08/28/nepal-struggles-to-store-and-identify-bodies-carried-downstream-by-devastating-flood",
       "title": "The Kathmandu Post",
-      "summary": "If you're searching for family after the floods, @kathmandupost notes that bodies from Rasuwa and Nuwakot are appearing far downstream, with morgues in Chitwan and Pokhara under pressure and temporary centres set up for handling them.",
+      "summary": "Families searching for relatives from Rasuwa or Nuwakot may want to check morgues and temporary centers in Chitwan and Pokhara, where bodies have been arriving from upstream. @kathmandupost notes relatives are already looking there.",
       "citation": "Tweet by @kathmandupost",
       "themes": [
-        "missing",
-        "briefing"
+        "missing"
       ],
       "role": "journalist",
       "scrapeMethod": "grok",
@@ -251,7 +250,7 @@
       "source": "Twitter @kathmandupost",
       "sourceUrl": "https://kathmandupost.com/national/2026/08/28/in-nuwakot-s-flooded-villages-grief-comes-before-rescue",
       "title": "The Kathmandu Post",
-      "summary": "In Nuwakot, some flooded villages are still waiting on relief while searches continue for missing relatives and homes buried after the Bhotekoshi surge, notes @kathmandupost.",
+      "summary": "In Nuwakot, some flooded villages are still waiting on relief while searches continue for homes and relatives buried after the Bhotekoshi surge. @kathmandupost has the local details.",
       "citation": "Tweet by @kathmandupost",
       "themes": [
         "missing",
@@ -272,7 +271,7 @@
       "source": "Twitter @MoFANepal",
       "sourceUrl": "https://mofa.gov.np/content/1862/notice--emergency-control-room--ecr--for-assistance/",
       "title": "MoFA Nepal",
-      "summary": "If your family was caught in the Bhote Koshi flash flood in Rasuwa, Nepal’s Emergency Control Room can help foreign nationals by phone or WhatsApp at +977-9744441227 or +977-9744441228 (7am–10pm), or by email at emergency@mofa.gov.np. @MoFANepal",
+      "summary": "If your family was affected by the Bhote Koshi flash flood in Rasuwa, @MoFANepal has set up an Emergency Control Room you can reach on WhatsApp or hotline at +977-9744441227 or +977-9744441228 from 7am to 10pm, or by email at emergency@mofa.gov.np.",
       "citation": "Tweet by @MoFANepal",
       "themes": [
         "contacts",
@@ -294,7 +293,7 @@
       "source": "Twitter @ndtv",
       "sourceUrl": "https://www.ndtv.com/world-news/ndtv-ground-report-from-rasuwa-the-worst-flood-hit-district-in-nepal-11977305",
       "title": "NDTV",
-      "summary": "@ndtv shared a ground report from Rasuwa showing the debris and washed-out markets along the Bhotekoshi–Trishuli after the glacier and debris flow. For the latest numbers, check with NDRRMA.",
+      "summary": "@ndtv has a ground report from Rasuwa showing debris and washed-out spots along the Bhotekoshi–Trishuli, with Sikta Deo and Ranveer Singh. For casualty numbers, check with NDRRMA.",
       "citation": "Tweet by @ndtv",
       "themes": [
         "briefing"
@@ -313,7 +312,7 @@
       "source": "Twitter @therising_np",
       "sourceUrl": "https://risingnepaldaily.com/news/85750",
       "title": "The Rising Nepal",
-      "summary": "@therising_np says their reporters were on the ground from Dhunge Bazaar to Trishuli and Devighat, where people had only minutes to get out after the alert around 8:55am, and journalists are there with security forces during the rescue.",
+      "summary": "@therising_np reporters are on the ground between Dhunge Bazaar, Trishuli and Devighat. They say people had only minutes to leave after the alert went out around 8:55 this morning, and they’re following the rescue work with security teams.",
       "citation": "Tweet by @therising_np",
       "themes": [
         "rescue",
@@ -334,7 +333,7 @@
       "source": "Twitter @MEAIndia",
       "sourceUrl": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
       "title": "MEA India",
-      "summary": "Families with relatives in Nepal can reach @MEAIndia’s control room for the floods at +91-11-23088718, +91-11-23088719, WhatsApp +91-9968291988, or situationroom@mea.gov.in.",
+      "summary": "Families with loved ones in Nepal can contact @MEAIndia’s control room at +91-11-23088718 or +91-11-23088719, WhatsApp +91-9968291988, or situationroom@mea.gov.in.",
       "citation": "Tweet by @MEAIndia",
       "themes": [
         "contacts",
@@ -354,7 +353,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://ndrrma.gov.np/np/rescue",
       "title": "NDRRMA Nepal",
-      "summary": "@NDRRMA_Nepal is sharing rescue and coordination updates for the Bhotekoshi and Rasuwa flash flood on their rescue portal and the SETU platform.",
+      "summary": "@NDRRMA_Nepal is sharing rescue and coordination updates for the Bhotekoshi and Rasuwa flash flood on their official portals and the SETU platform. Families can check those for the latest information.",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "rescue",
@@ -374,7 +373,7 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://udb.nepalpolice.gov.np/found",
       "title": "Nepal Police HQ",
-      "summary": "@NepalPoliceHQ has official lists of people found, missing, or with unidentified remains from the flood areas in their database.",
+      "summary": "@NepalPoliceHQ says their Unified Database has the official lists of people found, missing, or unidentified after the floods.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
         "missing",
@@ -395,7 +394,7 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://www.indembkathmandu.gov.in",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian Embassy in Kathmandu (@IndiainNepal) is working with Nepalese authorities on search and rescue for Indian nationals caught in the flash floods around Rasuwa and Bhotekoshi. Reach out to the MEA control room or the embassy if your family needs help.",
+      "summary": "@IndiainNepal says the Indian embassy in Kathmandu is working with Nepalese authorities on search and rescue for Indian nationals caught in the flash floods around Rasuwa and Bhotekoshi. Families can contact the MEA control room or the embassy for help.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
@@ -416,7 +415,7 @@
       "source": "Twitter @journoprk",
       "sourceUrl": "https://x.com/journoprk/status/2092497659047379186",
       "title": "Parshuram Kaphle",
-      "summary": "A Nepali journalist posted on the Rasuwa and Bhote Koshi flash flood through @journoprk, pointing out gaps in early warnings that came from across the northern border after the flooding hit.",
+      "summary": "A journalist @journoprk is sharing thoughts on the Rasuwa and Bhote Koshi flash flood, wondering why early warnings from across the northern border didn't reach people in time.",
       "citation": "Tweet by @journoprk",
       "themes": [
         "briefing"
