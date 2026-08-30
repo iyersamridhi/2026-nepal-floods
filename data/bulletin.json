@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-08-30T12:40:55.548972Z",
-  "note": "Auto-scraped from 10 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
-  "liveFetch": true,
+  "generatedAt": "2026-08-30T14:34:59.731424Z",
+  "note": "Auto-scraped from 15 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
+  "sources": [
+    "Nepal Ministry of Foreign Affairs",
+    "India Ministry of External Affairs",
+    "Xinhua (Gyirong / Tibet side)",
+    "DAO Rasuwa — Bhotekoshi flood notices hub",
+    "DAO Rasuwa — hospital treatment list",
+    "DAO Rasuwa — missing persons",
+    "DAO Rasuwa — body collection",
+    "DAO Rasuwa — uncontacted persons notice",
+    "OPMCM Rasuwa Flood Rescue Portal",
+    "NESRA FloodWatch (situational awareness)",
+    "NDRRMA Nepal",
+    "NDRRMA — injured under treatment (Kathmandu hospitals)",
+    "NDRRMA — injured discharged after treatment",
+    "Nepal Police UDB",
+    "Embassy of India, Kathmandu"
+  ],
   "summarizer": "grok",
   "skippedUnchanged": false,
   "items": [
@@ -16,95 +32,11 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1867/press-briefing-note-by-foreign-secretary-on/",
       "title": "Press Briefing Note by Foreign Secretary on Bhote Koshi Flood (Saturday, 2:00 PM, 30 August 2026)",
-      "summary": "After the Bhote Koshi floods, search teams have recovered 734 bodies and rescued more than 8,000 people, including over 260 foreigners. About 2,500 remain unaccounted for, with operations still underway in the affected districts.",
+      "summary": "After the floods, search teams have recovered 734 bodies and rescued more than 8,000 people. About 2,500 remain unaccounted for, including over 400 foreign nationals.",
       "citation": "Nepal Ministry of Foreign Affairs — Press Briefing Note by Foreign Secretary on Bhote Koshi Flood (Saturday, 2:00 PM, 30 August 2026)",
       "kind": "update",
       "scrapeMethod": "grok",
-      "contentHash": "4625b2315d4c5914",
-      "themes": [
-        "rescue",
-        "missing",
-        "briefing"
-      ]
-    },
-    {
-      "id": "nesra-floodwatch-rasuwa",
-      "timestamp": "2026-08-30T12:30:00+05:45",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "NESRA FloodWatch (Nepalese Space Research Association)",
-      "sourceUrl": "https://nesraspace.org/floodwatch/rasuwa-2026/",
-      "title": "NESRA FloodWatch — Rasuwa / Bhotekoshi situation brief",
-      "summary": "Independent geospatial / satellite situational awareness page for the Rasuwa–Bhotekoshi–Trishuli flood. Not a government filing system and not a missing-persons registry. NESRA says follow DHM, NDRRMA and local authorities for official warnings. Useful for access, impact, and Earth-observation context.",
-      "citation": "NESRA — FloodWatch Rasuwa 2026",
-      "kind": "pointer",
-      "scrapeMethod": "seed",
-      "contentHash": "nesra-floodwatch-rasuwa",
-      "themes": [
-        "missing",
-        "briefing"
-      ]
-    },
-    {
-      "id": "opmcm-rescue-portal",
-      "timestamp": "2026-08-30T12:00:00+05:45",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "Office of the Prime Minister and Council of Ministers (OPMCM)",
-      "sourceUrl": "https://rescue.opmcm.gov.np/",
-      "title": "Rasuwa Flood Rescue Portal (OPMCM)",
-      "summary": "Official Government of Nepal portal for the 2026 Bhote Koshi–Trishuli / Rasuwa flood response. Families can search missing and found reports, request help, browse help requests, and open emergency contacts. Run by the Office of the Prime Minister and Council of Ministers. This site links to the portal; we do not copy names or case details.",
-      "citation": "OPMCM — rescue.opmcm.gov.np",
-      "kind": "pointer",
-      "scrapeMethod": "seed",
-      "contentHash": "opmcm-rescue-portal",
-      "themes": [
-        "rescue",
-        "missing",
-        "contacts"
-      ]
-    },
-    {
-      "id": "ndrrma-hospital-under-treatment",
-      "timestamp": "2026-08-30T07:17:00+05:45",
-      "publishedLabel": "30 Aug 2026 · 7:17 am",
-      "region": [
-        "nepal"
-      ],
-      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
-      "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
-      "title": "Injured — currently in Kathmandu hospitals (NDRRMA)",
-      "summary": "NDRRMA has published a list of people injured in the Rasuwa Bhotekoshi and Trishuli floods. The list covers those now being treated in Kathmandu hospitals.",
-      "citation": "NDRRMA — notice-information (under treatment)",
-      "kind": "pointer",
-      "scrapeMethod": "grok",
-      "contentHash": "6fa65d1fda88f44a",
-      "themes": [
-        "hospitals"
-      ]
-    },
-    {
-      "id": "ndrrma-hospital-discharged",
-      "timestamp": "2026-08-30T07:17:00+05:45",
-      "publishedLabel": "30 Aug 2026 · 7:17 am",
-      "region": [
-        "nepal"
-      ],
-      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
-      "sourceUrl": "https://ndrrma.gov.np/np/misc-report",
-      "title": "Injured — discharged after treatment (NDRRMA)",
-      "summary": "Some people injured in the Rasuwa floods were treated at hospitals in Kathmandu and have now been sent home. NDRRMA has posted a list of those discharged.",
-      "citation": "NDRRMA — misc-report (discharged)",
-      "kind": "pointer",
-      "scrapeMethod": "grok",
-      "contentHash": "3d33f5a6fe5fe1af",
-      "themes": [
-        "hospitals"
-      ]
+      "contentHash": "4625b2315d4c5914"
     },
     {
       "id": "mofa-0f39aa2364bf",
@@ -117,17 +49,11 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1866/press-briefing-note-by-hon--minister-for/",
       "title": "Press Briefing Note by Hon. Minister for Foreign Affairs on Bhote Koshi Flood",
-      "summary": "Flash floods struck the Bhote Koshi River on 26 August, and teams have recovered 626 bodies while more than 2400 people are still missing. Over 4450 people have been rescued so far, including 187 foreign nationals, with search efforts continuing in Rasuwa, Nuwakot, Dhading and Chitwan.",
+      "summary": "Flash floods struck the Bhote Koshi River on August 26, and teams have recovered 626 bodies while about 2400 people are still missing. Over 4450 people have been rescued so far, including more than 187 foreign nationals, with teams continuing the search in the affected districts.",
       "citation": "Nepal Ministry of Foreign Affairs — Press Briefing Note by Hon. Minister for Foreign Affairs on Bhote Koshi Flood",
       "kind": "update",
       "scrapeMethod": "grok",
-      "contentHash": "fe62f790f5fda232",
-      "themes": [
-        "rescue",
-        "missing",
-        "relief",
-        "briefing"
-      ]
+      "contentHash": "fe62f790f5fda232"
     },
     {
       "id": "mofa-834bd7368b7e",
@@ -140,115 +66,11 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/",
       "title": "Latest Updates on Flash Floods- 28 August 2026",
-      "summary": "Flash floods hit Nepal’s Bhote Koshi River area on 26 August, with 538 bodies recovered so far and 511 people still missing. Rescue teams are searching the area and helping those affected.",
+      "summary": "Flash floods hit Nepal's Bhote Koshi River on August 26, killing many people and damaging homes, roads, bridges and other infrastructure. Rescue teams have recovered 538 bodies so far, with 511 people from 33 countries still missing.",
       "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 28 August 2026",
       "kind": "update",
       "scrapeMethod": "grok",
-      "contentHash": "514a03d4e2cba2b4",
-      "themes": [
-        "rescue",
-        "missing",
-        "remains",
-        "briefing"
-      ]
-    },
-    {
-      "id": "dao-rasuwa-flood-hub",
-      "timestamp": "2026-08-28T12:00:00+05:45",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
-      "sourceUrl": "https://daorasuwa.moha.gov.np/page/bha-ta-ka-sha-b-dha-bha-tha-ra",
-      "title": "DAO Rasuwa — Bhotekoshi flood notices hub (भाद्र २०८३)",
-      "summary": "Official District Administration Office, Rasuwa section collecting Bhotekoshi flood notices: rescue, hospital treatment, missing, body collection, and related circulars. Site has नेपाली / English. Start here for district press releases.",
-      "citation": "DAO Rasuwa — Bhotekoshi flood section",
-      "kind": "pointer",
-      "themes": [
-        "briefing",
-        "rescue"
-      ],
-      "scrapeMethod": "seed",
-      "contentHash": "dao-rasuwa-flood-hub"
-    },
-    {
-      "id": "dao-rasuwa-hospital-treatment",
-      "timestamp": "2026-08-28T12:00:00+05:45",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
-      "sourceUrl": "https://daorasuwa.moha.gov.np/en/page/b-dha-pa-rabha-va-tahara-ka-rasa-va-asa-pata-lma-bhaeka-upaca-ra-va-varanae",
-      "title": "DAO Rasuwa — hospital treatment list (Rasuwa Hospital)",
-      "summary": "District Administration Office, Rasuwa published treatment details for flood-affected people at Rasuwa Hospital (PDF list through 12 Bhadra 2083). Official MoHA district page — bilingual site (नेपाली / EN). This site links to the page; we do not copy names.",
-      "citation": "DAO Rasuwa — Bhotekoshi flood treatment details",
-      "kind": "pointer",
-      "themes": [
-        "hospitals",
-        "injured"
-      ],
-      "scrapeMethod": "seed",
-      "contentHash": "dao-rasuwa-hospital-treatment"
-    },
-    {
-      "id": "dao-rasuwa-missing",
-      "timestamp": "2026-08-28T12:00:00+05:45",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
-      "sourceUrl": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-ka-ranae-b-pata-ta-bhaeka-va-varanae",
-      "title": "DAO Rasuwa — missing persons list (Bhotekoshi flood)",
-      "summary": "District Administration Office, Rasuwa list of people reported missing after the Bhotekoshi flood. Official MoHA district page. Open the original for names — we do not copy them here.",
-      "citation": "DAO Rasuwa — missing after Bhotekoshi flood",
-      "kind": "pointer",
-      "themes": [
-        "missing"
-      ],
-      "scrapeMethod": "seed",
-      "contentHash": "dao-rasuwa-missing"
-    },
-    {
-      "id": "dao-rasuwa-bodies",
-      "timestamp": "2026-08-28T12:00:00+05:45",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
-      "sourceUrl": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-shava-sa-kalna-va-varanae",
-      "title": "DAO Rasuwa — body recovery / collection list",
-      "summary": "District Administration Office, Rasuwa details on body recovery/collection after the Bhotekoshi flood. Sensitive official records — open only if you need this. Identification is done by authorities, not this site.",
-      "citation": "DAO Rasuwa — body collection after Bhotekoshi flood",
-      "kind": "pointer",
-      "themes": [
-        "remains"
-      ],
-      "scrapeMethod": "seed",
-      "contentHash": "dao-rasuwa-bodies"
-    },
-    {
-      "id": "dao-rasuwa-uncontacted",
-      "timestamp": "2026-08-28T12:00:00+05:45",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
-      "sourceUrl": "https://daorasuwa.moha.gov.np/page/b-dha-pasha-ca-ta-sama-para-kama-naaaeka-va-yaka-ta-hara-ka-va-varanae-upalb",
-      "title": "DAO Rasuwa — notice: people not yet in contact after the flood",
-      "summary": "District Administration Office, Rasuwa notice asking families to provide details of people who could not be reached after the flood. Official MoHA district page.",
-      "citation": "DAO Rasuwa — uncontacted persons notice",
-      "kind": "pointer",
-      "themes": [
-        "missing",
-        "contacts"
-      ],
-      "scrapeMethod": "seed",
-      "contentHash": "dao-rasuwa-uncontacted"
+      "contentHash": "514a03d4e2cba2b4"
     },
     {
       "id": "xinhua-gyirong-cd16e8678ae4",
@@ -262,15 +84,11 @@
       "source": "Xinhua (Gyirong / Tibet side)",
       "sourceUrl": "https://english.news.cn/20260827/4b23217ccde940fb9f38a0fd388e2cae/c.html",
       "title": "FOCUS | Rescue operations at mudslide-hit border port in SW China's Xizang",
-      "summary": "Rescue teams and helicopters are working at the mudslide site in Gyirong Port after it hit Wednesday morning. Three people have been killed and 558 remain missing, with more rescuers and supplies arriving.",
+      "summary": "Rescue teams and helicopters are working at the mudslide site in Gyirong Port after it hit Wednesday morning. Three people have been killed and 558 remain missing, while tents, food, and other supplies have reached the area.",
       "citation": "Xinhua (Gyirong / Tibet side) — FOCUS | Rescue operations at mudslide-hit border port in SW China's Xizang",
       "kind": "update",
       "scrapeMethod": "grok",
-      "contentHash": "293bb4a08b8ed256",
-      "themes": [
-        "rescue",
-        "missing"
-      ]
+      "contentHash": "293bb4a08b8ed256"
     },
     {
       "id": "mofa-5885b08683cf",
@@ -283,15 +101,11 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1863/latest-updates-on-flash-floods-27-august-2026/",
       "title": "Latest Updates on Flash Floods-27 August 2026",
-      "summary": "Flash floods hit Nepal’s Bhote Koshi River area on 26 August. So far 359 bodies have been recovered and 596 people from 33 countries are still missing.",
+      "summary": "Flash floods hit Nepal’s Bhote Koshi River area on 26 August, damaging homes, roads, bridges and other infrastructure. So far 359 bodies have been recovered and 596 people from 33 countries remain missing.",
       "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods-27 August 2026",
       "kind": "update",
       "scrapeMethod": "grok",
-      "contentHash": "b6eafbf02c897d9a",
-      "themes": [
-        "missing",
-        "briefing"
-      ]
+      "contentHash": "b6eafbf02c897d9a"
     },
     {
       "id": "mofa-2ff878c5d69f",
@@ -304,15 +118,11 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1862/notice--emergency-control-room--ecr--for-assistance/",
       "title": "NOTICE: Emergency Control Room (ECR) for Assistance regarding Foreign Nationals Affected by the Bhote Koshi Flash Flood",
-      "summary": "Nepal has opened a help line for families of foreign nationals missing or affected in the Rasuwa floods. Call or message +977-9744441227 or +977-9744441228 from 7am to 10pm.",
+      "summary": "Nepal's foreign ministry has opened an emergency room to help with foreign nationals missing or affected by the Rasuwa floods. Families can reach them on +977-9744441227 or +977-9744441228 from 7am to 10pm.",
       "citation": "Nepal Ministry of Foreign Affairs — NOTICE: Emergency Control Room (ECR) for Assistance regarding Foreign Nationals Affected by the Bhote Koshi Flash Flood",
       "kind": "update",
       "scrapeMethod": "grok",
-      "contentHash": "e42f055f226a110d",
-      "themes": [
-        "missing",
-        "contacts"
-      ]
+      "contentHash": "e42f055f226a110d"
     },
     {
       "id": "mea-control-room-seed",
@@ -325,75 +135,11 @@
       "source": "India Ministry of External Affairs",
       "sourceUrl": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
       "title": "Special Control Room in MEA for Nepal Floods Situation",
-      "summary": "India's foreign ministry has opened a 24-hour control room in Delhi for the Nepal floods. Contacts include the listed Delhi numbers and WhatsApp lines plus the Indian embassies in Kathmandu and Beijing.",
+      "summary": "India's foreign ministry has set up a 24-hour control room in Delhi for the Nepal floods. Contact numbers and WhatsApp lines for the room and the Indian embassies in Kathmandu and Beijing are listed for anyone who needs them.",
       "citation": "MEA press release — Special Control Room in MEA for Nepal Floods Situation",
       "kind": "update",
       "scrapeMethod": "grok",
-      "contentHash": "4e5bc0dc24197771",
-      "themes": [
-        "contacts",
-        "briefing"
-      ]
-    },
-    {
-      "id": "ndrrma-rescue-portal",
-      "timestamp": "2026-08-27T10:00:00+05:45",
-      "publishedLabel": "27 Aug 2026 · 10:00 am",
-      "region": [
-        "nepal"
-      ],
-      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
-      "sourceUrl": "https://ndrrma.gov.np/np/rescue",
-      "title": "NDRRMA rescue coordination portal",
-      "summary": "Updates on the Bhotekoshi and Rasuwa flash flood are posted on the official rescue portal and SETU platform. Families can check those sites for the latest status instead of social media.",
-      "citation": "NDRRMA — rescue portal (ndrrma.gov.np/np/rescue)",
-      "kind": "pointer",
-      "scrapeMethod": "grok",
-      "contentHash": "96a5882ccb809d5d",
-      "themes": [
-        "rescue",
-        "briefing"
-      ]
-    },
-    {
-      "id": "nepal-police-udb",
-      "timestamp": "2026-08-27T09:00:00+05:45",
-      "publishedLabel": "27 Aug 2026 · 9:00 am",
-      "region": [
-        "nepal"
-      ],
-      "source": "Nepal Police — Unified Database (UDB)",
-      "sourceUrl": "https://udb.nepalpolice.gov.np/missing",
-      "title": "Nepal Police official found and missing lists",
-      "summary": "Nepal Police keeps the main lists of people missing or found after the floods. Only they can confirm someone's status, not other sites or social media.",
-      "citation": "Nepal Police UDB — udb.nepalpolice.gov.np",
-      "kind": "pointer",
-      "scrapeMethod": "grok",
-      "contentHash": "1010a8cb97a14576",
-      "themes": [
-        "missing"
-      ]
-    },
-    {
-      "id": "indemb-kathmandu",
-      "timestamp": "2026-08-26T18:00:00+05:45",
-      "publishedLabel": "26 Aug 2026 · 6:00 pm",
-      "region": [
-        "india",
-        "nepal"
-      ],
-      "source": "Embassy of India, Kathmandu",
-      "sourceUrl": "https://www.indembkathmandu.gov.in",
-      "title": "Embassy of India, Kathmandu — assistance for Indian nationals",
-      "summary": "The Indian embassy in Kathmandu is working with Nepalese authorities on search and rescue for Indian nationals caught in the floods around Rasuwa and Bhotekoshi. Families can reach the Delhi control room or the embassy on WhatsApp for help.",
-      "citation": "Embassy of India, Kathmandu",
-      "kind": "pointer",
-      "scrapeMethod": "grok",
-      "contentHash": "3210fdaaec387c91",
-      "themes": [
-        "rescue",
-        "contacts"
-      ]
+      "contentHash": "4e5bc0dc24197771"
     },
     {
       "id": "mofa-c0d1aa509022",
@@ -406,27 +152,204 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1865/latest-updates-on-flash-floods--26-august/",
       "title": "Latest Updates on Flash Floods- 26 August 2026",
-      "summary": "Flash floods hit Nepal's Bhote Koshi River this morning, killing people and damaging homes, roads, bridges and other infrastructure. So far 72 bodies have been recovered and 403 people from 25 countries are reported missing.",
+      "summary": "Flash floods struck Nepal this morning, killing people and damaging homes, roads, bridges and other infrastructure. So far 72 bodies have been recovered and 403 people are reported missing.",
       "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 26 August 2026",
       "kind": "update",
       "scrapeMethod": "grok",
-      "contentHash": "65f7ee5ecd1e78db",
-      "themes": [
-        "missing",
-        "briefing"
-      ]
+      "contentHash": "65f7ee5ecd1e78db"
+    },
+    {
+      "id": "nesra-floodwatch-rasuwa",
+      "timestamp": "2026-08-30T12:30:00+05:45",
+      "publishedLabel": "30 Aug 2026 · 12:30 pm",
+      "region": [
+        "nepal"
+      ],
+      "source": "NESRA FloodWatch (Nepalese Space Research Association)",
+      "sourceUrl": "https://nesraspace.org/floodwatch/rasuwa-2026/",
+      "title": "NESRA FloodWatch — Rasuwa / Bhotekoshi situation brief",
+      "summary": "Satellite images are tracking the flood around Rasuwa and Bhotekoshi. For warnings, check DHM, NDRRMA or local authorities.",
+      "citation": "NESRA — FloodWatch Rasuwa 2026",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "89ea13882632301a"
+    },
+    {
+      "id": "opmcm-rescue-portal",
+      "timestamp": "2026-08-30T12:00:00+05:45",
+      "publishedLabel": "30 Aug 2026 · 12:00 pm",
+      "region": [
+        "nepal"
+      ],
+      "source": "Office of the Prime Minister and Council of Ministers (OPMCM)",
+      "sourceUrl": "https://rescue.opmcm.gov.np/",
+      "title": "Rasuwa Flood Rescue Portal (OPMCM)",
+      "summary": "There's a government site for the Rasuwa flood where families can check missing reports or ask for help. It's run by the prime minister's office.",
+      "citation": "OPMCM — rescue.opmcm.gov.np",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "5ecab777a0ed598e"
+    },
+    {
+      "id": "ndrrma-hospital-under-treatment",
+      "timestamp": "2026-08-30T07:17:00+05:45",
+      "publishedLabel": "30 Aug 2026 · 7:17 am",
+      "region": [
+        "nepal"
+      ],
+      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+      "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
+      "title": "Injured — currently in Kathmandu hospitals (NDRRMA)",
+      "summary": "NDRRMA has released a list of people injured in the Rasuwa Bhotekoshi and Trishuli floods. They are currently being treated in Kathmandu hospitals.",
+      "citation": "NDRRMA — notice-information (under treatment)",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "6fa65d1fda88f44a"
+    },
+    {
+      "id": "ndrrma-hospital-discharged",
+      "timestamp": "2026-08-30T07:17:00+05:45",
+      "publishedLabel": "30 Aug 2026 · 7:17 am",
+      "region": [
+        "nepal"
+      ],
+      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+      "sourceUrl": "https://ndrrma.gov.np/np/misc-report",
+      "title": "Injured — discharged after treatment (NDRRMA)",
+      "summary": "Some people hurt in the Rasuwa Bhotekoshi and Trishuli floods were treated in Kathmandu hospitals and have since gone home. The disaster agency has published a list of those names.",
+      "citation": "NDRRMA — misc-report (discharged)",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "3d33f5a6fe5fe1af"
+    },
+    {
+      "id": "dao-rasuwa-flood-hub",
+      "timestamp": "2026-08-28T12:00:00+05:45",
+      "publishedLabel": "28 Aug 2026 · 12:00 pm",
+      "region": [
+        "nepal"
+      ],
+      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
+      "sourceUrl": "https://daorasuwa.moha.gov.np/page/bha-ta-ka-sha-b-dha-bha-tha-ra",
+      "title": "DAO Rasuwa — Bhotekoshi flood notices hub (भाद्र २०८३)",
+      "summary": "The Rasuwa district office has gathered notices on the Bhotekoshi flood, covering rescues, hospital cases, missing people, and related updates. The information is available in both Nepali and English.",
+      "citation": "DAO Rasuwa — Bhotekoshi flood section",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "44c92181c49d75b1"
+    },
+    {
+      "id": "dao-rasuwa-hospital-treatment",
+      "timestamp": "2026-08-28T12:00:00+05:45",
+      "publishedLabel": "28 Aug 2026 · 12:00 pm",
+      "region": [
+        "nepal"
+      ],
+      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
+      "sourceUrl": "https://daorasuwa.moha.gov.np/en/page/b-dha-pa-rabha-va-tahara-ka-rasa-va-asa-pata-lma-bhaeka-upaca-ra-va-varanae",
+      "title": "DAO Rasuwa — hospital treatment list (Rasuwa Hospital)",
+      "summary": "Rasuwa district officials posted a list of people getting treatment at the local hospital after the floods. It covers cases through 12 Bhadra.",
+      "citation": "DAO Rasuwa — Bhotekoshi flood treatment details",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "2e38d6b53e21dcec"
+    },
+    {
+      "id": "dao-rasuwa-missing",
+      "timestamp": "2026-08-28T12:00:00+05:45",
+      "publishedLabel": "28 Aug 2026 · 12:00 pm",
+      "region": [
+        "nepal"
+      ],
+      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
+      "sourceUrl": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-ka-ranae-b-pata-ta-bhaeka-va-varanae",
+      "title": "DAO Rasuwa — missing persons list (Bhotekoshi flood)",
+      "summary": "Rasuwa district has a list of people reported missing after the Bhotekoshi flood. The local administration office posted it.",
+      "citation": "DAO Rasuwa — missing after Bhotekoshi flood",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "ebb37633e3aafcc1"
+    },
+    {
+      "id": "dao-rasuwa-bodies",
+      "timestamp": "2026-08-28T12:00:00+05:45",
+      "publishedLabel": "28 Aug 2026 · 12:00 pm",
+      "region": [
+        "nepal"
+      ],
+      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
+      "sourceUrl": "https://daorasuwa.moha.gov.np/page/rasa-va-bha-ta-ka-sha-b-dha-ka-shava-sa-kalna-va-varanae",
+      "title": "DAO Rasuwa — body recovery / collection list",
+      "summary": "Rasuwa district office has a list of bodies collected after the Bhotekoshi flood. It's official records for anyone who needs those details.",
+      "citation": "DAO Rasuwa — body collection after Bhotekoshi flood",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "c8b906a9678fc5d5"
+    },
+    {
+      "id": "dao-rasuwa-uncontacted",
+      "timestamp": "2026-08-28T12:00:00+05:45",
+      "publishedLabel": "28 Aug 2026 · 12:00 pm",
+      "region": [
+        "nepal"
+      ],
+      "source": "District Administration Office, Rasuwa (Ministry of Home Affairs)",
+      "sourceUrl": "https://daorasuwa.moha.gov.np/page/b-dha-pasha-ca-ta-sama-para-kama-naaaeka-va-yaka-ta-hara-ka-va-varanae-upalb",
+      "title": "DAO Rasuwa — notice: people not yet in contact after the flood",
+      "summary": "The Rasuwa district office wants families to share details on relatives they still can't reach after the flood.\n\nAnyone with missing contacts should pass that information along.",
+      "citation": "DAO Rasuwa — uncontacted persons notice",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "5d5877ce6d7f1c7d"
+    },
+    {
+      "id": "ndrrma-rescue-portal",
+      "timestamp": "2026-08-27T10:00:00+05:45",
+      "publishedLabel": "27 Aug 2026 · 10:00 am",
+      "region": [
+        "nepal"
+      ],
+      "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+      "sourceUrl": "https://ndrrma.gov.np/np/rescue",
+      "title": "NDRRMA rescue coordination portal",
+      "summary": "Official updates on the Bhotekoshi and Rasuwa flood rescues are posted through government channels. Families can check those directly instead of social media posts.",
+      "citation": "NDRRMA — rescue portal (ndrrma.gov.np/np/rescue)",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "96a5882ccb809d5d"
+    },
+    {
+      "id": "nepal-police-udb",
+      "timestamp": "2026-08-27T09:00:00+05:45",
+      "publishedLabel": "27 Aug 2026 · 9:00 am",
+      "region": [
+        "nepal"
+      ],
+      "source": "Nepal Police — Unified Database (UDB)",
+      "sourceUrl": "https://udb.nepalpolice.gov.np/missing",
+      "title": "Nepal Police official found and missing lists",
+      "summary": "Nepal Police keeps the main lists of people missing or found after the floods. Only they can confirm anyone's status.",
+      "citation": "Nepal Police UDB — udb.nepalpolice.gov.np",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "1010a8cb97a14576"
+    },
+    {
+      "id": "indemb-kathmandu",
+      "timestamp": "2026-08-26T18:00:00+05:45",
+      "publishedLabel": "26 Aug 2026 · 6:00 pm",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Embassy of India, Kathmandu",
+      "sourceUrl": "https://www.indembkathmandu.gov.in",
+      "title": "Embassy of India, Kathmandu — assistance for Indian nationals",
+      "summary": "The Indian embassy in Kathmandu is working with Nepali authorities on search and rescue for Indian nationals caught in the floods in Rasuwa and Bhotekoshi. Families can reach the Delhi control room at +91-11-23088718 or +91-11-23088719, or message +91-9968291988 or +977-9851316807.",
+      "citation": "Embassy of India, Kathmandu",
+      "kind": "pointer",
+      "scrapeMethod": "grok",
+      "contentHash": "3210fdaaec387c91"
     }
-  ],
-  "sources": [
-    "Nepal Ministry of Foreign Affairs",
-    "India Ministry of External Affairs",
-    "Xinhua (Gyirong / Tibet side)",
-    "OPMCM Rasuwa Flood Rescue Portal",
-    "NESRA FloodWatch (situational awareness)",
-    "NDRRMA Nepal",
-    "NDRRMA — injured under treatment (Kathmandu hospitals)",
-    "NDRRMA — injured discharged after treatment",
-    "Nepal Police UDB",
-    "Embassy of India, Kathmandu"
   ]
 }
