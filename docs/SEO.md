@@ -39,6 +39,7 @@
 
 | Item | Status |
 |------|--------|
+| GSC daily **Request indexing** quota may hit “Quota exceeded” — try again next day
 | GSC → **Request indexing** for `/`, `/updates.html`, `/resources.html`, `/report.html`, `/wizard.html` | User action |
 | Google status may show **“Discovered – currently not indexed”** | Normal for new sites (hours–days) |
 | Bing Webmaster Tools | Optional — not required |
