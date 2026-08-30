@@ -2,13 +2,12 @@ const I18N = {
   en: {
     siteTitle: "Nepal Floods 2026",
     siteSubtitle:
-      "Public contacts, missing-person forms, and government updates after the August 2026 floods in northern Nepal.",
+      "SETU & Nepal Police forms, helplines, MoFA / embassy contacts, and official updates — August 2026 floods in northern Nepal.",
     siteDisclaimer:
       "Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.",
     banner:
-      "Volunteer site. Links to government contacts and updates only — we do not confirm missing or found status.",
-    homeIntro:
-      "This page collects links families and friends have been asking for: SETU and Nepal Police forms, MoFA and embassy numbers, and short notes from public government sources. It does not run a missing-persons registry and does not verify individual cases.",
+      "Independent volunteer site — not linked to any government, police, embassy, or NGO. We do not collect or store personal data. We share public links and contacts; we cannot verify individual cases.",
+    homeIntro: "",
     legalTitle: "Disclaimer, Privacy & Terms",
     legalSubtitle: "Independent volunteer site — not an official organisation",
     legalIndepBannerTitle: "Independent & unofficial.",
@@ -109,13 +108,12 @@ const I18N = {
   np: {
     siteTitle: "नेपाल बाढी २०२६",
     siteSubtitle:
-      "अगस्ट २०२६ उत्तरी नेपाल बाढीपछिका सार्वजनिक सम्पर्क, हराएको व्यक्ति फारम र सरकारी अपडेट।",
+      "SETU र नेपाल प्रहरी फारम, हेल्पलाइन, MoFA / दूतावास सम्पर्क, र आधिकारिक अपडेट — अगस्ट २०२६ उत्तरी नेपाल बाढी।",
     siteDisclaimer:
       "स्वतन्त्र स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक सम्पर्कमा मात्र लिङ्क; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
     banner:
-      "स्वयंसेवी साइट। सरकारी सम्पर्क र अपडेटका लिङ्क मात्र — हराएको/फेला परेको स्थिति पुष्टि गर्दैनौं।",
-    homeIntro:
-      "यो पृष्ठले परिवार र साथीहरूले खोजिरहेका लिङ्कहरू एकै ठाउँमा राखेको छ: SETU र नेपाल प्रहरी फारम, MoFA र दूतावास नम्बर, र सार्वजनिक सरकारी स्रोतका छोटा नोट। यो हराएको व्यक्ति रजिस्ट्री होइन र व्यक्तिगत केस पुष्टि गर्दैन।",
+      "स्वतन्त्र स्वयंसेवी साइट — कुनै सरकार, प्रहरी, दूतावास वा एनजीओसँग आबद्ध छैन। हामी व्यक्तिगत डाटा सङ्कलन वा भण्डारण गर्दैनौं। सार्वजनिक सम्पर्कमा मात्र लिङ्क; व्यक्तिगत केस पुष्टि गर्न सक्दैनौं।",
+    homeIntro: "",
     legalTitle: "अस्वीकरण, गोपनीयता र सर्तहरू",
     legalSubtitle: "स्वतन्त्र स्वयंसेवी साइट — आधिकारिक संस्था होइन",
     legalIndepBannerTitle: "स्वतन्त्र र अनौपचारिक।",
@@ -222,17 +220,9 @@ function t(key) {
 }
 
 function renderSiteDisclaimer() {
-  document.querySelectorAll("header.site-header").forEach((header) => {
-    let el = header.querySelector(".site-disclaimer");
-    if (!el) {
-      const sub = header.querySelector(".subtitle");
-      if (!sub) return;
-      el = document.createElement("p");
-      el.className = "site-disclaimer";
-      el.setAttribute("data-i18n", "siteDisclaimer");
-      sub.after(el);
-    }
-    el.textContent = t("siteDisclaimer");
+  // Banner + footer carry the disclaimer. Avoid a second block under every subtitle.
+  document.querySelectorAll("header.site-header .site-disclaimer").forEach((el) => {
+    el.remove();
   });
 }
 
