@@ -20,6 +20,12 @@
   --content-md: 64rem;    /* ~1024 */
   --content-lg: 78rem;    /* ~1248 */
   --content-xl: 90rem;    /* ~1440 — still padded on ultrawide */
+  --fs-body: 1.125rem;
+  --fs-small: 0.95rem;
+  --fs-nav: 1rem;
+  --fs-h1: clamp(1.85rem, 2.6vw, 2.55rem);
+  --fs-h2: 1.28rem;
+  --fs-title: 1.22rem;
 }
 
 * {
@@ -38,7 +44,7 @@ body {
   margin: 0;
   min-height: 100vh;
   line-height: 1.55;
-  font-size: 1.02rem;
+  font-size: var(--fs-body);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -70,7 +76,7 @@ header.site-header {
 }
 
 header.site-header h1 {
-  font-size: clamp(1.65rem, 2.4vw, 2.35rem);
+  font-size: var(--fs-h1);
   margin: 0 0 0.35rem;
   color: var(--nepal-blue-deep);
   font-weight: 700;
@@ -80,7 +86,7 @@ header.site-header h1 {
 
 header.site-header .subtitle {
   color: var(--muted);
-  font-size: 1rem;
+  font-size: var(--fs-body);
   margin: 0;
   max-width: 44rem;
   line-height: 1.45;
@@ -101,7 +107,7 @@ header.site-header .subtitle {
   margin: 1rem 0 0;
   padding: 0.55rem 0.1rem 0.65rem;
   border-bottom: 1px solid var(--border);
-  font-size: 0.92rem;
+  font-size: var(--fs-nav);
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
@@ -174,7 +180,7 @@ header.site-header .subtitle {
 
 .action-card h2 {
   margin: 0 0 0.35rem;
-  font-size: 1.12rem;
+  font-size: var(--fs-title);
   color: var(--nepal-blue-deep);
   letter-spacing: -0.015em;
 }
@@ -182,7 +188,7 @@ header.site-header .subtitle {
 .action-card p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--fs-small);
 }
 
 .action-card-static {
@@ -209,9 +215,9 @@ header.site-header .subtitle {
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
-  padding: 0.7rem 1.25rem;
+  padding: 0.75rem 1.3rem;
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: 1.02rem;
   font-weight: 600;
   border: none;
   cursor: pointer;
@@ -389,7 +395,7 @@ header.site-header .subtitle {
 }
 
 .form-hint {
-  font-size: 0.8rem;
+  font-size: var(--fs-small);
   color: var(--muted);
   margin-top: 0.25rem;
 }
@@ -448,9 +454,11 @@ header.site-header .subtitle {
 
 .section-title {
   margin: 0 0 0.4rem;
-  font-size: 1.15rem;
+  font-size: var(--fs-h2);
   color: var(--nepal-blue);
 }
+
+
 
 .subsection-title {
   margin: 1.25rem 0 0.5rem;
@@ -896,7 +904,7 @@ header.site-header .subtitle {
 
 .bulletin-title {
   margin: 0.15rem 0 0.25rem;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   line-height: 1.35;
   color: var(--text);
   font-weight: 650;
@@ -1001,17 +1009,27 @@ footer.site-footer .footer-link-prominent {
 }
 
 .feedback-panel {
-  max-width: 36rem;
+  max-width: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .feedback-list {
+  list-style: none;
   margin: 1rem 0 1.25rem;
-  padding-left: 1.25rem;
-  color: var(--text);
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
 }
 
 .feedback-list li {
-  margin: 0.35rem 0;
+  margin: 0;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #f7f9fc;
+  font-size: var(--fs-body);
 }
 
 .feedback-note {
@@ -1808,10 +1826,21 @@ body[data-page="report"] .community-cards {
   margin-top: 0.75rem;
 }
 
-@media (min-width: 900px) {
-  body[data-page="report"] .container {
-    max-width: min(var(--content-lg), 58rem);
-  }
+/* Report uses the same shell width as Bulletin / Contacts */
+body[data-page="report"] .report-step {
+  padding: 1.25rem 1.35rem;
+}
+
+body[data-page="report"] .portal-link {
+  padding: 1.05rem 1.15rem;
+}
+
+body[data-page="report"] .portal-link strong {
+  font-size: 1.08rem;
+}
+
+body[data-page="report"] .portal-link span {
+  font-size: var(--fs-small);
 }
 
 /* Keep reading-width forms centered in the wide shell */
@@ -1823,7 +1852,21 @@ body[data-page="wizard"] .panel {
   width: 100%;
 }
 
-/* —— Shared page frame + filter banner —— */
+body[data-page="feedback"] .feedback-frame {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body[data-page="feedback"] .feedback-panel {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body[data-page="feedback"] .feedback-panel + .feedback-panel {
+  margin-top: 1rem;
+}
 .page-frame {
   background: var(--card);
   border: 1px solid var(--border);
