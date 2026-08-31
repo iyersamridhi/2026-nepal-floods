@@ -276,5 +276,72 @@
     "tweetId": "manual-mea-rescued-list-31aug",
     "sourceUrl": "https://www.mea.gov.in/press-releases.htm",
     "text": "MEA reported on Sunday that more than 275 Indians and 128 persons of Indian origin remained missing or non-contactable in Nepal, and shared a list of 149 people rescued. Check MEA control room and Embassy of India Kathmandu for family tracing."
+  },
+  {
+    "handle": "NDRRMA_Nepal",
+    "name": "NDRRMA Nepal",
+    "region": ["nepal", "foreign"],
+    "timestamp": "2026-08-31T09:00:00+05:45",
+    "tweetId": "manual-ndrrma-9am-31aug-903",
+    "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
+    "text": "NDRRMA 9:00 a.m. update (31 Aug): 903 dead; 4,247 missing; 10,451 rescued. District fatalities include Chitwan 272, Nawalparasi East 207, Nawalparasi West 151, Nuwakot 95, Gorkha 62, Dhading 55, Tanahun 37, Rasuwa 24. Missing includes hydropower workers, security personnel, and foreign nationals. Confirm on ndrrma.gov.np."
+  },
+  {
+    "handle": "NDRRMA_Nepal",
+    "name": "NDRRMA Nepal",
+    "region": ["nepal"],
+    "timestamp": "2026-08-31T11:30:00+05:45",
+    "tweetId": "manual-ndrrma-heli-request-31aug",
+    "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
+    "text": "NDRRMA requests helicopters be used only for urgent search, rescue and relief materials during the Bhotekoshi response — not for non-essential passenger requests. Follow official coordination channels."
+  },
+  {
+    "handle": "BBCWorld",
+    "name": "BBC",
+    "role": "journalist",
+    "region": ["nepal", "foreign"],
+    "timestamp": "2026-08-31T12:00:00+05:45",
+    "tweetId": "manual-bbc-missing-4247-31aug",
+    "sourceUrl": "https://www.bbc.com/news/live/cwrk34rzx3z2t",
+    "text": "BBC: Nepal missing figure rises to 4,247 with at least 903 dead (NDRRMA). Sharp jump from Sunday’s 2,502 missing / ~781–788 dead. Tibet side reported separately by Chinese media. Verify all numbers on NDRRMA / MoFA."
+  },
+  {
+    "handle": "Online_khabar",
+    "name": "Online Khabar / Nepal News",
+    "role": "journalist",
+    "region": ["nepal"],
+    "timestamp": "2026-08-31T10:30:00+05:45",
+    "tweetId": "manual-nepalnews-903-31aug",
+    "sourceUrl": "https://english.nepalnews.com/s/nation/bhote-koshi-floods-death-toll-reaches-903-more-than-4200-still-missing/",
+    "text": "Nepal News reporting NDRRMA 9am figures: 903 dead, 4,247 missing, 10,451 rescued; 20,811 security personnel deployed; air ops 411 helicopter flights. District death breakdown and missing groups listed — open original; confirm with NDRRMA."
+  },
+  {
+    "handle": "kathmandupost",
+    "name": "The Kathmandu Post",
+    "role": "journalist",
+    "region": ["nepal"],
+    "timestamp": "2026-08-31T12:30:00+05:45",
+    "tweetId": "manual-kpost-burials-dna-31aug",
+    "sourceUrl": "https://kathmandupost.com/national/2026/08/30/20-identified-out-of-669-flood-victims-as-nepal-prepares-mass-burials",
+    "text": "Kathmandu Post: authorities preparing emergency burials after DNA/forensic records as morgues overflow; only a small share of recovered bodies identified so far. Not an official missing list — families should use Nepal Police UDB / NDRRMA channels."
+  },
+  {
+    "handle": "MEAIndia",
+    "name": "MEA India",
+    "region": ["india", "nepal"],
+    "timestamp": "2026-08-31T11:00:00+05:45",
+    "tweetId": "manual-mea-forensics-31aug",
+    "sourceUrl": "https://www.mea.gov.in/press-releases.htm",
+    "text": "MEA: 19-member Indian forensics team working in Kathmandu with Nepal Police Central Forensic Science Laboratory and TU Teaching Hospital to support DNA identification. Also reported 149 Indians rescued and continued family-tracing via MEA control room."
+  },
+  {
+    "handle": "ndtv",
+    "name": "NDTV",
+    "role": "journalist",
+    "region": ["nepal", "india", "foreign"],
+    "timestamp": "2026-08-31T13:00:00+05:45",
+    "tweetId": "manual-ndtv-900plus-31aug",
+    "sourceUrl": "https://www.ndtv.com/world-news/nepal-sounds-new-flood-alarm-as-deaths-cross-800-over-3-000-still-missing-11980070",
+    "text": "NDTV: NDRRMA Monday figures put Nepal deaths at 903 with 4,247 missing; combined Nepal–Tibet toll higher. Fresh flood alerts earlier after Bhotekoshi water rise. Confirm casualty and missing numbers with NDRRMA / MoFA."
   }
 ]

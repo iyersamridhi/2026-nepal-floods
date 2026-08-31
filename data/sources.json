@@ -158,6 +158,18 @@
       "note": "Sunday 31 Aug precaution warning — curated from NDRRMA public statement"
     },
     {
+      "id": "ndrrma-situation-update-31aug-9am",
+      "enabled": true,
+      "type": "seed",
+      "name": "NDRRMA situation update — 9am 31 Aug",
+      "seedFile": "data/seeds/ndrrma_situation_update_31aug_9am.json",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "note": "Monday morning NDRRMA casualty / rescue / missing figures"
+    },
+    {
       "id": "nepal-police-udb",
       "enabled": true,
       "type": "seed",

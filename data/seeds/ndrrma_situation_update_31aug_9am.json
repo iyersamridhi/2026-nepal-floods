@@ -1,0 +1,12 @@
+{
+  "id": "ndrrma-situation-update-31aug-9am",
+  "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
+  "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
+  "timestamp": "2026-08-31T09:00:00+05:45",
+  "region": ["nepal", "foreign"],
+  "title": "NDRRMA situation update — 9:00 a.m., 31 August 2026",
+  "citation": "NDRRMA Nepal — 9:00 a.m. search/rescue/relief update (31 Aug)",
+  "body": "NDRRMA 9:00 a.m. update (31 Aug): 903 confirmed dead; 4,247 missing; 10,451 rescued so far. Fatalities reported across districts including Chitwan (272), Nawalparasi East (207), Nawalparasi West (151), Nuwakot (95), Gorkha (62), Dhading (55), Tanahun (37), Rasuwa (24). Missing includes large groups in Nuwakot and Rasuwa, hydropower workers, security/government personnel, and foreign nationals. 20,811 security personnel deployed; helicopter operations continuing. Unidentified remains at 21 district hospitals — confirm all figures on ndrrma.gov.np and Nepal Police portals.",
+  "kind": "update",
+  "themes": ["briefing", "rescue", "missing", "remains"]
+}
