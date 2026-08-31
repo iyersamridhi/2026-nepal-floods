@@ -2071,6 +2071,55 @@ body[data-page="home"] .home-spotlight .section-block {
   background: #fff;
 }
 
+/* Priority alert — home (DNA / critical official notices) */
+.priority-alert {
+  margin-top: 0.85rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #8a0f22;
+  border-left: 4px solid var(--nepal-crimson);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, #fff8f8 0%, #fff 100%);
+}
+
+.priority-alert-kicker {
+  margin: 0 0 0.2rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #8a0f22;
+}
+
+.priority-alert-title {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  line-height: 1.25;
+  color: var(--nepal-blue-deep);
+}
+
+.priority-alert-body {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--text);
+}
+
+.priority-alert-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.7rem;
+}
+
+.priority-alert .btn-primary {
+  background: var(--nepal-crimson);
+  border-color: var(--nepal-crimson);
+}
+
+.priority-alert .btn-primary:hover {
+  opacity: 0.92;
+}
+
 /* Bulletin visibility — home spotlight, nav pulse, split tabs */
 .bulletin-spotlight {
   display: grid;

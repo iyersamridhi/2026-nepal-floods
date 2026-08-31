@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T16:31:02.731505Z",
-  "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
+  "generatedAt": "2026-08-31T16:32:42.214969Z",
+  "note": "Authority and journalist posts — verify on originals; not official confirmation of individual cases.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
@@ -461,10 +461,12 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094363424365097114",
       "title": "Nepal Police HQ",
-      "summary": "Information on DNA Profiling for unidentified Dead Bodies !!",
+      "summary": "Information on DNA Profiling for unidentified Dead Bodies. Relatives of missing persons after Rasuwa / Bhote Koshi floods: provide DNA samples to help identify recovered remains. In Nepal — blood sample + 2 passport photos at Nepal Police Hospital (Maharajgunj) Pathology Lab or nearest District Police Office (father/mother/son/daughter). Abroad — authorised lab DNA profile to dnacodis@nepalpolice.gov.np. Contact PI Sambhu Bahadur KC +977-9841616095. Open original post for full instructions.",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
-        "remains"
+        "remains",
+        "missing",
+        "contacts"
       ],
       "role": "authority",
       "scrapeMethod": "raw",
