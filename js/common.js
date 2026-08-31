@@ -36,13 +36,8 @@ const I18N = {
     donateCommunityDesc:
       "Independent public guide (floodreliefnepal.com) that explains the one-door PM fund rule, how to pay with UPI / Alipay+ / card / SWIFT, where to drop supplies, and how to spot fake QR codes. It points you to official portals — it does not collect money itself.",
     donateCommunityCta: "Open floodreliefnepal.com →",
-    donateWarnTitle: "Before you send money",
-    donateWarn1:
-      "Prefer the government portal in your browser address bar (donate.gov.np / pmdrf.nchl.com.np) — not a QR that arrived only in chat.",
-    donateWarn2:
-      "Private collection drives and personal bank/wallet requests for this disaster are not authorised under the government’s one-door policy.",
-    donateWarn3:
-      "This volunteer site never asks for card numbers, UPI, or crypto — if someone claiming to be us does, treat it as a scam.",
+    donateDisclaimer:
+      "Disclaimer: this is an independent volunteer directory. We do not collect donations, payment details, or funds. Always verify destinations on the original sites before you give.",
     homeDonateDesc: "Official PM Disaster Relief Fund and a community guide to safe giving.",
     resourcesSubtitle:
       "Searchable phones, WhatsApp, emails, and government portals from public notices.",
@@ -233,13 +228,8 @@ const I18N = {
     donateCommunityDesc:
       "स्वतन्त्र सार्वजनिक गाइड (floodreliefnepal.com) — एकढोका कोष नियम, UPI / Alipay+ / कार्ड / SWIFT, सामान ड्रप-अफ, र नक्कली QR चिन्न मद्दत। आधिकारिक पोर्टलतर्फ संकेत गर्छ — आफैं पैसा संकलन गर्दैन।",
     donateCommunityCta: "floodreliefnepal.com खोल्नुहोस् →",
-    donateWarnTitle: "पैसा पठाउनुअघि",
-    donateWarn1:
-      "ब्राउजर ठेगाना पट्टीमा सरकारी पोर्टल (donate.gov.np / pmdrf.nchl.com.np) रुचाउनुहोस् — च्याटमा मात्र आएको QR होइन।",
-    donateWarn2:
-      "यस प्रकोपका लागि निजी संकलन अभियान र व्यक्तिगत बैंक/वालेट अनुरोध सरकारी एकढोका नीतिअनुसार आधिकारिक छैनन्।",
-    donateWarn3:
-      "यो स्वयंसेवी साइटले कार्ड नम्बर, UPI वा क्रिप्टो माग्दैन — हामी भनी मागे कसैले भने ठगी सम्झनुहोस्।",
+    donateDisclaimer:
+      "अस्वीकरण: यो स्वतन्त्र स्वयंसेवी निर्देशिका हो। हामी दान, भुक्तानी विवरण वा रकम संकलन गर्दैनौं। दिनुअघि गन्तव्य मूल साइटमा नै पुष्टि गर्नुहोस्।",
     homeDonateDesc: "आधिकारिक प्रधानमन्त्री उद्धार कोष र सुरक्षित दानका लागि समुदाय गाइड।",
     resourcesSubtitle:
       "सार्वजनिक सूचनाबाट फोन, WhatsApp, इमेल र सरकारी पोर्टल — खोज्न र फिल्टर गर्न मिल्ने।",
