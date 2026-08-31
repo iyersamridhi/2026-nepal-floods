@@ -2144,6 +2144,23 @@ body[data-page="home"] .home-spotlight .section-block {
   height: auto;
 }
 
+.dna-email-panel {
+  scroll-margin-top: 1rem;
+}
+
+.dna-email-panel:target {
+  outline: 2px solid rgba(138, 15, 34, 0.35);
+  outline-offset: 2px;
+}
+
+.dna-email-form {
+  margin-top: 0.85rem;
+}
+
+.dna-email-form .quiet-note {
+  margin: 0.5rem 0 0.85rem;
+}
+
 /* Bulletin visibility — home spotlight, nav pulse, split tabs */
 .bulletin-spotlight {
   display: grid;

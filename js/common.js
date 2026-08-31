@@ -71,7 +71,34 @@ const I18N = {
     dnaAlertTitle: "DNA profiling for unidentified remains",
     dnaAlertBody:
       "Official notice (EN/NP): first-degree relatives in Nepal give a blood sample + 2 photos at Police Hospital Maharajgunj or the nearest District Police Office. Relatives abroad email the lab profile to dnacodis@nepalpolice.gov.np. Contact: PI Sambhu Bahadur K.C., +977-9841616095.",
+    dnaAlertEmailCta: "Prepare DNA email →",
     dnaAlertCta: "Original post →",
+    dnaEmailKicker: "Nepal Police · DNA profile email",
+    dnaEmailTitle: "Prepare email to dnacodis@nepalpolice.gov.np",
+    dnaEmailHint:
+      "For first-degree relatives abroad. We only open your mail app with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.",
+    dnaEmailInNepal:
+      "In Nepal: give a fresh blood sample + 2 passport photos at Pathology Lab, Nepal Police Hospital, Maharajgunj, or the nearest District Police Office — no email needed.",
+    dnaFieldMissingName: "Full name of missing person",
+    dnaFieldNationality: "Nationality",
+    dnaFieldId: "Passport / ID details",
+    dnaFieldDisappearance: "Date and place of disappearance (if known)",
+    dnaFieldDonorName: "Your name (DNA donor)",
+    dnaFieldRelationship: "Your relationship to the missing person",
+    dnaFieldDonorPhone: "Your phone (optional)",
+    dnaFieldLabNote: "Lab / report note (optional)",
+    dnaFieldLabPlaceholder: "e.g. Profile from [lab name], file attached",
+    dnaEmailOpen: "Open email draft →",
+    dnaEmailCopy: "Copy message",
+    dnaEmailOpened:
+      "Mail app should open with a draft to dnacodis@nepalpolice.gov.np. Attach the DNA profile file before you send.",
+    dnaEmailCopied: "Message copied. Paste into email and attach the DNA profile.",
+    dnaEmailCopyFail: "Could not copy — use Open email draft instead.",
+    dnaErrMissingName: "Add the missing person's full name.",
+    dnaErrNationality: "Add nationality.",
+    dnaErrId: "Add passport or ID details.",
+    dnaErrDonor: "Add your name (DNA donor).",
+    dnaErrRelation: "Select your relationship (father, mother, son, or daughter).",
     updatesSubtitle: "Authority notes, journalist reporting, and portals — always open the original to confirm",
     updatesFilterLabel: "Filter by region",
     updatesThemeLabel: "Themes (tap several to combine)",
@@ -205,7 +232,34 @@ const I18N = {
     dnaAlertTitle: "अज्ञात शव पहिचानका लागि DNA प्रोफाइलिङ",
     dnaAlertBody:
       "आधिकारिक सूचना (ने/EN): नेपालमा पहिलो श्रेणीका नातेदारले प्रहरी अस्पताल महाराजगञ्ज वा नजिकको जिल्ला प्रहरी कार्यालयमा रगत नमूना + २ फोटो दिनुहोस्। विदेशमा ल्याब प्रोफाइल dnacodis@nepalpolice.gov.np मा पठाउनुहोस्। सम्पर्क: प्र. नि. शम्भु बहादुर के.सी., +977-9841616095।",
+    dnaAlertEmailCta: "DNA इमेल तयार गर्नुहोस् →",
     dnaAlertCta: "मूल पोस्ट →",
+    dnaEmailKicker: "नेपाल प्रहरी · DNA प्रोफाइल इमेल",
+    dnaEmailTitle: "dnacodis@nepalpolice.gov.np मा इमेल तयार गर्नुहोस्",
+    dnaEmailHint:
+      "विदेशमा रहेका पहिलो श्रेणीका नातेदारका लागि। हामी केवल तपाईंको मेल एपमा ड्राफ्ट खोल्छौं — यहाँ केही अपलोड हुँदैन। पठाउनुअघि ल्याबको DNA प्रोफाइल आफैं संलग्न गर्नुहोस्।",
+    dnaEmailInNepal:
+      "नेपालमा: प्रहरी अस्पताल महाराजगञ्जको प्याथोलोजी ल्याब वा नजिकको जिल्ला प्रहरी कार्यालयमा ताजा रगत नमूना + २ पासपोर्ट फोटो दिनुहोस् — इमेल आवश्यक छैन।",
+    dnaFieldMissingName: "हराएको व्यक्तिको पूरा नाम",
+    dnaFieldNationality: "राष्ट्रियता",
+    dnaFieldId: "पासपोर्ट / परिचय विवरण",
+    dnaFieldDisappearance: "हराएको मिति र स्थान (थाहा भए)",
+    dnaFieldDonorName: "तपाईंको नाम (DNA दाता)",
+    dnaFieldRelationship: "हराएको व्यक्तिसँगको नाता",
+    dnaFieldDonorPhone: "तपाईंको फोन (ऐच्छिक)",
+    dnaFieldLabNote: "ल्याब / रिपोर्ट नोट (ऐच्छिक)",
+    dnaFieldLabPlaceholder: "जस्तै: [ल्याब नाम] बाट प्रोफाइल, फाइल संलग्न",
+    dnaEmailOpen: "इमेल ड्राफ्ट खोल्नुहोस् →",
+    dnaEmailCopy: "सन्देश कपी गर्नुहोस्",
+    dnaEmailOpened:
+      "मेल एपले dnacodis@nepalpolice.gov.np मा ड्राफ्ट खोल्नुपर्छ। पठाउनुअघि DNA प्रोफाइल फाइल संलग्न गर्नुहोस्।",
+    dnaEmailCopied: "सन्देश कपी भयो। इमेलमा पेस्ट गरी DNA प्रोफाइल संलग्न गर्नुहोस्।",
+    dnaEmailCopyFail: "कपी असफल — इमेल ड्राफ्ट खोल्नुहोस् प्रयोग गर्नुहोस्।",
+    dnaErrMissingName: "हराएको व्यक्तिको पूरा नाम थप्नुहोस्।",
+    dnaErrNationality: "राष्ट्रियता थप्नुहोस्।",
+    dnaErrId: "पासपोर्ट वा परिचय विवरण थप्नुहोस्।",
+    dnaErrDonor: "आफ्नो नाम (DNA दाता) थप्नुहोस्।",
+    dnaErrRelation: "नाता छान्नुहोस् (बुबा, आमा, छोरा वा छोरी)।",
     updatesSubtitle: "आधिकारिक नोट, पत्रकार रिपोर्ट र पोर्टल — पुष्टिका लागि सधैं मूल खोल्नुहोस्",
     updatesFilterLabel: "क्षेत्र अनुसार फिल्टर",
     updatesThemeLabel: "विषय (थपेर मिलाउन ट्याप)",
@@ -338,6 +392,10 @@ function setLang(lang) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (key) el.textContent = t(key);
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-placeholder");
+    if (key) el.setAttribute("placeholder", t(key));
   });
   document.querySelectorAll(".lang-toggle button").forEach((btn) => {
     btn.classList.toggle("active", btn.dataset.lang === lang);

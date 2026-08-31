@@ -53,8 +53,8 @@
         <h2 class="priority-alert-title" data-i18n="dnaAlertTitle">DNA profiling for unidentified remains</h2>
         <p class="priority-alert-body" data-i18n="dnaAlertBody">Official notice (EN/NP): first-degree relatives in Nepal give a blood sample + 2 photos at Police Hospital Maharajgunj or the nearest District Police Office. Relatives abroad email the lab profile to dnacodis@nepalpolice.gov.np. Contact: PI Sambhu Bahadur K.C., +977-9841616095.</p>
         <div class="priority-alert-actions">
-          <a class="btn btn-primary btn-sm" href="mailto:dnacodis@nepalpolice.gov.np">dnacodis@nepalpolice.gov.np</a>
-          <a class="btn btn-primary btn-sm" href="tel:+9779841616095">+977-9841616095</a>
+          <a class="btn btn-primary btn-sm" href="#dna-email" data-i18n="dnaAlertEmailCta">Prepare DNA email →</a>
+          <a class="btn btn-secondary btn-sm" href="tel:+9779841616095">+977-9841616095</a>
           <a class="btn btn-secondary btn-sm" href="https://x.com/NepalPoliceHQ/status/2094363424365097114" target="_blank" rel="noopener" data-i18n="dnaAlertCta">Original post →</a>
         </div>
       </div>
@@ -69,6 +69,65 @@
         >
       </a>
     </aside>
+
+    <section class="panel dna-email-panel" id="dna-email">
+      <p class="section-kicker" data-i18n="dnaEmailKicker">Nepal Police · DNA profile email</p>
+      <h2 class="section-title" data-i18n="dnaEmailTitle">Prepare email to dnacodis@nepalpolice.gov.np</h2>
+      <p class="form-hint" data-i18n="dnaEmailHint">For first-degree relatives abroad. We only open your mail app with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.</p>
+      <p class="quiet-note" data-i18n="dnaEmailInNepal">In Nepal: give a fresh blood sample + 2 passport photos at Pathology Lab, Nepal Police Hospital, Maharajgunj, or the nearest District Police Office — no email needed.</p>
+
+      <form id="dna-email-form" class="dna-email-form" novalidate>
+        <div class="form-group">
+          <label for="dna-missing-name" data-i18n="dnaFieldMissingName">Full name of missing person</label>
+          <input id="dna-missing-name" name="missingName" type="text" autocomplete="name" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="dna-nationality" data-i18n="dnaFieldNationality">Nationality</label>
+            <input id="dna-nationality" name="nationality" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="dna-id-details" data-i18n="dnaFieldId">Passport / ID details</label>
+            <input id="dna-id-details" name="idDetails" type="text" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="dna-disappearance" data-i18n="dnaFieldDisappearance">Date and place of disappearance (if known)</label>
+          <input id="dna-disappearance" name="disappearance" type="text" placeholder="e.g. 26 Aug 2026 — Rasuwa / Bhote Koshi">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="dna-donor-name" data-i18n="dnaFieldDonorName">Your name (DNA donor)</label>
+            <input id="dna-donor-name" name="donorName" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="dna-relationship" data-i18n="dnaFieldRelationship">Your relationship to the missing person</label>
+            <select id="dna-relationship" name="relationship" required>
+              <option value="">—</option>
+              <option value="Father">Father</option>
+              <option value="Mother">Mother</option>
+              <option value="Son">Son</option>
+              <option value="Daughter">Daughter</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="dna-donor-phone" data-i18n="dnaFieldDonorPhone">Your phone (optional)</label>
+          <input id="dna-donor-phone" name="donorPhone" type="tel" autocomplete="tel">
+        </div>
+        <div class="form-group">
+          <label for="dna-lab-note" data-i18n="dnaFieldLabNote">Lab / report note (optional)</label>
+          <textarea id="dna-lab-note" name="labNote" rows="2" data-i18n-placeholder="dnaFieldLabPlaceholder" placeholder="e.g. Profile from [lab name], file attached"></textarea>
+        </div>
+        <p class="form-errors" id="dna-email-errors" hidden></p>
+        <div class="btn-group">
+          <button type="submit" class="btn btn-primary" data-i18n="dnaEmailOpen">Open email draft →</button>
+          <button type="button" class="btn btn-secondary" id="dna-email-copy" data-i18n="dnaEmailCopy">Copy message</button>
+          <a class="btn btn-secondary" href="mailto:dnacodis@nepalpolice.gov.np">dnacodis@nepalpolice.gov.np</a>
+        </div>
+        <p class="form-hint" id="dna-email-status" hidden></p>
+      </form>
+    </section>
 
     <div class="bulletin-spotlight" id="bulletin-spotlight">
       <div class="bulletin-spotlight-copy">
@@ -169,7 +228,8 @@
 
     <footer class="site-footer" data-i18n="footer">Volunteer site — contacts, links & updates only.</footer>
   </div>
-  <script src="/js/common.js?v=layout16"></script>
+  <script src="/js/common.js?v=layout17"></script>
+  <script src="/js/dna-email.js?v=layout1"></script>
 
   <!-- Vercel Web Analytics -->
   <script>
