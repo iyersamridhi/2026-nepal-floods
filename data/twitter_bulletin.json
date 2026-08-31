@@ -1,10 +1,75 @@
 {
-  "generatedAt": "2026-08-31T16:32:42.214969Z",
-  "note": "Authority and journalist posts — verify on originals; not official confirmation of individual cases.",
+  "generatedAt": "2026-08-31T17:38:49.608357Z",
+  "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2094476727783444875",
+      "timestamp": "2026-08-31T17:25:40.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094476727783444875",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Update on Indian nationals &amp; India’s rescue and relief efforts in Nepal 👇",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d4c71d1d5083cdeb"
+    },
+    {
+      "id": "twitter-2094476340825362753",
+      "timestamp": "2026-08-31T17:24:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094476340825362753",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Ambassador @navsri6619 visited Nepali Army base in Bidur, Nuwakot, the staging post for rescue and relief operations in Rasuwa today.\n\nHe met India's technical teams for tunnel rescue operations and got a briefing on their work today in Langtang &amp; Chilime tunnels. He also met",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b5fc426cd08e6922"
+    },
+    {
+      "id": "twitter-2094466412173803916",
+      "timestamp": "2026-08-31T16:44:40.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094466412173803916",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहतको स्थिति प्रतिवेदन # १० (मिति- २०८३ भदौ १५ गते साँझ ७ः०० बजे सम्मको विवरणसहित)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f34e330cd0201235"
+    },
     {
       "id": "twitter-2094460755915764132",
       "timestamp": "2026-08-31T16:22:12.000Z",
@@ -461,12 +526,10 @@
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094363424365097114",
       "title": "Nepal Police HQ",
-      "summary": "Information on DNA Profiling for unidentified Dead Bodies. Relatives of missing persons after Rasuwa / Bhote Koshi floods: provide DNA samples to help identify recovered remains. In Nepal — blood sample + 2 passport photos at Nepal Police Hospital (Maharajgunj) Pathology Lab or nearest District Police Office (father/mother/son/daughter). Abroad — authorised lab DNA profile to dnacodis@nepalpolice.gov.np. Contact PI Sambhu Bahadur KC +977-9841616095. Open original post for full instructions.",
+      "summary": "Information on DNA Profiling for unidentified Dead Bodies !!",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
-        "remains",
-        "missing",
-        "contacts"
+        "remains"
       ],
       "role": "authority",
       "scrapeMethod": "raw",
