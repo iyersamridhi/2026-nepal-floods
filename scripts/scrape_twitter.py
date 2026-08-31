@@ -429,27 +429,33 @@ def main():
         seen.add(it["id"])
         deduped.append(it)
 
-    # Role-filtered runs merge into existing bulletin so authority posts aren't wiped
-    if role_filter != "all" and TWITTER_BULLETIN.exists():
+    # Role-filtered OR lean/partial handle list: merge into existing so we don't wipe the feed
+    partial = role_filter != "all" or bool((os.environ.get("TWITTER_HANDLES") or "").strip()) or (
+        int(os.environ.get("TWITTER_ACCOUNT_LIMIT") or "0") > 0
+    )
+    if partial and TWITTER_BULLETIN.exists():
         existing = json.loads(TWITTER_BULLETIN.read_text(encoding="utf-8"))
-        kept = [
-            it
-            for it in (existing.get("items") or [])
-            if (it.get("role") or "authority") != role_filter
-        ]
+        if role_filter != "all":
+            kept = [
+                it
+                for it in (existing.get("items") or [])
+                if (it.get("role") or "authority") != role_filter
+            ]
+        else:
+            kept = list(existing.get("items") or [])
         merged = {it["id"]: it for it in kept}
         for it in deduped:
             merged[it["id"]] = it
         deduped = list(merged.values())
         print(
-            f"Merged {role_filter} scrape into existing bulletin ({len(deduped)} total)",
+            f"Merged partial scrape into existing bulletin ({len(deduped)} total)",
             file=sys.stderr,
         )
 
     deduped.sort(key=lambda x: x.get("timestamp", ""), reverse=True)
 
     # When live API fails, keep previously scraped tweets — don't replace with manual seeds only
-    if not live_ok and role_filter == "all" and TWITTER_BULLETIN.exists():
+    if not live_ok and not partial and TWITTER_BULLETIN.exists():
         existing = json.loads(TWITTER_BULLETIN.read_text(encoding="utf-8"))
         merged = {it["id"]: it for it in (existing.get("items") or []) if it.get("scrapeMethod") != "manual"}
         for it in deduped:
