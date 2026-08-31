@@ -71,11 +71,23 @@ function showDnaErrors(issues) {
   return false;
 }
 
+function syncDnaCta(open) {
+  const cta = document.getElementById("dna-email-open-cta");
+  if (!cta) return;
+  cta.setAttribute("aria-expanded", open ? "true" : "false");
+  cta.classList.toggle("is-active", !!open);
+}
+
 function openDnaPanel() {
   const panel = document.getElementById("dna-email");
+  const card = document.getElementById("dna-priority-alert");
   if (!panel) return;
-  if (panel.tagName === "DETAILS") panel.open = true;
-  panel.scrollIntoView({ behavior: "smooth", block: "start" });
+  panel.open = true;
+  syncDnaCta(true);
+  (card || panel).scrollIntoView({ behavior: "smooth", block: "start" });
+  window.setTimeout(() => {
+    document.getElementById("dna-missing-name")?.focus({ preventScroll: true });
+  }, 250);
 }
 
 function launchDnaEmail(prefer) {
@@ -107,12 +119,27 @@ function initDnaEmailHelper() {
   const panel = document.getElementById("dna-email");
   if (!form || !panel) return;
 
-  // Keep collapsed unless deep-linked or user opens from banner
+  // Start collapsed; only open via Prepare DNA email or deep link
+  panel.open = false;
+  syncDnaCta(false);
   if (location.hash === "#dna-email") openDnaPanel();
+
+  panel.addEventListener("toggle", () => {
+    syncDnaCta(panel.open);
+    if (!panel.open && location.hash === "#dna-email") {
+      history.replaceState(null, "", location.pathname + location.search);
+    }
+  });
 
   document.querySelectorAll('a[href="#dna-email"]').forEach((a) => {
     a.addEventListener("click", (e) => {
       e.preventDefault();
+      if (panel.open) {
+        panel.open = false;
+        syncDnaCta(false);
+        history.replaceState(null, "", location.pathname + location.search);
+        return;
+      }
       history.replaceState(null, "", "#dna-email");
       openDnaPanel();
     });

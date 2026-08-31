@@ -43,97 +43,99 @@
         <a href="/report.html" data-page="report" data-i18n="navReport">Report missing</a>
         <a href="/updates.html" data-page="updates" class="nav-bulletin" data-i18n="navUpdates">Bulletin</a>
         <a href="/resources.html" data-page="resources" data-i18n="navResources">Contacts</a>
+        <a href="/donate.html" data-page="donate" data-i18n="navDonate">Donate</a>
         <a href="/feedback.html" data-page="feedback" class="nav-feedback" data-i18n="navFeedback">Feedback</a>
       </nav>
     </header>
 
-    <aside class="priority-alert" id="dna-priority-alert" aria-label="Nepal Police DNA profiling notice">
-      <div class="priority-alert-copy">
-        <p class="priority-alert-kicker" data-i18n="dnaAlertKicker">Important — Nepal Police</p>
-        <h2 class="priority-alert-title" data-i18n="dnaAlertTitle">DNA profiling for unidentified remains</h2>
-        <p class="priority-alert-body" data-i18n="dnaAlertBody">Official notice (EN/NP): first-degree relatives in Nepal give a blood sample + 2 photos at Police Hospital Maharajgunj or the nearest District Police Office. Relatives abroad email the lab profile to dnacodis@nepalpolice.gov.np. Contact: PI Sambhu Bahadur K.C., +977-9841616095.</p>
-        <div class="priority-alert-actions">
-          <a class="btn btn-primary btn-sm" href="#dna-email" data-i18n="dnaAlertEmailCta">Prepare DNA email →</a>
-          <a class="btn btn-secondary btn-sm" href="tel:+9779841616095">+977-9841616095</a>
-          <a class="btn btn-secondary btn-sm" href="https://x.com/NepalPoliceHQ/status/2094363424365097114" target="_blank" rel="noopener" data-i18n="dnaAlertCta">Original post →</a>
+    <section class="dna-notice-card" id="dna-priority-alert" aria-label="Nepal Police DNA profiling notice">
+      <aside class="priority-alert">
+        <div class="priority-alert-copy">
+          <p class="priority-alert-kicker" data-i18n="dnaAlertKicker">Important — Nepal Police</p>
+          <h2 class="priority-alert-title" data-i18n="dnaAlertTitle">DNA profiling for unidentified remains</h2>
+          <p class="priority-alert-body" data-i18n="dnaAlertBody">Official notice (EN/NP): first-degree relatives in Nepal give a blood sample + 2 photos at Police Hospital Maharajgunj or the nearest District Police Office. Relatives abroad email the lab profile to dnacodis@nepalpolice.gov.np. Contact: PI Sambhu Bahadur K.C., +977-9841616095.</p>
+          <div class="priority-alert-actions">
+            <a class="btn btn-primary btn-sm" href="#dna-email" id="dna-email-open-cta" aria-controls="dna-email" aria-expanded="false" data-i18n="dnaAlertEmailCta">Prepare DNA email →</a>
+            <a class="btn btn-secondary btn-sm" href="tel:+9779841616095">+977-9841616095</a>
+            <a class="btn btn-secondary btn-sm" href="https://x.com/NepalPoliceHQ/status/2094363424365097114" target="_blank" rel="noopener" data-i18n="dnaAlertCta">Original post →</a>
+          </div>
         </div>
-      </div>
-      <a class="priority-alert-figure" href="https://x.com/NepalPoliceHQ/status/2094363424365097114" target="_blank" rel="noopener">
-        <img
-          src="/assets/nepal-police-dna-profiling-31aug.jpg"
-          width="1016"
-          height="1024"
-          alt="Nepal Police notice: DNA profiling for unidentified dead bodies — email dnacodis@nepalpolice.gov.np, contact PI Sambhu Bahadur K.C. +977-9841616095"
-          loading="eager"
-          decoding="async"
-        >
-      </a>
-    </aside>
+        <a class="priority-alert-figure" href="https://x.com/NepalPoliceHQ/status/2094363424365097114" target="_blank" rel="noopener">
+          <img
+            src="/assets/nepal-police-dna-profiling-31aug.jpg"
+            width="1016"
+            height="1024"
+            alt="Nepal Police notice: DNA profiling for unidentified dead bodies — email dnacodis@nepalpolice.gov.np, contact PI Sambhu Bahadur K.C. +977-9841616095"
+            loading="eager"
+            decoding="async"
+          >
+        </a>
+      </aside>
 
-    <details class="panel dna-email-panel" id="dna-email" open>
-      <summary class="dna-email-summary">
-        <span class="section-kicker" data-i18n="dnaEmailKicker">Nepal Police · DNA profile email</span>
-        <span class="dna-email-summary-title" data-i18n="dnaEmailTitle">Prepare email to dnacodis@nepalpolice.gov.np</span>
-        <span class="dna-email-summary-hint form-hint" data-i18n="dnaEmailCollapsedHint">Relatives abroad — form open below · tap heading to hide</span>
-      </summary>
+      <details class="dna-email-panel" id="dna-email">
+        <summary class="dna-email-summary">
+          <span class="dna-email-summary-title" data-i18n="dnaEmailTitle">Prepare email to dnacodis@nepalpolice.gov.np</span>
+          <span class="dna-email-summary-hint form-hint" data-i18n="dnaEmailCollapsedHint">Tap Hide to collapse this form</span>
+        </summary>
 
-      <p class="form-hint" data-i18n="dnaEmailHint">For first-degree relatives abroad. We only open your mail app or Gmail with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.</p>
-      <p class="quiet-note" data-i18n="dnaEmailInNepal">In Nepal: give a fresh blood sample + 2 passport photos at Pathology Lab, Nepal Police Hospital, Maharajgunj, or the nearest District Police Office — no email needed.</p>
+        <p class="form-hint" data-i18n="dnaEmailHint">For first-degree relatives abroad. We only open your mail app or Gmail with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.</p>
+        <p class="quiet-note" data-i18n="dnaEmailInNepal">In Nepal: give a fresh blood sample + 2 passport photos at Pathology Lab, Nepal Police Hospital, Maharajgunj, or the nearest District Police Office — no email needed.</p>
 
-      <form id="dna-email-form" class="dna-email-form" novalidate>
-        <div class="form-group">
-          <label for="dna-missing-name" data-i18n="dnaFieldMissingName">Full name of missing person</label>
-          <input id="dna-missing-name" name="missingName" type="text" autocomplete="name" required>
-        </div>
-        <div class="form-row">
+        <form id="dna-email-form" class="dna-email-form" novalidate>
           <div class="form-group">
-            <label for="dna-nationality" data-i18n="dnaFieldNationality">Nationality</label>
-            <input id="dna-nationality" name="nationality" type="text" required>
+            <label for="dna-missing-name" data-i18n="dnaFieldMissingName">Full name of missing person</label>
+            <input id="dna-missing-name" name="missingName" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="dna-nationality" data-i18n="dnaFieldNationality">Nationality</label>
+              <input id="dna-nationality" name="nationality" type="text" required>
+            </div>
+            <div class="form-group">
+              <label for="dna-id-details" data-i18n="dnaFieldId">Passport / ID details</label>
+              <input id="dna-id-details" name="idDetails" type="text" required>
+            </div>
           </div>
           <div class="form-group">
-            <label for="dna-id-details" data-i18n="dnaFieldId">Passport / ID details</label>
-            <input id="dna-id-details" name="idDetails" type="text" required>
+            <label for="dna-disappearance" data-i18n="dnaFieldDisappearance">Date and place of disappearance (if known)</label>
+            <input id="dna-disappearance" name="disappearance" type="text" placeholder="e.g. 26 Aug 2026 — Rasuwa / Bhote Koshi">
           </div>
-        </div>
-        <div class="form-group">
-          <label for="dna-disappearance" data-i18n="dnaFieldDisappearance">Date and place of disappearance (if known)</label>
-          <input id="dna-disappearance" name="disappearance" type="text" placeholder="e.g. 26 Aug 2026 — Rasuwa / Bhote Koshi">
-        </div>
-        <div class="form-row">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="dna-donor-name" data-i18n="dnaFieldDonorName">Your name (DNA donor)</label>
+              <input id="dna-donor-name" name="donorName" type="text" required>
+            </div>
+            <div class="form-group">
+              <label for="dna-relationship" data-i18n="dnaFieldRelationship">Your relationship to the missing person</label>
+              <select id="dna-relationship" name="relationship" required>
+                <option value="">—</option>
+                <option value="Father">Father</option>
+                <option value="Mother">Mother</option>
+                <option value="Son">Son</option>
+                <option value="Daughter">Daughter</option>
+              </select>
+            </div>
+          </div>
           <div class="form-group">
-            <label for="dna-donor-name" data-i18n="dnaFieldDonorName">Your name (DNA donor)</label>
-            <input id="dna-donor-name" name="donorName" type="text" required>
+            <label for="dna-donor-phone" data-i18n="dnaFieldDonorPhone">Your phone (optional)</label>
+            <input id="dna-donor-phone" name="donorPhone" type="tel" autocomplete="tel">
           </div>
           <div class="form-group">
-            <label for="dna-relationship" data-i18n="dnaFieldRelationship">Your relationship to the missing person</label>
-            <select id="dna-relationship" name="relationship" required>
-              <option value="">—</option>
-              <option value="Father">Father</option>
-              <option value="Mother">Mother</option>
-              <option value="Son">Son</option>
-              <option value="Daughter">Daughter</option>
-            </select>
+            <label for="dna-lab-note" data-i18n="dnaFieldLabNote">Lab / report note (optional)</label>
+            <textarea id="dna-lab-note" name="labNote" rows="2" data-i18n-placeholder="dnaFieldLabPlaceholder" placeholder="e.g. Profile from [lab name], file attached"></textarea>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="dna-donor-phone" data-i18n="dnaFieldDonorPhone">Your phone (optional)</label>
-          <input id="dna-donor-phone" name="donorPhone" type="tel" autocomplete="tel">
-        </div>
-        <div class="form-group">
-          <label for="dna-lab-note" data-i18n="dnaFieldLabNote">Lab / report note (optional)</label>
-          <textarea id="dna-lab-note" name="labNote" rows="2" data-i18n-placeholder="dnaFieldLabPlaceholder" placeholder="e.g. Profile from [lab name], file attached"></textarea>
-        </div>
-        <p class="form-errors" id="dna-email-errors" hidden></p>
-        <div class="btn-group">
-          <button type="button" class="btn btn-primary" id="dna-email-open" data-i18n="dnaEmailOpen">Open email draft →</button>
-          <button type="button" class="btn btn-secondary" id="dna-email-gmail" data-i18n="dnaEmailGmail">Open in Gmail →</button>
-          <button type="button" class="btn btn-secondary" id="dna-email-mailto" data-i18n="dnaEmailMailto">Open in Mail app →</button>
-          <button type="button" class="btn btn-secondary" id="dna-email-copy" data-i18n="dnaEmailCopy">Copy message</button>
-          <button type="button" class="btn btn-secondary" id="dna-email-address">dnacodis@nepalpolice.gov.np</button>
-        </div>
-        <p class="form-hint" id="dna-email-status" hidden></p>
-      </form>
-    </details>
+          <p class="form-errors" id="dna-email-errors" hidden></p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary" id="dna-email-open" data-i18n="dnaEmailOpen">Open email draft →</button>
+            <button type="button" class="btn btn-secondary" id="dna-email-gmail" data-i18n="dnaEmailGmail">Open in Gmail →</button>
+            <button type="button" class="btn btn-secondary" id="dna-email-mailto" data-i18n="dnaEmailMailto">Open in Mail app →</button>
+            <button type="button" class="btn btn-secondary" id="dna-email-copy" data-i18n="dnaEmailCopy">Copy message</button>
+            <button type="button" class="btn btn-secondary" id="dna-email-address">dnacodis@nepalpolice.gov.np</button>
+          </div>
+          <p class="form-hint" id="dna-email-status" hidden></p>
+        </form>
+      </details>
+    </section>
 
     <div class="bulletin-spotlight" id="bulletin-spotlight">
       <div class="bulletin-spotlight-copy">
@@ -166,6 +168,10 @@
       <a class="action-card" href="/resources.html">
         <h2 data-i18n="navResources">Contacts</h2>
         <p data-i18n="homeContactsDesc">Control rooms, district phones, Tibet contacts, embassies, and portals — searchable.</p>
+      </a>
+      <a class="action-card" href="/donate.html">
+        <h2 data-i18n="navDonate">Donate</h2>
+        <p data-i18n="homeDonateDesc">Official PM Disaster Relief Fund and a community guide to safe giving.</p>
       </a>
     </div>
 
@@ -234,8 +240,8 @@
 
     <footer class="site-footer" data-i18n="footer">Volunteer site — contacts, links & updates only.</footer>
   </div>
-  <script src="/js/common.js?v=layout19"></script>
-  <script src="/js/dna-email.js?v=layout3"></script>
+  <script src="/js/common.js?v=layout20"></script>
+  <script src="/js/dna-email.js?v=layout4"></script>
 
   <!-- Vercel Web Analytics -->
   <script>

@@ -22,6 +22,28 @@ const I18N = {
     navReport: "Report missing",
     navUpdates: "Bulletin",
     navResources: "Contacts",
+    navDonate: "Donate",
+    donateSubtitle: "Official fund + an independent guide for Bhotekoshi / Rasuwa flood relief",
+    donateLead:
+      "We do not collect donations on this site. Use the official government portal to give money, or the community guide if you need help spotting scams and drop-off points.",
+    donateGovKicker: "Government of Nepal",
+    donateGovTitle: "Prime Minister’s Disaster Relief Fund",
+    donateGovDesc:
+      "Official donation portal (donate.gov.np) for nationwide disaster rescue, relief, and rehabilitation — cards, NepalPAY / Fonepay QR, wallets, and SWIFT. This is the authorised government channel for cash gifts.",
+    donateGovCta: "Open donate.gov.np →",
+    donateCommunityKicker: "Community guide · not government",
+    donateCommunityTitle: "Flood Relief Nepal",
+    donateCommunityDesc:
+      "Independent public guide (floodreliefnepal.com) that explains the one-door PM fund rule, how to pay with UPI / Alipay+ / card / SWIFT, where to drop supplies, and how to spot fake QR codes. It points you to official portals — it does not collect money itself.",
+    donateCommunityCta: "Open floodreliefnepal.com →",
+    donateWarnTitle: "Before you send money",
+    donateWarn1:
+      "Prefer the government portal in your browser address bar (donate.gov.np / pmdrf.nchl.com.np) — not a QR that arrived only in chat.",
+    donateWarn2:
+      "Private collection drives and personal bank/wallet requests for this disaster are not authorised under the government’s one-door policy.",
+    donateWarn3:
+      "This volunteer site never asks for card numbers, UPI, or crypto — if someone claiming to be us does, treat it as a scam.",
+    homeDonateDesc: "Official PM Disaster Relief Fund and a community guide to safe giving.",
     resourcesSubtitle:
       "Searchable phones, WhatsApp, emails, and government portals from public notices.",
     resourcesSearchLabel: "Search contacts",
@@ -75,7 +97,7 @@ const I18N = {
     dnaAlertCta: "Original post →",
     dnaEmailKicker: "Nepal Police · DNA profile email",
     dnaEmailTitle: "Prepare email to dnacodis@nepalpolice.gov.np",
-    dnaEmailCollapsedHint: "Relatives abroad — form open below · tap heading to hide",
+    dnaEmailCollapsedHint: "Tap Hide to collapse this form",
     dnaEmailHint:
       "For first-degree relatives abroad. We only open your mail app or Gmail with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.",
     dnaEmailInNepal:
@@ -197,6 +219,28 @@ const I18N = {
     navReport: "हराएको रिपोर्ट",
     navUpdates: "बुलेटिन",
     navResources: "सम्पर्क",
+    navDonate: "दान",
+    donateSubtitle: "आधिकारिक कोष + भोटेकोशी / रसुवा राहतका लागि स्वतन्त्र गाइड",
+    donateLead:
+      "हामी यस साइटमा दान संकलन गर्दैनौं। पैसा दिन आधिकारिक सरकारी पोर्टल प्रयोग गर्नुहोस्, वा ठगी / ड्रप-अफ बुझ्न समुदाय गाइड हेर्नुहोस्।",
+    donateGovKicker: "नेपाल सरकार",
+    donateGovTitle: "प्रधानमन्त्री दैवी प्रकोप उद्धार कोष",
+    donateGovDesc:
+      "आधिकारिक दान पोर्टल (donate.gov.np) — राष्ट्रव्यापी उद्धार, राहत र पुनर्स्थापनाका लागि कार्ड, NepalPAY / Fonepay QR, वालेट र SWIFT। नगद दानको आधिकारिक सरकारी मार्ग।",
+    donateGovCta: "donate.gov.np खोल्नुहोस् →",
+    donateCommunityKicker: "समुदाय गाइड · सरकारी होइन",
+    donateCommunityTitle: "Flood Relief Nepal",
+    donateCommunityDesc:
+      "स्वतन्त्र सार्वजनिक गाइड (floodreliefnepal.com) — एकढोका कोष नियम, UPI / Alipay+ / कार्ड / SWIFT, सामान ड्रप-अफ, र नक्कली QR चिन्न मद्दत। आधिकारिक पोर्टलतर्फ संकेत गर्छ — आफैं पैसा संकलन गर्दैन।",
+    donateCommunityCta: "floodreliefnepal.com खोल्नुहोस् →",
+    donateWarnTitle: "पैसा पठाउनुअघि",
+    donateWarn1:
+      "ब्राउजर ठेगाना पट्टीमा सरकारी पोर्टल (donate.gov.np / pmdrf.nchl.com.np) रुचाउनुहोस् — च्याटमा मात्र आएको QR होइन।",
+    donateWarn2:
+      "यस प्रकोपका लागि निजी संकलन अभियान र व्यक्तिगत बैंक/वालेट अनुरोध सरकारी एकढोका नीतिअनुसार आधिकारिक छैनन्।",
+    donateWarn3:
+      "यो स्वयंसेवी साइटले कार्ड नम्बर, UPI वा क्रिप्टो माग्दैन — हामी भनी मागे कसैले भने ठगी सम्झनुहोस्।",
+    homeDonateDesc: "आधिकारिक प्रधानमन्त्री उद्धार कोष र सुरक्षित दानका लागि समुदाय गाइड।",
     resourcesSubtitle:
       "सार्वजनिक सूचनाबाट फोन, WhatsApp, इमेल र सरकारी पोर्टल — खोज्न र फिल्टर गर्न मिल्ने।",
     resourcesSearchLabel: "सम्पर्क खोज्नुहोस्",
@@ -250,7 +294,7 @@ const I18N = {
     dnaAlertCta: "मूल पोस्ट →",
     dnaEmailKicker: "नेपाल प्रहरी · DNA प्रोफाइल इमेल",
     dnaEmailTitle: "dnacodis@nepalpolice.gov.np मा इमेल तयार गर्नुहोस्",
-    dnaEmailCollapsedHint: "विदेशका नातेदार — फारम तल खुला छ · लुकाउन शीर्षकमा ट्याप गर्नुहोस्",
+    dnaEmailCollapsedHint: "फारम लुकाउन Hide मा ट्याप गर्नुहोस्",
     dnaEmailHint:
       "विदेशमा रहेका पहिलो श्रेणीका नातेदारका लागि। हामी मेल एप वा Gmail मा ड्राफ्ट खोल्छौं — यहाँ केही अपलोड हुँदैन। पठाउनुअघि ल्याबको DNA प्रोफाइल आफैं संलग्न गर्नुहोस्।",
     dnaEmailInNepal:
@@ -447,6 +491,7 @@ const NAV_LINKS_HTML = `
     <a href="/report.html" data-page="report" data-i18n="navReport">Report missing</a>
     <a href="/updates.html" data-page="updates" class="nav-bulletin" data-i18n="navUpdates">Bulletin</a>
     <a href="/resources.html" data-page="resources" data-i18n="navResources">Contacts</a>
+    <a href="/donate.html" data-page="donate" data-i18n="navDonate">Donate</a>
     <a href="/feedback.html" data-page="feedback" class="nav-feedback" data-i18n="navFeedback">Feedback</a>
   `;
 
