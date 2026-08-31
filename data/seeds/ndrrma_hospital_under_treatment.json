@@ -1,11 +1,12 @@
 {
   "id": "ndrrma-hospital-under-treatment",
   "source": "National Disaster Risk Reduction and Management Authority (NDRRMA)",
-  "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
-  "timestamp": "2026-08-30T07:17:00+05:45",
+  "sourceUrl": "https://ndrrma.gov.np/np/notice-information/392",
+  "timestamp": "2026-08-31T07:21:00+05:45",
   "region": ["nepal"],
-  "title": "Injured — currently in Kathmandu hospitals (NDRRMA)",
-  "citation": "NDRRMA — notice-information (under treatment)",
-  "body": "NDRRMA published a list of people injured in the Rasuwa Bhotekoshi / Trishuli floods who are currently receiving treatment in various Kathmandu hospitals. Open the official NDRRMA page to search the list. This site links to NDRRMA; we do not copy names or case details.",
-  "kind": "pointer"
+  "title": "Injured — under treatment & discharged in Kathmandu (NDRRMA / DEOC)",
+  "citation": "NDRRMA X + District Emergency Operation Centre Kathmandu — notice 392",
+  "body": "NDRRMA (31 Aug) linked the updated list of people rescued from the Rasuwa flood and brought to Kathmandu for treatment — currently under treatment and discharged. Source: District Emergency Operation Centre, Kathmandu. Open the official NDRRMA notice. This site links only; we do not copy names.",
+  "kind": "pointer",
+  "themes": ["hospitals", "missing", "rescue"]
 }

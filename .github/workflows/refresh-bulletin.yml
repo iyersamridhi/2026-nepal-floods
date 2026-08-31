@@ -2,23 +2,31 @@ name: Refresh bulletins
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Every 2 hours — enough for disaster updates without burning X credits every 30m
+    - cron: "15 */2 * * *"
   workflow_dispatch:
     inputs:
       force_rescrape:
         description: Force write even if unchanged (does not re-Grok cached tweets)
         type: boolean
         default: false
+      lean:
+        description: Lean X pull (core authority handles only, 10 tweets each, no Grok)
+        type: boolean
+        default: true
       journalists_only:
-        description: Fast path — scrape Journalists on X only (skip MoFA scrape)
+        description: Scrape Journalists on X only (skip MoFA scrape)
         type: boolean
         default: false
       skip_grok:
-        description: Skip Grok summaries (much faster; uses raw tweet text)
+        description: Skip Grok summaries (raw tweet / rule text)
+        type: boolean
+        default: true
+      skip_official:
+        description: Skip MoFA/official scrape (X only)
         type: boolean
         default: false
 
-# Only one refresh at a time — long scrapes were overlapping and fighting on push
 concurrency:
   group: refresh-bulletins
   cancel-in-progress: true
@@ -44,12 +52,17 @@ jobs:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY || secrets.X_AI }}
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
           FORCE_RESCRAPE: ${{ github.event_name == 'workflow_dispatch' && inputs.force_rescrape && '1' || '0' }}
-          SKIP_OFFICIAL: ${{ github.event_name == 'workflow_dispatch' && inputs.journalists_only && '1' || '0' }}
+          SKIP_OFFICIAL: ${{ (github.event_name == 'workflow_dispatch' && (inputs.journalists_only || inputs.skip_official) && '1') || '0' }}
           TWITTER_ROLE_FILTER: ${{ github.event_name == 'workflow_dispatch' && inputs.journalists_only && 'journalist' || 'all' }}
-          SKIP_GROK: ${{ github.event_name == 'workflow_dispatch' && inputs.skip_grok && '1' || '0' }}
+          # Scheduled + lean dispatch: no Grok (biggest cost/time saver)
+          SKIP_GROK: ${{ (github.event_name != 'workflow_dispatch' || inputs.skip_grok || inputs.lean) && '1' || '0' }}
+          # Lean / schedule: only high-signal authority accounts, tiny pages
+          TWITTER_HANDLES: ${{ (github.event_name != 'workflow_dispatch' || inputs.lean) && 'NDRRMA_Nepal,NepalPoliceHQ,MoFANepal,moha_nepal,NepalArmyHQ,MEAIndia,IndiainNepal,EOIBeijing' || '' }}
+          TWITTER_MAX_RESULTS: ${{ (github.event_name != 'workflow_dispatch' || inputs.lean) && '10' || '20' }}
         run: |
           chmod +x scripts/refresh.sh scripts/commit_bulletin.sh
           echo "FORCE_RESCRAPE=${FORCE_RESCRAPE} SKIP_OFFICIAL=${SKIP_OFFICIAL} TWITTER_ROLE_FILTER=${TWITTER_ROLE_FILTER} SKIP_GROK=${SKIP_GROK}"
+          echo "TWITTER_HANDLES=${TWITTER_HANDLES} TWITTER_MAX_RESULTS=${TWITTER_MAX_RESULTS}"
           ./scripts/refresh.sh
 
       - name: Commit and push bulletin data

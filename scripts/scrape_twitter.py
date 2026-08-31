@@ -327,6 +327,40 @@ def main():
         accounts = [a for a in accounts if (a.get("role") or "authority") == role_filter]
         print(f"TWITTER_ROLE_FILTER={role_filter} → {len(accounts)} accounts", file=sys.stderr)
 
+    # Lean mode: scrape highest-value accounts first, small page size
+    # TWITTER_HANDLES=comma,separated  overrides account list
+    # TWITTER_ACCOUNT_LIMIT=N  caps how many accounts we hit
+    # TWITTER_MAX_RESULTS=5..100  tweets per account (default 10 lean / 20 full)
+    handles_env = (os.environ.get("TWITTER_HANDLES") or "").strip()
+    if handles_env:
+        want = {h.strip().lstrip("@").lower() for h in handles_env.split(",") if h.strip()}
+        accounts = [a for a in accounts if a.get("handle", "").lower() in want]
+        print(f"TWITTER_HANDLES → {len(accounts)} accounts", file=sys.stderr)
+    else:
+        # Prefer disaster-primary authority, then related, then journalists
+        rank = {"disaster": 0, "related": 1}
+        accounts.sort(
+            key=lambda a: (
+                0 if (a.get("role") or "authority") == "authority" else 1,
+                rank.get(a.get("priority", "related"), 2),
+                a.get("handle", ""),
+            )
+        )
+
+    try:
+        account_limit = int(os.environ.get("TWITTER_ACCOUNT_LIMIT") or "0")
+    except ValueError:
+        account_limit = 0
+    if account_limit > 0:
+        accounts = accounts[:account_limit]
+        print(f"TWITTER_ACCOUNT_LIMIT={account_limit} → {len(accounts)} accounts", file=sys.stderr)
+
+    try:
+        max_results = int(os.environ.get("TWITTER_MAX_RESULTS") or "10")
+    except ValueError:
+        max_results = 10
+    max_results = max(5, min(max_results, 100))
+
     if bearer and twitter_enabled:
         payment_blocked = False
         for acct in accounts:
@@ -335,8 +369,6 @@ def main():
             handle = acct["handle"]
             priority = acct.get("priority", "related")
             role = acct.get("role", "authority")
-            # Cap window — keep CI under rate/credit budgets
-            max_results = 40
             try:
                 tweets = fetch_user_tweets(
                     handle,

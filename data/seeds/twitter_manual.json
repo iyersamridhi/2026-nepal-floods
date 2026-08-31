@@ -280,6 +280,15 @@
   {
     "handle": "NDRRMA_Nepal",
     "name": "NDRRMA Nepal",
+    "region": ["nepal"],
+    "timestamp": "2026-08-31T07:21:00+05:45",
+    "tweetId": "2094324575396065644",
+    "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094324575396065644",
+    "text": "रसुवा बाढीबाट उद्धार गरी उपचारार्थ काठमाडौं ल्याइएको घाइतेहरुमध्ये हाल उपचाररत र डिश्चार्जहरुको विवरण — District Emergency Operation Centre, Kathmandu. Official list: https://ndrrma.gov.np/np/notice-information/392 (we link only; do not copy names)."
+  },
+  {
+    "handle": "NDRRMA_Nepal",
+    "name": "NDRRMA Nepal",
     "region": ["nepal", "foreign"],
     "timestamp": "2026-08-31T09:00:00+05:45",
     "tweetId": "manual-ndrrma-9am-31aug-903",
