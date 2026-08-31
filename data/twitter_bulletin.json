@@ -1,10 +1,209 @@
 {
-  "generatedAt": "2026-08-31T09:07:00.808356Z",
-  "note": "Authority and journalist posts — verify on originals; not official confirmation of individual cases.",
+  "generatedAt": "2026-08-31T16:31:02.731505Z",
+  "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2094460755915764132",
+      "timestamp": "2026-08-31T16:22:12.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2094460755915764132",
+      "title": "MEA India",
+      "summary": "India’s technical rescue team, in coordination with the Nepali Army, made progress at Chilime and Langtang sites. Rescue efforts to continue tomorrow.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "506d6c715dbc97f5"
+    },
+    {
+      "id": "twitter-2094459982444163513",
+      "timestamp": "2026-08-31T16:19:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094459982444163513",
+      "title": "Embassy of India Kathmandu",
+      "summary": "India's technical team for tunnel rescue worked in both Chilime and Langtang sites today in coordination with the Nepali Army. The rescue works will continue tomorrow.\n\n@MEAIndia @IndianDiplomacy @NepaliArmyHQ",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c1c614f54c3218a2"
+    },
+    {
+      "id": "twitter-2094448772587958485",
+      "timestamp": "2026-08-31T15:34:35.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2094448772587958485",
+      "title": "MEA India",
+      "summary": "Update on Indian nationals &amp; India’s rescue and relief efforts in Nepal ⬇️\n\nNumber of Indians rescued : 158\n\n🕘 As of 2100 hrs, 31 August 2026",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "10f3aaeaa7e87707"
+    },
+    {
+      "id": "twitter-2094424465501507631",
+      "timestamp": "2026-08-31T13:57:59.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094424465501507631",
+      "title": "Nepal Police HQ",
+      "summary": "कृष्णभीर सडकखण्ड अवरुद्ध भएपछि सवारी आवागमनका लागि वैकल्पिक मार्ग प्रयोगसम्बन्धी अत्यन्त जरूरी सूचना",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "517d382740f88059"
+    },
+    {
+      "id": "twitter-2094422242872741924",
+      "timestamp": "2026-08-31T13:49:09.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094422242872741924",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update- as of 31th August, 2026, 6:00 PM\n@moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "8c4efe5c449769e7"
+    },
+    {
+      "id": "twitter-2094422091290607640",
+      "timestamp": "2026-08-31T13:48:33.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094422091290607640",
+      "title": "Nepal Police HQ",
+      "summary": "चार राउण्ड हवाई फायर गरी १५८ ग्राम खैरो हेरोइनसहित दुई जना भारतीय नागरिक पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "68284e30f16c6c2f"
+    },
+    {
+      "id": "twitter-2094415706603540500",
+      "timestamp": "2026-08-31T13:23:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2094415706603540500",
+      "title": "MoFA Nepal",
+      "summary": "Minister for Foreign Affairs Hon. Mr Shisir Khanal received a telephone call from H. E. Dr Mariam bint Ali bin Nasser Al-Misnad, Minister of State for International Cooperation of the State of Qatar this evening.\n\nOn the occasion, State Minister H. E. Al-Misnad expressed her",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b42896b485b1e5d8"
+    },
+    {
+      "id": "twitter-2094415270773461219",
+      "timestamp": "2026-08-31T13:21:27.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094415270773461219",
+      "title": "Embassy of India Kathmandu",
+      "summary": "नयाँ दिल्लीस्थित नेपाली राजदूतावासमा गएर शोक पुस्तिकामा हस्ताक्षर गरी श्रद्धाञ्जली अर्पण गरेँ।\n\nभारत सरकार र भारतीय जनताको तर्फबाट म मिति २०८३ भाद्र १० गते अचानक गएको भीषण बाढीबाट भएको बहुमूल्य जीवनको क्षति र ठूलो मात्रामा भएको विनाशप्रति नेपालका जनता र सरकारप्रति गहिरो समवेदना",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "43a6b599523feff6"
+    },
+    {
+      "id": "twitter-2094413411119669624",
+      "timestamp": "2026-08-31T13:14:04.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2094413411119669624",
+      "title": "MoFA Nepal",
+      "summary": "Hon. Minister for Foreign Affairs Mr Shisir Khanal received a call from H. E. Mr MOTEGI Toshimitsu, Minister for Foreign Affairs of Japan, today.\n\nDuring the telephone conversation, the two Foreign Ministers exchanged views on the prevailing situation in Nepal. H. E. Mr MOTEGI",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "77b9532f330e8e06"
+    },
+    {
+      "id": "twitter-2094413104943874312",
+      "timestamp": "2026-08-31T13:12:51.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094413104943874312",
+      "title": "Nepal Police HQ",
+      "summary": "नवनियुक्त प्रहरी निरीक्षकहरू दर्ज्यानी चिन्हद्वारा सुशोभित\nविस्तृतः",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "757772744da7298b"
+    },
     {
       "id": "twitter-manual-ndtv-900plus-31aug",
       "timestamp": "2026-08-31T13:00:00+05:45",
@@ -25,6 +224,25 @@
       "role": "journalist",
       "scrapeMethod": "raw",
       "contentHash": "76e91d9379cd027c"
+    },
+    {
+      "id": "twitter-2094404261857874221",
+      "timestamp": "2026-08-31T12:37:42.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094404261857874221",
+      "title": "Nepal Police HQ",
+      "summary": "सहयोगको लागि धन्यवाद ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6473678e44b5b260"
     },
     {
       "id": "twitter-manual-kpost-burials-dna-31aug",
@@ -67,6 +285,26 @@
       "contentHash": "3589cc87f13f947a"
     },
     {
+      "id": "twitter-2094392609372586329",
+      "timestamp": "2026-08-31T11:51:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094392609372586329",
+      "title": "Nepal Police HQ",
+      "summary": "धादिङ बैरेनि अस्पताल भित्र जम्मा भएको हिलो बालुवा हटाउँदै नेपाल प्रहरी ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7cc0c4fed5bb07ba"
+    },
+    {
       "id": "twitter-manual-ndrrma-heli-request-31aug",
       "timestamp": "2026-08-31T11:30:00+05:45",
       "publishedLabel": "",
@@ -85,6 +323,26 @@
       "role": "authority",
       "scrapeMethod": "raw",
       "contentHash": "8d505014c86a67de"
+    },
+    {
+      "id": "twitter-2094387045183721982",
+      "timestamp": "2026-08-31T11:29:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2094387045183721982",
+      "title": "MoFA Nepal",
+      "summary": "Hon. Minister for Foreign Affairs Mr Shisir Khanal received a telephone call from the Minister for Foreign Affairs of the Republic of Singapore Hon. Dr Vivian Balakrishnan today.\n\nDuring the call, Minister Dr Balakrishnan conveyed condolences and solidarity with Nepal and",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2e47f13517f3d515"
     },
     {
       "id": "twitter-manual-mea-forensics-31aug",
@@ -111,6 +369,28 @@
       "contentHash": "1f7d877347badb3a"
     },
     {
+      "id": "twitter-2094378716529148280",
+      "timestamp": "2026-08-31T10:56:12.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2094378716529148280",
+      "title": "MoFA Nepal",
+      "summary": "The Ministry of Foreign Affairs organised its third press briefing today at the Ministry by Spokesperson and Head of Public Diplomacy Division Joint Secretary Mr Lok Bahadur Chhetri on the Government’s ongoing search, rescue and relief efforts, following the devastating floods in",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3fcfb610dd6ada66"
+    },
+    {
       "id": "twitter-manual-nepalnews-903-31aug",
       "timestamp": "2026-08-31T10:30:00+05:45",
       "publishedLabel": "",
@@ -129,6 +409,25 @@
       "role": "journalist",
       "scrapeMethod": "raw",
       "contentHash": "ccbc073655848363"
+    },
+    {
+      "id": "twitter-2094367906381635881",
+      "timestamp": "2026-08-31T10:13:15.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094367906381635881",
+      "title": "Nepal Police HQ",
+      "summary": "बाढीसँगै नदीमा बगेर आएका माछा तथा अन्य नदीजन्य खाद्यपदार्थमा सेवन नगर्नहुन अनुरोध ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "44de770bc494d6db"
     },
     {
       "id": "twitter-manual-mea-rescued-list-31aug",
@@ -151,6 +450,25 @@
       "role": "authority",
       "scrapeMethod": "raw",
       "contentHash": "6c9649cfaf212e34"
+    },
+    {
+      "id": "twitter-2094363424365097114",
+      "timestamp": "2026-08-31T09:55:26.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094363424365097114",
+      "title": "Nepal Police HQ",
+      "summary": "Information on DNA Profiling for unidentified Dead Bodies !!",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5701b38ea7326d7b"
     },
     {
       "id": "twitter-manual-ndtv-flood-alarm-31aug",
