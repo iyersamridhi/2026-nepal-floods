@@ -75,8 +75,9 @@ const I18N = {
     dnaAlertCta: "Original post →",
     dnaEmailKicker: "Nepal Police · DNA profile email",
     dnaEmailTitle: "Prepare email to dnacodis@nepalpolice.gov.np",
+    dnaEmailCollapsedHint: "For relatives abroad only — tap to open",
     dnaEmailHint:
-      "For first-degree relatives abroad. We only open your mail app with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.",
+      "For first-degree relatives abroad. We only open your mail app or Gmail with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.",
     dnaEmailInNepal:
       "In Nepal: give a fresh blood sample + 2 passport photos at Pathology Lab, Nepal Police Hospital, Maharajgunj, or the nearest District Police Office — no email needed.",
     dnaFieldMissingName: "Full name of missing person",
@@ -89,11 +90,24 @@ const I18N = {
     dnaFieldLabNote: "Lab / report note (optional)",
     dnaFieldLabPlaceholder: "e.g. Profile from [lab name], file attached",
     dnaEmailOpen: "Open email draft →",
+    dnaEmailGmail: "Open in Gmail →",
+    dnaEmailMailto: "Open in Mail app →",
     dnaEmailCopy: "Copy message",
     dnaEmailOpened:
-      "Mail app should open with a draft to dnacodis@nepalpolice.gov.np. Attach the DNA profile file before you send.",
+      "Opening mail — message also copied. Attach the DNA profile file before you send.",
+    dnaEmailOpenedNoCopy:
+      "Opening mail. If the draft body is empty, use Copy message and paste it. Attach the DNA profile before sending.",
+    dnaEmailOpenedGmail:
+      "Opening Gmail with your draft — message also copied as backup. Attach the DNA profile before sending.",
+    dnaEmailOpenedGmailNoCopy:
+      "Opening Gmail. If the body is blank, use Copy message and paste it. Attach the DNA profile before sending.",
+    dnaEmailOpenedPaste:
+      "Opening Mail — full message copied. If the draft body is empty, paste it, then attach the DNA profile.",
+    dnaEmailOpenedPasteNoCopy:
+      "Opening Mail. Use Copy message and paste into the draft, then attach the DNA profile.",
     dnaEmailCopied: "Message copied. Paste into email and attach the DNA profile.",
-    dnaEmailCopyFail: "Could not copy — use Open email draft instead.",
+    dnaEmailAddressCopied: "Address copied — opening a blank compose. Paste your message and attach the DNA profile.",
+    dnaEmailCopyFail: "Could not copy — try Open in Gmail instead.",
     dnaErrMissingName: "Add the missing person's full name.",
     dnaErrNationality: "Add nationality.",
     dnaErrId: "Add passport or ID details.",

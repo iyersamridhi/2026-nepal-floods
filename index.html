@@ -70,10 +70,14 @@
       </a>
     </aside>
 
-    <section class="panel dna-email-panel" id="dna-email">
-      <p class="section-kicker" data-i18n="dnaEmailKicker">Nepal Police · DNA profile email</p>
-      <h2 class="section-title" data-i18n="dnaEmailTitle">Prepare email to dnacodis@nepalpolice.gov.np</h2>
-      <p class="form-hint" data-i18n="dnaEmailHint">For first-degree relatives abroad. We only open your mail app with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.</p>
+    <details class="panel dna-email-panel" id="dna-email">
+      <summary class="dna-email-summary">
+        <span class="section-kicker" data-i18n="dnaEmailKicker">Nepal Police · DNA profile email</span>
+        <span class="dna-email-summary-title" data-i18n="dnaEmailTitle">Prepare email to dnacodis@nepalpolice.gov.np</span>
+        <span class="dna-email-summary-hint form-hint" data-i18n="dnaEmailCollapsedHint">For relatives abroad only — tap to open</span>
+      </summary>
+
+      <p class="form-hint" data-i18n="dnaEmailHint">For first-degree relatives abroad. We only open your mail app or Gmail with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.</p>
       <p class="quiet-note" data-i18n="dnaEmailInNepal">In Nepal: give a fresh blood sample + 2 passport photos at Pathology Lab, Nepal Police Hospital, Maharajgunj, or the nearest District Police Office — no email needed.</p>
 
       <form id="dna-email-form" class="dna-email-form" novalidate>
@@ -121,13 +125,15 @@
         </div>
         <p class="form-errors" id="dna-email-errors" hidden></p>
         <div class="btn-group">
-          <button type="submit" class="btn btn-primary" data-i18n="dnaEmailOpen">Open email draft →</button>
+          <button type="button" class="btn btn-primary" id="dna-email-open" data-i18n="dnaEmailOpen">Open email draft →</button>
+          <button type="button" class="btn btn-secondary" id="dna-email-gmail" data-i18n="dnaEmailGmail">Open in Gmail →</button>
+          <button type="button" class="btn btn-secondary" id="dna-email-mailto" data-i18n="dnaEmailMailto">Open in Mail app →</button>
           <button type="button" class="btn btn-secondary" id="dna-email-copy" data-i18n="dnaEmailCopy">Copy message</button>
-          <a class="btn btn-secondary" href="mailto:dnacodis@nepalpolice.gov.np">dnacodis@nepalpolice.gov.np</a>
+          <button type="button" class="btn btn-secondary" id="dna-email-address">dnacodis@nepalpolice.gov.np</button>
         </div>
         <p class="form-hint" id="dna-email-status" hidden></p>
       </form>
-    </section>
+    </details>
 
     <div class="bulletin-spotlight" id="bulletin-spotlight">
       <div class="bulletin-spotlight-copy">
@@ -228,8 +234,8 @@
 
     <footer class="site-footer" data-i18n="footer">Volunteer site — contacts, links & updates only.</footer>
   </div>
-  <script src="/js/common.js?v=layout17"></script>
-  <script src="/js/dna-email.js?v=layout1"></script>
+  <script src="/js/common.js?v=layout18"></script>
+  <script src="/js/dna-email.js?v=layout2"></script>
 
   <!-- Vercel Web Analytics -->
   <script>
