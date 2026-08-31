@@ -2145,7 +2145,11 @@ body[data-page="home"] .home-spotlight .section-block {
 }
 
 .dna-email-panel {
+  position: relative;
   scroll-margin-top: 1rem;
+  border-color: #8a0f22;
+  border-left: 4px solid var(--nepal-crimson);
+  background: linear-gradient(180deg, #fff8f8 0%, #fff 100%);
 }
 
 .dna-email-panel > :not(summary) {
@@ -2156,7 +2160,8 @@ body[data-page="home"] .home-spotlight .section-block {
   cursor: pointer;
   list-style: none;
   display: grid;
-  gap: 0.15rem;
+  gap: 0.2rem;
+  padding-right: 5.5rem;
 }
 
 .dna-email-summary::-webkit-details-marker {
@@ -2164,22 +2169,24 @@ body[data-page="home"] .home-spotlight .section-block {
 }
 
 .dna-email-summary::after {
-  content: "+";
+  content: "Show";
   position: absolute;
-  right: 1.25rem;
-  top: 1.35rem;
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--nepal-blue);
-  line-height: 1;
-}
-
-.dna-email-panel {
-  position: relative;
+  right: 1rem;
+  top: 1.15rem;
+  padding: 0.28rem 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--nepal-crimson);
+  border-radius: 999px;
+  line-height: 1.2;
 }
 
 .dna-email-panel[open] .dna-email-summary::after {
-  content: "–";
+  content: "Hide";
+  background: var(--nepal-blue);
 }
 
 .dna-email-summary-title {
@@ -2188,7 +2195,6 @@ body[data-page="home"] .home-spotlight .section-block {
   font-weight: 700;
   color: var(--nepal-blue-deep);
   line-height: 1.3;
-  padding-right: 1.5rem;
 }
 
 .dna-email-summary-hint {

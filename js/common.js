@@ -75,7 +75,7 @@ const I18N = {
     dnaAlertCta: "Original post →",
     dnaEmailKicker: "Nepal Police · DNA profile email",
     dnaEmailTitle: "Prepare email to dnacodis@nepalpolice.gov.np",
-    dnaEmailCollapsedHint: "For relatives abroad only — tap to open",
+    dnaEmailCollapsedHint: "Relatives abroad — form open below · tap heading to hide",
     dnaEmailHint:
       "For first-degree relatives abroad. We only open your mail app or Gmail with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.",
     dnaEmailInNepal:
@@ -250,7 +250,7 @@ const I18N = {
     dnaAlertCta: "मूल पोस्ट →",
     dnaEmailKicker: "नेपाल प्रहरी · DNA प्रोफाइल इमेल",
     dnaEmailTitle: "dnacodis@nepalpolice.gov.np मा इमेल तयार गर्नुहोस्",
-    dnaEmailCollapsedHint: "विदेशमा रहेका नातेदारका लागि मात्र — खोल्न ट्याप गर्नुहोस्",
+    dnaEmailCollapsedHint: "विदेशका नातेदार — फारम तल खुला छ · लुकाउन शीर्षकमा ट्याप गर्नुहोस्",
     dnaEmailHint:
       "विदेशमा रहेका पहिलो श्रेणीका नातेदारका लागि। हामी मेल एप वा Gmail मा ड्राफ्ट खोल्छौं — यहाँ केही अपलोड हुँदैन। पठाउनुअघि ल्याबको DNA प्रोफाइल आफैं संलग्न गर्नुहोस्।",
     dnaEmailInNepal:
