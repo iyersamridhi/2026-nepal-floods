@@ -93,10 +93,6 @@ const I18N = {
     twitterFollowHint: "For the newest posts, follow these accounts directly on X.",
     journalistsFollow: "Follow journalists & outlets",
     journalistsFollowHint: "Field reporters and news desks covering Rasuwa / Bhotekoshi — verify before acting.",
-    twitterLiveOff:
-      "Live X fetch isn’t available right now, so this list may lag. Follow the accounts below for the newest posts.",
-    journalistsLiveOff:
-      "Live X fetch for journalists isn’t available right now (API limit). Showing curated ground reports from news desks — open the original to verify.",
     officialPortalsTitle: "Where to check official lists",
     officialPortalsHint: "These are portals to search yourself — we do not copy case lists or photos here.",
     readOriginal: "Read original",
@@ -226,10 +222,6 @@ const I18N = {
     twitterFollowHint: "नयाँ पोस्टका लागि यी खाता सिधै X मा फलो गर्नुहोस्।",
     journalistsFollow: "पत्रकार र आउटलेट फलो गर्नुहोस्",
     journalistsFollowHint: "रसुवा / भोटेकोशी कभर गर्ने स्थलगत पत्रकार — कार्य गर्नुअघि पुष्टि गर्नुहोस्।",
-    twitterLiveOff:
-      "अहिले लाइभ X उपलब्ध छैन — यो सूची ढिलो हुन सक्छ। नयाँ पोस्टका लागि तलका खाता फलो गर्नुहोस्।",
-    journalistsLiveOff:
-      "अहिले पत्रकारका लागि लाइभ X उपलब्ध छैन (API सीमा)। समाचार डेस्कका क्युरेटेड स्थलगत रिपोर्ट देखाइएको छ — पुष्टिका लागि मूल खोल्नुहोस्।",
     officialPortalsTitle: "आधिकारिक सूची कहाँ जाँच गर्ने",
     officialPortalsHint: "यी पोर्टल आफैं खोज्नका लागि हुन् — हामी केस सूची वा फोटो कपी गर्दैनौं।",
     readOriginal: "मूल पढ्नुहोस्",

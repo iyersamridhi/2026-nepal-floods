@@ -227,19 +227,15 @@ async function loadTwitterBulletin() {
     const jVisible = state.journalistItems.filter(matchesTheme);
     if (meta) meta.textContent = formatMeta(data, twVisible.length, twVisible);
     if (jMeta) jMeta.textContent = formatMeta(data, jVisible.length, jVisible);
-    if (hint) {
-      hint.textContent = data.liveFetch === false ? t("twitterLiveOff") : t("twitterHint");
-    }
-    if (jHint) {
-      jHint.textContent = data.liveFetch === false ? t("journalistsLiveOff") : t("journalistsHint");
-    }
+    if (hint) hint.textContent = t("twitterHint");
+    if (jHint) jHint.textContent = t("journalistsHint");
   } catch (e) {
     state.twitterItems = [];
     state.journalistItems = [];
     if (meta) meta.textContent = "";
     if (jMeta) jMeta.textContent = "";
-    if (hint) hint.textContent = t("twitterLiveOff");
-    if (jHint) jHint.textContent = t("journalistsLiveOff");
+    if (hint) hint.textContent = t("twitterHint");
+    if (jHint) jHint.textContent = t("journalistsHint");
   }
 }
 
