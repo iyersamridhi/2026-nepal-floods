@@ -147,6 +147,17 @@
       "note": "From NDRRMA X post 30 Aug — misc-report board; link only, no name scrape"
     },
     {
+      "id": "ndrrma-bhotekoshi-warning-31aug",
+      "enabled": true,
+      "type": "seed",
+      "name": "NDRRMA — Bhotekoshi water level warning (31 Aug)",
+      "seedFile": "data/seeds/ndrrma_bhotekoshi_warning_31aug.json",
+      "region": [
+        "nepal"
+      ],
+      "note": "Sunday 31 Aug precaution warning — curated from NDRRMA public statement"
+    },
+    {
       "id": "nepal-police-udb",
       "enabled": true,
       "type": "seed",

@@ -238,5 +238,43 @@
     "tweetId": "manual-hindu-live-30aug",
     "sourceUrl": "https://www.thehindu.com/news/international/nepal-flash-floods-live-updates-death-toll-rescue-operation-missing-person-tibet-border-glacier-collapse-news/article71406948.ece",
     "text": "Live coverage: death toll and missing figures rising; NDRRMA warned Bhotekoshi water levels rose again Sunday morning; tunnel rescues continue. Numbers move fast — check MoFA / NDRRMA originals."
+  },
+  {
+    "handle": "NDRRMA_Nepal",
+    "name": "NDRRMA Nepal",
+    "region": ["nepal"],
+    "timestamp": "2026-08-31T07:20:00+05:45",
+    "tweetId": "manual-ndrrma-bhotekoshi-warning-31aug",
+    "sourceUrl": "https://ndrrma.gov.np/np/notice-information",
+    "text": "NDRRMA warning (31 Aug): water level in the flooded Bhotekoshi River has risen again — precaution urged for Rasuwa, Nuwakot, Dhading, Chitwan and nearby areas. Further updates on ndrrma.gov.np notice board."
+  },
+  {
+    "handle": "kathmandupost",
+    "name": "The Kathmandu Post",
+    "role": "journalist",
+    "region": ["nepal"],
+    "timestamp": "2026-08-31T08:00:00+05:45",
+    "tweetId": "manual-kpost-death-toll-734-31aug",
+    "sourceUrl": "https://kathmandupost.com/national/2026/08/30/death-toll-from-bhotekoshi-flood-reaches-734",
+    "text": "Death toll from Bhotekoshi flood reaches 734; 2,498 missing per government figures at time of reporting. Bodies recovered far downstream in Chitwan, Nawalparasi, Gorkha and other districts. Confirm latest numbers on MoFA / NDRRMA."
+  },
+  {
+    "handle": "ndtv",
+    "name": "NDTV",
+    "role": "journalist",
+    "region": ["nepal", "india", "foreign"],
+    "timestamp": "2026-08-31T09:00:00+05:45",
+    "tweetId": "manual-ndtv-flood-alarm-31aug",
+    "sourceUrl": "https://www.ndtv.com/world-news/nepal-sounds-new-flood-alarm-as-deaths-cross-800-over-3-000-still-missing-11980070",
+    "text": "NDTV: new flood warnings after Bhotekoshi water levels rise again; combined Nepal–Tibet death toll reported above 900 with thousands still missing. Rescue hampered by rain and rising rivers — verify all figures with NDRRMA / MoFA."
+  },
+  {
+    "handle": "MEAIndia",
+    "name": "MEA India",
+    "region": ["india", "nepal"],
+    "timestamp": "2026-08-31T10:00:00+05:45",
+    "tweetId": "manual-mea-rescued-list-31aug",
+    "sourceUrl": "https://www.mea.gov.in/press-releases.htm",
+    "text": "MEA reported on Sunday that more than 275 Indians and 128 persons of Indian origin remained missing or non-contactable in Nepal, and shared a list of 149 people rescued. Check MEA control room and Embassy of India Kathmandu for family tracing."
   }
 ]

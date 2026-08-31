@@ -416,6 +416,18 @@ def main():
 
     deduped.sort(key=lambda x: x.get("timestamp", ""), reverse=True)
 
+    # When live API fails, keep previously scraped tweets — don't replace with manual seeds only
+    if not live_ok and role_filter == "all" and TWITTER_BULLETIN.exists():
+        existing = json.loads(TWITTER_BULLETIN.read_text(encoding="utf-8"))
+        merged = {it["id"]: it for it in (existing.get("items") or []) if it.get("scrapeMethod") != "manual"}
+        for it in deduped:
+            merged[it["id"]] = it
+        deduped = list(merged.values())
+        print(
+            f"Live fetch off — merged manual seeds into existing bulletin ({len(deduped)} total)",
+            file=sys.stderr,
+        )
+
     grok_on = bool(
         sanitize_bearer(os.environ.get("XAI_API_KEY"))
         or sanitize_bearer(os.environ.get("X_AI"))
