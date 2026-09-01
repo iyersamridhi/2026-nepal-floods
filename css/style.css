@@ -2256,8 +2256,13 @@ body[data-page="home"] .home-spotlight .section-block {
   margin-top: 1rem;
 }
 
-.donate-note .section-title {
-  margin-bottom: 0.65rem;
+.foreign-nationals-update {
+  margin-top: 0.85rem;
+  border-left: 4px solid var(--nepal-blue);
+}
+
+.foreign-nationals-update .section-title {
+  margin-bottom: 0.35rem;
 }
 
 /* Bulletin visibility — home spotlight, nav pulse, split tabs */

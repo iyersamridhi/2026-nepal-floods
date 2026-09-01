@@ -170,6 +170,30 @@
       "note": "Monday morning NDRRMA casualty / rescue / missing figures"
     },
     {
+      "id": "ndrrma-foreign-nationals-1sep",
+      "enabled": true,
+      "type": "seed",
+      "name": "NDRRMA — foreign nationals list (1 Sep)",
+      "seedFile": "data/seeds/ndrrma_foreign_nationals_1sep.json",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "note": "1 Sep X post — tourism dept list + 30 Aug 19:00 PDF"
+    },
+    {
+      "id": "dot-foreign-nationals-bhotekoshi",
+      "enabled": true,
+      "type": "seed",
+      "name": "Department of Tourism — tourist list (Bhotekoshi)",
+      "seedFile": "data/seeds/dot_foreign_nationals_list.json",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "note": "Official foreign-national tourist list page"
+    },
+    {
       "id": "nepal-police-dna-profiling-31aug",
       "enabled": true,
       "type": "seed",

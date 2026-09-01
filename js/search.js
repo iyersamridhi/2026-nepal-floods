@@ -1,4 +1,24 @@
+const FOREIGN_NATIONALS_UPDATE = {
+  kicker: "NDRRMA · 1 September 2026",
+  title: "Foreign nationals — missing, rescued, or contacted",
+  body: "Official lists for tourists and foreign nationals after the Bhote Koshi flood. NDRRMA points to the Department of Tourism page and a situation update PDF (final update dated 30 August 2026, 19:00). We link only — names stay on the official sites.",
+  tourismUrl: "https://tourismdepartment.gov.np/content/185/tourist-list--out-of-contact--in-bhotekoshi/",
+  pdfUrl: "https://ap.wps.com/l/cbCaigwQVrYF3ji7",
+  pdfLabel: "Situation update PDF (30 Aug 2026, 19:00)",
+  ndrrmaUrl: "https://x.com/NDRRMA_Nepal/status/2094666412589744273",
+};
+
 const FOUND_LINKS = [
+  {
+    title: "Foreign nationals — tourist list (Department of Tourism)",
+    desc: "Official list of foreign nationals out of contact, missing, rescued, or contacted (Bhote Koshi flood). Pointed to by NDRRMA, 1 Sep 2026.",
+    href: "https://tourismdepartment.gov.np/content/185/tourist-list--out-of-contact--in-bhotekoshi/",
+  },
+  {
+    title: "Foreign nationals — situation update PDF (30 Aug 2026, 19:00)",
+    desc: "NDRRMA-linked PDF update on missing, rescued, and contacted foreign nationals. Final update timestamp on the file: 30 August 2026, 19:00.",
+    href: "https://ap.wps.com/l/cbCaigwQVrYF3ji7",
+  },
   {
     title: "Disaster victims — photos & descriptions (Nepal Police UDB)",
     desc: "Official Nepal Police portal for flood disaster victims. Relatives may check photos and descriptions here. Embassy of India (1 Sep) also points families here.",
@@ -62,6 +82,20 @@ const FOUND_LINKS = [
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
+  const banner = document.getElementById("foreign-nationals-update");
+  if (banner) {
+    const u = FOREIGN_NATIONALS_UPDATE;
+    banner.innerHTML = `
+      <p class="section-kicker">${u.kicker}</p>
+      <h2 class="section-title">${u.title}</h2>
+      <p class="form-hint">${u.body}</p>
+      <div class="btn-group">
+        <a class="btn btn-primary btn-sm" href="${u.tourismUrl}" target="_blank" rel="noopener">Tourism dept list →</a>
+        <a class="btn btn-secondary btn-sm" href="${u.pdfUrl}" target="_blank" rel="noopener">${u.pdfLabel} →</a>
+        <a class="btn btn-secondary btn-sm" href="${u.ndrrmaUrl}" target="_blank" rel="noopener">NDRRMA post →</a>
+      </div>`;
+  }
+
   const list = document.getElementById("found-links");
   if (!list) return;
   list.innerHTML = FOUND_LINKS.map(
