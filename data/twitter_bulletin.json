@@ -1,10 +1,51 @@
 {
-  "generatedAt": "2026-08-31T22:50:33.631785Z",
+  "generatedAt": "2026-09-01T05:05:31.538652Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2094639520990015673",
+      "timestamp": "2026-09-01T04:12:32.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2094639520990015673",
+      "title": "MEA India",
+      "summary": "Please see below the press release regarding identification of mortal remains of victims of the recent flash flood in Nepal ⬇️\n\nLink 🔗",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "remains",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5ddf65bc229d2dc1"
+    },
+    {
+      "id": "twitter-2094634497954488618",
+      "timestamp": "2026-09-01T03:52:35.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094634497954488618",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Press Release regarding identification of mortal remains of victims of the recent flash flood in Nepal ⬇️\n\nLink 🔗\n\n@MEAIndia",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "remains",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a194871a8a177b7f"
+    },
     {
       "id": "twitter-2094476727783444875",
       "timestamp": "2026-08-31T17:25:40.000Z",
