@@ -2265,6 +2265,84 @@ body[data-page="home"] .home-spotlight .section-block {
   margin-bottom: 0.35rem;
 }
 
+.foreign-nationals-pdf {
+  margin-top: 0.85rem;
+  border-left: 4px solid var(--nepal-blue);
+}
+
+.foreign-nationals-summary {
+  cursor: pointer;
+  list-style: none;
+  display: grid;
+  gap: 0.15rem;
+  padding-right: 4.5rem;
+}
+
+.foreign-nationals-summary::-webkit-details-marker {
+  display: none;
+}
+
+.foreign-nationals-pdf {
+  position: relative;
+}
+
+.foreign-nationals-pdf > :not(summary) {
+  margin-top: 0.75rem;
+}
+
+.foreign-nationals-summary::after {
+  content: "View";
+  position: absolute;
+  right: 1rem;
+  top: 1.1rem;
+  padding: 0.28rem 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--nepal-blue);
+  border-radius: 999px;
+  line-height: 1.2;
+}
+
+.foreign-nationals-pdf[open] .foreign-nationals-summary::after {
+  content: "Hide";
+}
+
+.foreign-nationals-summary-title {
+  display: block;
+  font-size: clamp(1.02rem, 2vw, 1.15rem);
+  font-weight: 700;
+  color: var(--nepal-blue-deep);
+  line-height: 1.3;
+}
+
+.foreign-nationals-summary-hint {
+  margin: 0;
+}
+
+.pdf-embed-wrap {
+  margin-top: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f3f5f8;
+  min-height: 420px;
+}
+
+.pdf-embed-wrap iframe {
+  display: block;
+  width: 100%;
+  min-height: min(72vh, 900px);
+  border: 0;
+  background: #fff;
+}
+
+.pdf-embed-fallback {
+  margin-top: 0.5rem;
+}
+
 /* Bulletin visibility — home spotlight, nav pulse, split tabs */
 .bulletin-spotlight {
   display: grid;

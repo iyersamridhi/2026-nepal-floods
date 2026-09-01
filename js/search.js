@@ -1,4 +1,4 @@
-const FOREIGN_NATIONALS_UPDATE = FOREIGN_NATIONALS;
+const FOREIGN_NATIONALS_UPDATE = typeof FOREIGN_NATIONALS !== "undefined" ? FOREIGN_NATIONALS : null;
 
 const FOUND_LINKS = [
   {
@@ -74,20 +74,6 @@ const FOUND_LINKS = [
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
-  const banner = document.getElementById("foreign-nationals-update");
-  if (banner) {
-    const u = FOREIGN_NATIONALS_UPDATE;
-    banner.innerHTML = `
-      <p class="section-kicker">${u.kicker}</p>
-      <h2 class="section-title">${u.title}</h2>
-      <p class="form-hint">${u.body}</p>
-      <div class="btn-group">
-        <a class="btn btn-primary btn-sm" href="${u.tourismUrl}" target="_blank" rel="noopener">Tourism dept list →</a>
-        <a class="btn btn-secondary btn-sm" href="${u.pdfUrl}" target="_blank" rel="noopener">${u.pdfLabel} →</a>
-        <a class="btn btn-secondary btn-sm" href="${u.ndrrmaUrl}" target="_blank" rel="noopener">NDRRMA post →</a>
-      </div>`;
-  }
-
   const list = document.getElementById("found-links");
   if (!list) return;
   list.innerHTML = FOUND_LINKS.map(
