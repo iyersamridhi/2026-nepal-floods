@@ -1,54 +1,50 @@
 {
-  "generatedAt": "2026-09-01T06:26:05.000166Z",
-  "note": "Curated X post summaries (live API unavailable or unpaid). Follow accounts below for newest posts.",
+  "generatedAt": "2026-09-01T06:28:13.512921Z",
+  "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
     {
-      "id": "twitter-2094666412589744273",
-      "timestamp": "2026-09-01T11:44:00+05:45",
+      "id": "twitter-2094672770651304320",
+      "timestamp": "2026-09-01T06:24:40.000Z",
       "publishedLabel": "",
       "region": [
-        "nepal",
-        "foreign"
+        "india",
+        "nepal"
       ],
-      "source": "Twitter @NDRRMA_Nepal",
-      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094666412589744273",
-      "title": "NDRRMA Nepal",
-      "summary": "For foreign nationals missing, rescued, or contacted after the Bhote Koshi flood in Rasuwa: Department of Tourism tourist list (tourismdepartment.gov.np/content/185/tourist-list--out-of-contact--in-bhotekoshi/) and situation update PDF — final update 30 Aug 2026, 19:00 (ap.wps.com/l/cbCaigwQVrYF3ji7). Open originals on official sites.",
-      "citation": "Tweet by @NDRRMA_Nepal",
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094672770651304320",
+      "title": "Embassy of India Kathmandu",
+      "summary": "𝗥𝗲𝗴𝗮𝗿𝗱𝗶𝗻𝗴 𝗜𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 𝗠𝗼𝗿𝘁𝗮𝗹 𝗥𝗲𝗺𝗮𝗶𝗻𝘀 (𝟭 𝗦𝗲𝗽𝘁𝗲𝗺𝗯𝗲𝗿 𝟮𝟬𝟮𝟲)\n\nThis is in continuation of our press release of 29 August 2026, regarding identification of mortal remains of victims of the recent flash flood in Nepal. The Nepali",
+      "citation": "Tweet by @IndiainNepal",
       "themes": [
-        "rescue",
-        "missing",
+        "remains",
         "briefing"
       ],
       "role": "authority",
       "scrapeMethod": "raw",
-      "contentHash": "7f4d929dc38aee9e"
+      "contentHash": "70b34b1ef89e93f4"
     },
     {
-      "id": "twitter-2094634497954488618",
-      "timestamp": "2026-09-01T09:22:00+05:45",
+      "id": "twitter-2094666412589744273",
+      "timestamp": "2026-09-01T05:59:24.000Z",
       "publishedLabel": "",
       "region": [
-        "india",
-        "nepal",
-        "foreign"
+        "nepal"
       ],
-      "source": "Twitter @IndiainNepal",
-      "sourceUrl": "https://x.com/IndiaInNepal/status/2094634497954488618",
-      "title": "Embassy of India Kathmandu",
-      "summary": "Press Release (1 Sep 2026): identification of mortal remains after the Nepal flash floods. Relatives can check photos on Nepal Police UDB disaster portal (udb.nepalpolice.gov.np/disaster). DNA profiles to dnacodis@nepalpolice.gov.np — CC eoikathmandufloodsupport@gmail.com. Embassy helplines (WhatsApp): +977-9851316807, +977-9709107500, +977-9810326117. Nepal Police: +977-9841616095.",
-      "citation": "Tweet by @IndiainNepal",
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094666412589744273",
+      "title": "NDRRMA Nepal",
+      "summary": "For details of foreign nationals who are missing, rescued, or have been contacted following the flood in the Bhote Koshi River in Rasuwa, please visit the link below.",
+      "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
-        "remains",
-        "contacts",
-        "briefing"
+        "rescue",
+        "missing"
       ],
       "role": "authority",
-      "contentHash": "f915d179034cac56",
-      "scrapeMethod": "cached"
+      "scrapeMethod": "raw",
+      "contentHash": "9c68d513a0d4172e"
     },
     {
       "id": "twitter-2094655510423449700",
@@ -90,6 +86,27 @@
       "role": "authority",
       "scrapeMethod": "raw",
       "contentHash": "5ddf65bc229d2dc1"
+    },
+    {
+      "id": "twitter-2094634497954488618",
+      "timestamp": "2026-09-01T03:52:35.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094634497954488618",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Press Release regarding identification of mortal remains of victims of the recent flash flood in Nepal ⬇️\n\nLink 🔗\n\n@MEAIndia",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "remains",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a194871a8a177b7f"
     },
     {
       "id": "twitter-2094476727783444875",
@@ -604,23 +621,22 @@
     },
     {
       "id": "twitter-2094363424365097114",
-      "timestamp": "2026-08-31T09:55:00+05:45",
+      "timestamp": "2026-08-31T09:55:26.000Z",
       "publishedLabel": "",
       "region": [
-        "nepal",
-        "foreign"
+        "nepal"
       ],
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094363424365097114",
       "title": "Nepal Police HQ",
-      "summary": "Information on DNA Profiling for unidentified Dead Bodies. Relatives of missing persons after Rasuwa / Bhote Koshi floods: provide DNA samples to help identify recovered remains. In Nepal — blood sample + 2 passport photos at Nepal Police Hospital (Maharajgunj) Pathology Lab or nearest District Police Office (father/mother/son/daughter). Abroad — authorised lab DNA profile to dnacodis@nepalpolice.gov.np. Contact PI Sambhu Bahadur KC +977-9841616095. Open original post for full instructions.",
+      "summary": "Information on DNA Profiling for unidentified Dead Bodies !!",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
-        "briefing"
+        "remains"
       ],
       "role": "authority",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "5701b38ea7326d7b"
     },
     {
       "id": "twitter-manual-ndtv-flood-alarm-31aug",
@@ -748,7 +764,7 @@
     },
     {
       "id": "twitter-2094324575396065644",
-      "timestamp": "2026-08-31T07:21:00+05:45",
+      "timestamp": "2026-08-31T07:21:04.000Z",
       "publishedLabel": "",
       "region": [
         "nepal"
@@ -756,14 +772,16 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094324575396065644",
       "title": "NDRRMA Nepal",
-      "summary": "रसुवा बाढीबाट उद्धार गरी उपचारार्थ काठमाडौं ल्याइएको घाइतेहरुमध्ये हाल उपचाररत र डिश्चार्जहरुको विवरण — District Emergency Operation Centre, Kathmandu. Official list: https://ndrrma.gov.np/np/notice-information/392 (we link only; do not copy names).",
+      "summary": "रसुवा बाढीबाट उद्धार गरी उपचारार्थ काठमाडौं ल्याइएको घाइतेहरुमध्ये हाल उपचाररत र डिश्चार्चहरुको विवरणका लागि तलको लिङ्क खोल्नुहोस् ।\n\nस्रोत- जिल्ला आपतकालीन कार्यसंचालन केन्द्र, काठमाडौं।",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
-        "briefing"
+        "hospitals",
+        "rescue",
+        "missing"
       ],
       "role": "authority",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "29189d4a841f49db"
     },
     {
       "id": "twitter-manual-ndrrma-bhotekoshi-warning-31aug",
@@ -1491,14 +1509,15 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2093961178418749652",
       "title": "NDRRMA Nepal",
-      "summary": "रसुवा भोटेकोशी/त्रिशुली बाढीबाट घाइतेहरुमध्ये काठमाडौंका विभिन्न अस्पतालमा हाल उपचाररत र उपचार पश्चात डिश्चार्ज भएका व्यक्तिहरुको विवरण। हाल उपचाररत: https://ndrrma.gov.np/np/notice-information — उपचार पश्चात डिश्चार्ज: https://ndrrma.gov.np/np/misc-report",
+      "summary": "रसुवा भोटेकोशी/त्रिशुली बाढीबाट घाइतेहरुमध्ये काठमाडौंका विभिन्न अस्पतालमा हाल उपचाररत र उपचार पश्चात डिश्चार्ज भएका व्यक्तिहरुको विवरण। हाल उपचाररत: — उपचार पश्चात डिश्चार्ज",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
-        "briefing"
+        "hospitals",
+        "missing"
       ],
       "role": "authority",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "79b9e2c8515dbf7a"
     },
     {
       "id": "twitter-2093933620994199942",
@@ -1561,7 +1580,7 @@
     },
     {
       "id": "twitter-2093912605433774318",
-      "timestamp": "2026-08-30T04:04:00+05:45",
+      "timestamp": "2026-08-30T04:04:02.000Z",
       "publishedLabel": "",
       "region": [
         "tibet",
@@ -1571,14 +1590,15 @@
       "source": "Twitter @EOIBeijing",
       "sourceUrl": "https://x.com/EOIBeijing/status/2093912605433774318",
       "title": "Embassy of India Beijing",
-      "summary": "Following the recent flash floods and mudslides in the Tibet Autonomous Region (TAR), People’s Republic of China, TAR authorities have established two dedicated 24-hour English-language hotlines to assist families seeking information about missing foreign nationals. The hotlines can be reached at: 1) 0086-891-6817165 2) 0086-183-0802-6705 @MEAIndia",
+      "summary": "Following the recent flash floods and mudslides in the Tibet Autonomous Region (TAR), People’s Republic of China, TAR authorities have established two dedicated 24-hour English-language hotlines to assist families seeking information about missing foreign nationals.\n\nThe hotlines",
       "citation": "Tweet by @EOIBeijing",
       "themes": [
-        "briefing"
+        "missing",
+        "contacts"
       ],
       "role": "authority",
-      "scrapeMethod": "manual",
-      "contentHash": "manual"
+      "scrapeMethod": "raw",
+      "contentHash": "df50467578c4ed55"
     },
     {
       "id": "twitter-2093909876577873947",
@@ -4588,15 +4608,15 @@
       "source": "Twitter @IndiainNepal",
       "sourceUrl": "https://www.indembkathmandu.gov.in",
       "title": "Embassy of India Kathmandu",
-      "summary": "The Indian embassy in Kathmandu (@IndiainNepal) is working with Nepalese authorities on search and rescue for Indian nationals caught in the flash floods around Rasuwa and Bhotekoshi. Families can contact the MEA control room or the embassy for help.",
+      "summary": "Embassy of India, Kathmandu is coordinating with Nepalese authorities on search and rescue for Indian nationals affected by flash floods in Rasuwa / Bhotekoshi area. Contact MEA control room or Embassy for assistance.",
       "citation": "Tweet by @IndiainNepal",
       "themes": [
         "rescue",
         "contacts"
       ],
       "role": "authority",
-      "contentHash": "0731d0b9dd0613bc",
-      "scrapeMethod": "cached"
+      "scrapeMethod": "raw",
+      "contentHash": "0731d0b9dd0613bc"
     },
     {
       "id": "twitter-2092638301207552172",
@@ -4689,14 +4709,14 @@
       "source": "Twitter @journoprk",
       "sourceUrl": "https://x.com/journoprk/status/2092497659047379186",
       "title": "Parshuram Kaphle",
-      "summary": "A Nepali journalist @journoprk is asking why early warnings didn’t reach people in time for the Rasuwa and Bhote Koshi flash floods. The post highlights gaps in alerts coming from across the northern border after the flooding hit.",
+      "summary": "Nepali journalist on the Rasuwa / Bhote Koshi flash flood: questions early-warning gaps from across the northern border after devastating flooding. Not an official statement — verify with MoFA / NDRRMA.",
       "citation": "Tweet by @journoprk",
       "themes": [
         "briefing"
       ],
       "role": "journalist",
-      "contentHash": "84ba1f19a040b3b9",
-      "scrapeMethod": "cached"
+      "scrapeMethod": "raw",
+      "contentHash": "84ba1f19a040b3b9"
     },
     {
       "id": "twitter-2092568764487242098",
