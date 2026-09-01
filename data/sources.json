@@ -203,6 +203,19 @@
         "nepal"
       ],
       "note": "Curated embassy contact pointer for Indian nationals"
+    },
+    {
+      "id": "indemb-mortal-remains-1sep",
+      "enabled": true,
+      "type": "seed",
+      "name": "Embassy of India — mortal remains identification (1 Sep)",
+      "seedFile": "data/seeds/indemb_mortal_remains_1sep.json",
+      "region": [
+        "india",
+        "nepal",
+        "foreign"
+      ],
+      "note": "1 Sep press release on UDB photos, DNA CC, embassy helplines"
     }
   ],
   "linkOnlySources": [

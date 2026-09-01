@@ -1,5 +1,10 @@
 const FOUND_LINKS = [
   {
+    title: "Disaster victims — photos & descriptions (Nepal Police UDB)",
+    desc: "Official Nepal Police portal for flood disaster victims. Relatives may check photos and descriptions here. Embassy of India (1 Sep) also points families here.",
+    href: "https://udb.nepalpolice.gov.np/disaster?&count=418&page=1",
+  },
+  {
     title: "OPMCM — missing / found persons (official)",
     desc: "Government of Nepal Rasuwa Flood Rescue Portal. Search missing and found reports there — we do not copy names here.",
     href: "https://rescue.opmcm.gov.np/person-lost-found",

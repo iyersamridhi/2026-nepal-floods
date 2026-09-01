@@ -88,13 +88,19 @@ const I18N = {
     dnaAlertTitle: "DNA profiling for unidentified remains",
     dnaAlertBody:
       "Official notice (EN/NP): first-degree relatives in Nepal give a blood sample + 2 photos at Police Hospital Maharajgunj or the nearest District Police Office. Relatives abroad email the lab profile to dnacodis@nepalpolice.gov.np. Contact: PI Sambhu Bahadur K.C., +977-9841616095.",
+    remainsAlertKicker: "Important — identification of remains",
+    remainsAlertTitle: "Nepal Police DNA + Embassy of India guidance",
+    remainsAlertBody:
+      "Nepal Police (31 Aug): first-degree relatives in Nepal give a blood sample + 2 photos at Police Hospital Maharajgunj or the nearest District Police Office. Relatives abroad email DNA profiles to dnacodis@nepalpolice.gov.np. Indian nationals: Embassy of India press release (1 Sep) — check photos on the Nepal Police UDB disaster portal; CC eoikathmandufloodsupport@gmail.com when emailing DNA profiles.",
+    remainsUdbCta: "UDB disaster photos →",
+    remainsEmbassyCta: "Embassy notice (1 Sep) →",
     dnaAlertEmailCta: "Prepare DNA email →",
-    dnaAlertCta: "Original post →",
+    dnaAlertCta: "Nepal Police notice →",
     dnaEmailKicker: "Nepal Police · DNA profile email",
     dnaEmailTitle: "Prepare email to dnacodis@nepalpolice.gov.np",
     dnaEmailCollapsedHint: "Tap Hide to collapse this form",
     dnaEmailHint:
-      "For first-degree relatives abroad. We only open your mail app or Gmail with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending.",
+      "For first-degree relatives abroad. We only open your mail app or Gmail with a draft — nothing is uploaded here. Attach the lab DNA profile yourself before sending. Indian nationals: CC eoikathmandufloodsupport@gmail.com on the email to Nepal Police.",
     dnaEmailInNepal:
       "In Nepal: give a fresh blood sample + 2 passport photos at Pathology Lab, Nepal Police Hospital, Maharajgunj, or the nearest District Police Office — no email needed.",
     dnaFieldMissingName: "Full name of missing person",
@@ -280,13 +286,19 @@ const I18N = {
     dnaAlertTitle: "अज्ञात शव पहिचानका लागि DNA प्रोफाइलिङ",
     dnaAlertBody:
       "आधिकारिक सूचना (ने/EN): नेपालमा पहिलो श्रेणीका नातेदारले प्रहरी अस्पताल महाराजगञ्ज वा नजिकको जिल्ला प्रहरी कार्यालयमा रगत नमूना + २ फोटो दिनुहोस्। विदेशमा ल्याब प्रोफाइल dnacodis@nepalpolice.gov.np मा पठाउनुहोस्। सम्पर्क: प्र. नि. शम्भु बहादुर के.सी., +977-9841616095।",
+    remainsAlertKicker: "महत्वपूर्ण — शव पहिचान",
+    remainsAlertTitle: "नेपाल प्रहरी DNA + भारतीय दूतावास मार्गदर्शन",
+    remainsAlertBody:
+      "नेपाल प्रहरी (३१ अग): नेपालमा पहिलो श्रेणीका नातेदारले प्रहरी अस्पताल महाराजगञ्ज वा नजिकको जिल्ला प्रहरी कार्यालयमा रगत नमूना + २ फोटो दिनुहोस्। विदेशमा DNA प्रोफाइल dnacodis@nepalpolice.gov.np मा। भारतीय नागरिक: भारतीय दूतावास (१ सेप) — UDB विपद् पोर्टलमा फोटो जाँच; DNA इमेलमा eoikathmandufloodsupport@gmail.com CC गर्नुहोस्।",
+    remainsUdbCta: "UDB विपद् फोटो →",
+    remainsEmbassyCta: "दूतावास सूचना (१ सेप) →",
     dnaAlertEmailCta: "DNA इमेल तयार गर्नुहोस् →",
-    dnaAlertCta: "मूल पोस्ट →",
+    dnaAlertCta: "नेपाल प्रहरी सूचना →",
     dnaEmailKicker: "नेपाल प्रहरी · DNA प्रोफाइल इमेल",
     dnaEmailTitle: "dnacodis@nepalpolice.gov.np मा इमेल तयार गर्नुहोस्",
     dnaEmailCollapsedHint: "फारम लुकाउन Hide मा ट्याप गर्नुहोस्",
     dnaEmailHint:
-      "विदेशमा रहेका पहिलो श्रेणीका नातेदारका लागि। हामी मेल एप वा Gmail मा ड्राफ्ट खोल्छौं — यहाँ केही अपलोड हुँदैन। पठाउनुअघि ल्याबको DNA प्रोफाइल आफैं संलग्न गर्नुहोस्।",
+      "विदेशमा रहेका पहिलो श्रेणीका नातेदारका लागि। हामी मेल एप वा Gmail मा ड्राफ्ट खोल्छौं — यहाँ केही अपलोड हुँदैन। पठाउनुअघि ल्याबको DNA प्रोफाइल आफैं संलग्न गर्नुहोस्। भारतीय नागरिक: नेपाल प्रहरीलाई पठाउँदा eoikathmandufloodsupport@gmail.com CC गर्नुहोस्।",
     dnaEmailInNepal:
       "नेपालमा: प्रहरी अस्पताल महाराजगञ्जको प्याथोलोजी ल्याब वा नजिकको जिल्ला प्रहरी कार्यालयमा ताजा रगत नमूना + २ पासपोर्ट फोटो दिनुहोस् — इमेल आवश्यक छैन।",
     dnaFieldMissingName: "हराएको व्यक्तिको पूरा नाम",

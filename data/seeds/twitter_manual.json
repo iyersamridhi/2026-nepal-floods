@@ -353,6 +353,15 @@
     "text": "MEA: 19-member Indian forensics team working in Kathmandu with Nepal Police Central Forensic Science Laboratory and TU Teaching Hospital to support DNA identification. Also reported 149 Indians rescued and continued family-tracing via MEA control room."
   },
   {
+    "handle": "IndiainNepal",
+    "name": "Embassy of India Kathmandu",
+    "region": ["india", "nepal", "foreign"],
+    "timestamp": "2026-09-01T09:22:00+05:45",
+    "tweetId": "2094634497954488618",
+    "sourceUrl": "https://x.com/IndiaInNepal/status/2094634497954488618",
+    "text": "Press Release (1 Sep 2026): identification of mortal remains after the Nepal flash floods. Relatives can check photos on Nepal Police UDB disaster portal (udb.nepalpolice.gov.np/disaster). DNA profiles to dnacodis@nepalpolice.gov.np — CC eoikathmandufloodsupport@gmail.com. Embassy helplines (WhatsApp): +977-9851316807, +977-9709107500, +977-9810326117. Nepal Police: +977-9841616095."
+  },
+  {
     "handle": "ndtv",
     "name": "NDTV",
     "role": "journalist",
