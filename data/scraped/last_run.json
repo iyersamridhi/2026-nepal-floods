@@ -1,6 +1,6 @@
 {
-  "at": "2026-09-01T06:28:10.722125Z",
-  "urls": 24,
+  "at": "2026-09-01T11:38:34.593146Z",
+  "urls": 27,
   "changed": true,
   "grok": true,
   "sources": [
@@ -19,6 +19,8 @@
     "ndrrma-hospital-discharged",
     "ndrrma-bhotekoshi-warning-31aug",
     "ndrrma-situation-update-31aug-9am",
+    "ndrrma-foreign-nationals-1sep",
+    "dot-foreign-nationals-bhotekoshi",
     "nepal-police-dna-profiling-31aug",
     "nepal-police-udb",
     "indemb-kathmandu",

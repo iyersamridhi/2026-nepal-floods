@@ -1,10 +1,256 @@
 {
-  "generatedAt": "2026-09-01T06:28:13.512921Z",
+  "generatedAt": "2026-09-01T11:38:37.044404Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2094749126995182072",
+      "timestamp": "2026-09-01T11:28:05.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094749126995182072",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Ambassador @navsri6619 met Mr. Rajendra Dawadi, Principal of Tribhuvan Trishuli Secondary School, Bidur, Nuwakot, whose timely action helped save the lives of more than 1,600 school children moments before the school was swept away in the recent flash flood.\n\nNew building of this",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b3aafeafd749c5a7"
+    },
+    {
+      "id": "twitter-2094749118371598650",
+      "timestamp": "2026-09-01T11:28:03.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094749118371598650",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा जिल्लाको भोटेकोशीमा आएको बाढीका कारण दिवंगत, सम्पर्क विहीन तथा घाइते प्रहरी कर्मचारीहरुका आफन्त एवं परिवारजनहरुलाई खोजतलास, उपचार तथा सेवा सुविधा प्राप्तिको सहजीकरणका लागि समन्वय अधिकृत प्रहरी नायव उपरीक्षक ईश्वरी प्रसाद भण्डारीलाई सम्पर्क गर्न सक्नुहुनेछ ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "rescue",
+        "contacts",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c6aa074abb069093"
+    },
+    {
+      "id": "twitter-2094747048545595601",
+      "timestamp": "2026-09-01T11:19:49.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094747048545595601",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report.\nFor full report, please visit the link below.\n\n@moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "48c583424bcc108c"
+    },
+    {
+      "id": "twitter-2094744372281754058",
+      "timestamp": "2026-09-01T11:09:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094744372281754058",
+      "title": "Nepal Police HQ",
+      "summary": "ड्रोनबाट खोजी गर्दै जाँदा नुवाकोटको बेत्रावती स्थित एउटै घरमा २४ शव फेला पारी शव व्यवस्थापन गर्दै नेपाल प्रहरी ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ae232a8fa6c82c0d"
+    },
+    {
+      "id": "twitter-2094738784177053858",
+      "timestamp": "2026-09-01T10:46:59.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094738784177053858",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा बाढीमा बेपत्ता रहेका व्यक्तिहरूको पहिचानका लागि नेपाल प्रहरी अस्पतालमा आफन्तबाट डीएनए परीक्षणका लागि नमूना संकलन गर्दै नेपाल प्रहरी।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "51e6613fdd3930d5"
+    },
+    {
+      "id": "twitter-2094737128244785466",
+      "timestamp": "2026-09-01T10:40:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094737128244785466",
+      "title": "NDRRMA Nepal",
+      "summary": "मिति २०८३ भदौ १५ गते उद्धार गरिएको महिला एवं पुरुषहरुको विवरण @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b5ad14405cc93a47"
+    },
+    {
+      "id": "twitter-2094734238080016682",
+      "timestamp": "2026-09-01T10:28:55.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094734238080016682",
+      "title": "NDRRMA Nepal",
+      "summary": "@moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "8f5f269edd2b442b"
+    },
+    {
+      "id": "twitter-2094734133377581429",
+      "timestamp": "2026-09-01T10:28:30.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094734133377581429",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीपछिको मानवीय क्षति, होल्डिङ सेल्टर सम्बन्धी विवरण, खोज तथा उद्धार, सडक संचालन, वैकल्पिक सडक, खानेपानी, राहत वितरणलगायतबारे जिल्ला प्रशासन कार्यालय, नुवाकोटको सूचना @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ba23dab0e68ff5b7"
+    },
+    {
+      "id": "twitter-2094731934371082427",
+      "timestamp": "2026-09-01T10:19:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2094731934371082427",
+      "title": "MoFA Nepal",
+      "summary": "The Ministry of Foreign Affairs organised its fourth press briefing today at the Ministry by Spokesperson and Head of Public Diplomacy Division Joint Secretary Mr Lok Bahadur Chhetri on the Government’s ongoing search, rescue and relief efforts, following the devastating floods",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "efaa3dd196e2fe1d"
+    },
+    {
+      "id": "twitter-2094728454377976078",
+      "timestamp": "2026-09-01T10:05:56.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2094728454377976078",
+      "title": "MEA India",
+      "summary": "PM @narendramodi at the 26th SCO Summit.\n\nSecretary (West) @AmbSibiGeorge shares details on India’s participation.\n\nTune-in ⬇️",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "01c69bfde790dd04"
+    },
+    {
+      "id": "twitter-2094718083663552976",
+      "timestamp": "2026-09-01T09:24:43.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094718083663552976",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ १६ गते दिउसो १ बजेसम्मका विवरणसहित)\nRasuwa Flood: Search, Rescue and Relief Update- as of 1 September, 2026, 1:00 PM @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5c7d29b9cdf4379b"
+    },
+    {
+      "id": "twitter-2094702207149150437",
+      "timestamp": "2026-09-01T08:21:38.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094702207149150437",
+      "title": "NDRRMA Nepal",
+      "summary": "हिजो मिति २०८३ भदौ १५ गते उद्धार गरिएका व्यक्तिहरुको विवरण (६८ जना, महिला-३४, पुरुष-३३ र विदेशी-१) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ec1c60e519ebb24b"
+    },
     {
       "id": "twitter-2094672770651304320",
       "timestamp": "2026-09-01T06:24:40.000Z",
@@ -764,7 +1010,7 @@
     },
     {
       "id": "twitter-2094324575396065644",
-      "timestamp": "2026-08-31T07:21:04.000Z",
+      "timestamp": "2026-08-31T07:21:00+05:45",
       "publishedLabel": "",
       "region": [
         "nepal"
@@ -772,7 +1018,7 @@
       "source": "Twitter @NDRRMA_Nepal",
       "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094324575396065644",
       "title": "NDRRMA Nepal",
-      "summary": "रसुवा बाढीबाट उद्धार गरी उपचारार्थ काठमाडौं ल्याइएको घाइतेहरुमध्ये हाल उपचाररत र डिश्चार्चहरुको विवरणका लागि तलको लिङ्क खोल्नुहोस् ।\n\nस्रोत- जिल्ला आपतकालीन कार्यसंचालन केन्द्र, काठमाडौं।",
+      "summary": "रसुवा बाढीबाट उद्धार गरी उपचारार्थ काठमाडौं ल्याइएको घाइतेहरुमध्ये हाल उपचाररत र डिश्चार्जहरुको विवरण — District Emergency Operation Centre, Kathmandu. Official list: (we link only; do not copy names).",
       "citation": "Tweet by @NDRRMA_Nepal",
       "themes": [
         "hospitals",
@@ -781,7 +1027,7 @@
       ],
       "role": "authority",
       "scrapeMethod": "raw",
-      "contentHash": "29189d4a841f49db"
+      "contentHash": "774f78cdbe473709"
     },
     {
       "id": "twitter-manual-ndrrma-bhotekoshi-warning-31aug",
