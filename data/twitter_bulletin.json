@@ -1,10 +1,192 @@
 {
-  "generatedAt": "2026-09-01T11:38:37.044404Z",
+  "generatedAt": "2026-09-01T16:39:16.672166Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2094824885570916826",
+      "timestamp": "2026-09-01T16:29:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094824885570916826",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहतको स्थिति प्रतिवेदन # ११ (मिति- २०८३ भदौ १६ गते साँझ ६०० बजे सम्मको विवरणसहित)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9684391c9e318e16"
+    },
+    {
+      "id": "twitter-2094801472513097846",
+      "timestamp": "2026-09-01T14:56:05.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2094801472513097846",
+      "title": "MEA India",
+      "summary": "Update on Indian nationals &amp; India’s rescue and relief efforts in Nepal ⬇️\n\nNumber of Indians rescued : 163\n\nNumber of people who have left China today : 151\n\n🕘 As of 1930 hrs, 01 September 2026",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a94cb8f9e1505dfc"
+    },
+    {
+      "id": "twitter-2094801209081450904",
+      "timestamp": "2026-09-01T14:55:02.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094801209081450904",
+      "title": "Embassy of India Kathmandu",
+      "summary": "India's Tunnel Rescue team continued its work in Chilime, in coordination with Nepali Army today. The team will continue its rescue efforts tomorrow.\n\n🇮🇳🤝🇳🇵\n\n@MEAIndia @IndianDiplomacy @NepaliArmyHQ",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f767551a65895226"
+    },
+    {
+      "id": "twitter-2094795474838675749",
+      "timestamp": "2026-09-01T14:32:15.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2094795474838675749",
+      "title": "MEA India",
+      "summary": "On the tragic death of an Indian national in an attack in Ukraine ⬇️",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2978d06d3d215509"
+    },
+    {
+      "id": "twitter-2094789901632049274",
+      "timestamp": "2026-09-01T14:10:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094789901632049274",
+      "title": "Nepal Police HQ",
+      "summary": "अपहरणमा परेका ११ वर्षीय बालकको भारतमा हत्या घटनामा संलग्न १७ वर्षीय किशोर पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "841e1c3961db7c3d"
+    },
+    {
+      "id": "twitter-2094785505015828857",
+      "timestamp": "2026-09-01T13:52:38.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094785505015828857",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा जिल्लामा आएको बाढी सम्बन्धी अपडेट (मितिः २०८३/०५/१६ गते १७:०० बजेसम्म)",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a8e2b109fa21f426"
+    },
+    {
+      "id": "twitter-2094783660637737203",
+      "timestamp": "2026-09-01T13:45:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094783660637737203",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ १६ गते, साँझ ६ बजेसम्मका विवरणसहित)\nRasuwa Flood: Search, Rescue and Relief Update- as of 1 September, 2026, 6:00 PM @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "81602197ee7f2022"
+    },
+    {
+      "id": "twitter-2094775797727039707",
+      "timestamp": "2026-09-01T13:14:03.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094775797727039707",
+      "title": "Embassy of India Kathmandu",
+      "summary": "The 19-member Indian Forensic Team began DNA sample analysis in collaboration with their Nepali counterparts at the Nepal Police Central Forensic Science Laboratory and the National Forensic Science Laboratory, Khumaltar, Kathmandu. The team is working to expedite the processing",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5711dbea8859b095"
+    },
+    {
+      "id": "twitter-2094757842637226290",
+      "timestamp": "2026-09-01T12:02:43.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2094757842637226290",
+      "title": "MoFA Nepal",
+      "summary": "Press Release- Exchange of Congratulatory messages between Nepal-Japan\n\n🔗",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "65905dcc7b3b126a"
+    },
     {
       "id": "twitter-2094749126995182072",
       "timestamp": "2026-09-01T11:28:05.000Z",
@@ -867,22 +1049,25 @@
     },
     {
       "id": "twitter-2094363424365097114",
-      "timestamp": "2026-08-31T09:55:26.000Z",
+      "timestamp": "2026-08-31T09:55:00+05:45",
       "publishedLabel": "",
       "region": [
-        "nepal"
+        "nepal",
+        "foreign"
       ],
       "source": "Twitter @NepalPoliceHQ",
       "sourceUrl": "https://x.com/NepalPoliceHQ/status/2094363424365097114",
       "title": "Nepal Police HQ",
-      "summary": "Information on DNA Profiling for unidentified Dead Bodies !!",
+      "summary": "Information on DNA Profiling for unidentified Dead Bodies. Relatives of missing persons after Rasuwa / Bhote Koshi floods: provide DNA samples to help identify recovered remains. In Nepal — blood sample + 2 passport photos at Nepal Police Hospital (Maharajgunj) Pathology Lab or nearest District Police Office (father/mother/son/daughter). Abroad — authorised lab DNA profile to dnacodis@nepalpolice.gov.np. Contact PI Sambhu Bahadur KC +977-9841616095. Open original post for ful",
       "citation": "Tweet by @NepalPoliceHQ",
       "themes": [
+        "hospitals",
+        "missing",
         "remains"
       ],
       "role": "authority",
       "scrapeMethod": "raw",
-      "contentHash": "5701b38ea7326d7b"
+      "contentHash": "6988120cbd75b765"
     },
     {
       "id": "twitter-manual-ndtv-flood-alarm-31aug",
