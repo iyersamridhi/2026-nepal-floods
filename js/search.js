@@ -1,12 +1,4 @@
-const FOREIGN_NATIONALS_UPDATE = {
-  kicker: "NDRRMA · 1 September 2026",
-  title: "Foreign nationals — missing, rescued, or contacted",
-  body: "Official lists for tourists and foreign nationals after the Bhote Koshi flood. NDRRMA points to the Department of Tourism page and a situation update PDF (final update dated 30 August 2026, 19:00). We link only — names stay on the official sites.",
-  tourismUrl: "https://tourismdepartment.gov.np/content/185/tourist-list--out-of-contact--in-bhotekoshi/",
-  pdfUrl: "https://ap.wps.com/l/cbCaigwQVrYF3ji7",
-  pdfLabel: "Situation update PDF (30 Aug 2026, 19:00)",
-  ndrrmaUrl: "https://x.com/NDRRMA_Nepal/status/2094666412589744273",
-};
+const FOREIGN_NATIONALS_UPDATE = FOREIGN_NATIONALS;
 
 const FOUND_LINKS = [
   {
