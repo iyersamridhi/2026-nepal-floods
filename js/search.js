@@ -8,7 +8,12 @@ const FOUND_LINKS = [
   },
   {
     title: "Foreign nationals — situation update PDF (30 Aug 2026, 19:00)",
-    desc: "NDRRMA-linked PDF update on missing, rescued, and contacted foreign nationals. Final update timestamp on the file: 30 August 2026, 19:00.",
+    desc: "NDRRMA-linked PDF update on missing, rescued, and contacted foreign nationals. Final update timestamp on the file: 30 August 2026, 19:00. Hosted copy for viewing; official WPS link also listed.",
+    href: "/assets/ndrrma-foreign-nationals-30aug-2026.pdf",
+  },
+  {
+    title: "Foreign nationals — official WPS PDF link (NDRRMA)",
+    desc: "Original WPS share linked by NDRRMA for the 30 Aug 2026, 19:00 situation update.",
     href: "https://ap.wps.com/l/cbCaigwQVrYF3ji7",
   },
   {
