@@ -1,10 +1,74 @@
 {
-  "generatedAt": "2026-09-02T16:35:08.059807Z",
+  "generatedAt": "2026-09-02T21:03:54.215049Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095204583069167642",
+      "timestamp": "2026-09-02T17:37:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2095204583069167642",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Update on Indian nationals and India's rescue and relief efforts in Nepal (2 September 2026) ⬇️",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "41828634de27e2ee"
+    },
+    {
+      "id": "twitter-2095201121673629976",
+      "timestamp": "2026-09-02T17:24:09.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095201121673629976",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #2. (September 2, 2026)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "72417efc0b9fff52"
+    },
+    {
+      "id": "twitter-2095192876699525497",
+      "timestamp": "2026-09-02T16:51:23.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095192876699525497",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहतको स्थिति प्रतिवेदन # १२ (मिति- २०८३ भदौ १७ गते साँझ ६०० बजे सम्मको विवरणसहित)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2c96151e631f14b0"
+    },
     {
       "id": "twitter-2095168234194637103",
       "timestamp": "2026-09-02T15:13:28.000Z",
@@ -796,6 +860,29 @@
       "contentHash": "5c7d29b9cdf4379b"
     },
     {
+      "id": "twitter-2094634497954488618",
+      "timestamp": "2026-09-01T09:22:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiaInNepal/status/2094634497954488618",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Press Release (1 Sep 2026): identification of mortal remains after the Nepal flash floods. Relatives can check photos on Nepal Police UDB disaster portal (udb.nepalpolice.gov.np/disaster). DNA profiles to dnacodis@nepalpolice.gov.np — CC eoikathmandufloodsupport@gmail.com. Embassy helplines (WhatsApp): +977-9851316807, +977-9709107500, +977-9810326117. Nepal Police: +977-9841616095.",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "remains",
+        "contacts",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f915d179034cac56"
+    },
+    {
       "id": "twitter-2094702207149150437",
       "timestamp": "2026-09-01T08:21:38.000Z",
       "publishedLabel": "",
@@ -876,27 +963,6 @@
       "role": "authority",
       "scrapeMethod": "raw",
       "contentHash": "5ddf65bc229d2dc1"
-    },
-    {
-      "id": "twitter-2094634497954488618",
-      "timestamp": "2026-09-01T03:52:35.000Z",
-      "publishedLabel": "",
-      "region": [
-        "india",
-        "nepal"
-      ],
-      "source": "Twitter @IndiainNepal",
-      "sourceUrl": "https://x.com/IndiainNepal/status/2094634497954488618",
-      "title": "Embassy of India Kathmandu",
-      "summary": "Press Release regarding identification of mortal remains of victims of the recent flash flood in Nepal ⬇️\n\nLink 🔗\n\n@MEAIndia",
-      "citation": "Tweet by @IndiainNepal",
-      "themes": [
-        "remains",
-        "briefing"
-      ],
-      "role": "authority",
-      "scrapeMethod": "raw",
-      "contentHash": "a194871a8a177b7f"
     },
     {
       "id": "twitter-2094476727783444875",
