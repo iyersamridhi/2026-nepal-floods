@@ -1,10 +1,50 @@
 {
-  "generatedAt": "2026-09-02T00:12:56.319571Z",
+  "generatedAt": "2026-09-02T04:31:55.523676Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2094996234641813506",
+      "timestamp": "2026-09-02T03:50:00.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2094996234641813506",
+      "title": "Embassy of India Kathmandu",
+      "summary": "पाँचौँ भारतीय विमान नेपालका लागि प्रस्थान गरेको छ।\n\nयसले विशेष उपकरण सहित ११ सदस्यीय उद्धार टोली र ५.५ टन अत्यावश्यक औषधिहरू बोकेको छ।\n\n🇮🇳 🤝🇳🇵",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7db16d645cef611d"
+    },
+    {
+      "id": "twitter-2094979361258848598",
+      "timestamp": "2026-09-02T02:42:57.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2094979361258848598",
+      "title": "MEA India",
+      "summary": "Fifth Indian aircraft departs for Nepal with an 11-member rescue team, specialised equipment and 5.5 tonnes of essential medicines.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "fd27328e69e6c030"
+    },
     {
       "id": "twitter-2094843970010386863",
       "timestamp": "2026-09-01T17:44:57.000Z",
