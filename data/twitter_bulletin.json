@@ -1,10 +1,132 @@
 {
-  "generatedAt": "2026-09-02T04:31:55.523676Z",
+  "generatedAt": "2026-09-02T11:16:32.570621Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095107015882551333",
+      "timestamp": "2026-09-02T11:10:12.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095107015882551333",
+      "title": "Nepal Police HQ",
+      "summary": "कुटपिटबाट एक शिक्षकको मृत्यु प्रकरणमा ११ जना पक्राउ\n#NepalPolice #ToServeandProtect #BelieveInBlue #नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9bc31bf9db5bd7ae"
+    },
+    {
+      "id": "twitter-2095106927529521160",
+      "timestamp": "2026-09-02T11:09:51.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095106927529521160",
+      "title": "Nepal Police HQ",
+      "summary": "\"खोज तथा उद्धारमा निरन्तर नेपाल प्रहरी\"\n\"सधैँ नागरिकको सेवामा नेपाल प्रहरी\"",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "65aa3bbc9cb4059f"
+    },
+    {
+      "id": "twitter-2095102400810168459",
+      "timestamp": "2026-09-02T10:51:52.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2095102400810168459",
+      "title": "MoFA Nepal",
+      "summary": "The Ministry of Foreign Affairs organised its fifth press briefing today at the Ministry by Spokesperson and Head of Public Diplomacy Division Joint Secretary Mr Lok Bahadur Chhetri on the Government’s ongoing search, rescue and relief efforts, following the devastating floods in",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c5607798963b3150"
+    },
+    {
+      "id": "twitter-2095033082701357406",
+      "timestamp": "2026-09-02T06:16:25.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095033082701357406",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ १६ गते, २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "8406f61888b8a7e1"
+    },
+    {
+      "id": "twitter-2095019262960357591",
+      "timestamp": "2026-09-02T05:21:30.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095019262960357591",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ १७ गते बिहान ९ बजेसम्मका विवरणसहित)\nRasuwa Flood: Search, Rescue and Relief Update- as of 2 September, 2026, 9:00 AM @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0442493a3d0532cb"
+    },
+    {
+      "id": "twitter-2095007764112355724",
+      "timestamp": "2026-09-02T04:35:48.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095007764112355724",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा स्थित बाढि प्रभावित क्षेत्र टिमुरेमा नेपाल प्रहरीको SOCO टोली खोज तथा उद्धार कार्यमा ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0c1fec12bb05f242"
+    },
     {
       "id": "twitter-2094996234641813506",
       "timestamp": "2026-09-02T03:50:00.000Z",
@@ -267,6 +389,28 @@
       "role": "authority",
       "scrapeMethod": "raw",
       "contentHash": "65905dcc7b3b126a"
+    },
+    {
+      "id": "twitter-2094666412589744273",
+      "timestamp": "2026-09-01T11:44:00+05:45",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094666412589744273",
+      "title": "NDRRMA Nepal",
+      "summary": "For foreign nationals missing, rescued, or contacted after the Bhote Koshi flood in Rasuwa: Department of Tourism tourist list (tourismdepartment.gov.np/content/185/tourist-list--out-of-contact--in-bhotekoshi/) and situation update PDF — final update 30 Aug 2026, 19:00 (ap.wps.com/l/cbCaigwQVrYF3ji7). Open originals on official sites.",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7f4d929dc38aee9e"
     },
     {
       "id": "twitter-2094749126995182072",
@@ -534,26 +678,6 @@
       "role": "authority",
       "scrapeMethod": "raw",
       "contentHash": "70b34b1ef89e93f4"
-    },
-    {
-      "id": "twitter-2094666412589744273",
-      "timestamp": "2026-09-01T05:59:24.000Z",
-      "publishedLabel": "",
-      "region": [
-        "nepal"
-      ],
-      "source": "Twitter @NDRRMA_Nepal",
-      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2094666412589744273",
-      "title": "NDRRMA Nepal",
-      "summary": "For details of foreign nationals who are missing, rescued, or have been contacted following the flood in the Bhote Koshi River in Rasuwa, please visit the link below.",
-      "citation": "Tweet by @NDRRMA_Nepal",
-      "themes": [
-        "rescue",
-        "missing"
-      ],
-      "role": "authority",
-      "scrapeMethod": "raw",
-      "contentHash": "9c68d513a0d4172e"
     },
     {
       "id": "twitter-2094655510423449700",
