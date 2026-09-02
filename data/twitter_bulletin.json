@@ -1,10 +1,167 @@
 {
-  "generatedAt": "2026-09-02T11:16:32.570621Z",
+  "generatedAt": "2026-09-02T16:35:08.059807Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095168234194637103",
+      "timestamp": "2026-09-02T15:13:28.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095168234194637103",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा जिल्लामा आएको बाढी सम्बन्धी अपडेट (मितिः २०८३/०५/१७ गते २०:०० बजेसम्म)",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c0251256c720f934"
+    },
+    {
+      "id": "twitter-2095154597488947369",
+      "timestamp": "2026-09-02T14:19:16.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095154597488947369",
+      "title": "MEA India",
+      "summary": "Secretary (East) Shri Rudrendra Tandon and Deputy Minister of Foreign Affairs Mr. Arun Thangaraj led their respective delegations at the annual India-Canada Foreign Office Consultations held in New Delhi today.\n\nThey welcomed the progress in bilateral ties, growing cooperation",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c989dda79811070d"
+    },
+    {
+      "id": "twitter-2095151138391937174",
+      "timestamp": "2026-09-02T14:05:32.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095151138391937174",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ १७ गते साँझ ६ बजेसम्मका विवरणसहित)\nRasuwa Flood: Search, Rescue and Relief Update- as of 2 September, 2026, 6:00 PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "02faa6c21b1e4cbe"
+    },
+    {
+      "id": "twitter-2095147354328625483",
+      "timestamp": "2026-09-02T13:50:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095147354328625483",
+      "title": "MEA India",
+      "summary": "India continues to extend humanitarian assistance to Nepal.\n\nThe fifth Indian aircraft landed in Nepal in the morning, carrying an 11-member rescue team with specialised equipment and 5.5 tonnes of essential medicines. Ambassador Naveen Srivastava handed over the fresh tranche of",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "cde702e68e7499d4"
+    },
+    {
+      "id": "twitter-2095141184805187965",
+      "timestamp": "2026-09-02T13:25:58.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095141184805187965",
+      "title": "Nepal Police HQ",
+      "summary": "कारागारबाट फरार जबरजस्ती करणी मुद्दाका प्रतिबादी पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "034570b51820d931"
+    },
+    {
+      "id": "twitter-2095140155950506231",
+      "timestamp": "2026-09-02T13:21:53.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2095140155950506231",
+      "title": "MoFA Nepal",
+      "summary": "Foreign Secretary Mr Amrit Bahadur Rai met H. E. Baroness Winterton, UK Minister for the Indo-Pacific, at the Ministry today.\n\nMinister Winterton conveyed her deepest condolences to the Government and people of Nepal on the huge loss of lives and massive destruction of properties",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0246a44c71e6f06d"
+    },
+    {
+      "id": "twitter-2095126703584788647",
+      "timestamp": "2026-09-02T12:28:26.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095126703584788647",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशीको बाढिमा परी पहिचान खुल्न नसकेका शवहरुको DNA Profiling बाट पहिचान गर्ने कार्यलाई थप प्रभावकारी र तत्परताका साथ अघि बढाउन प्रहरी महानिरीक्षक दान बहादुर कार्कीज्यूद्वारा नेपाल प्रहरी केन्द्रीय विधि विज्ञान प्रयोगशालाको स्थलगत निरीक्षण ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3d632024df7af435"
+    },
+    {
+      "id": "twitter-2095114491382071392",
+      "timestamp": "2026-09-02T11:39:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095114491382071392",
+      "title": "NDRRMA Nepal",
+      "summary": "आज मिति २०८३ भदौ १७ गते उद्धार गरिएका व्यक्तिहरुको विवरण\n@moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3bd01f0977fd4523"
+    },
     {
       "id": "twitter-2095107015882551333",
       "timestamp": "2026-09-02T11:10:12.000Z",
