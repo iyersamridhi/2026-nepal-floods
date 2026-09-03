@@ -1,10 +1,131 @@
 {
-  "generatedAt": "2026-09-03T16:26:06.890261Z",
+  "generatedAt": "2026-09-03T21:02:36.803867Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095582843951018077",
+      "timestamp": "2026-09-03T18:40:58.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2095582843951018077",
+      "title": "Embassy of India Kathmandu",
+      "summary": "𝐏𝐫𝐞𝐬𝐬 𝐑𝐞𝐥𝐞𝐚𝐬𝐞: 𝐃𝐍𝐀 𝐏𝐫𝐨𝐟𝐢𝐥𝐢𝐧𝐠 𝐨𝐟 𝐅𝐢𝐫𝐬𝐭-𝐃𝐞𝐠𝐫𝐞𝐞 𝐑𝐞𝐥𝐚𝐭𝐢𝐯𝐞𝐬 𝐨𝐟 𝐏𝐞𝐫𝐬𝐨𝐧𝐬 𝐌𝐢𝐬𝐬𝐢𝐧𝐠 𝐢𝐧 𝐭𝐡𝐞 𝐅𝐥𝐚𝐬𝐡 𝐅𝐥𝐨𝐨𝐝𝐬 𝐢𝐧 𝐍𝐞𝐩𝐚𝐥\n\nThrough its Press Release dated 01 September 2026, the Embassy of India, Kathmandu,",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "fe841473983903a6"
+    },
+    {
+      "id": "twitter-2095578763891462592",
+      "timestamp": "2026-09-03T18:24:45.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2095578763891462592",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Two C-130J aircrafts from India, carrying 21.5 tonnes of humanitarian assistance have landed in Kathmandu 🇳🇵. The relief material was handed over to Mr. Mahabir Pun, Minister for Science, Technology and Innovation of Nepal.\n\n🇮🇳 🤝 🇳🇵\n\n@DDNewslive @PIB_India @airnewsalerts",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "45d699b90a0dd4f8"
+    },
+    {
+      "id": "twitter-2095566938827329664",
+      "timestamp": "2026-09-03T17:37:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095566938827329664",
+      "title": "MEA India",
+      "summary": "Both C-130J aircraft carrying 21.5 tonnes of humanitarian assistance have landed in Kathmandu, Nepal. The relief material was handed over to Mr. Mahabir Pun, Minister for Science, Technology and Innovation.\n\nThe assistance will support ongoing relief and rescue efforts in",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ef8951e7f90a1893"
+    },
+    {
+      "id": "twitter-2095551944740020481",
+      "timestamp": "2026-09-03T16:38:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095551944740020481",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response, Situation Report #3",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "52815ec297eec281"
+    },
+    {
+      "id": "twitter-2095550567540195814",
+      "timestamp": "2026-09-03T16:32:43.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095550567540195814",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # १३ (मिति- २०८३ भदौ १८ गते साँझ ६०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0880b497e00fb706"
+    },
+    {
+      "id": "twitter-2095549546143391969",
+      "timestamp": "2026-09-03T16:28:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095549546143391969",
+      "title": "MEA India",
+      "summary": "Foreign Secretary Shri Vikram Misri held a tête-à-tête with fellow Quad Sherpas ahead of their official meeting today.\n\n🇮🇳 🇺🇸 🇯🇵 🇦🇺",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e63da244ab88d3ce"
+    },
     {
       "id": "twitter-2095548818507055585",
       "timestamp": "2026-09-03T16:25:46.000Z",
