@@ -1,10 +1,169 @@
 {
-  "generatedAt": "2026-09-03T11:12:55.595547Z",
+  "generatedAt": "2026-09-03T16:26:06.890261Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095548818507055585",
+      "timestamp": "2026-09-03T16:25:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095548818507055585",
+      "title": "MEA India",
+      "summary": "India continues humanitarian assistance to Nepal.\n\nIndia dispatched two more aircrafts (C-130 Js) with 21.5 tonnes of relief assistance for Nepal, including forensic kits and medical supplies.\n\nThe additional assistance will further strengthen ongoing relief and rescue efforts",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue",
+        "remains",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "663b2251d87a6855"
+    },
+    {
+      "id": "twitter-2095545642085179735",
+      "timestamp": "2026-09-03T16:13:09.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095545642085179735",
+      "title": "MEA India",
+      "summary": "Foreign Secretary @VikramMisri hosted the Quad Sherpas’ Meeting today in New Delhi.\n\nThe Sherpas welcomed the strong momentum in Quad interactions and practical activities, and reviewed progress across key pillars including maritime security, economic prosperity, critical and",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "db101e448da11413"
+    },
+    {
+      "id": "twitter-2095540223551918392",
+      "timestamp": "2026-09-03T15:51:37.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095540223551918392",
+      "title": "Nepal Police HQ",
+      "summary": "प्रेस विज्ञप्ति",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c815eeb5831eb32d"
+    },
+    {
+      "id": "twitter-2095530049172849028",
+      "timestamp": "2026-09-03T15:11:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "tibet",
+        "india",
+        "foreign"
+      ],
+      "source": "Twitter @EOIBeijing",
+      "sourceUrl": "https://x.com/EOIBeijing/status/2095530049172849028",
+      "title": "Embassy of India Beijing",
+      "summary": "Ambassador @VDoraiswami visited the Embassy of Nepal in Beijing today to sign the Book of Condolences opened in memory of the precious lives lost in the recent catastrophic flood in the Bhote Koshi River, Nepal. Our deepest condolences to the bereaved families.\n\n@meaindia",
+      "citation": "Tweet by @EOIBeijing",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0cde59c16479db65"
+    },
+    {
+      "id": "twitter-2095507242821021999",
+      "timestamp": "2026-09-03T13:40:33.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095507242821021999",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ १८ गते, साँझ ७ बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (3 September 2026, 7:00 PM) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "84ce84445f2fa637"
+    },
+    {
+      "id": "twitter-2095499955305955476",
+      "timestamp": "2026-09-03T13:11:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095499955305955476",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ १० गते रसुवाको भोटेकोशी नदिमा बाढी आउँदा काम विशेषले चीनको तिब्बततर्फ रहेका १ नाबालक सहित ११४ नेपाली नागरिकहरुलाई चीन सरकारले सकुशल उद्दार गरी सिन्धुपाल्चोक जिल्लाको तातोपानी नाकाबाट नेपाल प्रवेश गराएको छ ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c49f91e19f6a85d6"
+    },
+    {
+      "id": "twitter-2095488173921231003",
+      "timestamp": "2026-09-03T12:24:47.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095488173921231003",
+      "title": "MEA India",
+      "summary": "Foreign Secretary Shri Vikram Misri today met Mr Hiroyuki Namazu, Senior Deputy Minister for Foreign Affairs, MFA 🇯🇵 ahead of the Quad Sherpas Meeting and discussed issues of shared bilateral and regional interest.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a425e29677368462"
+    },
+    {
+      "id": "twitter-2095478750116970967",
+      "timestamp": "2026-09-03T11:47:20.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095478750116970967",
+      "title": "MEA India",
+      "summary": "Foreign Secretary Shri Vikram Misri met Ms Eleanor Jane Lawson, Deputy Secretary Strategic Planning and Coordination Group, DFAT 🇦🇺 and discussed matters of bilateral interest and regional and global issues of mutual interest, ahead of the Quad Sherpas Meeting in New Delhi today.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3d682ae28efb80de"
+    },
     {
       "id": "twitter-2095464197631136146",
       "timestamp": "2026-09-03T10:49:31.000Z",
