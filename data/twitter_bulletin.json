@@ -1,10 +1,29 @@
 {
-  "generatedAt": "2026-09-03T00:15:17.629980Z",
+  "generatedAt": "2026-09-03T04:37:32.351401Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095364399020327107",
+      "timestamp": "2026-09-03T04:12:57.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095364399020327107",
+      "title": "Nepal Police HQ",
+      "summary": "Information on DNA Profiling for unidentified Dead Bodies !!",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "722755bffb43c132"
+    },
     {
       "id": "twitter-2095204583069167642",
       "timestamp": "2026-09-02T17:37:54.000Z",
