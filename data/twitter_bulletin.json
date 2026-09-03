@@ -1,10 +1,284 @@
 {
-  "generatedAt": "2026-09-03T04:37:32.351401Z",
+  "generatedAt": "2026-09-03T11:12:55.595547Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095464197631136146",
+      "timestamp": "2026-09-03T10:49:31.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095464197631136146",
+      "title": "Nepal Police HQ",
+      "summary": "यस विपद्को घडीमा जिम्मेवार बनौं, संवेदनशील बनौं ।\nमानवीय मर्यादाको सम्मान गरौं ।\n#NepalPolice #ToServeandProtect #BelieveInBlue #नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "23fd05e0be4e413e"
+    },
+    {
+      "id": "twitter-2095461253821133236",
+      "timestamp": "2026-09-03T10:37:49.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2095461253821133236",
+      "title": "MoFA Nepal",
+      "summary": "Hon. Minister for Foreign Affairs Mr Shisir Khanal held a Diplomatic Briefing today at the Ministry for the Kathmandu-based Diplomatic Corps on the devastating Bhote Koshi River floods.\n\nThe Minister briefed Heads and Representatives of Diplomatic Missions and international",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "24e21fb4b9e5b3aa"
+    },
+    {
+      "id": "twitter-2095460194209903087",
+      "timestamp": "2026-09-03T10:33:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095460194209903087",
+      "title": "Nepal Police HQ",
+      "summary": "सधैं नागरिकको सेवामा नेपाल प्रहरी ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7b123b9fe427455c"
+    },
+    {
+      "id": "twitter-2095451878415065399",
+      "timestamp": "2026-09-03T10:00:34.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095451878415065399",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा जिल्लामा आएको बाढी सम्बन्धी अपडेट (मितिः २०८३/०५/१८ गते १४:०० बजेसम्म )",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "20c6ab2945cd622b"
+    },
+    {
+      "id": "twitter-2095449126410584177",
+      "timestamp": "2026-09-03T09:49:37.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2095449126410584177",
+      "title": "MoFA Nepal",
+      "summary": "The Ministry of Foreign Affairs organised its sixth press briefing today at the Ministry by Spokesperson and Head of Public Diplomacy Division Joint Secretary Mr Lok Bahadur Chhetri on the Government’s ongoing search, rescue and relief efforts, following the devastating floods in",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "496dbbaa29f2a62f"
+    },
+    {
+      "id": "twitter-2095440519744872863",
+      "timestamp": "2026-09-03T09:15:25.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095440519744872863",
+      "title": "Nepal Police HQ",
+      "summary": "जिल्ला रसुवा स्थित लाङटाङ जलविद्युत परियोजना-२ को टनेल भित्र नेपाल प्रहरी र नेपाली सेनाको संयुक्त टोलीद्वारा खोज तथा उद्धार कार्य जारी ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "99770360c9474ad6"
+    },
+    {
+      "id": "twitter-2095415212539293845",
+      "timestamp": "2026-09-03T07:34:52.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095415212539293845",
+      "title": "Nepal Police HQ",
+      "summary": "यात्रुवाहक माइक्रोको ठक्करबाट एक पैदलयात्रीको मृत्यु\n#नेपालप्रहरी #NepalPolice #ToServeandProtect #BelieveinBlue",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "def13698a81e5428"
+    },
+    {
+      "id": "twitter-2095413328516681771",
+      "timestamp": "2026-09-03T07:27:23.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095413328516681771",
+      "title": "Nepal Police HQ",
+      "summary": "जानकारी सम्बन्धमा।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b953408fef27a3e8"
+    },
+    {
+      "id": "twitter-2095408247092261124",
+      "timestamp": "2026-09-03T07:07:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095408247092261124",
+      "title": "Nepal Police HQ",
+      "summary": "सधैं नागरिकको सेवामा नेपाल प्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "08f56ce6677bebbc"
+    },
+    {
+      "id": "twitter-2095406989975363924",
+      "timestamp": "2026-09-03T07:02:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095406989975363924",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ १८ गते मध्याह्न १२ बजेसम्मका विवरणसहित)\nRasuwa Flood: Search, Rescue and Relief Update- as of 3 September, 2026, 12:00 Noon @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d6116e46e658609f"
+    },
+    {
+      "id": "twitter-2095403271833968713",
+      "timestamp": "2026-09-03T06:47:25.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095403271833968713",
+      "title": "NDRRMA Nepal",
+      "summary": "Information on DNA Profiling for unidentified Dead Bodies !!",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7c746783a2703037"
+    },
+    {
+      "id": "twitter-2095384932134895833",
+      "timestamp": "2026-09-03T05:34:32.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095384932134895833",
+      "title": "Nepal Police HQ",
+      "summary": "सधै नागरिक सेवामा नेपाल प्रहरी ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4d866bceb94dabb5"
+    },
+    {
+      "id": "twitter-2095380612723179989",
+      "timestamp": "2026-09-03T05:17:23.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095380612723179989",
+      "title": "Nepal Police HQ",
+      "summary": "धनुषामा झाडी भित्र लुकाइएको १०७ किलो गाँजा बरामद",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "86471fd0f6922f36"
+    },
+    {
+      "id": "twitter-2095378897470963953",
+      "timestamp": "2026-09-03T05:10:34.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095378897470963953",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ १७ गते, २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6a5b12f233a7cbd3"
+    },
     {
       "id": "twitter-2095364399020327107",
       "timestamp": "2026-09-03T04:12:57.000Z",
