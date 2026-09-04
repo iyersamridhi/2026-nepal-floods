@@ -1,10 +1,71 @@
 {
-  "generatedAt": "2026-09-04T16:19:43.920544Z",
+  "generatedAt": "2026-09-04T20:44:14.329611Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095922302273851606",
+      "timestamp": "2026-09-04T17:09:51.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095922302273851606",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # १४ (मिति- २०८३ भदौ १९ गते साँझ ६:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d0debbb64290f018"
+    },
+    {
+      "id": "twitter-2095912232601440592",
+      "timestamp": "2026-09-04T16:29:51.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095912232601440592",
+      "title": "Nepal Police HQ",
+      "summary": "मानव बेचबिखनमा संलग्न एक जना प्रतिवादी १९ वर्षपछि पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b746c18f696500f7"
+    },
+    {
+      "id": "twitter-2095911256108777746",
+      "timestamp": "2026-09-04T16:25:58.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095911256108777746",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response, Situation Report #4\nDate: 04 September 2026 Time: 06:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0449e62ae5c31bd9"
+    },
     {
       "id": "twitter-2095903549297492370",
       "timestamp": "2026-09-04T15:55:20.000Z",
