@@ -1,10 +1,302 @@
 {
-  "generatedAt": "2026-09-04T04:29:08.456101Z",
+  "generatedAt": "2026-09-04T11:15:18.508342Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095829049591705969",
+      "timestamp": "2026-09-04T10:59:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095829049591705969",
+      "title": "Nepal Police HQ",
+      "summary": "मूख्य राजमार्ग अवरोध । (मितिः २०८३।०५।१९ गते १६:३० बजे सम्म)",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f7d691cae5a953c8"
+    },
+    {
+      "id": "twitter-2095826213239758938",
+      "timestamp": "2026-09-04T10:48:02.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095826213239758938",
+      "title": "NDRRMA Nepal",
+      "summary": "हामी Instagram मा पनि छौं। विपद् सम्बन्धी अलर्ट, सूचना तथा जानकारीका लागि हामीसँग जोडिनुहोस् है।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d17c3e90bb4b0154"
+    },
+    {
+      "id": "twitter-2095821348593611209",
+      "timestamp": "2026-09-04T10:28:42.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095821348593611209",
+      "title": "NDRRMA Nepal",
+      "summary": "चौलानी नदी आधा थुनिएको र हाल पहिरो आउने क्रम जारी रहेकाले पूरै नदी थुनिने जोखिम रहेकोले नदीको तटीय तथा तल्लो तटिय क्षेत्र र आसपास बसोबास गर्नुहुने सबैमा सतर्कता अपनाउनका लागि जिल्ला प्रशासन कार्यालय, दार्चुलाको सूचना",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "1fc97fb7970be8eb"
+    },
+    {
+      "id": "twitter-2095818379584250304",
+      "timestamp": "2026-09-04T10:16:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2095818379584250304",
+      "title": "MoFA Nepal",
+      "summary": "Daily Situation Update on the Bhote Koshi River Floods\n(Updated at 14:00 hrs NST on 04 September 2026)\n\n🔗",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6cfd2ae22cb4ace2"
+    },
+    {
+      "id": "twitter-2095814803394900204",
+      "timestamp": "2026-09-04T10:02:42.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095814803394900204",
+      "title": "Nepal Police HQ",
+      "summary": "१६ ग्राम २२० मिलिग्राम ब्राउन सुगरसहित दुई जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a4415630ed3d62ce"
+    },
+    {
+      "id": "twitter-2095812840334766562",
+      "timestamp": "2026-09-04T09:54:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095812840334766562",
+      "title": "Nepal Police HQ",
+      "summary": "जिल्ला रसुवा स्थित लाङटाङ जलविद्युत परियोजना-२ को टनेल भित्र नेपाल प्रहरी, सशस्त्र प्रहरी बल,नेपाल र नेपाली सेनाको संयुक्त टोलीद्वारा खोज तथा उद्धार\n#NepalPolice #Toserveandprotect #BelieveInBlue #नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "bebb9f32f438f4fc"
+    },
+    {
+      "id": "twitter-2095805881191637341",
+      "timestamp": "2026-09-04T09:27:14.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095805881191637341",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा जिल्लामा आएको बाढी सम्बन्धी अपडेट ( मितिः २०८३/०५/१९ गते १४:०० बजेसम्म )",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0ce62737989ee47b"
+    },
+    {
+      "id": "twitter-2095798558037540953",
+      "timestamp": "2026-09-04T08:58:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095798558037540953",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ १९ गते, मध्याह्न १२:३० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (4 September 2026, 12:30 PM) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0227d57f9dd07c1e"
+    },
+    {
+      "id": "twitter-2095793398628380730",
+      "timestamp": "2026-09-04T08:37:38.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095793398628380730",
+      "title": "Nepal Police HQ",
+      "summary": "अटोको ठक्करबाट ३ वर्षीय बालकको मृत्यु",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9c3b5fb0cdff04fc"
+    },
+    {
+      "id": "twitter-2095780682056466439",
+      "timestamp": "2026-09-04T07:47:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095780682056466439",
+      "title": "Nepal Police HQ",
+      "summary": "श्रीकृष्ण जन्माष्टमीको अवसरमा कृष्ण मन्दिर पाटनमा श्रद्धालु भक्तजनहरूलाई सहजिकरण गर्दै नेपाल प्रहरी\n#NepalPolice #ToserveandProtect #Believeinblue #नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4cd351df5cf17e44"
+    },
+    {
+      "id": "twitter-2095777985131598268",
+      "timestamp": "2026-09-04T07:36:23.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095777985131598268",
+      "title": "Nepal Police HQ",
+      "summary": "भरुवा बन्दुकको प्रहारबाट शिक्षकको मृत्यु, घटनामा संलग्न एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ea9b12bfa2edd8fe"
+    },
+    {
+      "id": "twitter-2095773501475139863",
+      "timestamp": "2026-09-04T07:18:34.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095773501475139863",
+      "title": "Nepal Police HQ",
+      "summary": "बालबालिकाको पीडालाई प्रचारको होइन, संरक्षण र सहयोगको विषय बनाऔं।\n#nepalpolice #toserveandprotect #believeinblue #नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "610fadcb58734284"
+    },
+    {
+      "id": "twitter-2095768876697129018",
+      "timestamp": "2026-09-04T07:00:12.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095768876697129018",
+      "title": "Nepal Police HQ",
+      "summary": "फेवातालमा कार खस्दा २ जनाको मृत्यु २ जना घाइते",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "527ea9fb4e43ea77"
+    },
+    {
+      "id": "twitter-2095764779214536704",
+      "timestamp": "2026-09-04T06:43:55.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095764779214536704",
+      "title": "Nepal Police HQ",
+      "summary": "सामुदायिक जंगलमा लुकाइ राखेको १० थान भरुवा बन्दुक बरामद",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "21015f86b9534c4b"
+    },
+    {
+      "id": "twitter-2095748614379454472",
+      "timestamp": "2026-09-04T05:39:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095748614379454472",
+      "title": "NDRRMA Nepal",
+      "summary": "सुखद खबर !\nरसुवाको भोटेकोशीमा १० भदौमा आएको विनाशकारी बाढीका कारण त्रिशुली ३ ए जलविद्युत आयोजनाको सुरुङभित्रबाट आज बिहान दुई जनाको सकुशल उद्वार गरिएको छ। संयुक्त खोज तथा उद्धार टोलीद्वारा उद्वार गरिएकामा सुपरभाइजर कबिर महर्जन र फोरम्यान मेकानिक सञ्जय साह रहनु भएको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4e19a3e9f06d0393"
+    },
     {
       "id": "twitter-2095715442061103325",
       "timestamp": "2026-09-04T03:27:52.000Z",
