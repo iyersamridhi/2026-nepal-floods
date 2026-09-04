@@ -1,10 +1,208 @@
 {
-  "generatedAt": "2026-09-04T11:15:18.508342Z",
+  "generatedAt": "2026-09-04T16:19:43.920544Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095903549297492370",
+      "timestamp": "2026-09-04T15:55:20.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095903549297492370",
+      "title": "Nepal Police HQ",
+      "summary": "नग्न तस्बिर तथा भिडियो सार्वजनिक गर्ने धम्की दिई\nरकम असुल्ने एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6519c7a5254ef525"
+    },
+    {
+      "id": "twitter-2095902571538121063",
+      "timestamp": "2026-09-04T15:51:27.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095902571538121063",
+      "title": "MEA India",
+      "summary": "Deepening India-Belgium connectivity and trade ties.\n\nUnion Minister @PiyushGoyal and Maharashtra Chief Minister @Dev_Fadnavis joined Prime Minister Bart De Wever of Belgium at the Port of Antwerp-Bruges event in Mumbai.\n\nThe event highlighted the growing partnership between",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "74e0c18f9bdb4982"
+    },
+    {
+      "id": "twitter-2095900522427605164",
+      "timestamp": "2026-09-04T15:43:19.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095900522427605164",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।१९ गते २०:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b4e351e98d0f35b8"
+    },
+    {
+      "id": "twitter-2095895378352914904",
+      "timestamp": "2026-09-04T15:22:52.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095895378352914904",
+      "title": "MEA India",
+      "summary": "EAM @DrSJaishankar met with the India-Poland Parliamentary Group led by @gajewska_kinga of Poland.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ab721e2aa1d94504"
+    },
+    {
+      "id": "twitter-2095892938551386307",
+      "timestamp": "2026-09-04T15:13:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095892938551386307",
+      "title": "Nepal Police HQ",
+      "summary": "Beyond rescue\nRestoring smiles",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "446c2ef9fae76279"
+    },
+    {
+      "id": "twitter-2095892425621537135",
+      "timestamp": "2026-09-04T15:11:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2095892425621537135",
+      "title": "MEA India",
+      "summary": "Update on Indian nationals impacted by the floods in Nepal\n\n🕣 As of 2030 hrs, 4 Sept 2026\n\nTotal Indians rescued so far : 169\n\nThree more Indian nationals were rescued from Trishuli Bazaar since yesterday. These include :\n\n1. Abhijit Suresh Pawar\n2. Dipika Abhijit Pawar\n3.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2f1741577853a513"
+    },
+    {
+      "id": "twitter-2095861707277254968",
+      "timestamp": "2026-09-04T13:09:04.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095861707277254968",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ १९ गते, साँझ ६:३० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (4 September 2026, 6:30 PM) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b4c293c561b847ca"
+    },
+    {
+      "id": "twitter-2095851774804639913",
+      "timestamp": "2026-09-04T12:29:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095851774804639913",
+      "title": "Nepal Police HQ",
+      "summary": "हुलाकमा आएको पार्सलबाट १ किलो ९१० ग्राम थाई गाजा सहित चार जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4d1906972268e3f6"
+    },
+    {
+      "id": "twitter-2095850737096114327",
+      "timestamp": "2026-09-04T12:25:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095850737096114327",
+      "title": "Nepal Police HQ",
+      "summary": "प्रहरी महानिरीक्षक दान बहादुर कार्कीज्यूले बाढी प्रभावित जिल्ला रसुवा र नुवाकोटको स्थलगत अवलोकन गर्नु भई खोज तथा उद्धार कार्यमा खटेका प्रहरी कर्मचारीहरूलाई निर्देशन तथा हौसला समेत प्रदान गर्नु भएको थियो |",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "89d399a84df7ef65"
+    },
+    {
+      "id": "twitter-2095844507669737583",
+      "timestamp": "2026-09-04T12:00:44.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2095844507669737583",
+      "title": "NDRRMA Nepal",
+      "summary": "साप्ताहिक मौसम पूर्वानुमान (१९ भदौ २०८३) आउने हप्ताको मौसम कस्तो होला ?",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "02bc5f0b0292c2e9"
+    },
     {
       "id": "twitter-2095829049591705969",
       "timestamp": "2026-09-04T10:59:18.000Z",

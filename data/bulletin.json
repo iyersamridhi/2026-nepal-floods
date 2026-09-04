@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T11:15:15.536027Z",
+  "generatedAt": "2026-09-04T16:19:41.848792Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-04T11:14:35.237027Z",
-      "publishedLabel": "4 Sep 2026 · 4:59 pm",
+      "timestamp": "2026-09-04T16:19:15.696532Z",
+      "publishedLabel": "4 Sep 2026 · 10:04 pm",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-04T11:14:28.844209Z",
-      "publishedLabel": "4 Sep 2026 · 4:59 pm",
+      "timestamp": "2026-09-04T16:19:10.682132Z",
+      "publishedLabel": "4 Sep 2026 · 10:04 pm",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-04T11:14:16.736147Z",
-      "publishedLabel": "4 Sep 2026 · 4:59 pm",
+      "timestamp": "2026-09-04T16:19:08.676638Z",
+      "publishedLabel": "4 Sep 2026 · 10:04 pm",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-4a89f2ee088a",
-      "timestamp": "2026-09-04T11:14:11.041475Z",
-      "publishedLabel": "4 Sep 2026 · 4:59 pm",
+      "timestamp": "2026-09-04T16:19:06.609465Z",
+      "publishedLabel": "4 Sep 2026 · 10:04 pm",
       "region": [
         "nepal",
         "foreign"
@@ -89,16 +89,16 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1874/sixth-press-briefing-on-bhote-koshi-floods/",
       "title": "Sixth Press Briefing on Bhote Koshi Floods",
-      "summary": "As of the latest available information, 1252 bodies have been recovered from the areas, around 4,200 people still remain missing, and 11,993 people have been rescued so far, including over 300 foreign nationals, including some who are in contact and are safe. Approximately 590 foreign nationals from 34 (while Turkiye-2, Oman-1, Malta-4, Serbia-1 and Bulgaria-1) countries remain missing. We are constantly updating these figures as search and verification continue. The…",
+      "summary": "As of the latest available information, 1252 bodies have been recovered from the areas, around 4,200 people still remain missing, and 11,993 people have been rescued so far, including over 300 foreign nationals, including some who are in contact and are safe. Approximately 590 foreign nationals from 34 countries remain missing. We are constantly updating these figures as search and verification continue. The Emergency Control Room (ECR) of the Ministry continues to…",
       "citation": "Nepal Ministry of Foreign Affairs — Sixth Press Briefing on Bhote Koshi Floods",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "9b9d188e471e6e93"
+      "contentHash": "3be9eb4bdce60e23"
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-04T11:14:04.810184Z",
-      "publishedLabel": "4 Sep 2026 · 4:59 pm",
+      "timestamp": "2026-09-04T16:19:04.246397Z",
+      "publishedLabel": "4 Sep 2026 · 10:04 pm",
       "region": [
         "nepal",
         "foreign"
@@ -110,7 +110,7 @@
       "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on the Bhote Koshi River Floods- 04 September 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "c7c290ffe91e928b"
+      "contentHash": "54d156e59e6f1aa8"
     },
     {
       "id": "ndrrma-foreign-nationals-1sep",
