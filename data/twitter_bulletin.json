@@ -1,10 +1,109 @@
 {
-  "generatedAt": "2026-09-04T00:06:35.731809Z",
+  "generatedAt": "2026-09-04T04:29:08.456101Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2095715442061103325",
+      "timestamp": "2026-09-04T03:27:52.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095715442061103325",
+      "title": "Nepal Police HQ",
+      "summary": "श्रीकृष्ण जन्माष्टमीको हार्दिक शुभकामना !",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f9302e23469715c2"
+    },
+    {
+      "id": "twitter-2095704795437060279",
+      "timestamp": "2026-09-04T02:45:34.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2095704795437060279",
+      "title": "Embassy of India Kathmandu",
+      "summary": "२१.५ टन मानवीय सहायता बोकेका दुवै सी-१३०जे विमानहरू काठमाडौँ अवतरण गरेका छन्। उक्त राहत सामग्री विज्ञान, प्रविधि तथा नवप्रवर्तन मन्त्री श्री महावीर पुनलाई हस्तान्तरण गरिएको छ।\n\nयो सहायताले बाढी प्रभावित क्षेत्रहरूमा भइरहेको राहत तथा उद्धार कार्यमा सहयोग पुर्‍याउनेछ।\n\n🇮🇳🤝🇳🇵",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "82ab3536e9f8e4a0"
+    },
+    {
+      "id": "twitter-2095698634625147389",
+      "timestamp": "2026-09-04T02:21:05.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095698634625147389",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा जिल्लामा आएको बाढी सम्बन्धी अपडेट (मितिः २०८३/०५/१९ गते ०५:०० बजेसम्म)",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "dfa4ed58194d07cd"
+    },
+    {
+      "id": "twitter-2095697582693720344",
+      "timestamp": "2026-09-04T02:16:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095697582693720344",
+      "title": "Nepal Police HQ",
+      "summary": "रोकिराखेको ट्रकमा माइक्रोबस ठोक्किँदा १ जनाको मृत्यु, १९ घाइते\nविस्तृतः",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "feea90509d7edfb2"
+    },
+    {
+      "id": "twitter-2095679520691126366",
+      "timestamp": "2026-09-04T01:05:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2095679520691126366",
+      "title": "Nepal Police HQ",
+      "summary": "मूख्य राजमार्ग अवरोध। (मितिः २०८३।०५।१९ गते) ०६:३० बजे सम्म)",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c6ea930ce9bda8bd"
+    },
     {
       "id": "twitter-2095582843951018077",
       "timestamp": "2026-09-03T18:40:58.000Z",
