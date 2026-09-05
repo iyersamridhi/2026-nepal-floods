@@ -1,10 +1,72 @@
 {
-  "generatedAt": "2026-09-05T15:11:03.316829Z",
+  "generatedAt": "2026-09-05T18:16:29.315458Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096287406429536517",
+      "timestamp": "2026-09-05T17:20:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096287406429536517",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # १५ (मिति- २०८३ भदौ २० गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "eac466db7239b595"
+    },
+    {
+      "id": "twitter-2096278280970338627",
+      "timestamp": "2026-09-05T16:44:23.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096278280970338627",
+      "title": "NDRRMA Nepal",
+      "summary": "*The number of dead bodies found was mistakenly reported as somewhat higher in today's 12 PM update; this has been corrected in this update.",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a36ab030b49ed9a8"
+    },
+    {
+      "id": "twitter-2096275599539232865",
+      "timestamp": "2026-09-05T16:33:44.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096275599539232865",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२० गते २०:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e7672e7b2dc78138"
+    },
     {
       "id": "twitter-2096243007775506806",
       "timestamp": "2026-09-05T14:24:14.000Z",
