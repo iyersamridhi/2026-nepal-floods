@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T04:22:44.134999Z",
+  "generatedAt": "2026-09-05T10:31:53.819332Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-05T04:22:16.036785Z",
-      "publishedLabel": "5 Sep 2026 · 10:07 am",
+      "timestamp": "2026-09-05T10:31:31.738478Z",
+      "publishedLabel": "5 Sep 2026 · 4:16 pm",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-05T04:22:13.936501Z",
-      "publishedLabel": "5 Sep 2026 · 10:07 am",
+      "timestamp": "2026-09-05T10:31:29.455525Z",
+      "publishedLabel": "5 Sep 2026 · 4:16 pm",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-05T04:22:10.659554Z",
-      "publishedLabel": "5 Sep 2026 · 10:07 am",
+      "timestamp": "2026-09-05T10:31:27.155183Z",
+      "publishedLabel": "5 Sep 2026 · 4:16 pm",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-4a89f2ee088a",
-      "timestamp": "2026-09-05T04:22:08.622283Z",
-      "publishedLabel": "5 Sep 2026 · 10:07 am",
+      "timestamp": "2026-09-05T10:31:24.793322Z",
+      "publishedLabel": "5 Sep 2026 · 4:16 pm",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +97,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-05T04:22:06.416241Z",
-      "publishedLabel": "5 Sep 2026 · 10:07 am",
+      "timestamp": "2026-09-05T10:31:22.394420Z",
+      "publishedLabel": "5 Sep 2026 · 4:16 pm",
       "region": [
         "nepal",
         "foreign"
@@ -111,6 +111,23 @@
       "kind": "update",
       "scrapeMethod": "rule-based",
       "contentHash": "54d156e59e6f1aa8"
+    },
+    {
+      "id": "mofa-0faf3d9c1216",
+      "timestamp": "2026-09-05T10:31:20.429981Z",
+      "publishedLabel": "5 Sep 2026 · 4:16 pm",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1877/daily-situation-update-on-bhote-koshi-river/",
+      "title": "Daily Situation Update on Bhote Koshi River Floods- 05 September 2026",
+      "summary": "Latest Figures as Reported by Our Agencies: 13,098 people have been rescued so far, including over 300 foreigners (Two foreign nationals, one Chinese and one American, were rescued yesterday from Dhunche and Koloni respectively). Around 5,000 people still remain missing, including approximately 600 foreigners from 35 countries.",
+      "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on Bhote Koshi River Floods- 05 September 2026",
+      "kind": "update",
+      "scrapeMethod": "rule-based",
+      "contentHash": "bf8dcaee80035c9d"
     },
     {
       "id": "ndrrma-foreign-nationals-1sep",

@@ -1,10 +1,174 @@
 {
-  "generatedAt": "2026-09-05T04:22:46.121505Z",
+  "generatedAt": "2026-09-05T10:31:55.549831Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096181871780770281",
+      "timestamp": "2026-09-05T10:21:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2096181871780770281",
+      "title": "MoFA Nepal",
+      "summary": "Daily Situation Update on the Bhote Koshi River Floods- 5 September 2026\n\n🔗",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "56d5a3ea69c35057"
+    },
+    {
+      "id": "twitter-2096174389717066012",
+      "timestamp": "2026-09-05T09:51:34.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096174389717066012",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २० गते नेपाल प्रहरी, सशस्त्र प्रहरी बल, नेपाल र नेपलाी सेनाको संयुक्त टोलीले जिल्ला नुवाकोट विदुर १० वेत्रावतीबाट १ जना महिलालाई सकुशल उद्धार गरेको छ ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f5be6ede636e3d8b"
+    },
+    {
+      "id": "twitter-2096164092067344397",
+      "timestamp": "2026-09-05T09:10:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096164092067344397",
+      "title": "Nepal Police HQ",
+      "summary": "नेपाल प्रहरीद्वारा नुवाकोट जिल्लामा DNA परीक्षणको लागि नमूना संकलन केन्द्र तथा अस्थायी फिल्ड अस्पताल संचालनमा |\n#नेपालप्रहरी #ToServeandProtect #BeliveinBlue #NepalPolice",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "remains",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "669ba1206192c968"
+    },
+    {
+      "id": "twitter-2096159071204454742",
+      "timestamp": "2026-09-05T08:50:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096159071204454742",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २० गते नेपाल प्रहरी र सशस्त्र प्रहरी बल नेपालको संयुक्त टोलीले जिल्ला नुवाकोट विदुर १० वेत्रावतीबाट १ जना महिलालाई सकुशल उद्धार गरेको छ ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0d1f6eda6e963107"
+    },
+    {
+      "id": "twitter-2096138827555651631",
+      "timestamp": "2026-09-05T07:30:15.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096138827555651631",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ २० गते, मध्याह्न १२:०० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (5 September 2026, 12:00 PM) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e44669fda5bdc434"
+    },
+    {
+      "id": "twitter-2096135213365731736",
+      "timestamp": "2026-09-05T07:15:53.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096135213365731736",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२० गते ११:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "84b12d119cb2d723"
+    },
+    {
+      "id": "twitter-2096112732118647171",
+      "timestamp": "2026-09-05T05:46:33.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096112732118647171",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ १९ गतेको २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a4c3b51839c878de"
+    },
+    {
+      "id": "twitter-2096091810678682036",
+      "timestamp": "2026-09-05T04:23:25.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096091810678682036",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२० गते ०८:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "bdabd63895590ac8"
+    },
     {
       "id": "twitter-2096049672657989984",
       "timestamp": "2026-09-05T01:35:59.000Z",
