@@ -1,10 +1,31 @@
 {
-  "generatedAt": "2026-09-05T18:16:29.315458Z",
+  "generatedAt": "2026-09-05T22:03:26.591475Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096302079702896809",
+      "timestamp": "2026-09-05T18:18:57.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096302079702896809",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #5\nDate: 05 September 2026 Time: 07:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "59294034821f318e"
+    },
     {
       "id": "twitter-2096287406429536517",
       "timestamp": "2026-09-05T17:20:39.000Z",
