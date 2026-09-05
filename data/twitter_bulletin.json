@@ -1,10 +1,133 @@
 {
-  "generatedAt": "2026-09-05T10:31:55.549831Z",
+  "generatedAt": "2026-09-05T15:11:03.316829Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096243007775506806",
+      "timestamp": "2026-09-05T14:24:14.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2096243007775506806",
+      "title": "Embassy of India Kathmandu",
+      "summary": "चिलिमे सुरुङभित्र भारतीय उद्धार टोलीले नेपाली सेनासँगको निकट समन्वयमा जारी राखेको उद्धार कार्यलाई यहाँ हेर्नुहोस्। भारी गेग्य्रान, पानी र लेदोका बाबजुद 🇮🇳 🇳🇵को संयुक्त टोलीले आफ्नो काम निरन्तर जारी राखेको छ। ⬇️\n\n🇮🇳🤝🇳🇵\n\n@meaindia @navsri6619 @NepaliArmyHQ @DDNewslive",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3b800a358d0a5e4b"
+    },
+    {
+      "id": "twitter-2096233739038986444",
+      "timestamp": "2026-09-05T13:47:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2096233739038986444",
+      "title": "Embassy of India Kathmandu",
+      "summary": "Take a look at the ongoing rescue operations being carried out by the Indian rescue team in close coordination with the Nepali Army, inside the Chilime Tunnel. The joint team 🇮🇳 🇳🇵continues their work despite challenges posed by heavy debris, water and mud. ⬇️\n\n🇮🇳🤝🇳🇵\n\n@meaindia",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5f34d23d0228fdc4"
+    },
+    {
+      "id": "twitter-2096220332067864755",
+      "timestamp": "2026-09-05T12:54:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096220332067864755",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ २० गते, साँझ ६:०० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (5 September 2026, 6:00 PM) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "fc914e883bcafcd6"
+    },
+    {
+      "id": "twitter-2096218500662743305",
+      "timestamp": "2026-09-05T12:46:51.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096218500662743305",
+      "title": "Nepal Police HQ",
+      "summary": "Nepal Police Continues Search and Rescue Operations. नेपाल प्रहरी खोज तथा उद्धारमा निरन्तर ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "524572c3741fae87"
+    },
+    {
+      "id": "twitter-2096192059325751575",
+      "timestamp": "2026-09-05T11:01:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096192059325751575",
+      "title": "NDRRMA Nepal",
+      "summary": "नुवाकोट विदुर-१० वेत्रावतीबाट १ जना महिलाको सकुशल उद्धार",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "25be4f841bd786d2"
+    },
+    {
+      "id": "twitter-2096190904080175495",
+      "timestamp": "2026-09-05T10:57:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096190904080175495",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २० गते नेपाल प्रहरी, सशस्त्र प्रहरी बल, नेपाल र नेपाली सेनाको संयुक्त टोलीले जिल्ला नुवाकोट विदुर १० वेत्रावतीबाट १ जना महिलालाई सकुशल उद्धार गरेको छ ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "85f3e01f60cf8bdb"
+    },
     {
       "id": "twitter-2096181871780770281",
       "timestamp": "2026-09-05T10:21:18.000Z",
