@@ -1,10 +1,31 @@
 {
-  "generatedAt": "2026-09-05T00:02:31.640501Z",
+  "generatedAt": "2026-09-05T04:22:46.121505Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096049672657989984",
+      "timestamp": "2026-09-05T01:35:59.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096049672657989984",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२० गते ०५:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e78969324167d40b"
+    },
     {
       "id": "twitter-2095922302273851606",
       "timestamp": "2026-09-04T17:09:51.000Z",
