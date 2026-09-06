@@ -1,10 +1,174 @@
 {
-  "generatedAt": "2026-09-06T10:52:32.274076Z",
+  "generatedAt": "2026-09-06T15:26:29.059299Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096618008018104351",
+      "timestamp": "2026-09-06T15:14:21.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096618008018104351",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२१ गते २०:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "cd636740bea783ba"
+    },
+    {
+      "id": "twitter-2096617206725664807",
+      "timestamp": "2026-09-06T15:11:10.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096617206725664807",
+      "title": "Nepal Police HQ",
+      "summary": "महिलालाई अभद्र व्यवहार गर्ने पुरुष व्यक्ति पक्राउ\n#NepalPolice #ToServeandProtect #BelieveInBlue # नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3c31d4c53905c19e"
+    },
+    {
+      "id": "twitter-2096591744192446821",
+      "timestamp": "2026-09-06T13:29:59.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096591744192446821",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update- (6 September 2026, 6:00 PM)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6eaaecd87f37a653"
+    },
+    {
+      "id": "twitter-2096591660960690681",
+      "timestamp": "2026-09-06T13:29:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096591660960690681",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ २१ गते, साँझ ६:०० बजे)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "de3a5209d783c51e"
+    },
+    {
+      "id": "twitter-2096589801831166377",
+      "timestamp": "2026-09-06T13:22:16.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096589801831166377",
+      "title": "NDRRMA Nepal",
+      "summary": "विषयगत क्षेत्रका सरकारी निकाय (Leads) र रसुवा बाढीपछिको खोज, उद्धार तथा राहतको समन्वयका लागि गठित परिचालित टोलीको संयुक्त बैठक सम्पन्न भएको छ। बैठकमा उद्धार, राहत तथा आश्रयस्थलहरुको पछिल्लो अवस्था एवं त्यसक्रममा देखापरेका चुनौतीहरुका बारेमा छलफल भएको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4de27c129357b5a8"
+    },
+    {
+      "id": "twitter-2096589468220473575",
+      "timestamp": "2026-09-06T13:20:56.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096589468220473575",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीपछिको खोज, उद्धार तथा राहत कार्यको पछिल्लो अवस्थाको समीक्षा गर्न र केही नीतिगत सहजीकरण गर्न आज दिउसो विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन कार्यकारी समितिको ३६ औं बैठक सम्पन्न भएको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4828c76c31c2a7ff"
+    },
+    {
+      "id": "twitter-2096586396022833190",
+      "timestamp": "2026-09-06T13:08:44.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096586396022833190",
+      "title": "Nepal Police HQ",
+      "summary": "नेपाल प्रहरीले बाढी प्रभावित क्षेत्रमा खोज तथा उद्धार कार्य गर्ने क्रममा जिल्ला नुवाकोट विदुर–१० स्थित सूर्यविनायक सुनचाँदी पसलको सुनचाँदीका गरगहना तथा नगद फेला पारी कानुनी प्रकिया पुरा गरी सम्बन्धित धनीलाई जिम्मा लगाई पठाएको |",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "38c900e0dcf1f7b8"
+    },
+    {
+      "id": "twitter-2096579418873549211",
+      "timestamp": "2026-09-06T12:41:00.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096579418873549211",
+      "title": "Nepal Police HQ",
+      "summary": "बाढी पछि जिल्ला कारागार नुवाकोटको सुरक्षा अवस्था ।।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "244e856986e4be34"
+    },
     {
       "id": "twitter-2096538853842833894",
       "timestamp": "2026-09-06T09:59:49.000Z",
