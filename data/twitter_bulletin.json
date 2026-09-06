@@ -1,10 +1,71 @@
 {
-  "generatedAt": "2026-09-06T15:26:29.059299Z",
+  "generatedAt": "2026-09-06T18:16:02.932998Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096635334130077894",
+      "timestamp": "2026-09-06T16:23:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096635334130077894",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #6\nDate: 06 September 2026 Time: 07:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "373521378496afa7"
+    },
+    {
+      "id": "twitter-2096632410645618761",
+      "timestamp": "2026-09-06T16:11:34.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096632410645618761",
+      "title": "NDRRMA Nepal",
+      "summary": "२०८३ भदौ १० गतेको रसुवा-भोटेकोशी बाढीका कारण चिनिया भूभागमा अड्किएकामध्ये आज मिति २०८३ भदौ २१ गते स्वदेश फर्केका नेपाली नागरिक (जम्मा-१०५, पुरुष-७२ महिला-३३)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3d21122ea3f27ef3"
+    },
+    {
+      "id": "twitter-2096632181351387450",
+      "timestamp": "2026-09-06T16:10:40.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096632181351387450",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # १६ (मिति- २०८३ भदौ २१ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "42aead7bbf57b4bc"
+    },
     {
       "id": "twitter-2096618008018104351",
       "timestamp": "2026-09-06T15:14:21.000Z",
