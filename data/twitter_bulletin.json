@@ -1,10 +1,69 @@
 {
-  "generatedAt": "2026-09-05T23:53:33.160912Z",
+  "generatedAt": "2026-09-06T04:34:14.957352Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096456701503549820",
+      "timestamp": "2026-09-06T04:33:22.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096456701503549820",
+      "title": "NDRRMA Nepal",
+      "summary": "Notice regarding Press Accreditation Card for Foreign Media Journalists who wish to collect news from flood-affected areas along the Bhotekoshi&amp;Trishuli rivers. @DOIB_Nepal1",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5259e88cae32749e"
+    },
+    {
+      "id": "twitter-2096446512675078358",
+      "timestamp": "2026-09-06T03:52:53.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096446512675078358",
+      "title": "Nepal Police HQ",
+      "summary": "भोटेकोशी बाढीपछि हराएका सुनचाँदी, नगद, धनमाल तथा महत्वपूर्ण कागजात फेला परेमा आफूसँग राख्ने, बिक्री–वितरण गर्ने जस्ता अपराधिक एवं अमानवीय कार्य नगर्नुहोस ।\nफेला परेको सामान नजिकको प्रहरी कार्यालयमा बुझाएर असल नागरिकको परिचय दिनुहोस ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f181c12326d0295b"
+    },
+    {
+      "id": "twitter-2096424142539305399",
+      "timestamp": "2026-09-06T02:23:59.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096424142539305399",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२१ गते ०७:४० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "baeec62be01c48e4"
+    },
     {
       "id": "twitter-2096302079702896809",
       "timestamp": "2026-09-05T18:18:57.000Z",
