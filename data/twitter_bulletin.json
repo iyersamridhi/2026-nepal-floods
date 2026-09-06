@@ -1,10 +1,128 @@
 {
-  "generatedAt": "2026-09-06T04:34:14.957352Z",
+  "generatedAt": "2026-09-06T10:52:32.274076Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096538853842833894",
+      "timestamp": "2026-09-06T09:59:49.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2096538853842833894",
+      "title": "MoFA Nepal",
+      "summary": "Daily Situation Update on Bhote Koshi River Floods- 06 September 2026\n\n🔗",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d3b532a72d901b3e"
+    },
+    {
+      "id": "twitter-2096525177115000917",
+      "timestamp": "2026-09-06T09:05:28.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096525177115000917",
+      "title": "Nepal Police HQ",
+      "summary": "१३९ किलो लागुऔषध गाँजा बरामद",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d23d29d691a7fdd6"
+    },
+    {
+      "id": "twitter-2096483806668808384",
+      "timestamp": "2026-09-06T06:21:04.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096483806668808384",
+      "title": "Nepal Police HQ",
+      "summary": "३८ ग्राम ब्राउन सुगर सहित तीन जना पक्राउ\nविस्तृतः",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e2fa0496408a5c32"
+    },
+    {
+      "id": "twitter-2096482459441594727",
+      "timestamp": "2026-09-06T06:15:43.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096482459441594727",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ २१ गते, बिहान ११:०० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (6 September 2026, 11:00 AM)\n@moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "62720091d94b4459"
+    },
+    {
+      "id": "twitter-2096481442847170722",
+      "timestamp": "2026-09-06T06:11:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096481442847170722",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २० गते। २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7ebbfde82c5ee3c2"
+    },
+    {
+      "id": "twitter-2096457034296365542",
+      "timestamp": "2026-09-06T04:34:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096457034296365542",
+      "title": "NDRRMA Nepal",
+      "summary": "Media Safety and Operational Protocol for Journalists visiting Bhotekoshi Flood-Affected Areas issued by Ministry of Information and Communication- Nepal. @Hello_MoIC",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "da5bc13b30ee1aca"
+    },
     {
       "id": "twitter-2096456701503549820",
       "timestamp": "2026-09-06T04:33:22.000Z",

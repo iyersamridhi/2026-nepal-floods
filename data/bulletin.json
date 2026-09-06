@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T04:34:11.864731Z",
+  "generatedAt": "2026-09-06T10:52:29.920811Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-06T04:33:44.989181Z",
-      "publishedLabel": "6 Sep 2026 · 10:18 am",
+      "timestamp": "2026-09-06T10:52:05.594310Z",
+      "publishedLabel": "6 Sep 2026 · 4:37 pm",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-06T04:33:42.373226Z",
-      "publishedLabel": "6 Sep 2026 · 10:18 am",
+      "timestamp": "2026-09-06T10:52:03.257059Z",
+      "publishedLabel": "6 Sep 2026 · 4:37 pm",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-06T04:33:40.067653Z",
-      "publishedLabel": "6 Sep 2026 · 10:18 am",
+      "timestamp": "2026-09-06T10:52:01.162544Z",
+      "publishedLabel": "6 Sep 2026 · 4:37 pm",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-4a89f2ee088a",
-      "timestamp": "2026-09-06T04:33:37.450722Z",
-      "publishedLabel": "6 Sep 2026 · 10:18 am",
+      "timestamp": "2026-09-06T10:51:58.819326Z",
+      "publishedLabel": "6 Sep 2026 · 4:36 pm",
       "region": [
         "nepal",
         "foreign"
@@ -93,12 +93,12 @@
       "citation": "Nepal Ministry of Foreign Affairs — Sixth Press Briefing on Bhote Koshi Floods",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "3be9eb4bdce60e23"
+      "contentHash": "f8258bd315d55245"
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-06T04:33:35.038852Z",
-      "publishedLabel": "6 Sep 2026 · 10:18 am",
+      "timestamp": "2026-09-06T10:51:56.451893Z",
+      "publishedLabel": "6 Sep 2026 · 4:36 pm",
       "region": [
         "nepal",
         "foreign"
@@ -110,12 +110,12 @@
       "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on the Bhote Koshi River Floods- 04 September 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "54d156e59e6f1aa8"
+      "contentHash": "0f7a563b15481e21"
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-06T04:33:32.511679Z",
-      "publishedLabel": "6 Sep 2026 · 10:18 am",
+      "timestamp": "2026-09-06T10:51:54.039934Z",
+      "publishedLabel": "6 Sep 2026 · 4:36 pm",
       "region": [
         "nepal",
         "foreign"
@@ -127,7 +127,24 @@
       "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on Bhote Koshi River Floods- 05 September 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "bf8dcaee80035c9d"
+      "contentHash": "a2bb97014fb4ebd8"
+    },
+    {
+      "id": "mofa-4f5777d2210a",
+      "timestamp": "2026-09-06T10:51:51.730188Z",
+      "publishedLabel": "6 Sep 2026 · 4:36 pm",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1878/daily-update-6-september-2026/",
+      "title": "Daily Situation Update on Bhote Koshi River Floods- 06 September 2026",
+      "summary": "Latest Figures as Reported by Our Agencies: 13,104 people have been rescued so far, including over 300 foreigners (Two foreign nationals, one Chinese and one American, were rescued yesterday from Upper Trishuli 1 tunnel and Dhunche respectively). Around 5,000 people still remain missing, including approximately 600 foreigners from 35 countries.",
+      "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on Bhote Koshi River Floods- 06 September 2026",
+      "kind": "update",
+      "scrapeMethod": "rule-based",
+      "contentHash": "5f9d04a690e72d7d"
     },
     {
       "id": "ndrrma-foreign-nationals-1sep",
@@ -263,7 +280,7 @@
       "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 28 August 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "514a03d4e2cba2b4"
+      "contentHash": "4e3fa73820104aed"
     },
     {
       "id": "xinhua-gyirong-cd16e8678ae4",
@@ -294,11 +311,11 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1863/latest-updates-on-flash-floods-27-august-2026/",
       "title": "Latest Updates on Flash Floods-27 August 2026",
-      "summary": "So far, 359 bodies have been recovered from the river areas, while many people, both locals and tourists, are still missing. According to the latest available information, 596 people from 33 countries are still missing (list is attached). These figures remain subject to verification as search and rescue operations continue. Emergency Control Room (ECR) at the Ministry can be contacted at Emergency Hotline/WhatsApp : +977-9744441227, +977-9744441228 (7am to 10pm); and…",
+      "summary": "So far, 359 bodies have been recovered from the river areas, while many people, both locals and tourists, are still missing. According to the latest available information, 596 people from 33 countries are still missing (list is attached). These figures remain subject to verification as search and rescue operations continue. Emergency Control Room (ECR) at the Ministry can be contacted at Emergency Hotline/WhatsApp : +977-9744441227, +977-9744441228 (6am to 10pm); and…",
       "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods-27 August 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "b6eafbf02c897d9a"
+      "contentHash": "b856254c7d8bf401"
     },
     {
       "id": "mofa-2ff878c5d69f",
@@ -315,7 +332,7 @@
       "citation": "Nepal Ministry of Foreign Affairs — NOTICE: Emergency Control Room (ECR) for Assistance regarding Foreign Nationals Affected by the Bhote Koshi Flash Flood",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "e42f055f226a110d"
+      "contentHash": "58bba071bedd2b5d"
     },
     {
       "id": "mea-control-room-seed",
