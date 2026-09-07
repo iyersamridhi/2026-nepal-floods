@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T04:35:16.380003Z",
+  "generatedAt": "2026-09-07T12:26:16.468906Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-07T04:34:48.672007Z",
-      "publishedLabel": "7 Sep 2026 · 10:19 am",
+      "timestamp": "2026-09-07T12:25:51.194521Z",
+      "publishedLabel": "7 Sep 2026 · 6:10 pm",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-07T04:34:46.443458Z",
-      "publishedLabel": "7 Sep 2026 · 10:19 am",
+      "timestamp": "2026-09-07T12:25:49.269442Z",
+      "publishedLabel": "7 Sep 2026 · 6:10 pm",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-07T04:34:44.597454Z",
-      "publishedLabel": "7 Sep 2026 · 10:19 am",
+      "timestamp": "2026-09-07T12:25:46.856977Z",
+      "publishedLabel": "7 Sep 2026 · 6:10 pm",
       "region": [
         "nepal",
         "foreign"
@@ -76,12 +76,12 @@
       "citation": "Nepal Ministry of Foreign Affairs — Diplomatic Briefing by Hon. Minister for Foreign Affairs Mr Shisir Khanal on the Bhote Koshi Floods",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "e725479664de4502"
+      "contentHash": "fdba62b332dcc945"
     },
     {
       "id": "mofa-4a89f2ee088a",
-      "timestamp": "2026-09-07T04:34:42.107949Z",
-      "publishedLabel": "7 Sep 2026 · 10:19 am",
+      "timestamp": "2026-09-07T12:25:42.265598Z",
+      "publishedLabel": "7 Sep 2026 · 6:10 pm",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +97,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-07T04:34:39.869977Z",
-      "publishedLabel": "7 Sep 2026 · 10:19 am",
+      "timestamp": "2026-09-07T12:25:40.042038Z",
+      "publishedLabel": "7 Sep 2026 · 6:10 pm",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +114,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-07T04:34:37.982742Z",
-      "publishedLabel": "7 Sep 2026 · 10:19 am",
+      "timestamp": "2026-09-07T12:25:38.222230Z",
+      "publishedLabel": "7 Sep 2026 · 6:10 pm",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +131,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-09-07T04:34:35.659538Z",
-      "publishedLabel": "7 Sep 2026 · 10:19 am",
+      "timestamp": "2026-09-07T12:25:35.920509Z",
+      "publishedLabel": "7 Sep 2026 · 6:10 pm",
       "region": [
         "nepal",
         "foreign"
@@ -145,6 +145,23 @@
       "kind": "update",
       "scrapeMethod": "rule-based",
       "contentHash": "31f6b792ccfe0e5b"
+    },
+    {
+      "id": "mofa-84c1baa9b38d",
+      "timestamp": "2026-09-07T12:25:31.059568Z",
+      "publishedLabel": "7 Sep 2026 · 6:10 pm",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1879/daily-update-07-september-bhote-koshi-flood/",
+      "title": "Daily Situation Update on Bhote Koshi River Floods- 07 September 2026",
+      "summary": "Latest Figures as Reported by Our Agencies: 13,396 people have been rescued so far, including over 300 foreigners. Around 5,000 people still remain missing, including approximately 600 foreigners from 35 countries.",
+      "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on Bhote Koshi River Floods- 07 September 2026",
+      "kind": "update",
+      "scrapeMethod": "rule-based",
+      "contentHash": "a0d36f154b5cb6ed"
     },
     {
       "id": "ndrrma-foreign-nationals-1sep",

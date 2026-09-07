@@ -1,10 +1,267 @@
 {
-  "generatedAt": "2026-09-07T04:35:18.468206Z",
+  "generatedAt": "2026-09-07T12:26:18.500096Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2096923686309933547",
+      "timestamp": "2026-09-07T11:29:00.000Z",
+      "publishedLabel": "",
+      "region": [
+        "tibet",
+        "india",
+        "foreign"
+      ],
+      "source": "Twitter @EOIBeijing",
+      "sourceUrl": "https://x.com/EOIBeijing/status/2096923686309933547",
+      "title": "Embassy of India Beijing",
+      "summary": "PRESS RELEASE:\n\nDNA Profile Matching for Missing Indian Nationals\n\nFollowing confirmation from authorities in the People's Republic of China that they are now able to receive DNA samples for Indian nationals listed as missing following the devastating mudslide and flash flood of",
+      "citation": "Tweet by @EOIBeijing",
+      "themes": [
+        "missing",
+        "remains",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "93adda072cdd9676"
+    },
+    {
+      "id": "twitter-2096918488057254119",
+      "timestamp": "2026-09-07T11:08:21.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096918488057254119",
+      "title": "Nepal Police HQ",
+      "summary": "स्रोत नखुलेको २१ लाख ६० हजार रुपैयाँसहित दुई जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "106f7cb9ee0b59ca"
+    },
+    {
+      "id": "twitter-2096895583990718844",
+      "timestamp": "2026-09-07T09:37:20.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096895583990718844",
+      "title": "Nepal Police HQ",
+      "summary": "भ्रामक सूचना प्रचार गर्नेमाथि कारवाही",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "07ae5d7fdb6b0b5b"
+    },
+    {
+      "id": "twitter-2096891499208495585",
+      "timestamp": "2026-09-07T09:21:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096891499208495585",
+      "title": "Nepal Police HQ",
+      "summary": "पदयात्रा नगर्ने नगराउने सम्बन्धी अत्यन्त जरुरी सूचना",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "19d901bdd74d8667"
+    },
+    {
+      "id": "twitter-2096891276507652564",
+      "timestamp": "2026-09-07T09:20:13.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096891276507652564",
+      "title": "Nepal Police HQ",
+      "summary": "वृद्ध वृद्धालाई शरीर बन्धक बनाई डाँका चोरी गर्ने गिरोहका ५ जना पक्राउ ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7e1b19d04caa7d58"
+    },
+    {
+      "id": "twitter-2096890518886330751",
+      "timestamp": "2026-09-07T09:17:12.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2096890518886330751",
+      "title": "MoFA Nepal",
+      "summary": "Daily Situation Update on Bhote Koshi River Floods- 07 September 2026\n\n🔗",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c41bf85ba6e8f00e"
+    },
+    {
+      "id": "twitter-2096879141220122648",
+      "timestamp": "2026-09-07T08:32:00.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096879141220122648",
+      "title": "Nepal Police HQ",
+      "summary": "धारिलो हतियार प्रहार गरी हजुरआमाको हत्या, नाती पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "cc61dda83e6af213"
+    },
+    {
+      "id": "twitter-2096870061298647442",
+      "timestamp": "2026-09-07T07:55:55.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2096870061298647442",
+      "title": "MoFA Nepal",
+      "summary": "Hon. Minister for Foreign Affairs Mr Shisir Khanal received a telephone call this afternoon from H. E. Ms Iruthisham Adam, Minister of Foreign Affairs of the Maldives.\n\nMs Adam expressed her deepest condolences and solidarity with the Government and people of Nepal at this hour",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "02f79ddcf9b18ecb"
+    },
+    {
+      "id": "twitter-2096864678668566568",
+      "timestamp": "2026-09-07T07:34:31.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096864678668566568",
+      "title": "Nepal Police HQ",
+      "summary": "१९७.४४० ग्राम खैरो हेरोइनसहित धनुषाबाट दुई जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2b31cc135b775e93"
+    },
+    {
+      "id": "twitter-2096848514370408907",
+      "timestamp": "2026-09-07T06:30:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2096848514370408907",
+      "title": "Embassy of India Kathmandu",
+      "summary": "The Embassy of India, Kathmandu, expresses its deepest condolences on the loss of precious lives and the devastation caused by the flash flood in Nepal on 26 August, which affected people from Nepal as well as citizens from various countries including India, on this day of",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "fe40e3cfbbf14b2f"
+    },
+    {
+      "id": "twitter-2096846205284454721",
+      "timestamp": "2026-09-07T06:21:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096846205284454721",
+      "title": "Nepal Police HQ",
+      "summary": "प्रहरी अनुरोध कार्यक्रम #नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3873bfbc66a67cab"
+    },
+    {
+      "id": "twitter-2096845340473479551",
+      "timestamp": "2026-09-07T06:17:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096845340473479551",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ २२ गते, बिहान ११:०० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (7 September 2026, 11:00 AM) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "63518b86f4be0eda"
+    },
+    {
+      "id": "twitter-2096828846226169892",
+      "timestamp": "2026-09-07T05:12:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096828846226169892",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २१ गते। २४ घण्टाको सवारी दुर्घटना विवरण\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6c7ecdda4d5eb3e0"
+    },
     {
       "id": "twitter-2096635334130077894",
       "timestamp": "2026-09-06T16:23:11.000Z",
@@ -4455,7 +4712,7 @@
     },
     {
       "id": "twitter-2093912605433774318",
-      "timestamp": "2026-08-30T04:04:02.000Z",
+      "timestamp": "2026-08-30T04:04:00+05:45",
       "publishedLabel": "",
       "region": [
         "tibet",
@@ -4465,7 +4722,7 @@
       "source": "Twitter @EOIBeijing",
       "sourceUrl": "https://x.com/EOIBeijing/status/2093912605433774318",
       "title": "Embassy of India Beijing",
-      "summary": "Following the recent flash floods and mudslides in the Tibet Autonomous Region (TAR), People’s Republic of China, TAR authorities have established two dedicated 24-hour English-language hotlines to assist families seeking information about missing foreign nationals.\n\nThe hotlines",
+      "summary": "Following the recent flash floods and mudslides in the Tibet Autonomous Region (TAR), People’s Republic of China, TAR authorities have established two dedicated 24-hour English-language hotlines to assist families seeking information about missing foreign nationals. The hotlines can be reached at: 1) 0086-891-6817165 2) 0086-183-0802-6705 @MEAIndia",
       "citation": "Tweet by @EOIBeijing",
       "themes": [
         "missing",
@@ -4473,7 +4730,7 @@
       ],
       "role": "authority",
       "scrapeMethod": "raw",
-      "contentHash": "df50467578c4ed55"
+      "contentHash": "b89745a08828e1f8"
     },
     {
       "id": "twitter-2093909876577873947",
