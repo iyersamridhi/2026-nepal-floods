@@ -1,10 +1,173 @@
 {
-  "generatedAt": "2026-09-07T12:26:18.500096Z",
+  "generatedAt": "2026-09-07T18:43:50.381021Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097005071569670280",
+      "timestamp": "2026-09-07T16:52:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097005071569670280",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response\nSituation Report #7\nDate: 07 September 2026 Time: 07:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b2331fac2ae80e00"
+    },
+    {
+      "id": "twitter-2097004700419944898",
+      "timestamp": "2026-09-07T16:50:55.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097004700419944898",
+      "title": "Nepal Police HQ",
+      "summary": "२५.६३० ग्राम खैरो हेरोईन सहित एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "63aa4c0b5b1d3d75"
+    },
+    {
+      "id": "twitter-2096990206645940311",
+      "timestamp": "2026-09-07T15:53:20.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096990206645940311",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # १७\n(मिति- २०८३ भदौ २२ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3050bc6f72f414e8"
+    },
+    {
+      "id": "twitter-2096971270680350853",
+      "timestamp": "2026-09-07T14:38:05.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096971270680350853",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२२ गते २०:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f4164abd5628f496"
+    },
+    {
+      "id": "twitter-2096956230640296267",
+      "timestamp": "2026-09-07T13:38:19.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096956230640296267",
+      "title": "Nepal Police HQ",
+      "summary": "वृद्धवृद्धाको वृद्धभत्ता रकम चोरी गर्ने दुई जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "62add14c21a1a280"
+    },
+    {
+      "id": "twitter-2096951577315815721",
+      "timestamp": "2026-09-07T13:19:50.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2096951577315815721",
+      "title": "MEA India",
+      "summary": "DNA Profile Matching for Missing Indian Nationals\n\nPlease see the press release below for details ⬇️",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "missing",
+        "remains",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ba70c8aae651657a"
+    },
+    {
+      "id": "twitter-2096942480013082733",
+      "timestamp": "2026-09-07T12:43:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2096942480013082733",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढी; खोज, उद्धार तथा राहत अपडेट (२०८३ भदौ २२ गते, साँझ ६:०० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (7 September 2026, 6:00 PM) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a5e960fcad740812"
+    },
+    {
+      "id": "twitter-2096941489880465664",
+      "timestamp": "2026-09-07T12:39:45.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2096941489880465664",
+      "title": "Nepal Police HQ",
+      "summary": "लागुऔषध कारोबारमा संलग्न जेन्जी आन्दोलनका क्रममा भिमफेदी कारागारबाट फरार कर्तव्य ज्यान मुद्दाका प्रतिवादीसहित ६ जना २२९.७८० ग्राम खैरो हरोइनसहित पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "12ec708227be853c"
+    },
     {
       "id": "twitter-2096923686309933547",
       "timestamp": "2026-09-07T11:29:00.000Z",
