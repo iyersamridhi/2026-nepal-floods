@@ -1,10 +1,29 @@
 {
-  "generatedAt": "2026-09-07T22:49:10.845351Z",
+  "generatedAt": "2026-09-08T04:31:24.365564Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097144475583996201",
+      "timestamp": "2026-09-08T02:06:20.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097144475583996201",
+      "title": "Nepal Police HQ",
+      "summary": "१६२ किलो गाँजासहित दुई जना चालक पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a1b5c6c6cbc5012b"
+    },
     {
       "id": "twitter-2097005071569670280",
       "timestamp": "2026-09-07T16:52:24.000Z",
