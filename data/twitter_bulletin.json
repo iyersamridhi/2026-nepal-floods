@@ -1,10 +1,187 @@
 {
-  "generatedAt": "2026-09-08T04:31:24.365564Z",
+  "generatedAt": "2026-09-08T11:14:09.181262Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097269087844118943",
+      "timestamp": "2026-09-08T10:21:30.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2097269087844118943",
+      "title": "MoFA Nepal",
+      "summary": "Daily Situation Update on Bhote Koshi River Floods- 08 September 2026\n\n🔗",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7816260544f4acd7"
+    },
+    {
+      "id": "twitter-2097253007025160355",
+      "timestamp": "2026-09-08T09:17:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2097253007025160355",
+      "title": "MEA India",
+      "summary": "Secretary (West) @AmbSibiGeorge received Ms. Leticia Reis de Carvalho, Secretary-General of the International Seabed Authority (ISA) who is on an official visit to India.\n\nDiscussions covered ISA's ongoing activities, progress towards finalising the draft regulations for",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "11fe6446b6847517"
+    },
+    {
+      "id": "twitter-2097248927972221297",
+      "timestamp": "2026-09-08T09:01:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097248927972221297",
+      "title": "Nepal Police HQ",
+      "summary": "४१.२३० ग्राम खैरो हेरोईनसहित दुई जना भारतीय नागरिक पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9b3a45cbd8ff38d2"
+    },
+    {
+      "id": "twitter-2097239789242314790",
+      "timestamp": "2026-09-08T08:25:05.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097239789242314790",
+      "title": "Nepal Police HQ",
+      "summary": "२०.८३० ग्राम खैरो हेरोइनसहित तीन जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "60768c10ba693d02"
+    },
+    {
+      "id": "twitter-2097236411271479505",
+      "timestamp": "2026-09-08T08:11:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097236411271479505",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update\n(8 September 2026, 1:00 PM) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2211d5ff93c9134c"
+    },
+    {
+      "id": "twitter-2097228092234469652",
+      "timestamp": "2026-09-08T07:38:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097228092234469652",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट-२०८३\n(मिति : २०८३ भदौ २३ गते, अपरान्ह १:०० बजे)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9f3c127e9fd23fad"
+    },
+    {
+      "id": "twitter-2097225163905650788",
+      "timestamp": "2026-09-08T07:26:58.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097225163905650788",
+      "title": "Nepal Police HQ",
+      "summary": "गाउँपालिकाको कार्यालयमा आगो लगाउने कार्यमा संलग्न दुई जना पक्राउ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "743642fd41c7dfe1"
+    },
+    {
+      "id": "twitter-2097223806914060534",
+      "timestamp": "2026-09-08T07:21:34.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097223806914060534",
+      "title": "Nepal Police HQ",
+      "summary": "अवैध रूपमा लुकाई छिपाई राखिएको विस्फोटक पदार्थ (पटका) सहित एक जना पक्राउ ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "32283bf4258b3dd0"
+    },
+    {
+      "id": "twitter-2097184645586845932",
+      "timestamp": "2026-09-08T04:45:57.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097184645586845932",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २२ गते। २४ घण्टाको सवारी दुर्घटना विवरण\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ade82e7f088c9f53"
+    },
     {
       "id": "twitter-2097144475583996201",
       "timestamp": "2026-09-08T02:06:20.000Z",
