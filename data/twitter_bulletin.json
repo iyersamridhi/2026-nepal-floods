@@ -1,10 +1,188 @@
 {
-  "generatedAt": "2026-09-08T11:14:09.181262Z",
+  "generatedAt": "2026-09-08T16:36:24.851830Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097346791075422713",
+      "timestamp": "2026-09-08T15:30:16.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2097346791075422713",
+      "title": "MEA India",
+      "summary": "The 8th India-Kuwait Foreign Office Consultations, co-chaired by Additional Secretary (Gulf), Aseem R. Mahajan, and Assistant Foreign Minister for Asia Affairs, Ministry of Foreign Affairs of Kuwait, Mr. Nawaf Abdullatif Sulaiman Al-Ahmed, were held in Kuwait today.\n\nBoth sides",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ead9b2c666b37928"
+    },
+    {
+      "id": "twitter-2097341274802323910",
+      "timestamp": "2026-09-08T15:08:21.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097341274802323910",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२३ गते २०:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "850ad6584976a4fd"
+    },
+    {
+      "id": "twitter-2097340996589965526",
+      "timestamp": "2026-09-08T15:07:14.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097340996589965526",
+      "title": "NDRRMA Nepal",
+      "summary": "किम्रुङ खोलामा पहिरो खसेर खोला थुनिएकोले नयाँपुल, बिरेठाँटी र आसपासका बस्तीका स्थानीयलाई सुरक्षित स्थानमा जान अनुरोध",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6d7fcf8633299fea"
+    },
+    {
+      "id": "twitter-2097335051516272989",
+      "timestamp": "2026-09-08T14:43:37.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097335051516272989",
+      "title": "Nepal Police HQ",
+      "summary": "४६.६० ग्राम खैरो हेरोइनसहित दुई जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b68f81f8d02b453e"
+    },
+    {
+      "id": "twitter-2097320355270664400",
+      "timestamp": "2026-09-08T13:45:13.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097320355270664400",
+      "title": "NDRRMA Nepal",
+      "summary": "मनसुन प्रतिकार्य कमाण्ड पोष्टको १५ औं बैठकले हाल सञ्चालनमा रहेको खोज,उद्धार एवं उपचार सेवामा प्रयोग भएका तथा भविष्यमा आइपर्नसक्ने विपद्‍मा प्रयोग गर्ने गरी भण्डारण गरिने सामग्रीको रेकर्ड प्राधिकरणको केन्द्रीय इन्भेन्टरीमा राख्ने निर्णय गरेको छ।\n@moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "hospitals",
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f1ebb56cb7434200"
+    },
+    {
+      "id": "twitter-2097313340318269867",
+      "timestamp": "2026-09-08T13:17:21.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097313340318269867",
+      "title": "NDRRMA Nepal",
+      "summary": "राहत सम्बन्धी कुनै गुनासो वा सुझाव छ?",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d9ec0a58f71ea5b7"
+    },
+    {
+      "id": "twitter-2097311077810004410",
+      "timestamp": "2026-09-08T13:08:21.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097311077810004410",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट-२०८३\n(मिति : २०८३ भदौ २३ गते, साँझ ६:०० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (8 September 2026, 6:00 PM) @moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7bdb67b4826acbe1"
+    },
+    {
+      "id": "twitter-2097309682159485244",
+      "timestamp": "2026-09-08T13:02:49.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2097309682159485244",
+      "title": "MEA India",
+      "summary": "Secretary (West) @AmbSibiGeorge chaired briefing sessions on India’s counter-terrorism strategy on September 7–8 attended by Resident Ambassadors and Diplomats.\n\nThe briefings focused on India’s comprehensive National Counter-Terrorism Policy and Strategy - PRAHAAR.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2284ba0360800a7d"
+    },
+    {
+      "id": "twitter-2097303368079466625",
+      "timestamp": "2026-09-08T12:37:43.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097303368079466625",
+      "title": "Nepal Police HQ",
+      "summary": "प्रेस विज्ञप्ति",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "155b2fbb847aa9b1"
+    },
     {
       "id": "twitter-2097269087844118943",
       "timestamp": "2026-09-08T10:21:30.000Z",
