@@ -1,10 +1,72 @@
 {
-  "generatedAt": "2026-09-09T16:36:24.420585Z",
+  "generatedAt": "2026-09-09T20:54:54.894048Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097749080130945040",
+      "timestamp": "2026-09-09T18:08:49.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097749080130945040",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #9\nDate: 09 September 2026 Time: 07:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "484674dd71104911"
+    },
+    {
+      "id": "twitter-2097748965798359176",
+      "timestamp": "2026-09-09T18:08:22.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097748965798359176",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # १९ (मिति- २०८३ भदौ २४ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a1f237e26c172caa"
+    },
+    {
+      "id": "twitter-2097732181263339772",
+      "timestamp": "2026-09-09T17:01:40.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2097732181263339772",
+      "title": "MEA India",
+      "summary": "The 8th IAF aircraft carrying 35 tonnes of essential relief and rescue supplies has landed in Nepal.\n\nThe relief supplies were handed over by Ambassador Naveen Srivastava to Mr. Mahabir Pun, Minister for Science, Technology and Innovation.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5103f374b9e2ddf0"
+    },
     {
       "id": "twitter-2097723576443175100",
       "timestamp": "2026-09-09T16:27:29.000Z",
