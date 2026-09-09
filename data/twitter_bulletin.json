@@ -1,10 +1,69 @@
 {
-  "generatedAt": "2026-09-09T00:12:06.247053Z",
+  "generatedAt": "2026-09-09T04:40:23.904071Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097534612419604868",
+      "timestamp": "2026-09-09T03:56:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097534612419604868",
+      "title": "NDRRMA Nepal",
+      "summary": "किम्रुङ खोला हाल खोलिएर बहन थालेको र हाललाई ठुलो बाढीको जोखिम नरहेको",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c3a17f6df8255a59"
+    },
+    {
+      "id": "twitter-2097530555743314394",
+      "timestamp": "2026-09-09T03:40:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097530555743314394",
+      "title": "Nepal Police HQ",
+      "summary": "धनकुटामा १ हजार २४० किलो ६ सय ग्राम गाँजा सहित ट्रक नियन्त्रणमा",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "59bb286b5061210f"
+    },
+    {
+      "id": "twitter-2097489177009078287",
+      "timestamp": "2026-09-09T00:56:03.000Z",
+      "publishedLabel": "",
+      "region": [
+        "tibet",
+        "india",
+        "foreign"
+      ],
+      "source": "Twitter @EOIBeijing",
+      "sourceUrl": "https://x.com/EOIBeijing/status/2097489177009078287",
+      "title": "Embassy of India Beijing",
+      "summary": "India is poised to emerge as a global hub for small satellite manufacturing and launch and in-orbit manufacturing, with its share of the global space economy targeted to rise from around 2% now to 8% by 2035. ISRO is pursuing around 2,000 R&amp;D projects, while India's space",
+      "citation": "Tweet by @EOIBeijing",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c62b7c279e3a0cde"
+    },
     {
       "id": "twitter-2097383498617328009",
       "timestamp": "2026-09-08T17:56:08.000Z",
