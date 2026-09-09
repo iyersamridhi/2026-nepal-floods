@@ -1,10 +1,171 @@
 {
-  "generatedAt": "2026-09-09T11:18:51.040782Z",
+  "generatedAt": "2026-09-09T16:36:24.420585Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097723576443175100",
+      "timestamp": "2026-09-09T16:27:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097723576443175100",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२४ गते २०:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "8dbc82be289cceea"
+    },
+    {
+      "id": "twitter-2097712198550507535",
+      "timestamp": "2026-09-09T15:42:16.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097712198550507535",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update- (9 September 2026, 6:00 PM)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b736bd56a27efc83"
+    },
+    {
+      "id": "twitter-2097702437465551300",
+      "timestamp": "2026-09-09T15:03:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097702437465551300",
+      "title": "Nepal Police HQ",
+      "summary": "सम्पर्क विहिन प्रहरी कर्मचारीको खोजीमा प्रतिबद्ध नेपाल प्रहरी\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "contacts"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "8473964492f48806"
+    },
+    {
+      "id": "twitter-2097684551275340199",
+      "timestamp": "2026-09-09T13:52:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2097684551275340199",
+      "title": "MoFA Nepal",
+      "summary": "The @MoFANepal organised an Interaction Programme with representatives of Nepali online media portals today in the presence of Hon. Minister for Foreign Affairs Mr Shisir Khanal.\n\nForeign Secretary Mr Amrit Bahadur Rai, senior officials of the Ministry and representatives from",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f03b5e8d0dda4083"
+    },
+    {
+      "id": "twitter-2097682768738324544",
+      "timestamp": "2026-09-09T13:45:19.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097682768738324544",
+      "title": "NDRRMA Nepal",
+      "summary": "मनसुन प्रतिकार्य कमाण्ड पोष्टको आजको बैठकले रसुवा-भोटेकोशी बाढी प्रभावित स्थानमा हुने अध्ययन अनुसन्धानका कार्यलाई एकरुपता दिन प्राधिकरणका सहसचिव (प्राविधिक) को संयोजकत्वमा विभिन्न सरोकारवाला मन्त्रालय/विभाग संलग्न रहेको Resource and Need Mapping Team गठन गर्ने निर्णय गरेको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "904a6903d320f558"
+    },
+    {
+      "id": "twitter-2097659693313524071",
+      "timestamp": "2026-09-09T12:13:38.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097659693313524071",
+      "title": "Nepal Police HQ",
+      "summary": "९ नाल भरुवा बन्दुक सहित अवैध हतियार बनाउने र खरिद गर्ने ३ जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9ff532e14c9daf6d"
+    },
+    {
+      "id": "twitter-2097655763233878201",
+      "timestamp": "2026-09-09T11:58:01.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2097655763233878201",
+      "title": "MEA India",
+      "summary": "India continues its relief and rescue efforts.\n\nThe 8th IAF aircraft carrying 35 tonnes of relief and rescue supplies, including NDRF equipment, rescue gear, forensic supplies and Army team replenishment supplies has departed for Kathmandu.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "rescue",
+        "remains",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "aefb29b64ca9daa3"
+    },
+    {
+      "id": "twitter-2097647576371851750",
+      "timestamp": "2026-09-09T11:25:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097647576371851750",
+      "title": "NDRRMA Nepal",
+      "summary": "Public Notice Regarding DNA Testing for International Relatives for families living outside Nepal whose relative is missing in the Bhotekoshi Flood Disaster 2026, Nepal\n@NepalPoliceHQ",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "missing",
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "af7924cf78776a53"
+    },
     {
       "id": "twitter-2097639167824187499",
       "timestamp": "2026-09-09T10:52:04.000Z",
