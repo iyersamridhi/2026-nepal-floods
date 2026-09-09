@@ -1,10 +1,231 @@
 {
-  "generatedAt": "2026-09-09T04:40:23.904071Z",
+  "generatedAt": "2026-09-09T11:18:51.040782Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097639167824187499",
+      "timestamp": "2026-09-09T10:52:04.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097639167824187499",
+      "title": "NDRRMA Nepal",
+      "summary": "Are you wondering whether your relative affected by the\nRasuwa–Bhotekoshi flood is receiving treatment at any hospital?",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d6543b25bb73a79f"
+    },
+    {
+      "id": "twitter-2097622054551879943",
+      "timestamp": "2026-09-09T09:44:04.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2097622054551879943",
+      "title": "MoFA Nepal",
+      "summary": "Daily Situation Update on Bhote Koshi River Floods- 09 September 2026\n\n🔗",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "1483c1097d1bf64e"
+    },
+    {
+      "id": "twitter-2097610657239875628",
+      "timestamp": "2026-09-09T08:58:47.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097610657239875628",
+      "title": "Nepal Police HQ",
+      "summary": "हार्दिक श्रद्धाञ्जली।।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ff12b7a65e18808a"
+    },
+    {
+      "id": "twitter-2097600224453898662",
+      "timestamp": "2026-09-09T08:17:19.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097600224453898662",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी बाढीबाट प्रभावित आफन्तको उपचारबारे जानकारी चाहिएको छ?",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "debca62d04967ea0"
+    },
+    {
+      "id": "twitter-2097599164125450471",
+      "timestamp": "2026-09-09T08:13:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097599164125450471",
+      "title": "Nepal Police HQ",
+      "summary": "१८ हजार ३ सय पिस ट्रामाडोल क्याप्सुलसहित एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "25bb9a8f88f1d5bc"
+    },
+    {
+      "id": "twitter-2097594460989510129",
+      "timestamp": "2026-09-09T07:54:25.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097594460989510129",
+      "title": "Nepal Police HQ",
+      "summary": "मोटरसाइकल दुर्घटना हुँदा दुई जनाको मृत्यु",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9abe053f2fb24239"
+    },
+    {
+      "id": "twitter-2097594003017609398",
+      "timestamp": "2026-09-09T07:52:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097594003017609398",
+      "title": "Nepal Police HQ",
+      "summary": "मोटरसाइकल दुर्घटना हुँदा एक जनाको मृत्यु, एक जना घाइते",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "af567a014e5fdaa5"
+    },
+    {
+      "id": "twitter-2097590578913702396",
+      "timestamp": "2026-09-09T07:39:00.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097590578913702396",
+      "title": "NDRRMA Nepal",
+      "summary": "भोटेकोशी बाढीका कारण सम्पर्कविहीन आफन्तको पहिचानका लागि डिएनए (DNA) परीक्षणका लागि नजिकको जिल्ला प्रहरी कार्यालय वा काठमाडौंमा नेपाल प्रहरी अस्पताल, महराजगञ्जमा सम्पर्क गर्नुहोस्। पोष्टर सौजन्य - @NheiccNepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "hospitals",
+        "remains",
+        "contacts",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "800577dcbef7021b"
+    },
+    {
+      "id": "twitter-2097575558305710543",
+      "timestamp": "2026-09-09T06:39:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097575558305710543",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२४ गते ११:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4e0158859545fe98"
+    },
+    {
+      "id": "twitter-2097568645148983362",
+      "timestamp": "2026-09-09T06:11:50.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097568645148983362",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट-२०८३\n(मिति : २०८३ भदौ २४ गते, बिहान ११:०० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (9 September 2026, 11:00 AM)\n@moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "48298cb9b3eefee8"
+    },
+    {
+      "id": "twitter-2097547745263591513",
+      "timestamp": "2026-09-09T04:48:47.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097547745263591513",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २३ गते। २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f4c546828e339abe"
+    },
     {
       "id": "twitter-2097534612419604868",
       "timestamp": "2026-09-09T03:56:36.000Z",
