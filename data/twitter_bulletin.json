@@ -1,10 +1,32 @@
 {
-  "generatedAt": "2026-09-10T00:12:58.149997Z",
+  "generatedAt": "2026-09-10T04:42:02.484506Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097889609346896053",
+      "timestamp": "2026-09-10T03:27:14.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2097889609346896053",
+      "title": "Embassy of India Kathmandu",
+      "summary": "३५ टन अत्यावश्यक राहत तथा उद्धार सामग्री लिएर भारतीय वायुसेनाको आठौँ विमान हिजो नेपाल आइपुग्यो।\n\nउक्त राहत सामग्री राजदूत नवीन श्रीवास्तवले विज्ञान, प्रविधि तथा नवप्रवर्तन मन्त्री श्री महावीर पुनलाई हस्तान्तरण गर्नुभयो।",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "aebccb341f5a10a8"
+    },
     {
       "id": "twitter-2097749080130945040",
       "timestamp": "2026-09-09T18:08:49.000Z",
