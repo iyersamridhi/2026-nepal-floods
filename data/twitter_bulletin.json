@@ -1,10 +1,50 @@
 {
-  "generatedAt": "2026-09-10T16:22:35.394308Z",
+  "generatedAt": "2026-09-10T20:50:22.870312Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098112205707415638",
+      "timestamp": "2026-09-10T18:11:45.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098112205707415638",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # २० (मिति- २०८३ भदौ २५ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6aebff38506c1e1f"
+    },
+    {
+      "id": "twitter-2098085765255406039",
+      "timestamp": "2026-09-10T16:26:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098085765255406039",
+      "title": "Nepal Police HQ",
+      "summary": "कर्तव्य ज्यान पछि आत्महत्याको रुप दिन खोज्ने दुई जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ffffccee52126d9f"
+    },
     {
       "id": "twitter-2098068533460812114",
       "timestamp": "2026-09-10T15:18:13.000Z",
