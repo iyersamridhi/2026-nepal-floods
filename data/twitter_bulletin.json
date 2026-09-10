@@ -1,10 +1,147 @@
 {
-  "generatedAt": "2026-09-10T11:15:33.831907Z",
+  "generatedAt": "2026-09-10T16:22:35.394308Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098068533460812114",
+      "timestamp": "2026-09-10T15:18:13.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2098068533460812114",
+      "title": "MoFA Nepal",
+      "summary": "Hon. Minister for Foreign Affairs Mr Shisir Khanal addressed an event organised on the occasion of the First General Assembly of the South Asia Wildlife Enforcement Network (SAWEN) in Kathmandu today.\n\nHighlighting shared ecology of South Asia, the Hon. Minister emphasised the",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6f4534f3c02cea6f"
+    },
+    {
+      "id": "twitter-2098063849270427672",
+      "timestamp": "2026-09-10T14:59:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098063849270427672",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२५ गते २०:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d5920e63502b40df"
+    },
+    {
+      "id": "twitter-2098063490481312120",
+      "timestamp": "2026-09-10T14:58:10.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098063490481312120",
+      "title": "Nepal Police HQ",
+      "summary": "खाना पकाउने एलपी ग्यास कालोबजारी गर्ने दुई जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e745c25dbe0ccb94"
+    },
+    {
+      "id": "twitter-2098044209039368365",
+      "timestamp": "2026-09-10T13:41:33.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098044209039368365",
+      "title": "Nepal Police HQ",
+      "summary": "दुई मोटरसाइकल एकआपसमा ठोक्किँदा एक जनाको मृत्यु, दुई जना घाइते\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6d660fed77eff5f4"
+    },
+    {
+      "id": "twitter-2098040897049137558",
+      "timestamp": "2026-09-10T13:28:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098040897049137558",
+      "title": "Nepal Police HQ",
+      "summary": "सामुदायिक वनमा लुकाइछिपाई राखेको ६ थान भरुवा बन्दुक बरामद\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "fae8c497bd0d9962"
+    },
+    {
+      "id": "twitter-2098039828722184358",
+      "timestamp": "2026-09-10T13:24:09.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098039828722184358",
+      "title": "Nepal Police HQ",
+      "summary": "११ ग्राम खैरो हेरोइनसहित दुई जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "47639d02d2a2ed2c"
+    },
+    {
+      "id": "twitter-2098025815724507207",
+      "timestamp": "2026-09-10T12:28:28.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098025815724507207",
+      "title": "Nepal Police HQ",
+      "summary": "अनलाइन सट्टेबाजी खेल्ने र खेलाउने ३ जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b8f69c6a867249b4"
+    },
     {
       "id": "twitter-2097999252588728481",
       "timestamp": "2026-09-10T10:42:55.000Z",
