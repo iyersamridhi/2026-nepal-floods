@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T04:42:00.462419Z",
+  "generatedAt": "2026-09-10T11:15:31.641166Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-10T04:41:39.242208Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:15:06.379030Z",
+      "publishedLabel": "10 Sep 2026 · 5:00 pm",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-10T04:41:37.222464Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:15:03.974373Z",
+      "publishedLabel": "10 Sep 2026 · 5:00 pm",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-10T04:41:35.025106Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:15:02.086246Z",
+      "publishedLabel": "10 Sep 2026 · 5:00 pm",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-4a89f2ee088a",
-      "timestamp": "2026-09-10T04:41:32.952768Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:14:59.632081Z",
+      "publishedLabel": "10 Sep 2026 · 4:59 pm",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +97,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-10T04:41:30.585838Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:14:57.148619Z",
+      "publishedLabel": "10 Sep 2026 · 4:59 pm",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +114,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-10T04:41:28.423380Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:14:54.826860Z",
+      "publishedLabel": "10 Sep 2026 · 4:59 pm",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +131,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-09-10T04:41:26.195796Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:14:52.394143Z",
+      "publishedLabel": "10 Sep 2026 · 4:59 pm",
       "region": [
         "nepal",
         "foreign"
@@ -148,8 +148,8 @@
     },
     {
       "id": "mofa-84c1baa9b38d",
-      "timestamp": "2026-09-10T04:41:23.877590Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:14:49.878008Z",
+      "publishedLabel": "10 Sep 2026 · 4:59 pm",
       "region": [
         "nepal",
         "foreign"
@@ -165,8 +165,8 @@
     },
     {
       "id": "mofa-852ff0a91973",
-      "timestamp": "2026-09-10T04:41:21.676053Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:14:47.417747Z",
+      "publishedLabel": "10 Sep 2026 · 4:59 pm",
       "region": [
         "nepal",
         "foreign"
@@ -182,8 +182,8 @@
     },
     {
       "id": "mofa-0b4944327baf",
-      "timestamp": "2026-09-10T04:41:19.486773Z",
-      "publishedLabel": "10 Sep 2026 · 10:26 am",
+      "timestamp": "2026-09-10T11:14:45.093201Z",
+      "publishedLabel": "10 Sep 2026 · 4:59 pm",
       "region": [
         "nepal",
         "foreign"
@@ -196,6 +196,23 @@
       "kind": "update",
       "scrapeMethod": "rule-based",
       "contentHash": "b27a939d3f550475"
+    },
+    {
+      "id": "mofa-5e47b388511e",
+      "timestamp": "2026-09-10T11:14:42.863765Z",
+      "publishedLabel": "10 Sep 2026 · 4:59 pm",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1883/daily-update-10-september-2026/",
+      "title": "Daily Situation Update on Bhote Koshi River Floods- 10 September 2026",
+      "summary": "Latest Figures as Reported by Our Agencies: Rescued: 13,656 people have been rescued so far, including over 300 foreigners. Missing : 5,130 people still remain missing, including approximately 600 foreigners from 35 countries.",
+      "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on Bhote Koshi River Floods- 10 September 2026",
+      "kind": "update",
+      "scrapeMethod": "rule-based",
+      "contentHash": "dbb450e52188fd58"
     },
     {
       "id": "ndrrma-foreign-nationals-1sep",
@@ -327,11 +344,11 @@
       "source": "Nepal Ministry of Foreign Affairs",
       "sourceUrl": "https://mofa.gov.np/content/1864/latest-updates-on-flash-floods--28-august/",
       "title": "Latest Updates on Flash Floods- 28 August 2026",
-      "summary": "So far, 538 bodies have been recovered from the river areas, while many people, both locals and tourists, are still missing. According to the latest available information, out of 632 people from 33 countries, 122 have been found and 511 are still missing (list attached). These figures remain subject to verification as search and rescue operations continue. Emergency Response Team at the Ministry can be contacted at Emergency Hotline/WhatsApp : +977-9744441227,…",
+      "summary": "So far, 538 bodies have been recovered from the river areas, while many people, both locals and tourists, are still missing. According to the latest available information, out of 642 people from 33 countries, 122 have been found and 520 are still missing (list attached). These figures remain subject to verification as search and rescue operations continue. Emergency Response Team at the Ministry can be contacted at Emergency Hotline/WhatsApp : +977-9744441227,…",
       "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods- 28 August 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "4e3fa73820104aed"
+      "contentHash": "49e5dd03f42cbb60"
     },
     {
       "id": "xinhua-gyirong-cd16e8678ae4",

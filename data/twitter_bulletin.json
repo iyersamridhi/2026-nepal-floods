@@ -1,10 +1,128 @@
 {
-  "generatedAt": "2026-09-10T04:42:02.484506Z",
+  "generatedAt": "2026-09-10T11:15:33.831907Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2097999252588728481",
+      "timestamp": "2026-09-10T10:42:55.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2097999252588728481",
+      "title": "MoFA Nepal",
+      "summary": "Daily Situation Update on Bhote Koshi River Floods- 10 September 2026\n\n🔗",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e880c4fe060c247d"
+    },
+    {
+      "id": "twitter-2097997788294607164",
+      "timestamp": "2026-09-10T10:37:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097997788294607164",
+      "title": "Nepal Police HQ",
+      "summary": "मुख्य राजमार्ग अवरोध (मिति २०८३।०५।२५ गते १५:३० बजेसम्म)\n\n#NepalPolice #ToServeandProtect #BelieveInBlue #नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0838a115b1dd52d0"
+    },
+    {
+      "id": "twitter-2097991140184363491",
+      "timestamp": "2026-09-10T10:10:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097991140184363491",
+      "title": "Nepal Police HQ",
+      "summary": "\"प्रहरीको साथ, समुदायको हातः\nआत्महत्या रोक्न गरौं सहकार्यको सुरुवात\"",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3b1001c01430212d"
+    },
+    {
+      "id": "twitter-2097955901609283732",
+      "timestamp": "2026-09-10T07:50:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097955901609283732",
+      "title": "Nepal Police HQ",
+      "summary": "सामुदायिक वनबाट बेवारिसे अवस्थामा ११ थान भरुवा बन्दुक बरामद ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e70c3565272baf9d"
+    },
+    {
+      "id": "twitter-2097934050749194370",
+      "timestamp": "2026-09-10T06:23:50.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2097934050749194370",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट-२०८३\n(मिति : २०८३ भदौ २५ गते, बिहान ११:०० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (10 September 2026, 11:00 AM) @moha_nepal @PM_nepal_",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e43c1df86d9c0e1b"
+    },
+    {
+      "id": "twitter-2097908855154016350",
+      "timestamp": "2026-09-10T04:43:42.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2097908855154016350",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २४ गते। २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "80b28be201b6143b"
+    },
     {
       "id": "twitter-2097889609346896053",
       "timestamp": "2026-09-10T03:27:14.000Z",
