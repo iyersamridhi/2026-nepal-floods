@@ -1,10 +1,87 @@
 {
-  "generatedAt": "2026-09-11T11:17:09.977412Z",
+  "generatedAt": "2026-09-11T16:26:44.036436Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098433519144014121",
+      "timestamp": "2026-09-11T15:28:32.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098433519144014121",
+      "title": "Nepal Police HQ",
+      "summary": "ट्याटु हाउसको आवरणमा लागुऔषध कारोबार, ट्रामाडोल १०,४१० क्याप्सुल र खैरो हेरोइनसहित चार जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "465dd50e615a0bb2"
+    },
+    {
+      "id": "twitter-2098414193368326435",
+      "timestamp": "2026-09-11T14:11:45.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098414193368326435",
+      "title": "NDRRMA Nepal",
+      "summary": "मनसुन प्रतिकार्य कमाण्ड पोष्टको बैठकले रसुवा-भोटेकोशी बाढी प्रभावित क्षेत्रमा कुनै संघसंस्था/निकाय/व्यक्तिले सम्बन्धितले नै खर्च बेहोर्ने गरी राहत सामग्री ढुवानीका लागि हेलि उडान गर्न अनुरोध भई आएमा सम्बन्धित प्र.जि.अ.ले आवश्यक समन्वय गरी व्यवस्था मिलाउने लगायतका निर्णय गरेको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f90fa36ab13a0701"
+    },
+    {
+      "id": "twitter-2098411881954447369",
+      "timestamp": "2026-09-11T14:02:33.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098411881954447369",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी बाढीका कारण ४ खर्ब ८ अर्ब २८ करोडभन्दा बढीको क्षति तथा नोक्सानीको आकलन गरिएको छ। उक्त विपद्को द्रुत क्षति तथा आवश्यकता आकलन (आरडिएनए) प्रतिवेदनअनुसार पुनर्निर्माण एवं पुनर्स्थापनाका लागि ७ खर्ब २३ अर्ब ३१ करोड ५२ लाख रुपैयाँ आवश्यक पर्नेछ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e05ba37325f6149d"
+    },
+    {
+      "id": "twitter-2098410284654502005",
+      "timestamp": "2026-09-11T13:56:13.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098410284654502005",
+      "title": "Nepal Police HQ",
+      "summary": "महोत्तरीमा बेपत्ता युवकको शव सेफ्टी ट्याङ्कीमा फेला , चार जना नियन्त्रणमा",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing",
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "312153d9b2062642"
+    },
     {
       "id": "twitter-2098368804506222808",
       "timestamp": "2026-09-11T11:11:23.000Z",
