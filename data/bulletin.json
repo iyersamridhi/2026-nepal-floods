@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:50:21.108324Z",
+  "generatedAt": "2026-09-11T00:08:14.414762Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -28,9 +28,26 @@
   "skippedUnchanged": false,
   "items": [
     {
+      "id": "mofa-5885b08683cf",
+      "timestamp": "2026-09-11T00:08:02.854856Z",
+      "publishedLabel": "11 Sep 2026 · 5:53 am",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1863/latest-updates-on-flash-floods-27-august-2026/",
+      "title": "Latest Updates on Flash Floods-27 August 2026",
+      "summary": "विदेशमा समस्यामा परेका नेपाली नागरिकको विदेशस्थित नेपाली नियोगमा निवेदन दर्ता राष्ट्रिय प्राकृतिक स्रोत तथा वित्त आयोग",
+      "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods-27 August 2026",
+      "kind": "update",
+      "scrapeMethod": "rule-based",
+      "contentHash": "d26f683cc5266887"
+    },
+    {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-10T20:49:57.802918Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:51.883018Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +63,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-10T20:49:55.419344Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:49.594559Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +80,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-10T20:49:53.423140Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:47.621743Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +97,8 @@
     },
     {
       "id": "mofa-4a89f2ee088a",
-      "timestamp": "2026-09-10T20:49:50.875324Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:45.305215Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +114,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-10T20:49:48.564811Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:42.752043Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +131,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-10T20:49:46.016865Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:40.546899Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +148,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-09-10T20:49:43.430244Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:38.191979Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -144,12 +161,12 @@
       "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on Bhote Koshi River Floods- 06 September 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "009a7b497a8a2a13"
+      "contentHash": "dfdb609bf220f557"
     },
     {
       "id": "mofa-84c1baa9b38d",
-      "timestamp": "2026-09-10T20:49:40.782233Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:36.305347Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -161,12 +178,12 @@
       "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on Bhote Koshi River Floods- 07 September 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "8bcaf9a19906c4f4"
+      "contentHash": "4bf05871b6334528"
     },
     {
       "id": "mofa-852ff0a91973",
-      "timestamp": "2026-09-10T20:49:38.721920Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:34.083558Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -182,8 +199,8 @@
     },
     {
       "id": "mofa-0b4944327baf",
-      "timestamp": "2026-09-10T20:49:36.011944Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:31.916357Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -199,8 +216,8 @@
     },
     {
       "id": "mofa-5e47b388511e",
-      "timestamp": "2026-09-10T20:49:33.514522Z",
-      "publishedLabel": "11 Sep 2026 · 2:34 am",
+      "timestamp": "2026-09-11T00:07:29.617075Z",
+      "publishedLabel": "11 Sep 2026 · 5:52 am",
       "region": [
         "nepal",
         "foreign"
@@ -367,23 +384,6 @@
       "kind": "update",
       "scrapeMethod": "rule-based",
       "contentHash": "293bb4a08b8ed256"
-    },
-    {
-      "id": "mofa-5885b08683cf",
-      "timestamp": "2026-08-27T20:46:00+05:45",
-      "publishedLabel": "27 Aug 2026 · 8:46 pm",
-      "region": [
-        "nepal",
-        "foreign"
-      ],
-      "source": "Nepal Ministry of Foreign Affairs",
-      "sourceUrl": "https://mofa.gov.np/content/1863/latest-updates-on-flash-floods-27-august-2026/",
-      "title": "Latest Updates on Flash Floods-27 August 2026",
-      "summary": "So far, 359 bodies have been recovered from the river areas, while many people, both locals and tourists, are still missing. According to the latest available information, 596 people from 33 countries are still missing (list is attached). These figures remain subject to verification as search and rescue operations continue. Emergency Control Room (ECR) at the Ministry can be contacted at Emergency Hotline/WhatsApp : +977-9744441227, +977-9744441228 (6am to 10pm); and…",
-      "citation": "Nepal Ministry of Foreign Affairs — Latest Updates on Flash Floods-27 August 2026",
-      "kind": "update",
-      "scrapeMethod": "rule-based",
-      "contentHash": "b856254c7d8bf401"
     },
     {
       "id": "mofa-2ff878c5d69f",
