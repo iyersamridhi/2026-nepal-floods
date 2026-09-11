@@ -1,10 +1,67 @@
 {
-  "generatedAt": "2026-09-11T00:08:16.602794Z",
+  "generatedAt": "2026-09-11T04:36:03.536998Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098264512659108226",
+      "timestamp": "2026-09-11T04:16:58.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098264512659108226",
+      "title": "NDRRMA Nepal",
+      "summary": "हुङ्गा (हुङ्कु) खोला, दुधकोशी नदी तट र आसपास बसोबास गर्नुहुने बासिन्दालाई उच्च सतर्कता अपनाउनहुन अनुरोध",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "dae79fa9333cfda8"
+    },
+    {
+      "id": "twitter-2098258799492817354",
+      "timestamp": "2026-09-11T03:54:16.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098258799492817354",
+      "title": "Nepal Police HQ",
+      "summary": "कारमा आगलागी हुँदा एक जनाको मृत्यु\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "645444aa653746cc"
+    },
+    {
+      "id": "twitter-2098234678193070119",
+      "timestamp": "2026-09-11T02:18:25.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098234678193070119",
+      "title": "Nepal Police HQ",
+      "summary": "कुशे औंसी (बुबाको मुख हेर्ने दिन) को हार्दिक शुभकामना\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "21b5fe5ad8dce152"
+    },
     {
       "id": "twitter-2098112205707415638",
       "timestamp": "2026-09-10T18:11:45.000Z",
