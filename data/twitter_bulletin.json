@@ -1,10 +1,132 @@
 {
-  "generatedAt": "2026-09-11T16:26:44.036436Z",
+  "generatedAt": "2026-09-11T20:56:45.374184Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098476947814891717",
+      "timestamp": "2026-09-11T18:21:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098476947814891717",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #10\nDate: 11 September 2026 Time: 7:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "bee28aa8b469637b"
+    },
+    {
+      "id": "twitter-2098471431986377195",
+      "timestamp": "2026-09-11T17:59:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098471431986377195",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # २१\n(मिति- २०८३ भदौ २६ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e01ffdc001b62b7d"
+    },
+    {
+      "id": "twitter-2098459167275307407",
+      "timestamp": "2026-09-11T17:10:27.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2098459167275307407",
+      "title": "MEA India",
+      "summary": "PM @narendramodi met with @UN Secretary-General António Guterres @antonioguterres and discussed ways to strengthen multilateralism, drive sustainable development, promote human-centric and inclusive artificial intelligence, and build a more inclusive world order.\n\nBoth leaders",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "144a964a8e00c626"
+    },
+    {
+      "id": "twitter-2098452004930736529",
+      "timestamp": "2026-09-11T16:41:59.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098452004930736529",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२६ गते २०:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d1c9eb32372e7174"
+    },
+    {
+      "id": "twitter-2098451079889646023",
+      "timestamp": "2026-09-11T16:38:19.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098451079889646023",
+      "title": "Nepal Police HQ",
+      "summary": "पिकअप गाडी सडकबाट २५० मिटर तल खस्दा एक जनाको मृत्यु, एक जना घाइते",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a00e6068112b1375"
+    },
+    {
+      "id": "twitter-2098450736514560119",
+      "timestamp": "2026-09-11T16:36:57.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098450736514560119",
+      "title": "Nepal Police HQ",
+      "summary": "अटो दुर्घटनापछि आगलागी हुँदा ६ जना घाइते ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "16034bd6af41feb7"
+    },
     {
       "id": "twitter-2098433519144014121",
       "timestamp": "2026-09-11T15:28:32.000Z",
