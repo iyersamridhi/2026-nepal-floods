@@ -1,10 +1,245 @@
 {
-  "generatedAt": "2026-09-11T04:36:03.536998Z",
+  "generatedAt": "2026-09-11T11:17:09.977412Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098368804506222808",
+      "timestamp": "2026-09-11T11:11:23.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2098368804506222808",
+      "title": "MoFA Nepal",
+      "summary": "The @MoFANepal held its regular Press Briefing at the Ministry today.\n\nForeign Secretary Mr Amrit Bahadur Rai presented a brief on the participation of the Nepali delegation led by Rt. Hon. Prime Minister Mr Balendra Shah to the 81st session of the United Nations General",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "35fb45abf2471d7e"
+    },
+    {
+      "id": "twitter-2098368643168186438",
+      "timestamp": "2026-09-11T11:10:44.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098368643168186438",
+      "title": "Nepal Police HQ",
+      "summary": "मुख्य राजमार्ग अवरोध , मिति २०८३।०५।२६ गते १६:०० बजे सम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5a3a32a635b32c04"
+    },
+    {
+      "id": "twitter-2098364684365930630",
+      "timestamp": "2026-09-11T10:55:01.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2098364684365930630",
+      "title": "MoFA Nepal",
+      "summary": "The newly arrived Chargé d’Affaires of US Embassy, Kathmandu, Ms Megan Bouldin paid a courtesy call on Foreign Minister Hon. Mr Shisir Khanal at Singhadurbar today.\n\nDuring the call on, Ms Bouldin conveyed her deepest sympathies to the flood victims and expressed solidarity of",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "553e2edffe7407d2"
+    },
+    {
+      "id": "twitter-2098357925538599175",
+      "timestamp": "2026-09-11T10:28:09.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2098357925538599175",
+      "title": "MoFA Nepal",
+      "summary": "Foreign Secretary Mr Amrit Bahadur Rai received H. E. Mr Fahd Mohammad A. Mnikhr, Ambassador of the Kingdom of Saudi Arabia to Nepal, for a courtesy call at the Ministry this morning.\n\nOn the occasion, discussions were held on matters of mutual interest, including further",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "92767ab41616d275"
+    },
+    {
+      "id": "twitter-2098350066444468667",
+      "timestamp": "2026-09-11T09:56:55.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2098350066444468667",
+      "title": "MoFA Nepal",
+      "summary": "The Ministry's regular Press Briefing by the Foreign Secretary Mr Amrit Bahadur Rai and the Spokesperson and Head of Public Diplomacy Division Mr Lok Bahadur Chhetri on Participation of the Nepali delegation to the 81st United Nations General Assembly (UNGA) led by the Rt. Hon.",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "52d143774785bd25"
+    },
+    {
+      "id": "twitter-2098346614574494070",
+      "timestamp": "2026-09-11T09:43:12.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098346614574494070",
+      "title": "Nepal Police HQ",
+      "summary": "सामुदायिक वनमा लुकाइछिपाई राखेको ३ नाल भरुवा बन्दुक बरामद\n#NepalPolice #Believeinblue #ToServeandProtect #नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c0634f873b5e0f8b"
+    },
+    {
+      "id": "twitter-2098325293945819143",
+      "timestamp": "2026-09-11T08:18:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2098325293945819143",
+      "title": "MEA India",
+      "summary": "Warm welcome to Secretary-General of @UN, Mr. António Guterres @antonioguterres at the 18th BRICS Summit in New Delhi. He was received by MoS @DrSukantaBJP at the airport.\n\nThe visit reaffirms the shared commitment of BRICS partners to multilateralism and constructive dialogue in",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d97c4ce31999069a"
+    },
+    {
+      "id": "twitter-2098300291389210690",
+      "timestamp": "2026-09-11T06:39:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098300291389210690",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट-२०८३\n(मिति: २०८३ भदौ २६ गते, बिहान ११:०० बजे)\nRasuwa Flood: Search, Rescue and Relief Update- (11 September 2026, 11:00 AM)\n@moha_nepal",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3e2796cba99ff54d"
+    },
+    {
+      "id": "twitter-2098284764453327213",
+      "timestamp": "2026-09-11T05:37:26.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098284764453327213",
+      "title": "Nepal Police HQ",
+      "summary": "भन्सार छली ल्याइएको करिब १ करोड १५ लाख रुपैयाँ बराबरका मोबाइल पार्ट्ससहित पिकअप नियन्त्रणमा\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "17b68e7b105a7ef9"
+    },
+    {
+      "id": "twitter-2098284244636492236",
+      "timestamp": "2026-09-11T05:35:22.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098284244636492236",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २५ गतेको २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4a56c83c4537cd06"
+    },
+    {
+      "id": "twitter-2098278374284427770",
+      "timestamp": "2026-09-11T05:12:03.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098278374284427770",
+      "title": "Nepal Police HQ",
+      "summary": "जेन्जी आन्दोलनका क्रममा कारागारबाट फरार जबरजस्ती करणी मुद्दाका कैदी पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "185c77681652fe75"
+    },
+    {
+      "id": "twitter-2098270479270473878",
+      "timestamp": "2026-09-11T04:40:40.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098270479270473878",
+      "title": "Nepal Police HQ",
+      "summary": "हुङ्गा खोलामा पहिरो खसेर खोलामा ड्याम बनेपछि नदी तटीय क्षेत्रमा सतर्क रहन आग्रह\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6487fb2e094640b4"
+    },
     {
       "id": "twitter-2098264512659108226",
       "timestamp": "2026-09-11T04:16:58.000Z",

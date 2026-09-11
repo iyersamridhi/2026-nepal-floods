@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T04:36:01.101018Z",
+  "generatedAt": "2026-09-11T11:17:07.582415Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-11T04:35:32.324361Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:43.661283Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-11T04:35:30.248153Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:41.278423Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-11T04:35:28.114357Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:38.904741Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-11T04:35:23.558433Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:34.551239Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +97,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-11T04:35:21.389139Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:32.157258Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +114,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-09-11T04:35:16.962855Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:29.992250Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +131,8 @@
     },
     {
       "id": "mofa-84c1baa9b38d",
-      "timestamp": "2026-09-11T04:35:14.442341Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:27.626606Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -148,8 +148,8 @@
     },
     {
       "id": "mofa-852ff0a91973",
-      "timestamp": "2026-09-11T04:35:09.796654Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:25.176132Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -165,8 +165,8 @@
     },
     {
       "id": "mofa-0b4944327baf",
-      "timestamp": "2026-09-11T04:35:07.789340Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:22.730152Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -182,8 +182,8 @@
     },
     {
       "id": "mofa-5e47b388511e",
-      "timestamp": "2026-09-11T04:35:05.273558Z",
-      "publishedLabel": "11 Sep 2026 · 10:20 am",
+      "timestamp": "2026-09-11T11:16:20.373240Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
       "region": [
         "nepal",
         "foreign"
@@ -196,6 +196,23 @@
       "kind": "update",
       "scrapeMethod": "rule-based",
       "contentHash": "dbb450e52188fd58"
+    },
+    {
+      "id": "mofa-10e37c2acfc2",
+      "timestamp": "2026-09-11T11:16:18.018953Z",
+      "publishedLabel": "11 Sep 2026 · 5:01 pm",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1884/the-ministry-s-regular-press-briefing--11-september/",
+      "title": "The Ministry's regular Press Briefing- 11 September 2026",
+      "summary": "13,676 people have been rescued so far, including more than 320 foreign nationals; approximately 5,130 people remain missing, including around 600 foreign nationals from approximately 35 countries; and",
+      "citation": "Nepal Ministry of Foreign Affairs — The Ministry's regular Press Briefing- 11 September 2026",
+      "kind": "update",
+      "scrapeMethod": "rule-based",
+      "contentHash": "a910d22a13d0daf1"
     },
     {
       "id": "ndrrma-foreign-nationals-1sep",
