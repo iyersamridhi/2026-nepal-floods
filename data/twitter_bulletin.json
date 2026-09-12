@@ -1,10 +1,90 @@
 {
-  "generatedAt": "2026-09-12T15:30:07.630393Z",
+  "generatedAt": "2026-09-12T18:21:29.255855Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098837672068628860",
+      "timestamp": "2026-09-12T18:14:30.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098837672068628860",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #11\nDate: 12 September 2026 Time: 7:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f9e9e852532bd279"
+    },
+    {
+      "id": "twitter-2098832806109659387",
+      "timestamp": "2026-09-12T17:55:10.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098832806109659387",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # २२\n(मिति- २०८३ भदौ २७ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c28f501e2104e6e2"
+    },
+    {
+      "id": "twitter-2098799596738904169",
+      "timestamp": "2026-09-12T15:43:12.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098799596738904169",
+      "title": "Nepal Police HQ",
+      "summary": "सार्वजनिक नैतिकता तथा शिष्टाचार विरुद्धका सामग्री प्रकाशन/प्रसारण गरी घृणा तथा द्वेष फैलाउने एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c0f20914be922e45"
+    },
+    {
+      "id": "twitter-2098796972627140702",
+      "timestamp": "2026-09-12T15:32:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098796972627140702",
+      "title": "Nepal Police HQ",
+      "summary": "४५.९५० ग्राम खैरो हेरोइनसहित दुई जना भारतीय नागरिक पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "904c4ff1d9f72241"
+    },
     {
       "id": "twitter-2098796054187774171",
       "timestamp": "2026-09-12T15:29:07.000Z",
