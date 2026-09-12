@@ -1,10 +1,49 @@
 {
-  "generatedAt": "2026-09-12T00:15:54.935951Z",
+  "generatedAt": "2026-09-12T04:39:59.251781Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098626160095842784",
+      "timestamp": "2026-09-12T04:14:01.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098626160095842784",
+      "title": "Nepal Police HQ",
+      "summary": "गैंडाकोटमा दुई बस एकआपसमा ठोक्किँदा १८ जना घाइते\nविस्तृत;",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "02c99bb3916c8d4f"
+    },
+    {
+      "id": "twitter-2098587510259782115",
+      "timestamp": "2026-09-12T01:40:26.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098587510259782115",
+      "title": "Nepal Police HQ",
+      "summary": "मूख्य राजमार्ग अवरोध। (मितिः २०८३।०५।२७ गते) ०६:४० बजे सम्म)",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "287ce4986c3e2a16"
+    },
     {
       "id": "twitter-2098476947814891717",
       "timestamp": "2026-09-11T18:21:06.000Z",
