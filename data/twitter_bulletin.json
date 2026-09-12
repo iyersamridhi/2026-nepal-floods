@@ -1,10 +1,128 @@
 {
-  "generatedAt": "2026-09-12T04:39:59.251781Z",
+  "generatedAt": "2026-09-12T10:42:40.901700Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098717879609032731",
+      "timestamp": "2026-09-12T10:18:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098717879609032731",
+      "title": "Nepal Police HQ",
+      "summary": "घरमा लुकाइछिपाई राखेको तीन नाल भरुवा बन्दुकसहित एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f9bd4c683675c81c"
+    },
+    {
+      "id": "twitter-2098716665630593506",
+      "timestamp": "2026-09-12T10:13:40.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098716665630593506",
+      "title": "Nepal Police HQ",
+      "summary": "खोल्सामा लुकाइछिपाई राखेको चार नाल भरुवा बन्दुक बरामद",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3af1cb14a62bfbd3"
+    },
+    {
+      "id": "twitter-2098681964152987991",
+      "timestamp": "2026-09-12T07:55:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098681964152987991",
+      "title": "Nepal Police HQ",
+      "summary": "अभद्र व्यवहार मुद्दाका प्रतिवादीको बयान पश्चात पाँच राउण्ड गोली सहित पेस्तोल बरामद",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2551ff3345140245"
+    },
+    {
+      "id": "twitter-2098646234328441119",
+      "timestamp": "2026-09-12T05:33:47.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098646234328441119",
+      "title": "Nepal Police HQ",
+      "summary": "जिप दुर्घटना हुँदा २ जनाको मृत्यु, ४ जना घाइते",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f8f6e19d86397a4a"
+    },
+    {
+      "id": "twitter-2098643011764998274",
+      "timestamp": "2026-09-12T05:20:59.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2098643011764998274",
+      "title": "MoFA Nepal",
+      "summary": "Hon. Minister for Foreign Affairs Mr Shisir Khanal delivered a keynote address at the Kasthamandap Dialogue Series-III on “Nepal–China Relations: Expanding Horizons of Cooperation,” organised by the Foundation for Peace, Development, and Socialism (FPDS) in Kathmandu today.",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9e8806b736c0d0b3"
+    },
+    {
+      "id": "twitter-2098641859128209850",
+      "timestamp": "2026-09-12T05:16:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098641859128209850",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२७ गते ०८:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a41e6de73e87e679"
+    },
     {
       "id": "twitter-2098626160095842784",
       "timestamp": "2026-09-12T04:14:01.000Z",
