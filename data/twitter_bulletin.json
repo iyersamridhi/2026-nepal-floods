@@ -1,10 +1,132 @@
 {
-  "generatedAt": "2026-09-12T10:42:40.901700Z",
+  "generatedAt": "2026-09-12T15:30:07.630393Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098796054187774171",
+      "timestamp": "2026-09-12T15:29:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098796054187774171",
+      "title": "Nepal Police HQ",
+      "summary": "नदीमा फसेका दुई बालकमध्ये एकको सकुशल उद्धार, एक बेपत्ता\nविस्तृतः",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "1fd028440265d163"
+    },
+    {
+      "id": "twitter-2098785720743989645",
+      "timestamp": "2026-09-12T14:48:04.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098785720743989645",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२७ गते २०:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ecfbe8001ab5986d"
+    },
+    {
+      "id": "twitter-2098784297046143177",
+      "timestamp": "2026-09-12T14:42:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098784297046143177",
+      "title": "NDRRMA Nepal",
+      "summary": "बाढी प्रभावित रसुवा, नुवाकोट, धादिङ, तनहुँ र गोरखा जिल्लाका १५ स्थानीय तहका ४ जनासम्मको सदस्य सङ्ख्या भएका परिवारलाई प्रति परिवार प्रति महिना १५ हजार रुपैयाँ र सोभन्दा बढी सदस्य भएको परिवारको लागि प्रति सदस्य थप दुई हजार रुपैयाँ प्रति महिना प्रदान गर्न पत्राचार गरिएको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "584aad3226999176"
+    },
+    {
+      "id": "twitter-2098778380074443208",
+      "timestamp": "2026-09-12T14:18:53.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098778380074443208",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update- (12 September 2026, 6:00 PM)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "792a890cbd8cb794"
+    },
+    {
+      "id": "twitter-2098778289456418948",
+      "timestamp": "2026-09-12T14:18:32.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098778289456418948",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट-२०८३\n(मिति: २०८३ भदौ २७ गते, साँझ ६:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d8ecbea6be3cfab3"
+    },
+    {
+      "id": "twitter-2098743626507645355",
+      "timestamp": "2026-09-12T12:00:47.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2098743626507645355",
+      "title": "NDRRMA Nepal",
+      "summary": "Rapid Damage and Needs Assessment (RDNA)_Rasuwa-Bhotekoshi Flood 2026",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0fbe37eb23327b4c"
+    },
     {
       "id": "twitter-2098717879609032731",
       "timestamp": "2026-09-12T10:18:29.000Z",

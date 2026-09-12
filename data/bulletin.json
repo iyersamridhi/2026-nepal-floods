@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:42:39.232222Z",
+  "generatedAt": "2026-09-12T15:30:05.150746Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-12T10:42:15.409527Z",
-      "publishedLabel": "12 Sep 2026 · 4:27 pm",
+      "timestamp": "2026-09-12T15:29:40.965943Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-12T10:42:13.353375Z",
-      "publishedLabel": "12 Sep 2026 · 4:27 pm",
+      "timestamp": "2026-09-12T15:29:38.838745Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-12T10:42:11.412619Z",
-      "publishedLabel": "12 Sep 2026 · 4:27 pm",
+      "timestamp": "2026-09-12T15:29:36.692124Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-12T10:42:07.201353Z",
-      "publishedLabel": "12 Sep 2026 · 4:27 pm",
+      "timestamp": "2026-09-12T15:29:32.303617Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +97,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-12T10:42:04.873142Z",
-      "publishedLabel": "12 Sep 2026 · 4:27 pm",
+      "timestamp": "2026-09-12T15:29:30.146145Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +114,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-09-12T10:42:02.910800Z",
-      "publishedLabel": "12 Sep 2026 · 4:27 pm",
+      "timestamp": "2026-09-12T15:29:28.332937Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +131,8 @@
     },
     {
       "id": "mofa-84c1baa9b38d",
-      "timestamp": "2026-09-12T10:42:00.600437Z",
-      "publishedLabel": "12 Sep 2026 · 4:27 pm",
+      "timestamp": "2026-09-12T15:29:26.467283Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -148,8 +148,8 @@
     },
     {
       "id": "mofa-852ff0a91973",
-      "timestamp": "2026-09-12T10:41:58.160885Z",
-      "publishedLabel": "12 Sep 2026 · 4:26 pm",
+      "timestamp": "2026-09-12T15:29:23.951490Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -165,8 +165,8 @@
     },
     {
       "id": "mofa-0b4944327baf",
-      "timestamp": "2026-09-12T10:41:55.857327Z",
-      "publishedLabel": "12 Sep 2026 · 4:26 pm",
+      "timestamp": "2026-09-12T15:29:21.489724Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -182,8 +182,8 @@
     },
     {
       "id": "mofa-5e47b388511e",
-      "timestamp": "2026-09-12T10:41:53.238387Z",
-      "publishedLabel": "12 Sep 2026 · 4:26 pm",
+      "timestamp": "2026-09-12T15:29:19.379513Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -199,8 +199,8 @@
     },
     {
       "id": "mofa-10e37c2acfc2",
-      "timestamp": "2026-09-12T10:41:50.930232Z",
-      "publishedLabel": "12 Sep 2026 · 4:26 pm",
+      "timestamp": "2026-09-12T15:29:17.208006Z",
+      "publishedLabel": "12 Sep 2026 · 9:14 pm",
       "region": [
         "nepal",
         "foreign"
@@ -212,7 +212,7 @@
       "citation": "Nepal Ministry of Foreign Affairs — The Ministry's regular Press Briefing- 11 September 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "411c76999dc94483"
+      "contentHash": "a910d22a13d0daf1"
     },
     {
       "id": "ndrrma-foreign-nationals-1sep",
