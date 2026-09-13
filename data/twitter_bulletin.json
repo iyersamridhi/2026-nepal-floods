@@ -1,10 +1,166 @@
 {
-  "generatedAt": "2026-09-13T04:43:01.666885Z",
+  "generatedAt": "2026-09-13T11:47:40.940191Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2099090880103940149",
+      "timestamp": "2026-09-13T11:00:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099090880103940149",
+      "title": "Nepal Police HQ",
+      "summary": "प्रहरी महानिरीक्षक दान बहादुर कार्कीज्यूले प्रहरी वृत्त गौशालाको पुन:निर्मित कार्यालय भवनको समुद्घाटन गर्नुभएको छ ।\n\nविस्तृत",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b202e76a33069eca"
+    },
+    {
+      "id": "twitter-2099084343549526488",
+      "timestamp": "2026-09-13T10:34:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099084343549526488",
+      "title": "NDRRMA Nepal",
+      "summary": "नेपाल टेलिभिजनसँगको सहकार्यमा निर्माण भई हरेक शनिबार बिहान प्रसारण हुने 'विपद् सुरक्षित नेपाल' को पछिल्लो एपिसोडमा रसुवा-बाढीको कारण तथा अब अबलम्बन गर्नुपर्ने विकासको ढाँचालगायतका विषयमा विज्ञहरुको धारणा",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "00c661f1ccd675f2"
+    },
+    {
+      "id": "twitter-2099083280515731533",
+      "timestamp": "2026-09-13T10:30:27.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099083280515731533",
+      "title": "Nepal Police HQ",
+      "summary": "प्रहरी महानिरीक्षकज्यूले रसुवा भोटेकोशी बाढीमा बेपत्ता रहेकाहरुको खोजी तथा पहिचान कार्यलाई थप प्रभावकारी रुपमा अघि बढाउन Japanese Disaster Rescue Team सँग छलफल गर्नु भएको छ ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c208019beb7e4e8c"
+    },
+    {
+      "id": "twitter-2099040234218598580",
+      "timestamp": "2026-09-13T07:39:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099040234218598580",
+      "title": "Nepal Police HQ",
+      "summary": "सुन जस्तो देखिने धातु देखाई १ करोड ३९ लाख ३० हजार ठगी गर्ने मानिस पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e160845a0bf8f9d9"
+    },
+    {
+      "id": "twitter-2099028893634302359",
+      "timestamp": "2026-09-13T06:54:20.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099028893634302359",
+      "title": "Nepal Police HQ",
+      "summary": "जिप अनियन्त्रित भई सडकबाट १०० मिटर तल खस्दा २ जनाको मृत्यु, १२ जना घाइते\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d33f6cc0e78b9252"
+    },
+    {
+      "id": "twitter-2099016246176133528",
+      "timestamp": "2026-09-13T06:04:05.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099016246176133528",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा भोटेकोशी बाढी सम्बन्धी खोज तथा उद्धार अपडेट २०८३।०५।२८ गते ०८:०० बजेसम्म",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b04c87ba83011007"
+    },
+    {
+      "id": "twitter-2099015901194695001",
+      "timestamp": "2026-09-13T06:02:43.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099015901194695001",
+      "title": "Nepal Police HQ",
+      "summary": "ट्रक अनियन्त्रित भई पल्टिँदा चालकको मृत्यु\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "bc1f95e05b1d5224"
+    },
+    {
+      "id": "twitter-2099013464799023384",
+      "timestamp": "2026-09-13T05:53:02.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099013464799023384",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २७ गतेको २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "530525f5c4b8c5ac"
+    },
     {
       "id": "twitter-2098979678619132324",
       "timestamp": "2026-09-13T03:38:47.000Z",

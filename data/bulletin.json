@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T04:42:58.623430Z",
+  "generatedAt": "2026-09-13T11:47:38.967852Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-13T04:42:34.351981Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:47:15.790568Z",
+      "publishedLabel": "13 Sep 2026 · 5:32 pm",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-13T04:42:32.044659Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:47:13.603543Z",
+      "publishedLabel": "13 Sep 2026 · 5:32 pm",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-13T04:42:29.832557Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:47:11.210327Z",
+      "publishedLabel": "13 Sep 2026 · 5:32 pm",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-13T04:42:25.190813Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:47:07.026372Z",
+      "publishedLabel": "13 Sep 2026 · 5:32 pm",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +97,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-13T04:42:22.960669Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:47:04.931164Z",
+      "publishedLabel": "13 Sep 2026 · 5:32 pm",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +114,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-09-13T04:42:20.941814Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:47:03.168673Z",
+      "publishedLabel": "13 Sep 2026 · 5:32 pm",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +131,8 @@
     },
     {
       "id": "mofa-84c1baa9b38d",
-      "timestamp": "2026-09-13T04:42:18.514698Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:47:01.385259Z",
+      "publishedLabel": "13 Sep 2026 · 5:32 pm",
       "region": [
         "nepal",
         "foreign"
@@ -148,8 +148,8 @@
     },
     {
       "id": "mofa-852ff0a91973",
-      "timestamp": "2026-09-13T04:42:15.876861Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:46:59.088338Z",
+      "publishedLabel": "13 Sep 2026 · 5:31 pm",
       "region": [
         "nepal",
         "foreign"
@@ -165,8 +165,8 @@
     },
     {
       "id": "mofa-0b4944327baf",
-      "timestamp": "2026-09-13T04:42:13.579096Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:46:56.740172Z",
+      "publishedLabel": "13 Sep 2026 · 5:31 pm",
       "region": [
         "nepal",
         "foreign"
@@ -182,8 +182,8 @@
     },
     {
       "id": "mofa-5e47b388511e",
-      "timestamp": "2026-09-13T04:42:11.274427Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:46:54.694102Z",
+      "publishedLabel": "13 Sep 2026 · 5:31 pm",
       "region": [
         "nepal",
         "foreign"
@@ -199,8 +199,8 @@
     },
     {
       "id": "mofa-10e37c2acfc2",
-      "timestamp": "2026-09-13T04:42:08.982492Z",
-      "publishedLabel": "13 Sep 2026 · 10:27 am",
+      "timestamp": "2026-09-13T11:46:52.612631Z",
+      "publishedLabel": "13 Sep 2026 · 5:31 pm",
       "region": [
         "nepal",
         "foreign"
