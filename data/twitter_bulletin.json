@@ -1,10 +1,129 @@
 {
-  "generatedAt": "2026-09-13T11:47:40.940191Z",
+  "generatedAt": "2026-09-13T16:14:53.687169Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2099164182348460100",
+      "timestamp": "2026-09-13T15:51:56.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099164182348460100",
+      "title": "Nepal Police HQ",
+      "summary": "मोटरसाइकल चोरी गर्ने दुईजना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "42f5d9be56f099e4"
+    },
+    {
+      "id": "twitter-2099142294343737713",
+      "timestamp": "2026-09-13T14:24:57.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099142294343737713",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी बाढीपछि जारी रहेको खोज, उद्धार तथा राहतका सन्दर्भमा प्रभावकारी संचार र समन्वय कायम गर्ने उद्देश्यले केन्द्रीय मनसुन प्रतिकार्य कमाण्ड पोष्ट र रसुवा, नुवाकोट एवं धादिङका जिल्ला कमाण्ड पोष्टहरुबीच भर्चुअल माध्यमबाट छलफल भएको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "37bf47b2eb774ef8"
+    },
+    {
+      "id": "twitter-2099140132981096692",
+      "timestamp": "2026-09-13T14:16:22.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099140132981096692",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट-२०८३\n(मिति: २०८३ भदौ २८ गते, साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "30ddc4e1846d735e"
+    },
+    {
+      "id": "twitter-2099117831346618624",
+      "timestamp": "2026-09-13T12:47:45.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099117831346618624",
+      "title": "Nepal Police HQ",
+      "summary": "९७ ग्राम ५३० मिलिग्राम खैरो हेरोईनसहित ४ जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ee1481dd3b2783aa"
+    },
+    {
+      "id": "twitter-2099107441371955551",
+      "timestamp": "2026-09-13T12:06:28.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099107441371955551",
+      "title": "Nepal Police HQ",
+      "summary": "१६.४७० ग्राम ब्राउन सुगरसहित चार जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "34fb1d73ef48258e"
+    },
+    {
+      "id": "twitter-2099104357300183412",
+      "timestamp": "2026-09-13T11:54:12.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099104357300183412",
+      "title": "Nepal Police HQ",
+      "summary": "स्रोत नखुलेको रकम सहित हुण्डी कारोबारमा संलग्न १ जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5d81f7b37020d1c1"
+    },
     {
       "id": "twitter-2099090880103940149",
       "timestamp": "2026-09-13T11:00:39.000Z",
