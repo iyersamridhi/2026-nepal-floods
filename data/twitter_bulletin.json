@@ -1,10 +1,29 @@
 {
-  "generatedAt": "2026-09-13T00:01:51.234515Z",
+  "generatedAt": "2026-09-13T04:43:01.666885Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2098979678619132324",
+      "timestamp": "2026-09-13T03:38:47.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2098979678619132324",
+      "title": "Nepal Police HQ",
+      "summary": "मोटरसाइकल सडक डिभाइडरमा ठोक्किँएर दुर्घटना हुँदा दुई जनाको मृत्यु\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3565857c414ff457"
+    },
     {
       "id": "twitter-2098837672068628860",
       "timestamp": "2026-09-12T18:14:30.000Z",
