@@ -1,10 +1,48 @@
 {
-  "generatedAt": "2026-09-13T22:23:56.958786Z",
+  "generatedAt": "2026-09-14T04:51:37.771932Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2099315427415650385",
+      "timestamp": "2026-09-14T01:52:55.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099315427415650385",
+      "title": "Nepal Police HQ",
+      "summary": "राष्ट्रिय बाल दिवस २०८३ : बालापनको रक्षा, भविष्यको सुरक्षा\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "81e13dd165d59e90"
+    },
+    {
+      "id": "twitter-2099305882421194989",
+      "timestamp": "2026-09-14T01:15:00.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099305882421194989",
+      "title": "Nepal Police HQ",
+      "summary": "हरितालिका तीजको हार्दिक शुभकामना ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3af0dd641f52ba15"
+    },
     {
       "id": "twitter-2099170799416648122",
       "timestamp": "2026-09-13T16:18:13.000Z",
