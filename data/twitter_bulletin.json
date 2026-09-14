@@ -1,10 +1,106 @@
 {
-  "generatedAt": "2026-09-14T04:51:37.771932Z",
+  "generatedAt": "2026-09-14T12:41:03.500924Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2099451910831186185",
+      "timestamp": "2026-09-14T10:55:16.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099451910831186185",
+      "title": "Nepal Police HQ",
+      "summary": "हरितालिका तीजको पावन अवसरमा पशुपतिनाथ मन्दिरमा नेपाल प्रहरी श्रीमती संघको आयोजना तथा नेपाल प्रहरी अस्पताल महाराजगंजको प्राविधिक सहयोगमा संचालित \"निःशुल्क खानेपानी वितरण तथा प्राथमिक स्वास्थ्य सेवा कार्यक्रम\"",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4b1fafce261d6fa4"
+    },
+    {
+      "id": "twitter-2099449337327898709",
+      "timestamp": "2026-09-14T10:45:02.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099449337327898709",
+      "title": "Nepal Police HQ",
+      "summary": "जेन्जी आन्दोलनको क्रममा झुम्का कारागारबाट फरार जबरजस्ती करणी मुद्दाको कैदी पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d22320a377e41f40"
+    },
+    {
+      "id": "twitter-2099415699282407682",
+      "timestamp": "2026-09-14T08:31:22.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099415699282407682",
+      "title": "Nepal Police HQ",
+      "summary": "सामाजिक सञ्जालमार्फत वेश्यागमनको प्रचार-प्रसार गर्ने एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ea264f3aba313a01"
+    },
+    {
+      "id": "twitter-2099409757836857604",
+      "timestamp": "2026-09-14T08:07:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099409757836857604",
+      "title": "Nepal Police HQ",
+      "summary": "हरितालिका तीजको पावन अवसरमा पशुपतिनाथ मन्दिरमा श्रद्धालु भक्तजनहरुको सुरक्षा व्यवस्थापनमा नेपाल प्रहरी ।\n\n#NepalPolice #ToServeandProtect #BelieveInBlue #नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7ebd2880e83c8789"
+    },
+    {
+      "id": "twitter-2099361442353078587",
+      "timestamp": "2026-09-14T04:55:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099361442353078587",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २८ गतेको २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e691e9b8c5a2f251"
+    },
     {
       "id": "twitter-2099315427415650385",
       "timestamp": "2026-09-14T01:52:55.000Z",
