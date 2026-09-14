@@ -1,10 +1,190 @@
 {
-  "generatedAt": "2026-09-14T12:41:03.500924Z",
+  "generatedAt": "2026-09-14T19:20:59.930609Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2099530642690281595",
+      "timestamp": "2026-09-14T16:08:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099530642690281595",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #13\nDate: 14 September 2026 Time: 7:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3f76c46b870a7adf"
+    },
+    {
+      "id": "twitter-2099523121741222260",
+      "timestamp": "2026-09-14T15:38:14.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099523121741222260",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # २४\n(मिति- २०८३ भदौ २९ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2df051256876598e"
+    },
+    {
+      "id": "twitter-2099517640230486065",
+      "timestamp": "2026-09-14T15:16:27.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099517640230486065",
+      "title": "Nepal Police HQ",
+      "summary": "थाइल्याण्डको गाँजा ३ के.जी. सहित ३ जना विदेशी नागरिक पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "468125a28afc4e95"
+    },
+    {
+      "id": "twitter-2099510752310972903",
+      "timestamp": "2026-09-14T14:49:05.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099510752310972903",
+      "title": "Nepal Police HQ",
+      "summary": "सरकारी तथा राजनीतिक पदको परिचय दुरुपयोग गरेको आरोपमा एक जना व्यक्ति नियन्त्रणमा\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f3f55e0099572cf2"
+    },
+    {
+      "id": "twitter-2099502016930451544",
+      "timestamp": "2026-09-14T14:14:22.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099502016930451544",
+      "title": "Nepal Police HQ",
+      "summary": "बेहोस बनाई सुनको गहना चोरी गर्ने तथा खरिद गर्ने दुई जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d8972acc21827e7b"
+    },
+    {
+      "id": "twitter-2099500344510411028",
+      "timestamp": "2026-09-14T14:07:43.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099500344510411028",
+      "title": "Nepal Police HQ",
+      "summary": "४०.९२ ग्राम लागु औषध खैरो हेरोइनसहित ४ जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b4737c78404c7c39"
+    },
+    {
+      "id": "twitter-2099494943706546257",
+      "timestamp": "2026-09-14T13:46:15.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099494943706546257",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update\n(Date- 14 September 2026, 7:00 PM)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f1dd75b110609b4a"
+    },
+    {
+      "id": "twitter-2099494901918675256",
+      "timestamp": "2026-09-14T13:46:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099494901918675256",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट-२०८३\n(मिति: २०८३ भदौ २९ गते, साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f567dfad9ba9f20d"
+    },
+    {
+      "id": "twitter-2099483440353878051",
+      "timestamp": "2026-09-14T13:00:33.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099483440353878051",
+      "title": "Nepal Police HQ",
+      "summary": "हरितालिका तीजको पावन अवसरमा पशुपतिनाथ मन्दिरमा श्रद्धालु भक्तजनहरुको सुरक्षा व्यवस्थापनमा नेपाल प्रहरी\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3a5d3d4b02f22a45"
+    },
     {
       "id": "twitter-2099451910831186185",
       "timestamp": "2026-09-14T10:55:16.000Z",
