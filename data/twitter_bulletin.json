@@ -1,10 +1,220 @@
 {
-  "generatedAt": "2026-09-15T04:51:14.436439Z",
+  "generatedAt": "2026-09-15T11:40:59.200668Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2099823818491699559",
+      "timestamp": "2026-09-15T11:33:05.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099823818491699559",
+      "title": "Nepal Police HQ",
+      "summary": "यात्रुबाहक गाडी दुर्घटना हुँदा ४ जनाको मृत्यु , ४ जना घाईते",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f1ff40fe3da66faf"
+    },
+    {
+      "id": "twitter-2099810534090743982",
+      "timestamp": "2026-09-15T10:40:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099810534090743982",
+      "title": "NDRRMA Nepal",
+      "summary": "विपद् जोखिम न्यूनीकरणसम्बन्धी राष्ट्रिय कार्यमञ्च (NPDRR) को आज बसेको बैठकमा रसुवा-भोटेकोशी बाढीबाट प्रभावितहरुको तत्काल पुनर्लाभ, पुनर्स्थापना र पुनर्निर्माण सम्बन्धमा वृहत छलफल भएको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a8dac689ce459c45"
+    },
+    {
+      "id": "twitter-2099810531708387639",
+      "timestamp": "2026-09-15T10:40:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099810531708387639",
+      "title": "Nepal Police HQ",
+      "summary": "कटुवा पेस्तोलसहित दुई जनालाई पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f0dab0c0e1088c1d"
+    },
+    {
+      "id": "twitter-2099791683357688098",
+      "timestamp": "2026-09-15T09:25:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099791683357688098",
+      "title": "Nepal Police HQ",
+      "summary": "जिल्ला रुपन्देही, सिद्धार्थ नगरपालिका -०८ स्थित नेपाल आयल निगमका ट्याङ्करबाट डिजेल निकालिरहेको अवस्थामा तीनवटा ट्याङ्करसहित एक जनालाई नियन्त्रणमा, नेपाल आयल निगमका ट्याङ्करबाट डिजेल निकालिरहेको अवस्थामा करिब ३० लिटर डिजेलसहित तीनवटा ट्याङ्कर र एक जनालाई नियन्त्रणमा लिइएको हो ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "47797e81deb8ad20"
+    },
+    {
+      "id": "twitter-2099778270401310881",
+      "timestamp": "2026-09-15T08:32:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099778270401310881",
+      "title": "Nepal Police HQ",
+      "summary": "जंगलमा लुकाइछिपाइ राखिएको ८ नाल भरुवा बन्दुक बरामद\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "fbc79eff455cf961"
+    },
+    {
+      "id": "twitter-2099776434172793089",
+      "timestamp": "2026-09-15T08:24:48.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099776434172793089",
+      "title": "Nepal Police HQ",
+      "summary": "अपहरण गरिएको १५ महिने बालकको सकुशल उद्धार अपहरण गर्ने एक जना महिला पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "rescue",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ed8c574b89fe84c5"
+    },
+    {
+      "id": "twitter-2099769155159494873",
+      "timestamp": "2026-09-15T07:55:53.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099769155159494873",
+      "title": "Nepal Police HQ",
+      "summary": "प्रतिबन्धित विद्युतिय चुरोट (भेप) सहित चार जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "93d0f7033eb7083b"
+    },
+    {
+      "id": "twitter-2099747828247806218",
+      "timestamp": "2026-09-15T06:31:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099747828247806218",
+      "title": "Nepal Police HQ",
+      "summary": "ऋषि पञ्‍चमीको हार्दिक शुभकामना !",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e600a53861a1ac7b"
+    },
+    {
+      "id": "twitter-2099743280481333519",
+      "timestamp": "2026-09-15T06:13:04.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099743280481333519",
+      "title": "Nepal Police HQ",
+      "summary": "क्यासिनोमा नेपाली नागरिक प्रवेश गराई जुवातास खेल्ने खेलाउने कार्यमा संलग्न ११ जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "957e8c98d462d667"
+    },
+    {
+      "id": "twitter-2099740587109085543",
+      "timestamp": "2026-09-15T06:02:21.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099740587109085543",
+      "title": "Nepal Police HQ",
+      "summary": "मिनी ट्रकको ठक्करबाट ५ वर्षीय बालकको मृत्यु\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d6660bcc6f066cfd"
+    },
+    {
+      "id": "twitter-2099732918335857064",
+      "timestamp": "2026-09-15T05:31:53.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099732918335857064",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ २९ गतेको २४ घण्टाको सवारी दुर्घटना विवरण",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "350a7c21987803d2"
+    },
     {
       "id": "twitter-2099705549084582030",
       "timestamp": "2026-09-15T03:43:08.000Z",
