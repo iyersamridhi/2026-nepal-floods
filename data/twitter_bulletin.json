@@ -1,10 +1,168 @@
 {
-  "generatedAt": "2026-09-15T11:40:59.200668Z",
+  "generatedAt": "2026-09-15T16:56:36.521453Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2099893771701981621",
+      "timestamp": "2026-09-15T16:11:03.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099893771701981621",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update\n(Date- 15 September 2026, 7:00 PM)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f266aaa680d8b2b5"
+    },
+    {
+      "id": "twitter-2099893691406299473",
+      "timestamp": "2026-09-15T16:10:44.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2099893691406299473",
+      "title": "NDRRMA Nepal",
+      "summary": "सुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट\n(मिति: २०८३ भदौ ३० गते, साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "bcb82fa9bb6013cb"
+    },
+    {
+      "id": "twitter-2099865336950780371",
+      "timestamp": "2026-09-15T14:18:04.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099865336950780371",
+      "title": "Nepal Police HQ",
+      "summary": "सवारी ज्यानसम्बन्धी कसुरमा फरार रहेका प्रतिवादी १९ वर्षपछि नियन्त्रणमा",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "eb8cb455a6b9cd69"
+    },
+    {
+      "id": "twitter-2099865115457900887",
+      "timestamp": "2026-09-15T14:17:11.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2099865115457900887",
+      "title": "MoFA Nepal",
+      "summary": "The @MoFANepal, in collaboration with the Federation of Export Entrepreneurs Nepal (FEEN), organised a virtual interaction programme with the heads of Nepali Missions in the Americas today on “Opportunities and Challenges of Nepal’s Exports to the USA, Canada and Brazil.”",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "912988dcfb738c67"
+    },
+    {
+      "id": "twitter-2099855194494586921",
+      "timestamp": "2026-09-15T13:37:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099855194494586921",
+      "title": "Nepal Police HQ",
+      "summary": "लागु औषध खैरो हेरोइन ५१.५४० ग्राम सहित ३ जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6850d55397459e63"
+    },
+    {
+      "id": "twitter-2099842920723685417",
+      "timestamp": "2026-09-15T12:49:00.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099842920723685417",
+      "title": "Nepal Police HQ",
+      "summary": "भरुवा बन्दुक पड्किदाँ एक जनाको मृत्यु, एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4d385a06cf02bdc1"
+    },
+    {
+      "id": "twitter-2099834067877601287",
+      "timestamp": "2026-09-15T12:13:49.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099834067877601287",
+      "title": "Nepal Police HQ",
+      "summary": "AI can recreate the ’80s.\nIt can’t recreate the legacy.\n\n#NepalPolice #ToServeandProtect #BelieveInBlue #नेपालप्रहरी",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2581e647f9173384"
+    },
+    {
+      "id": "twitter-2099825820311474637",
+      "timestamp": "2026-09-15T11:41:03.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2099825820311474637",
+      "title": "Nepal Police HQ",
+      "summary": "मूख्य राजमार्ग अवरोध। (मितिः २०८३।०५।३० गते) १६:४० बजे सम्म)",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "63b6eede195ba60f"
+    },
     {
       "id": "twitter-2099823818491699559",
       "timestamp": "2026-09-15T11:33:05.000Z",
