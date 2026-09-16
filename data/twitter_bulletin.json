@@ -1,10 +1,172 @@
 {
-  "generatedAt": "2026-09-16T13:29:43.516416Z",
+  "generatedAt": "2026-09-16T18:11:28.628221Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2100267960111886342",
+      "timestamp": "2026-09-16T16:57:57.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100267960111886342",
+      "title": "Nepal Police HQ",
+      "summary": "केन्द्रीय कारागारबाट फरार लागूऔषध मुद्दाका कैदी पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a3dcfe941a2fa692"
+    },
+    {
+      "id": "twitter-2100267309168496853",
+      "timestamp": "2026-09-16T16:55:22.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100267309168496853",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #15\nDate: 16 September 2026 Time: 7:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "88a37b045373fd42"
+    },
+    {
+      "id": "twitter-2100266382193754457",
+      "timestamp": "2026-09-16T16:51:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100266382193754457",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # २६ (मिति- २०८३ भदौ ३१ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "227defec9ad56113"
+    },
+    {
+      "id": "twitter-2100248615306637420",
+      "timestamp": "2026-09-16T15:41:05.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100248615306637420",
+      "title": "Nepal Police HQ",
+      "summary": "भोटेकोशीको बाढीमा परी पहिचान खुल्न नसकेका शवहरूको DNA Profiling सम्बन्धी कार्य भईरहेको नेपाल प्रहरी केन्द्रीय विधि विज्ञान प्रयोगशालामा माननीय गृहमन्त्री सुधन गुरुङज्यूद्वारा स्थलगत निरीक्षण गर्नुभएको छ। साथमा प्रहरी महानिरीक्षक दान बहादुर कार्कीज्यू तथा अन्य प्रहरी अधिकृतहरू।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "remains"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "84f488e38fd8076c"
+    },
+    {
+      "id": "twitter-2100235923040645510",
+      "timestamp": "2026-09-16T14:50:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2100235923040645510",
+      "title": "MoFA Nepal",
+      "summary": "The @MofaNepal organised the 2nd session of the MoFA Knowledge Forum on 'Climate Diplomacy' in the presence of Hon. Foreign Minister at the Ministry today.\n\nDistinguished speakers highlighted various aspects of climate change and shared key insights on strengthening Nepal's",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "10079afb151bc100"
+    },
+    {
+      "id": "twitter-2100226500402573599",
+      "timestamp": "2026-09-16T14:13:12.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100226500402573599",
+      "title": "Nepal Police HQ",
+      "summary": "रसुवा र नुवाकोटका बाढीग्रस्त क्षेत्रमा लगातार १४ दिन थप मद्दतका लागि खटिएर फर्किएका प्रहरी कर्मचारीहरूलाई लक्षित गरी स्व–हेरचाह (Self-Care) सम्बन्धी मनोसामाजिक परामर्श तथा अनुशिक्षण कार्यक्रम सञ्चालन गरिएको।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2f5ffbd64f4bb09c"
+    },
+    {
+      "id": "twitter-2100224791395614849",
+      "timestamp": "2026-09-16T14:06:25.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100224791395614849",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update\n(Date- 16 September 2026, 7:00 PM)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d87c1f3fc065b291"
+    },
+    {
+      "id": "twitter-2100224597685912019",
+      "timestamp": "2026-09-16T14:05:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100224597685912019",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट\n(मिति:- २०८३ भदौ ३१ गते, साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9017e4ecbc728a66"
+    },
     {
       "id": "twitter-2100210777072554444",
       "timestamp": "2026-09-16T13:10:43.000Z",
