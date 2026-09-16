@@ -1,10 +1,205 @@
 {
-  "generatedAt": "2026-09-16T07:40:15.517207Z",
+  "generatedAt": "2026-09-16T13:29:43.516416Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2100210777072554444",
+      "timestamp": "2026-09-16T13:10:43.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100210777072554444",
+      "title": "Nepal Police HQ",
+      "summary": "नेपाल प्रहरीको अनुरोध",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e1bf15d41f435005"
+    },
+    {
+      "id": "twitter-2100209582811611151",
+      "timestamp": "2026-09-16T13:05:59.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100209582811611151",
+      "title": "Nepal Police HQ",
+      "summary": "स्रोत नखुलेको १३ लाख ६५ हजार नगदहित १ जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "53ab2072f31c7950"
+    },
+    {
+      "id": "twitter-2100208153363398969",
+      "timestamp": "2026-09-16T13:00:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100208153363398969",
+      "title": "NDRRMA Nepal",
+      "summary": "केन्द्रीय मनसुन प्रतिकार्य कमाण्ड पोष्टको आजको बैठकमा खोज, उद्धार एवं राहतका सामग्रीहरुको इन्भेन्टरीलाई थप व्यवस्थित बनाउने एवं हेलिकोप्टरको उडान व्यवस्थापन लगायतका विषयमा छलफल भएको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a51c33af0363e940"
+    },
+    {
+      "id": "twitter-2100205644808925454",
+      "timestamp": "2026-09-16T12:50:20.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100205644808925454",
+      "title": "Nepal Police HQ",
+      "summary": "मुस्ताङमा मिनिबस दुर्घटना हुँदा १२ जना भारतिय नागरिक घाइते",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "25433dc9fc0d8971"
+    },
+    {
+      "id": "twitter-2100181523551207765",
+      "timestamp": "2026-09-16T11:14:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100181523551207765",
+      "title": "Nepal Police HQ",
+      "summary": "गुडिरहेको यात्रुवाहक बसमा ढुंगा प्रहार गर्ने ५ जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5ffdd41bb92a0dfc"
+    },
+    {
+      "id": "twitter-2100156804932223001",
+      "timestamp": "2026-09-16T09:36:15.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100156804932223001",
+      "title": "Nepal Police HQ",
+      "summary": "११.०४ ग्राम खैरो हेरोइनसहित एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7315345138adbb70"
+    },
+    {
+      "id": "twitter-2100147408831492587",
+      "timestamp": "2026-09-16T08:58:55.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100147408831492587",
+      "title": "Nepal Police HQ",
+      "summary": "ढुङ्गा बोकेको ट्याक्टर दुर्घटना हुँदा दुई जनाको मृत्यु",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "96044eb18fa4e707"
+    },
+    {
+      "id": "twitter-2100138234546401789",
+      "timestamp": "2026-09-16T08:22:28.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2100138234546401789",
+      "title": "MoFA Nepal",
+      "summary": "Hon. Minister for Foreign Affairs Mr Shisir Khanal received H. E. Mr Naveen Srivastava, Ambassador of India to Nepal, for a farewell call at the Ministry this afternoon.\n\nOn the occasion, Hon. Minister Khanal congratulated Ambassador Srivastava on the successful completion of",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "08c08dadea93ab9b"
+    },
+    {
+      "id": "twitter-2100135677656764891",
+      "timestamp": "2026-09-16T08:12:18.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2100135677656764891",
+      "title": "MoFA Nepal",
+      "summary": "H. E. Mr Naveen Srivastava, Ambassador of India to Nepal, paid a farewell call on Foreign Secretary Mr Amrit Bahadur Rai, at the Ministry today.\n\nOn the occasion, the Foreign Secretary appreciated the contribution of the Ambassador in",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "29da6110cc3b61d1"
+    },
+    {
+      "id": "twitter-2100128775883358263",
+      "timestamp": "2026-09-16T07:44:53.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100128775883358263",
+      "title": "NDRRMA Nepal",
+      "summary": "एकछिन धैर्य गर्न नसक्दा दुर्घटना भयो भने ....",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c677b8e44aae4413"
+    },
     {
       "id": "twitter-2100121694082048118",
       "timestamp": "2026-09-16T07:16:44.000Z",
