@@ -1,10 +1,88 @@
 {
-  "generatedAt": "2026-09-16T00:17:01.307550Z",
+  "generatedAt": "2026-09-16T07:40:15.517207Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2100121694082048118",
+      "timestamp": "2026-09-16T07:16:44.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100121694082048118",
+      "title": "Nepal Police HQ",
+      "summary": "ट्रक र यात्रुबाहक माईक्रो ठोक्किँदा १७ जना घाइते\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6e55a469358b16a2"
+    },
+    {
+      "id": "twitter-2100119714815172833",
+      "timestamp": "2026-09-16T07:08:53.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100119714815172833",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ ३० गतेको २४ घण्टाको सवारी दुर्घटना विवरण\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "bed397b8e6694349"
+    },
+    {
+      "id": "twitter-2100088693503746432",
+      "timestamp": "2026-09-16T05:05:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100088693503746432",
+      "title": "Nepal Police HQ",
+      "summary": "कुटपिटबाट घाइतेको उपचारका क्रममा मृत्यु, कुटपिट गर्ने व्यक्ति पक्राउ\n\nविस्तृतः",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f44bd060767284c2"
+    },
+    {
+      "id": "twitter-2100069978854826059",
+      "timestamp": "2026-09-16T03:51:15.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100069978854826059",
+      "title": "Nepal Police HQ",
+      "summary": "एम्बुलेन्समा लुकाएर लैजाँदै गरेको १०५ किलो गाँजा बरामद\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e1be71f46c5558de"
+    },
     {
       "id": "twitter-2099907164357980461",
       "timestamp": "2026-09-15T17:04:17.000Z",
