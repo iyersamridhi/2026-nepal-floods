@@ -1,10 +1,154 @@
 {
-  "generatedAt": "2026-09-17T13:25:26.623673Z",
+  "generatedAt": "2026-09-17T18:11:55.098249Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2100630804355518474",
+      "timestamp": "2026-09-17T16:59:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2100630804355518474",
+      "title": "Embassy of India Kathmandu",
+      "summary": "केन्द्रीय वित्त तथा कर्पोरेट मामिला मन्त्री श्रीमती @nsitharaman ले आज नयाँ दिल्लीमा नेपालका अर्थमन्त्री डा. स्वर्णिम वाग्लेसँग भेटवार्ता गर्नुभयो।\n\nदुवै मन्त्रीहरूबीच बाढीको प्रभाव तथा पुनर्निर्माण र पुनर्स्थापनाका लागि नेपालका प्राथमिकताहरू बारे छलफल भयो। वित्त मन्त्री श्रीमती",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3ceb674945d8c957"
+    },
+    {
+      "id": "twitter-2100617821046878272",
+      "timestamp": "2026-09-17T16:08:10.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100617821046878272",
+      "title": "Nepal Police HQ",
+      "summary": "पाँच करोड ४० लाख ९६ हजार ९ सय ४० रुपैयाँ ठगी मुद्दाका फरार प्रतिवादी पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6bdae9d18c54f777"
+    },
+    {
+      "id": "twitter-2100607713256657159",
+      "timestamp": "2026-09-17T15:28:00.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100607713256657159",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #16\nDate: 17 September 2026 Time: 7:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "bf9e314af0600030"
+    },
+    {
+      "id": "twitter-2100603670010417447",
+      "timestamp": "2026-09-17T15:11:56.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100603670010417447",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन # २७ (मिति- २०८३ असोज १ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "0c7db1d9544f5a3f"
+    },
+    {
+      "id": "twitter-2100587107760959748",
+      "timestamp": "2026-09-17T14:06:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2100587107760959748",
+      "title": "MoFA Nepal",
+      "summary": "Hon. Foreign Minister Mr Shisir Khanal received Dr Hanan H. Balkhy, WHO Regional Director for the Eastern Mediterranean, for a courtesy call at the Ministry today.\n\nDuring the meeting, they discussed matters related to enhancing engagements between Nepal and WHO.",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "2191f401e14bdc51"
+    },
+    {
+      "id": "twitter-2100583466467565739",
+      "timestamp": "2026-09-17T13:51:40.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100583466467565739",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update\n(Date- 17 September 2026, 7:00 PM)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "139799b9e5ffd7fd"
+    },
+    {
+      "id": "twitter-2100583150888050801",
+      "timestamp": "2026-09-17T13:50:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100583150888050801",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट\n(मिति:- २०८३ असोज १ गते, साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "3041c193d4d7b8fb"
+    },
     {
       "id": "twitter-2100574466871087538",
       "timestamp": "2026-09-17T13:15:54.000Z",
