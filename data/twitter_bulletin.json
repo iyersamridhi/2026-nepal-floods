@@ -1,10 +1,144 @@
 {
-  "generatedAt": "2026-09-17T00:28:56.166549Z",
+  "generatedAt": "2026-09-17T07:37:04.720516Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2100483579621101697",
+      "timestamp": "2026-09-17T07:14:45.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100483579621101697",
+      "title": "Nepal Police HQ",
+      "summary": "मोटरसाइकल दुर्घटना हुँदा एक भारतीय नागरिकको मृत्यु\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "307406e6a1c5fc24"
+    },
+    {
+      "id": "twitter-2100480503086473430",
+      "timestamp": "2026-09-17T07:02:31.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100480503086473430",
+      "title": "Nepal Police HQ",
+      "summary": "मोटरसाइकलको ठक्करबाट तीन पैदलयात्रीसहित चार जना घाइते\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "406a20ea6ea532b0"
+    },
+    {
+      "id": "twitter-2100479376391549350",
+      "timestamp": "2026-09-17T06:58:03.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100479376391549350",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ ३१ गतेको २४ घण्टाको सवारी दुर्घटना विवरण\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4455ab03d681f83b"
+    },
+    {
+      "id": "twitter-2100478732180025614",
+      "timestamp": "2026-09-17T06:55:29.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100478732180025614",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ भदौ ३१ गतेको २४ घण्टाको सवारी दुर्घटना विवरण\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a83c2c7d33563c58"
+    },
+    {
+      "id": "twitter-2100467314206617631",
+      "timestamp": "2026-09-17T06:10:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100467314206617631",
+      "title": "Nepal Police HQ",
+      "summary": "श्रीमान् प्रहरी महानिरीक्षक दान बहादुर कार्कीज्यूको प्रमुख आतिथ्यमा नेपाल प्रहरी श्रीमती संघको सुपरिवेक्षणमा सञ्चालितआसरा सुधार केन्द्रको ३० औं वार्षिकोत्सवको शुभ अवसरमा आयोजित कार्यक्रम सम्पन्न ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e28a1dfca9a18af7"
+    },
+    {
+      "id": "twitter-2100446677543129532",
+      "timestamp": "2026-09-17T04:48:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100446677543129532",
+      "title": "Nepal Police HQ",
+      "summary": "जिप दुर्घटना हुँदा चालकको मृत्यु\n\nविस्तृतः",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "bfce850a5d28fa3e"
+    },
+    {
+      "id": "twitter-2100427722657001494",
+      "timestamp": "2026-09-17T03:32:47.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100427722657001494",
+      "title": "Nepal Police HQ",
+      "summary": "लागु औषध ब्राउन सुगर र नगद सहित १ जना नियन्त्रणमा\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4406b4409b802253"
+    },
     {
       "id": "twitter-2100267960111886342",
       "timestamp": "2026-09-16T16:57:57.000Z",
