@@ -1,10 +1,184 @@
 {
-  "generatedAt": "2026-09-17T07:37:04.720516Z",
+  "generatedAt": "2026-09-17T13:25:26.623673Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2100574466871087538",
+      "timestamp": "2026-09-17T13:15:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100574466871087538",
+      "title": "NDRRMA Nepal",
+      "summary": "मनसुन प्रतिकार्य कमाण्ड पोष्टको आजको बैठकमा मित्रराष्ट्र, निकाय एवं संस्थाबाट प्राप्त हुने खोज, उद्धार र राहतका सामग्रीहरुको कर छुट तथा ती सामग्रीको व्यवस्थापनका विषयमा छलफल भएको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "138eb805d3e6200d"
+    },
+    {
+      "id": "twitter-2100567366031852025",
+      "timestamp": "2026-09-17T12:47:41.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2100567366031852025",
+      "title": "MoFA Nepal",
+      "summary": "Hon. Minister for Foreign Affairs Mr Shisir Khanal received H. E. Ms Lila Pieters Yahia, UN Resident Coordinator to Nepal, for a courtesy call at the Ministry today.\n\nMatters related to enhancing Nepal-UN cooperation were discussed during the meeting.",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "fda3fd21f93f8363"
+    },
+    {
+      "id": "twitter-2100563001749426291",
+      "timestamp": "2026-09-17T12:30:20.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100563001749426291",
+      "title": "Nepal Police HQ",
+      "summary": "जेन्जी आन्दोलनका क्रममा केन्द्रीय कारागारबाट फरार लागु औषध मुद्दाका प्रतिवादी पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "1fbe7d6c8fe290ee"
+    },
+    {
+      "id": "twitter-2100558550540210315",
+      "timestamp": "2026-09-17T12:12:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100558550540210315",
+      "title": "Nepal Police HQ",
+      "summary": "१०.४५० ग्राम खैरो हेरोइनसहित एक जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c68e54afc47d9035"
+    },
+    {
+      "id": "twitter-2100540374318236105",
+      "timestamp": "2026-09-17T11:00:26.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100540374318236105",
+      "title": "Nepal Police HQ",
+      "summary": "अवैध अन्तर्राष्ट्रिय कल बाइपासमा प्रयोग हुने उपकरणसहित एक भारतीय नागरिक पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "f333f58cf859718d"
+    },
+    {
+      "id": "twitter-2100533447819444572",
+      "timestamp": "2026-09-17T10:32:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2100533447819444572",
+      "title": "MEA India",
+      "summary": "Swachhata Hi Seva 2026\n\nForeign Secretary @VikramMisri launched the campaign at MEA Headquarters today, administering the Swachhata Pledge to MEA officials.\n\nAs part of the campaign, he planted saplings under ‘Ek Ped Maa Ke Naam’ and led MEA officials in #Shramdaan for a",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e30a5289e2396f5c"
+    },
+    {
+      "id": "twitter-2100523696519774585",
+      "timestamp": "2026-09-17T09:54:09.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2100523696519774585",
+      "title": "MEA India",
+      "summary": "Foreign Secretary @VikramMisri launched 'Swachhata Hi Seva 2026' campaign on 17 September 2026 and administered ‘Swachhata Pledge' to MEA officials.\n\nAs part of this, Foreign Secretary planted saplings under ‘Ek Ped Maa Ke Naam’ in the lawns of MEA Hqrs. He also led MEA officials",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c21d49bafc5a2fd8"
+    },
+    {
+      "id": "twitter-2100520206586302938",
+      "timestamp": "2026-09-17T09:40:17.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100520206586302938",
+      "title": "Nepal Police HQ",
+      "summary": "९०.८५० ग्राम खैरो हेरोइनसहित दुई भारतीय महिला पक्राउ\nविस्तृत",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "b0131ff170f2adcf"
+    },
+    {
+      "id": "twitter-2100518846935502949",
+      "timestamp": "2026-09-17T09:34:53.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100518846935502949",
+      "title": "NDRRMA Nepal",
+      "summary": "दैनिक विपद् बुलेटिन (१ असोज, २०८३ #SitRep 2265)\nविपद्का घटना सम्बन्धी थप विवरणका लागि तलको लिङ्कमा जानुहोस् ।\n\nविपद्का घटना सम्बन्धी सूचना र सन्देशका लागि तलको लिङ्कमा जानुहोस् ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e87b0c0efa1f6747"
+    },
     {
       "id": "twitter-2100483579621101697",
       "timestamp": "2026-09-17T07:14:45.000Z",
