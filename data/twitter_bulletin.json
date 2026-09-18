@@ -1,10 +1,90 @@
 {
-  "generatedAt": "2026-09-18T16:22:27.653012Z",
+  "generatedAt": "2026-09-18T20:52:44.054864Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2100988182297034870",
+      "timestamp": "2026-09-18T16:39:51.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100988182297034870",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa-Bhotekoshi Flood: Search, Rescue and Relief Response Situation Report #17\nDate: 18 September 2026 Time: 7:00PM",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "75651464b98e8a1c"
+    },
+    {
+      "id": "twitter-2100987497102844247",
+      "timestamp": "2026-09-18T16:37:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100987497102844247",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन #२८\n(मिति- २०८३ असोज २ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e6c524b5bfc44400"
+    },
+    {
+      "id": "twitter-2100985704646078648",
+      "timestamp": "2026-09-18T16:30:01.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100985704646078648",
+      "title": "Nepal Police HQ",
+      "summary": "अवैध सुनचाँदी तथा गरगहना तथा नगद सहित एक जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a9b413d3ca4f9a08"
+    },
+    {
+      "id": "twitter-2100984326049710435",
+      "timestamp": "2026-09-18T16:24:32.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100984326049710435",
+      "title": "Nepal Police HQ",
+      "summary": "हार्दिक बधाई!",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6e4ed4427e4465f8"
+    },
     {
       "id": "twitter-2100983547205165079",
       "timestamp": "2026-09-18T16:21:26.000Z",
