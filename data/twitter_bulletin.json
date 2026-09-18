@@ -1,10 +1,187 @@
 {
-  "generatedAt": "2026-09-18T11:10:20.192477Z",
+  "generatedAt": "2026-09-18T16:22:27.653012Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2100983547205165079",
+      "timestamp": "2026-09-18T16:21:26.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100983547205165079",
+      "title": "Nepal Police HQ",
+      "summary": "प्रधानमन्त्रीका प्रमुख सल्लाहकारको नाम र पद दुरुपयोग गरी ठगी गर्ने २ जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "9e9902c9cf1ccf44"
+    },
+    {
+      "id": "twitter-2100983170879660263",
+      "timestamp": "2026-09-18T16:19:56.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100983170879660263",
+      "title": "Nepal Police HQ",
+      "summary": "प्रहरी र सेनामा जागिर लगाइदिन्छु भन्दै ठगी गर्ने फरार प्रतिवादी पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5c31954240343118"
+    },
+    {
+      "id": "twitter-2100965959540621695",
+      "timestamp": "2026-09-18T15:11:33.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2100965959540621695",
+      "title": "Embassy of India Kathmandu",
+      "summary": "आज दिल्लीमा नेपालका अर्थमन्त्री @SwarnimWagle ज्यूसँग भेट्न पाउँदा खुशी लाग्यो।\n\nहालैको आकस्मिक बाढीका कारण भएको जनधनको क्षतिप्रति गहिरो समवेदना व्यक्त गरेँ।\n\nविशेषगरी आर्थिक, ऊर्जा तथा कनेक्टिभिटीका क्षेत्रमा हाम्रो समग्र सहकार्यलाई थप सुदृढ बनाउने उपायहरूबारे छलफल भयो।",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "071fd5146b7001a3"
+    },
+    {
+      "id": "twitter-2100957459498316149",
+      "timestamp": "2026-09-18T14:37:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100957459498316149",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update\n(Date- 18 September 2026, 7:00 PM)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "684e7ce3128320b2"
+    },
+    {
+      "id": "twitter-2100956967049335129",
+      "timestamp": "2026-09-18T14:35:49.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100956967049335129",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट\n(मिति:- २०८३ असोज २ गते, साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "17012a43460b62bc"
+    },
+    {
+      "id": "twitter-2100934901197578300",
+      "timestamp": "2026-09-18T13:08:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100934901197578300",
+      "title": "NDRRMA Nepal",
+      "summary": "केन्द्रीय मनसुन प्रतिकार्य कमाण्ड पोष्ट र रसुवा, नुवाकोट र धादिङ जिल्लाका कमाण्ड पोष्टहरुबीच प्रभावित परिवारका लागि अस्थायी आवास व्यवस्थापन,अस्थायी आवासका लाभग्राही पहिचान कायम र सूचना प्रणालीमा इन्ट्री र प्रारम्भिक पुनर्स्थापना लगायतका विषयमा छलफल भएको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "a35036267a4fc531"
+    },
+    {
+      "id": "twitter-2100927984828129665",
+      "timestamp": "2026-09-18T12:40:39.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100927984828129665",
+      "title": "Nepal Police HQ",
+      "summary": "नागरिकता सम्बन्धी कसूरमा एक दम्पती पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "74746de5e5986dd5"
+    },
+    {
+      "id": "twitter-2100927277022450025",
+      "timestamp": "2026-09-18T12:37:50.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100927277022450025",
+      "title": "Nepal Police HQ",
+      "summary": "२७.९१० ग्राम खैरो हेरोइनसहित दुई जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "797171de2d6208ec"
+    },
+    {
+      "id": "twitter-2100909588539445334",
+      "timestamp": "2026-09-18T11:27:33.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100909588539445334",
+      "title": "Nepal Police HQ",
+      "summary": "मिनी ट्रकको ठक्करबाट मोटरसाइकल चालकको मृत्यु",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7e7553b7638a3ffe"
+    },
     {
       "id": "twitter-2100893682111238584",
       "timestamp": "2026-09-18T10:24:21.000Z",
