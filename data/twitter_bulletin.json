@@ -1,10 +1,203 @@
 {
-  "generatedAt": "2026-09-18T04:46:44.757140Z",
+  "generatedAt": "2026-09-18T11:10:20.192477Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2100893682111238584",
+      "timestamp": "2026-09-18T10:24:21.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100893682111238584",
+      "title": "Nepal Police HQ",
+      "summary": "सामुदायिक वनमा लुकाइछिपाइ राखिएको अवस्थामा ६ थान भरुवा बन्दुक बरामद",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "00732b993875c298"
+    },
+    {
+      "id": "twitter-2100890455747821769",
+      "timestamp": "2026-09-18T10:11:31.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2100890455747821769",
+      "title": "MoFA Nepal",
+      "summary": "Press Release- High Level Nepali Delegation's Participation to the 81st Session of the United Nations General Assembly (UNGA)\n\n🔗:\n\n@PM_nepal_\n@ShahBalen\n@shisir",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d5cfc19642be342e"
+    },
+    {
+      "id": "twitter-2100886452330692745",
+      "timestamp": "2026-09-18T09:55:37.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100886452330692745",
+      "title": "Nepal Police HQ",
+      "summary": "लागुऔषध मुद्दाको फरार प्रतिवादी पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "02fe80c87ea41707"
+    },
+    {
+      "id": "twitter-2100884932080074931",
+      "timestamp": "2026-09-18T09:49:35.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100884932080074931",
+      "title": "Nepal Police HQ",
+      "summary": "६८.८३० ग्राम खैरो हेरोइनसहित तीन जना पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "694a32bb997bc568"
+    },
+    {
+      "id": "twitter-2100879331010777250",
+      "timestamp": "2026-09-18T09:27:19.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2100879331010777250",
+      "title": "NDRRMA Nepal",
+      "summary": "दैनिक विपद् बुलेटिन (२ असोज, २०८३ #SitRep 2266)\nविपद्का घटना सम्बन्धी सूचना र सन्देशका लागि तलको लिङ्कमा जानुहोस् ।\n\nपहुँचयुक्त फाइलका लागि यस लिंकमा जानुहोस्।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e2aa828af066d738"
+    },
+    {
+      "id": "twitter-2100872952703250887",
+      "timestamp": "2026-09-18T09:01:58.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100872952703250887",
+      "title": "Nepal Police HQ",
+      "summary": "अटो दुर्घटना हुँदा चालकको मृत्यु",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "502b4f0edf05cc12"
+    },
+    {
+      "id": "twitter-2100863217572397378",
+      "timestamp": "2026-09-18T08:23:17.000Z",
+      "publishedLabel": "",
+      "region": [
+        "tibet",
+        "india",
+        "foreign"
+      ],
+      "source": "Twitter @EOIBeijing",
+      "sourceUrl": "https://x.com/EOIBeijing/status/2100863217572397378",
+      "title": "Embassy of India Beijing",
+      "summary": "Deputy Chief of Mission Ms Angeline Premalatha met Ms Liu Kai, Deputy Secretary-General of the All-China Youth Federation, on 16 September. During the meeting, the two sides discussed ways to strengthen people-to-people exchanges, including through greater engagement and",
+      "citation": "Tweet by @EOIBeijing",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "8ce1e4defec815c2"
+    },
+    {
+      "id": "twitter-2100852904332857693",
+      "timestamp": "2026-09-18T07:42:19.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100852904332857693",
+      "title": "Nepal Police HQ",
+      "summary": "चोरीको अनुसन्धानका क्रममा लोडेड कटुवा पेस्तोल बरामद",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c6bb0046e3057e09"
+    },
+    {
+      "id": "twitter-2100846131760730138",
+      "timestamp": "2026-09-18T07:15:24.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100846131760730138",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ असोज १ गतेको २४ घण्टाको सवारी दुर्घटना विवरण\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "c35d4f46daae677d"
+    },
+    {
+      "id": "twitter-2100827041901998410",
+      "timestamp": "2026-09-18T05:59:32.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2100827041901998410",
+      "title": "Nepal Police HQ",
+      "summary": "कुकुरलाई सेती नदीमा फाल्ने महिला पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "01706644d2140baa"
+    },
     {
       "id": "twitter-2100630804355518474",
       "timestamp": "2026-09-17T16:59:46.000Z",

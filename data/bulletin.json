@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:46:43.020089Z",
+  "generatedAt": "2026-09-18T11:10:17.831186Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-18T04:46:20.400716Z",
-      "publishedLabel": "18 Sep 2026 · 10:31 am",
+      "timestamp": "2026-09-18T11:09:54.600578Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-18T04:46:18.392413Z",
-      "publishedLabel": "18 Sep 2026 · 10:31 am",
+      "timestamp": "2026-09-18T11:09:52.522219Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-18T04:46:16.649462Z",
-      "publishedLabel": "18 Sep 2026 · 10:31 am",
+      "timestamp": "2026-09-18T11:09:50.595901Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -79,9 +79,26 @@
       "contentHash": "fdba62b332dcc945"
     },
     {
+      "id": "mofa-4a89f2ee088a",
+      "timestamp": "2026-09-18T11:09:48.658490Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Nepal Ministry of Foreign Affairs",
+      "sourceUrl": "https://mofa.gov.np/content/1874/sixth-press-briefing-on-bhote-koshi-floods/",
+      "title": "Sixth Press Briefing on Bhote Koshi Floods",
+      "summary": "As of the latest available information, 1252 bodies have been recovered from the areas, around 4,200 people still remain missing, and 11,993 people have been rescued so far, including over 300 foreign nationals, including some who are in contact and are safe. Approximately 590 foreign nationals from 34 countries remain missing. We are constantly updating these figures as search and verification continue. The Emergency Control Room (ECR) of the Ministry continues to…",
+      "citation": "Nepal Ministry of Foreign Affairs — Sixth Press Briefing on Bhote Koshi Floods",
+      "kind": "update",
+      "scrapeMethod": "rule-based",
+      "contentHash": "f8258bd315d55245"
+    },
+    {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-18T04:46:12.318425Z",
-      "publishedLabel": "18 Sep 2026 · 10:31 am",
+      "timestamp": "2026-09-18T11:09:46.308510Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +114,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-18T04:46:10.519764Z",
-      "publishedLabel": "18 Sep 2026 · 10:31 am",
+      "timestamp": "2026-09-18T11:09:44.277782Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +131,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-09-18T04:46:08.765059Z",
-      "publishedLabel": "18 Sep 2026 · 10:31 am",
+      "timestamp": "2026-09-18T11:09:41.775125Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +148,8 @@
     },
     {
       "id": "mofa-84c1baa9b38d",
-      "timestamp": "2026-09-18T04:46:06.606713Z",
-      "publishedLabel": "18 Sep 2026 · 10:31 am",
+      "timestamp": "2026-09-18T11:09:39.326327Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -148,8 +165,8 @@
     },
     {
       "id": "mofa-852ff0a91973",
-      "timestamp": "2026-09-18T04:46:04.505412Z",
-      "publishedLabel": "18 Sep 2026 · 10:31 am",
+      "timestamp": "2026-09-18T11:09:37.310607Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -165,8 +182,8 @@
     },
     {
       "id": "mofa-0b4944327baf",
-      "timestamp": "2026-09-18T04:46:02.258077Z",
-      "publishedLabel": "18 Sep 2026 · 10:31 am",
+      "timestamp": "2026-09-18T11:09:35.219482Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -182,8 +199,8 @@
     },
     {
       "id": "mofa-5e47b388511e",
-      "timestamp": "2026-09-18T04:45:59.917146Z",
-      "publishedLabel": "18 Sep 2026 · 10:30 am",
+      "timestamp": "2026-09-18T11:09:33.005771Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
@@ -199,8 +216,8 @@
     },
     {
       "id": "mofa-10e37c2acfc2",
-      "timestamp": "2026-09-18T04:45:57.826263Z",
-      "publishedLabel": "18 Sep 2026 · 10:30 am",
+      "timestamp": "2026-09-18T11:09:30.653723Z",
+      "publishedLabel": "18 Sep 2026 · 4:54 pm",
       "region": [
         "nepal",
         "foreign"
