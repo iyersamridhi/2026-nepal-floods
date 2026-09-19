@@ -1,10 +1,89 @@
 {
-  "generatedAt": "2026-09-19T07:19:19.637675Z",
+  "generatedAt": "2026-09-19T12:29:15.200952Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2101276875729604938",
+      "timestamp": "2026-09-19T11:47:01.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101276875729604938",
+      "title": "Nepal Police HQ",
+      "summary": "संविधान दिवस तथा राष्ट्रिय दिवस २०८३ को अवसरमा आयोजित विशेष समारोहमा कवाज प्रदर्शन गर्दै नेपाल प्रहरी\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "66fb4bc5b443cbf1"
+    },
+    {
+      "id": "twitter-2101274294554861722",
+      "timestamp": "2026-09-19T11:36:46.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india",
+        "nepal"
+      ],
+      "source": "Twitter @IndiainNepal",
+      "sourceUrl": "https://x.com/IndiainNepal/status/2101274294554861722",
+      "title": "Embassy of India Kathmandu",
+      "summary": "भारतको राहत सहायता नेपाल आइपुगेको छ।\n\nऔषधि, फरेन्सिक सामग्री, टेन्ट, सरसफाइका सामग्री र स्लिपिङ ब्याग लगायत थप ११ टन अत्यावश्यक सामग्री नेपाली पक्षलाई हस्तान्तरण गरिएको छ।\n\nभारत नेपालको पुनरुत्थानमा सहयोग पुर्‍याउन प्रतिबद्ध छ।\n\n@MEAIndia @DDNewslive",
+      "citation": "Tweet by @IndiainNepal",
+      "themes": [
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "fd30f346fe373666"
+    },
+    {
+      "id": "twitter-2101259909618896912",
+      "timestamp": "2026-09-19T10:39:36.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2101259909618896912",
+      "title": "MEA India",
+      "summary": "India’s relief assistance has reached Nepal.\n\nAn additional 11 tonnes of essential supplies, including medicines, forensic supplies, tents, hygiene kits and sleeping bags, have been handed over to the Nepali side.\n\nIndia remains committed to supporting Nepal’s recovery.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "remains",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "1461cf8d4fcff18e"
+    },
+    {
+      "id": "twitter-2101251981042176108",
+      "timestamp": "2026-09-19T10:08:06.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal",
+        "foreign"
+      ],
+      "source": "Twitter @MoFANepal",
+      "sourceUrl": "https://x.com/MoFANepal/status/2101251981042176108",
+      "title": "MoFA Nepal",
+      "summary": "We extend our sincere gratitude for the kind message of congratulations on the occasion of Constitution Day and National Day of Nepal.\n\nWe deeply appreciate the support and solidarity extended by the Government of the United States in the immediate aftermath of the devastating",
+      "citation": "Tweet by @MoFANepal",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "d76767578c39ec22"
+    },
     {
       "id": "twitter-2101207693231026389",
       "timestamp": "2026-09-19T07:12:07.000Z",
