@@ -1,10 +1,143 @@
 {
-  "generatedAt": "2026-09-19T00:18:46.607720Z",
+  "generatedAt": "2026-09-19T07:19:19.637675Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2101207693231026389",
+      "timestamp": "2026-09-19T07:12:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101207693231026389",
+      "title": "Nepal Police HQ",
+      "summary": "मिति २०८३ असोज २ गतेको २४ घण्टाको सवारी दुर्घटना विवरण\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "1f265702e34b6df5"
+    },
+    {
+      "id": "twitter-2101196064791634383",
+      "timestamp": "2026-09-19T06:25:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "india"
+      ],
+      "source": "Twitter @MEAIndia",
+      "sourceUrl": "https://x.com/MEAIndia/status/2101196064791634383",
+      "title": "MEA India",
+      "summary": "India dispatched another 11 tonnes of relief material to Nepal. This was the 9th IAF plane carrying relief material to support Nepal’s recovery.",
+      "citation": "Tweet by @MEAIndia",
+      "themes": [
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5ff1baf9a1b63a27"
+    },
+    {
+      "id": "twitter-2101173722283692349",
+      "timestamp": "2026-09-19T04:57:07.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101173722283692349",
+      "title": "Nepal Police HQ",
+      "summary": "संविधान दिवस तथा राष्ट्रिय दिवस २०८३ को अवसरमा आयोजित विशेष समारोहमा कवाज प्रदर्शन गर्दै नेपाल प्रहरी\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "643a5e71eefbd6d5"
+    },
+    {
+      "id": "twitter-2101154419517857886",
+      "timestamp": "2026-09-19T03:40:25.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101154419517857886",
+      "title": "Nepal Police HQ",
+      "summary": "१ हजार ४५४ किलो गाँजासहित सहित एक जना पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "157093edb697050e"
+    },
+    {
+      "id": "twitter-2101128368360173965",
+      "timestamp": "2026-09-19T01:56:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101128368360173965",
+      "title": "Nepal Police HQ",
+      "summary": "संविधान दिवस २०८३ को शुभकामना",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "8fd2d54b53630d14"
+    },
+    {
+      "id": "twitter-2101123304576946635",
+      "timestamp": "2026-09-19T01:36:47.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101123304576946635",
+      "title": "Nepal Police HQ",
+      "summary": "भन्सार छली गरी भण्डारण गरिएको ६२ लाख बराबरको हुक्काजन्य सामग्रीसहित ३ जना व्यक्तिहरु पक्राउ\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "ea70020380e7055b"
+    },
+    {
+      "id": "twitter-2101110272056504607",
+      "timestamp": "2026-09-19T00:45:00.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101110272056504607",
+      "title": "Nepal Police HQ",
+      "summary": "संविधान दिवस २०८३ को हार्दिक शुभकामना\n#नेपालप्रहरी #NepalPolice #BelieveInBlue #ToServeandProtect",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "bf620be59470193b"
+    },
     {
       "id": "twitter-2100988182297034870",
       "timestamp": "2026-09-18T16:39:51.000Z",
