@@ -1,10 +1,173 @@
 {
-  "generatedAt": "2026-09-19T12:29:15.200952Z",
+  "generatedAt": "2026-09-19T17:16:58.415067Z",
   "note": "Authority and journalist Twitter/X posts — summarized with link. Verify on original; not official confirmation.",
   "liveFetch": true,
   "summarizer": "raw",
   "skippedUnchanged": false,
   "items": [
+    {
+      "id": "twitter-2101346844295286939",
+      "timestamp": "2026-09-19T16:25:03.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2101346844295286939",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी लेदोसहितको बाढी: खोज, उद्धार तथा राहत प्रतिकार्यको स्थिति प्रतिवेदन #२९\n(मिति- २०८३ असोज ३ गते साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7a2f48ad8bc17a39"
+    },
+    {
+      "id": "twitter-2101338783832801745",
+      "timestamp": "2026-09-19T15:53:01.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101338783832801745",
+      "title": "Nepal Police HQ",
+      "summary": "देवानगञ्जमा सामूहिक झडप हुँदा १ जना घाइते, २ जना प्रहरीको नियन्त्रणमा",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "hospitals",
+        "missing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "1f8b23ed0a03e140"
+    },
+    {
+      "id": "twitter-2101332208510484932",
+      "timestamp": "2026-09-19T15:26:54.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101332208510484932",
+      "title": "Nepal Police HQ",
+      "summary": "धारिलो हतियार प्रहारबाट एकजनाको मृत्य",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "7c2b9eee04a954de"
+    },
+    {
+      "id": "twitter-2101331377107198338",
+      "timestamp": "2026-09-19T15:23:35.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101331377107198338",
+      "title": "Nepal Police HQ",
+      "summary": "ज्यानसम्बन्धी कसुर मुद्दाका फरार प्रतिवादी २२ महिनापछि गोली प्रहार गरी पक्राउ",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "6f86c0c1fc7cfd99"
+    },
+    {
+      "id": "twitter-2101328860180820219",
+      "timestamp": "2026-09-19T15:13:35.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2101328860180820219",
+      "title": "NDRRMA Nepal",
+      "summary": "Rasuwa Flood: Search, Rescue and Relief Update\n(Date- 19 September 2026, 7:00 PM)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "4c7b3001ac148b42"
+    },
+    {
+      "id": "twitter-2101328344151462018",
+      "timestamp": "2026-09-19T15:11:32.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2101328344151462018",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा बाढीसम्बन्धी खोज, उद्धार तथा राहत अपडेट\n(मिति:- २०८३ असोज ३ गते, साँझ ७:०० बजेसम्म)",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "e1fc4a413edc2d13"
+    },
+    {
+      "id": "twitter-2101299553614127177",
+      "timestamp": "2026-09-19T13:17:08.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NepalPoliceHQ",
+      "sourceUrl": "https://x.com/NepalPoliceHQ/status/2101299553614127177",
+      "title": "Nepal Police HQ",
+      "summary": "क्षेत्रीय तथा अन्तर्राष्ट्रिय फोरेंसिक समन्वयलाई सुदृढ बनाउन प्रहरी महानिरीक्षक दान बहादुर कार्कीज्यूले इन्टरपोल मुख्यालयका प्रतिनिधिहरूसँग रणनीतिक छलफल गर्नुभएको छ।",
+      "citation": "Tweet by @NepalPoliceHQ",
+      "themes": [
+        "briefing"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "fa6260950454e2f9"
+    },
+    {
+      "id": "twitter-2101290642936869324",
+      "timestamp": "2026-09-19T12:41:44.000Z",
+      "publishedLabel": "",
+      "region": [
+        "nepal"
+      ],
+      "source": "Twitter @NDRRMA_Nepal",
+      "sourceUrl": "https://x.com/NDRRMA_Nepal/status/2101290642936869324",
+      "title": "NDRRMA Nepal",
+      "summary": "रसुवा-भोटेकोशी बाढीपछिको खोज, उद्धार तथा राहतको समन्वयका लागि गठित परिचालन टोली र विषयगत मन्त्रालयको संयुक्त बैठकमा रसुवा बाढीपछि सम्पर्कविहीन भएका व्यक्तिहरुको विवरणमा देखिएको दोहोरपन हटाई एकरुपता ल्याउने, प्रारम्भिक पुनर्स्थापनाका कामलाई तीव्रता दिने समझदारी बनेको छ।",
+      "citation": "Tweet by @NDRRMA_Nepal",
+      "themes": [
+        "rescue",
+        "missing",
+        "relief",
+        "contacts"
+      ],
+      "role": "authority",
+      "scrapeMethod": "raw",
+      "contentHash": "5e44eecad5ec2e7b"
+    },
     {
       "id": "twitter-2101276875729604938",
       "timestamp": "2026-09-19T11:47:01.000Z",
