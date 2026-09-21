@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T19:25:12.389152Z",
+  "generatedAt": "2026-09-21T23:16:03.016554Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-21T19:24:46.963408Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:41.063835Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-21T19:24:44.954463Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:38.819545Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-21T19:24:42.888300Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:36.917048Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-4a89f2ee088a",
-      "timestamp": "2026-09-21T19:24:40.873014Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:35.063277Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +97,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-21T19:24:38.839104Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:33.210402Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +114,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-21T19:24:36.821677Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:31.202860Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +131,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-09-21T19:24:34.461098Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:29.054561Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -148,8 +148,8 @@
     },
     {
       "id": "mofa-84c1baa9b38d",
-      "timestamp": "2026-09-21T19:24:27.127834Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:26.996316Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -161,12 +161,12 @@
       "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on Bhote Koshi River Floods- 07 September 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "8bcaf9a19906c4f4"
+      "contentHash": "4f91dea903e82dc7"
     },
     {
       "id": "mofa-852ff0a91973",
-      "timestamp": "2026-09-21T19:24:24.834655Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:24.867890Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -182,8 +182,8 @@
     },
     {
       "id": "mofa-0b4944327baf",
-      "timestamp": "2026-09-21T19:24:22.464904Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:22.671658Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -199,8 +199,8 @@
     },
     {
       "id": "mofa-5e47b388511e",
-      "timestamp": "2026-09-21T19:24:20.129348Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:20.406811Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
@@ -216,8 +216,8 @@
     },
     {
       "id": "mofa-10e37c2acfc2",
-      "timestamp": "2026-09-21T19:24:17.429373Z",
-      "publishedLabel": "22 Sep 2026 · 1:09 am",
+      "timestamp": "2026-09-21T23:15:18.206915Z",
+      "publishedLabel": "22 Sep 2026 · 5:00 am",
       "region": [
         "nepal",
         "foreign"
