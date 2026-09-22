@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T23:16:03.016554Z",
+  "generatedAt": "2026-09-22T04:50:42.499429Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-09-21T23:15:41.063835Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:50:18.259368Z",
+      "publishedLabel": "22 Sep 2026 · 10:35 am",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-09-21T23:15:38.819545Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:50:16.297675Z",
+      "publishedLabel": "22 Sep 2026 · 10:35 am",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-09-21T23:15:36.917048Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:50:13.828918Z",
+      "publishedLabel": "22 Sep 2026 · 10:35 am",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-4a89f2ee088a",
-      "timestamp": "2026-09-21T23:15:35.063277Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:50:11.503008Z",
+      "publishedLabel": "22 Sep 2026 · 10:35 am",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +97,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-09-21T23:15:33.210402Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:50:09.396743Z",
+      "publishedLabel": "22 Sep 2026 · 10:35 am",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +114,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-09-21T23:15:31.202860Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:50:07.094947Z",
+      "publishedLabel": "22 Sep 2026 · 10:35 am",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +131,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-09-21T23:15:29.054561Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:50:04.718508Z",
+      "publishedLabel": "22 Sep 2026 · 10:35 am",
       "region": [
         "nepal",
         "foreign"
@@ -148,8 +148,8 @@
     },
     {
       "id": "mofa-84c1baa9b38d",
-      "timestamp": "2026-09-21T23:15:26.996316Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:50:02.628398Z",
+      "publishedLabel": "22 Sep 2026 · 10:35 am",
       "region": [
         "nepal",
         "foreign"
@@ -161,12 +161,12 @@
       "citation": "Nepal Ministry of Foreign Affairs — Daily Situation Update on Bhote Koshi River Floods- 07 September 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "4f91dea903e82dc7"
+      "contentHash": "8bcaf9a19906c4f4"
     },
     {
       "id": "mofa-852ff0a91973",
-      "timestamp": "2026-09-21T23:15:24.867890Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:50:00.234388Z",
+      "publishedLabel": "22 Sep 2026 · 10:35 am",
       "region": [
         "nepal",
         "foreign"
@@ -182,8 +182,8 @@
     },
     {
       "id": "mofa-0b4944327baf",
-      "timestamp": "2026-09-21T23:15:22.671658Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:49:57.925351Z",
+      "publishedLabel": "22 Sep 2026 · 10:34 am",
       "region": [
         "nepal",
         "foreign"
@@ -199,8 +199,8 @@
     },
     {
       "id": "mofa-5e47b388511e",
-      "timestamp": "2026-09-21T23:15:20.406811Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:49:55.882215Z",
+      "publishedLabel": "22 Sep 2026 · 10:34 am",
       "region": [
         "nepal",
         "foreign"
@@ -216,8 +216,8 @@
     },
     {
       "id": "mofa-10e37c2acfc2",
-      "timestamp": "2026-09-21T23:15:18.206915Z",
-      "publishedLabel": "22 Sep 2026 · 5:00 am",
+      "timestamp": "2026-09-22T04:49:53.488057Z",
+      "publishedLabel": "22 Sep 2026 · 10:34 am",
       "region": [
         "nepal",
         "foreign"
@@ -229,7 +229,7 @@
       "citation": "Nepal Ministry of Foreign Affairs — The Ministry's regular Press Briefing- 11 September 2026",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "b80fe0f3bac416fc"
+      "contentHash": "a910d22a13d0daf1"
     },
     {
       "id": "ndrrma-foreign-nationals-1sep",
