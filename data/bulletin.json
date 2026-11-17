@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T20:24:51.593041Z",
+  "generatedAt": "2026-11-17T04:28:32.426480Z",
   "note": "Auto-scraped from 21 configured official sources (MoFA, MEA, Xinhua, curated seeds). Summaries are excerpts — read the cited source.",
   "sources": [
     "Nepal Ministry of Foreign Affairs",
@@ -29,8 +29,8 @@
   "items": [
     {
       "id": "mofa-9ffecc84cdfd",
-      "timestamp": "2026-11-16T20:24:31.731606Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:28:06.466070Z",
+      "publishedLabel": "17 Nov 2026 · 10:13 am",
       "region": [
         "nepal",
         "foreign"
@@ -46,8 +46,8 @@
     },
     {
       "id": "mofa-81b830e2614e",
-      "timestamp": "2026-11-16T20:24:29.799525Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:28:04.400152Z",
+      "publishedLabel": "17 Nov 2026 · 10:13 am",
       "region": [
         "nepal",
         "foreign"
@@ -63,8 +63,8 @@
     },
     {
       "id": "mofa-5f3f68cf50bb",
-      "timestamp": "2026-11-16T20:24:27.497570Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:28:02.265354Z",
+      "publishedLabel": "17 Nov 2026 · 10:13 am",
       "region": [
         "nepal",
         "foreign"
@@ -80,8 +80,8 @@
     },
     {
       "id": "mofa-4a89f2ee088a",
-      "timestamp": "2026-11-16T20:24:25.174763Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:28:00.004066Z",
+      "publishedLabel": "17 Nov 2026 · 10:13 am",
       "region": [
         "nepal",
         "foreign"
@@ -97,8 +97,8 @@
     },
     {
       "id": "mofa-d1a34338786b",
-      "timestamp": "2026-11-16T20:24:22.881407Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:27:57.740091Z",
+      "publishedLabel": "17 Nov 2026 · 10:12 am",
       "region": [
         "nepal",
         "foreign"
@@ -114,8 +114,8 @@
     },
     {
       "id": "mofa-0faf3d9c1216",
-      "timestamp": "2026-11-16T20:24:20.618947Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:27:55.647595Z",
+      "publishedLabel": "17 Nov 2026 · 10:12 am",
       "region": [
         "nepal",
         "foreign"
@@ -131,8 +131,8 @@
     },
     {
       "id": "mofa-4f5777d2210a",
-      "timestamp": "2026-11-16T20:24:18.172805Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:27:53.498715Z",
+      "publishedLabel": "17 Nov 2026 · 10:12 am",
       "region": [
         "nepal",
         "foreign"
@@ -148,8 +148,8 @@
     },
     {
       "id": "mofa-84c1baa9b38d",
-      "timestamp": "2026-11-16T20:24:16.307926Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:27:51.334343Z",
+      "publishedLabel": "17 Nov 2026 · 10:12 am",
       "region": [
         "nepal",
         "foreign"
@@ -165,8 +165,8 @@
     },
     {
       "id": "mofa-852ff0a91973",
-      "timestamp": "2026-11-16T20:24:13.882057Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:27:49.247902Z",
+      "publishedLabel": "17 Nov 2026 · 10:12 am",
       "region": [
         "nepal",
         "foreign"
@@ -182,8 +182,8 @@
     },
     {
       "id": "mofa-0b4944327baf",
-      "timestamp": "2026-11-16T20:24:11.524299Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:27:47.220036Z",
+      "publishedLabel": "17 Nov 2026 · 10:12 am",
       "region": [
         "nepal",
         "foreign"
@@ -199,8 +199,8 @@
     },
     {
       "id": "mofa-5e47b388511e",
-      "timestamp": "2026-11-16T20:24:09.287398Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:27:45.161975Z",
+      "publishedLabel": "17 Nov 2026 · 10:12 am",
       "region": [
         "nepal",
         "foreign"
@@ -216,8 +216,8 @@
     },
     {
       "id": "mofa-10e37c2acfc2",
-      "timestamp": "2026-11-16T20:24:07.067547Z",
-      "publishedLabel": "17 Nov 2026 · 2:09 am",
+      "timestamp": "2026-11-17T04:27:42.935829Z",
+      "publishedLabel": "17 Nov 2026 · 10:12 am",
       "region": [
         "nepal",
         "foreign"
@@ -420,7 +420,7 @@
       "contentHash": "58bba071bedd2b5d"
     },
     {
-      "id": "mea-control-room-seed",
+      "id": "mea-942e03a68d23",
       "timestamp": "2026-08-27T12:00:00+05:30",
       "publishedLabel": "27 Aug 2026 · 12:00 pm",
       "region": [
@@ -430,11 +430,11 @@
       "source": "India Ministry of External Affairs",
       "sourceUrl": "https://www.mea.gov.in/press-releases?dtl/41702/Special_Control_Room_in_MEA_for_Nepal_Floods_Situation",
       "title": "Special Control Room in MEA for Nepal Floods Situation",
-      "summary": "The Ministry of External Affairs established a 24×7 Special Control Room in Delhi for the Nepal floods. Control room: +91 11 2308 8718, +91 11 2308 8719, +91 11 2301 2113. WhatsApp calls/messages: +91 9968291988. Email: situationroom@mea.gov.in. Embassy of India Kathmandu (WhatsApp): +977 985 131 6807, +977 970 910 7500, +977 981 032 6117. Embassy of India Beijing (WhatsApp): +86 18514284905. Nepali authorities listed include Tourist Police, Nepal Army, NDRRMA, and…",
-      "citation": "MEA press release — Special Control Room in MEA for Nepal Floods Situation",
+      "summary": "This website belongs to the Ministry of External Affairs, Government of India. Website content is managed by the XPD Division, Ministry of External Affairs, Government of India.",
+      "citation": "India Ministry of External Affairs — Special Control Room in MEA for Nepal Floods Situation",
       "kind": "update",
       "scrapeMethod": "rule-based",
-      "contentHash": "4e5bc0dc24197771"
+      "contentHash": "7c43e347501597ac"
     },
     {
       "id": "mofa-c0d1aa509022",
